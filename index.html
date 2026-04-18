@@ -1,0 +1,2289 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>求职申请管理看板</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      :root {
+        --page-bg: #f3f6fb;
+        --page-bg-accent: #e8eefb;
+        --surface: rgba(255, 255, 255, 0.82);
+        --surface-strong: rgba(255, 255, 255, 0.96);
+        --surface-soft: rgba(248, 250, 252, 0.88);
+        --border-soft: rgba(148, 163, 184, 0.2);
+        --border-strong: rgba(148, 163, 184, 0.28);
+        --shadow-soft: 0 18px 50px rgba(15, 23, 42, 0.08);
+        --shadow-strong: 0 24px 70px rgba(15, 23, 42, 0.12);
+        --text-main: #0f172a;
+        --text-subtle: #475569;
+        --title-gradient: linear-gradient(
+          135deg,
+          #0f172a 0%,
+          #2563eb 55%,
+          #06b6d4 100%
+        );
+        --internet-color: #22c55e;
+        --bank-color: #f59e0b;
+        --state-color: #3b82f6;
+        --danger-color: #ef4444;
+      }
+
+      body {
+        min-height: 100vh;
+        padding: 28px 20px 44px;
+        color: var(--text-main);
+        font-family: "Manrope", "Noto Sans SC", sans-serif;
+        background:
+          radial-gradient(
+            circle at top left,
+            rgba(59, 130, 246, 0.14),
+            transparent 28%
+          ),
+          radial-gradient(
+            circle at top right,
+            rgba(16, 185, 129, 0.12),
+            transparent 24%
+          ),
+          linear-gradient(
+            180deg,
+            var(--page-bg-accent) 0%,
+            var(--page-bg) 38%,
+            #eef3f9 100%
+          );
+      }
+
+      body::before,
+      body::after {
+        content: "";
+        position: fixed;
+        z-index: -1;
+        border-radius: 999px;
+        filter: blur(18px);
+        opacity: 0.75;
+      }
+
+      body::before {
+        top: 72px;
+        left: -120px;
+        width: 280px;
+        height: 280px;
+        background: rgba(34, 197, 94, 0.12);
+      }
+
+      body::after {
+        right: -80px;
+        bottom: 80px;
+        width: 260px;
+        height: 260px;
+        background: rgba(59, 130, 246, 0.12);
+      }
+
+      .container {
+        max-width: 1440px;
+      }
+      h1 {
+        margin-bottom: 28px;
+        font-size: clamp(2rem, 3vw, 3rem);
+        font-weight: 800;
+        letter-spacing: -0.04em;
+        text-align: center;
+        background: var(--title-gradient);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: 0 10px 24px rgba(37, 99, 235, 0.12);
+      }
+
+      .card {
+        margin-bottom: 24px;
+        border: 1px solid var(--border-soft);
+        border-radius: 24px;
+        overflow: hidden;
+        background: var(--surface);
+        box-shadow: var(--shadow-soft);
+        backdrop-filter: blur(18px);
+      }
+
+      .card-header {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+        padding: 18px 22px;
+        font-size: 17px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+      }
+
+      .card-header-row {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 14px;
+      }
+
+      .card-header-title {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .card-body {
+        padding: 22px;
+      }
+
+      .filter-toolbar {
+        margin-bottom: 24px;
+      }
+
+      .filter-toolbar .card-body {
+        padding: 18px 20px 20px;
+      }
+
+      .filter-grid {
+        display: grid;
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .filter-actions {
+        display: flex;
+        align-items: flex-end;
+      }
+
+      .filter-summary {
+        margin-top: 14px;
+        color: #64748b;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .card-header.bg-dark {
+        background: linear-gradient(
+          135deg,
+          #111827 0%,
+          #1d4ed8 100%
+        ) !important;
+      }
+
+      .card-header.bg-info {
+        background: linear-gradient(
+          135deg,
+          #0f766e 0%,
+          #06b6d4 100%
+        ) !important;
+      }
+
+      .card-header.bg-success {
+        background: linear-gradient(
+          135deg,
+          #166534 0%,
+          #22c55e 100%
+        ) !important;
+      }
+
+      .card-header.bg-warning {
+        background: linear-gradient(
+          135deg,
+          #f59e0b 0%,
+          #facc15 100%
+        ) !important;
+      }
+
+      .card-header.bg-primary {
+        background: linear-gradient(
+          135deg,
+          #1d4ed8 0%,
+          #60a5fa 100%
+        ) !important;
+      }
+
+      .card-header.bg-secondary {
+        background: linear-gradient(
+          135deg,
+          #334155 0%,
+          #64748b 100%
+        ) !important;
+      }
+
+      /* 月份切换器 */
+      .month-selector {
+        max-width: 240px;
+        margin: 0 auto 18px;
+      }
+
+      /* 日历等宽 */
+      .calendar {
+        display: grid;
+        grid-template-columns: repeat(7, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 18px;
+        width: 100%;
+      }
+
+      .calendar-day {
+        width: 100%;
+        border: 1px solid var(--border-soft);
+        padding: 10px;
+        min-height: 118px;
+        border-radius: 18px;
+        background: var(--surface-strong);
+        position: relative;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
+        transition:
+          transform 0.18s ease,
+          box-shadow 0.18s ease,
+          border-color 0.18s ease;
+      }
+
+      .calendar-day:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 14px 30px rgba(15, 23, 42, 0.08);
+        border-color: rgba(96, 165, 250, 0.42);
+      }
+
+      .calendar-day-header {
+        width: 100%;
+        font-weight: 700;
+        text-align: center;
+        padding: 12px 8px;
+        background: rgba(255, 255, 255, 0.72);
+        border: 1px solid var(--border-soft);
+        border-radius: 16px;
+        color: var(--text-subtle);
+        letter-spacing: 0.02em;
+      }
+
+      /* 今日日期红色圆圈 */
+      .calendar-day.today {
+        background: linear-gradient(
+          180deg,
+          #ffffff 0%,
+          #eff6ff 100%
+        ) !important;
+        border-color: rgba(59, 130, 246, 0.28);
+      }
+
+      .today .date-circle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        border-radius: 14px;
+        background: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+        color: #fff;
+        font-weight: 800;
+        margin: 0 auto;
+        box-shadow: 0 10px 18px rgba(37, 99, 235, 0.28);
+      }
+
+      .interview-tag {
+        background: #dc3545;
+        color: white;
+        font-size: 12px;
+        line-height: 1.35;
+        padding: 6px 8px;
+        border-radius: 10px;
+        margin-top: 6px;
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 700;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.22);
+      }
+
+      .priority-high {
+        color: #dc3545;
+        font-weight: 800;
+      }
+
+      .priority-medium {
+        color: #ea580c;
+        font-weight: 800;
+      }
+
+      .priority-low {
+        color: #16a34a;
+        font-weight: 800;
+      }
+
+      .table-responsive {
+        overflow-x: auto;
+      }
+
+      .table {
+        margin-bottom: 0;
+        --bs-table-bg: transparent;
+        --bs-table-hover-bg: rgba(148, 163, 184, 0.08);
+      }
+
+      .table th {
+        background: rgba(241, 245, 249, 0.9);
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        color: #334155;
+        font-size: 13px;
+        font-weight: 800;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+        backdrop-filter: blur(8px);
+      }
+
+      .table td,
+      .table th {
+        vertical-align: middle;
+        border-color: rgba(226, 232, 240, 0.72);
+        padding: 14px 16px;
+      }
+
+      .table tbody tr {
+        transition:
+          background-color 0.18s ease,
+          transform 0.18s ease;
+      }
+
+      .table tbody tr:hover {
+        background: rgba(255, 255, 255, 0.66);
+      }
+
+      .interview-tag {
+        border: none;
+      }
+
+      .calendar-day.has-event {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.98) 0%,
+          rgba(248, 250, 252, 0.98) 100%
+        );
+      }
+
+      .calendar-day-muted {
+        color: #94a3b8;
+        background: rgba(248, 250, 252, 0.7);
+      }
+
+      .event-list {
+        margin-top: 10px;
+      }
+
+      .form-section {
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.98) 0%,
+          rgba(248, 250, 252, 0.86) 100%
+        );
+        border: 1px solid var(--border-soft);
+        border-radius: 20px;
+        padding: 20px;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72);
+      }
+
+      .form-label {
+        font-size: 13px;
+        font-weight: 700;
+        color: #334155;
+        margin-bottom: 8px;
+      }
+
+      .form-control,
+      .form-select {
+        min-height: 48px;
+        border-radius: 14px;
+        border: 1px solid rgba(203, 213, 225, 0.95);
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.03);
+        color: var(--text-main);
+        transition:
+          border-color 0.18s ease,
+          box-shadow 0.18s ease,
+          background-color 0.18s ease;
+      }
+
+      textarea.form-control {
+        min-height: 110px;
+      }
+
+      .form-control:focus,
+      .form-select:focus {
+        border-color: rgba(59, 130, 246, 0.55);
+        box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.12);
+        background: #fff;
+      }
+
+      .btn {
+        border-radius: 999px;
+        font-weight: 700;
+        padding: 10px 18px;
+        border: 0;
+        transition:
+          transform 0.18s ease,
+          box-shadow 0.18s ease,
+          opacity 0.18s ease;
+      }
+
+      .btn:hover {
+        transform: translateY(-1px);
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, #2563eb 0%, #06b6d4 100%);
+        box-shadow: 0 14px 28px rgba(37, 99, 235, 0.22);
+      }
+
+      .btn-primary:hover,
+      .btn-primary:focus {
+        background: linear-gradient(135deg, #1d4ed8 0%, #0891b2 100%);
+        box-shadow: 0 16px 32px rgba(37, 99, 235, 0.28);
+      }
+
+      .btn-outline-danger {
+        border: 1px solid rgba(239, 68, 68, 0.18);
+        background: rgba(254, 242, 242, 0.88);
+        color: var(--danger-color);
+      }
+
+      .btn-outline-danger:hover,
+      .btn-outline-danger:focus {
+        background: var(--danger-color);
+        color: #fff;
+        box-shadow: 0 12px 22px rgba(239, 68, 68, 0.24);
+      }
+
+      .btn-open-offer-modal {
+        padding: 9px 16px;
+        background: rgba(255, 255, 255, 0.16);
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        color: inherit;
+        box-shadow: none;
+        backdrop-filter: blur(10px);
+      }
+
+      .btn-open-offer-modal:hover,
+      .btn-open-offer-modal:focus {
+        background: rgba(255, 255, 255, 0.24);
+        color: inherit;
+      }
+
+      .offer-modal {
+        position: fixed;
+        inset: 0;
+        z-index: 1050;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 24px;
+        background: rgba(15, 23, 42, 0.45);
+        backdrop-filter: blur(10px);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s ease;
+      }
+
+      .offer-modal.is-open {
+        opacity: 1;
+        pointer-events: auto;
+      }
+
+      .confirm-modal-dialog {
+        width: min(480px, 100%);
+      }
+
+      .confirm-modal-body {
+        padding-top: 6px;
+      }
+
+      .confirm-message {
+        margin: 0;
+        color: #334155;
+        font-size: 15px;
+        line-height: 1.7;
+      }
+
+      .confirm-highlight {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 8px 12px;
+        border-radius: 12px;
+        background: rgba(239, 68, 68, 0.08);
+        color: #b91c1c;
+        font-weight: 700;
+      }
+
+      .offer-modal-dialog {
+        width: min(920px, 100%);
+        max-height: calc(100vh - 48px);
+        overflow: auto;
+        border-radius: 28px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        background: rgba(248, 250, 252, 0.96);
+        box-shadow: var(--shadow-strong);
+      }
+
+      .offer-modal-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 22px 24px 14px;
+      }
+
+      .offer-modal-title-wrap h2 {
+        margin: 0;
+        font-size: 1.35rem;
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        color: #0f172a;
+      }
+
+      .offer-modal-title-wrap p {
+        margin: 6px 0 0;
+        color: #64748b;
+        font-size: 14px;
+      }
+
+      .offer-modal-body {
+        padding: 0 24px 24px;
+      }
+
+      .offer-type-locked {
+        background: linear-gradient(
+          135deg,
+          rgba(37, 99, 235, 0.08) 0%,
+          rgba(6, 182, 212, 0.06) 100%
+        );
+        color: #1e3a8a;
+        font-weight: 700;
+      }
+
+      .review-list {
+        display: grid;
+        gap: 14px;
+      }
+
+      .review-item {
+        width: 100%;
+        padding: 18px 20px;
+        border: 1px solid rgba(148, 163, 184, 0.18);
+        border-radius: 18px;
+        background: linear-gradient(
+          180deg,
+          rgba(255, 255, 255, 0.96) 0%,
+          rgba(248, 250, 252, 0.92) 100%
+        );
+        text-align: left;
+        box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
+      }
+
+      .review-item:hover,
+      .review-item:focus {
+        transform: translateY(-2px);
+        border-color: rgba(59, 130, 246, 0.26);
+        box-shadow: 0 18px 30px rgba(15, 23, 42, 0.08);
+      }
+
+      .review-item-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 16px;
+        margin-bottom: 10px;
+      }
+
+      .review-item-title {
+        margin: 0;
+        font-size: 16px;
+        font-weight: 800;
+        color: #0f172a;
+      }
+
+      .review-item-time {
+        color: #64748b;
+        font-size: 12px;
+        white-space: nowrap;
+      }
+
+      .review-item-preview {
+        margin: 0;
+        color: #475569;
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+      .review-empty {
+        padding: 28px 18px;
+        border: 1px dashed rgba(148, 163, 184, 0.32);
+        border-radius: 18px;
+        text-align: center;
+        background: rgba(248, 250, 252, 0.65);
+        color: #64748b;
+      }
+
+      .review-modal-dialog {
+        width: min(980px, 100%);
+      }
+
+      .review-modal-footer {
+        display: flex;
+        justify-content: flex-end;
+        gap: 10px;
+        margin-top: 18px;
+        flex-wrap: wrap;
+      }
+
+      .review-save-tip {
+        color: #16a34a;
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .btn-modal-close {
+        width: 42px;
+        height: 42px;
+        padding: 0;
+        border-radius: 14px;
+        background: rgba(226, 232, 240, 0.75);
+        color: #0f172a;
+        box-shadow: none;
+      }
+
+      .btn-modal-close:hover,
+      .btn-modal-close:focus {
+        background: rgba(203, 213, 225, 0.95);
+      }
+
+      #saveTip {
+        font-weight: 700;
+      }
+
+      .table-empty {
+        text-align: center;
+        color: #64748b;
+        padding: 28px 0;
+        font-weight: 600;
+      }
+
+      .btn-delete-record {
+        white-space: nowrap;
+      }
+
+      @media (max-width: 992px) {
+        body {
+          padding: 18px 14px 30px;
+        }
+
+        .filter-grid {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        .card-header,
+        .card-body {
+          padding-left: 18px;
+          padding-right: 18px;
+        }
+
+        .calendar {
+          gap: 8px;
+        }
+
+        .calendar-day {
+          min-height: 102px;
+          padding: 8px;
+        }
+      }
+
+      @media (max-width: 768px) {
+        h1 {
+          margin-bottom: 20px;
+          font-size: 2rem;
+        }
+
+        .card {
+          border-radius: 20px;
+        }
+
+        .calendar {
+          grid-template-columns: repeat(7, minmax(48px, 1fr));
+          gap: 6px;
+          overflow-x: auto;
+        }
+
+        .card-header-row {
+          align-items: stretch;
+          flex-direction: column;
+        }
+
+        .filter-grid {
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+
+        .filter-actions {
+          align-items: stretch;
+        }
+
+        .filter-actions .btn {
+          width: 100%;
+        }
+
+        .review-item-head {
+          flex-direction: column;
+          gap: 6px;
+        }
+
+        .btn-open-offer-modal {
+          width: 100%;
+        }
+
+        .offer-modal {
+          padding: 12px;
+          align-items: flex-end;
+        }
+
+        .offer-modal-dialog {
+          width: 100%;
+          max-height: calc(100vh - 24px);
+          border-radius: 24px 24px 18px 18px;
+        }
+
+        .offer-modal-header,
+        .offer-modal-body {
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+
+        .calendar-day-header {
+          min-width: 48px;
+          font-size: 12px;
+          padding: 10px 4px;
+        }
+
+        .calendar-day {
+          min-width: 48px;
+          min-height: 96px;
+          border-radius: 14px;
+        }
+
+        .interview-tag {
+          font-size: 11px;
+          padding: 5px 6px;
+        }
+
+        .table td,
+        .table th {
+          padding: 12px 10px;
+          font-size: 13px;
+        }
+
+        .form-section {
+          padding: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>求职申请管理看板</h1>
+
+      <div class="offer-modal" id="offerModal" aria-hidden="true">
+        <div
+          class="offer-modal-dialog"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="offerModalTitle"
+        >
+          <div class="offer-modal-header">
+            <div class="offer-modal-title-wrap">
+              <h2 id="offerModalTitle">新增投递记录</h2>
+              <p id="offerModalSubtitle">
+                根据当前分类填写投递信息，提交后会直接写入本地数据。
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn btn-modal-close"
+              id="closeOfferModalBtn"
+              aria-label="关闭弹窗"
+            >
+              ×
+            </button>
+          </div>
+          <div class="offer-modal-body">
+            <form id="offerForm" class="form-section">
+              <input type="hidden" id="offerRecordIdInput" />
+              <div class="row g-3">
+                <div class="col-md-4">
+                  <label for="companyInput" class="form-label">公司名称</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="companyInput"
+                    required
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="postInput" class="form-label">岗位名称</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="postInput"
+                    required
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="typeInput" class="form-label">公司类别</label>
+                  <select
+                    id="typeInput"
+                    class="form-select offer-type-locked"
+                    required
+                    disabled
+                  >
+                    <option value="互联网">互联网</option>
+                    <option value="银行">银行</option>
+                    <option value="国企">国企</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <label for="processDateInput" class="form-label"
+                    >考核日期</label
+                  >
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="processDateInput"
+                    required
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="processStageInput" class="form-label"
+                    >流程进展</label
+                  >
+                  <select
+                    id="processStageInput"
+                    class="form-select"
+                    required
+                  >
+                    <option value="投递">投递</option>
+                    <option value="测评">测评</option>
+                    <option value="笔试">笔试</option>
+                    <option value="简历筛选">简历筛选</option>
+                    <option value="一面">一面</option>
+                    <option value="二面">二面</option>
+                    <option value="三面">三面</option>
+                    <option value="HR面">HR面</option>
+                    <option value="Offer">Offer</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <label for="sendDateInput" class="form-label">投递日期</label>
+                  <input
+                    type="date"
+                    class="form-control"
+                    id="sendDateInput"
+                    required
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="latestInput" class="form-label">最新进展</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="latestInput"
+                    placeholder="如：待安排面试"
+                    required
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="baseInput" class="form-label">base地址</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="baseInput"
+                    required
+                  />
+                </div>
+                <div class="col-md-4">
+                  <label for="priorityInput" class="form-label">优先级</label>
+                  <select id="priorityInput" class="form-select" required>
+                    <option value="高">高</option>
+                    <option value="中">中</option>
+                    <option value="低">低</option>
+                  </select>
+                </div>
+                <div class="col-12">
+                  <label for="remarkInput" class="form-label">备注</label>
+                  <textarea
+                    class="form-control"
+                    id="remarkInput"
+                    rows="2"
+                    placeholder="补充项目亮点、内推信息或准备重点"
+                  ></textarea>
+                </div>
+                <div class="col-12 d-flex justify-content-end gap-2 flex-wrap">
+                  <button
+                    type="button"
+                    class="btn btn-outline-danger"
+                    id="cancelOfferModalBtn"
+                  >
+                    取消
+                  </button>
+                  <button type="submit" class="btn btn-primary" id="saveOfferBtn">
+                    新增投递记录
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="offer-modal" id="deleteConfirmModal" aria-hidden="true">
+        <div
+          class="offer-modal-dialog confirm-modal-dialog"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="deleteConfirmTitle"
+        >
+          <div class="offer-modal-header">
+            <div class="offer-modal-title-wrap">
+              <h2 id="deleteConfirmTitle">确认删除投递记录</h2>
+              <p id="deleteConfirmDescription">
+                删除后会立即从本地记录和日历标注中移除。
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn btn-modal-close"
+              id="closeDeleteConfirmBtn"
+              aria-label="关闭确认弹窗"
+            >
+              ×
+            </button>
+          </div>
+          <div class="offer-modal-body confirm-modal-body">
+            <p class="confirm-message" id="deleteConfirmMessage">
+              你确定要删除这条投递记录吗？
+              <span class="confirm-highlight" id="deleteConfirmText"></span>
+            </p>
+            <div class="d-flex justify-content-end gap-2 flex-wrap mt-4">
+              <button
+                type="button"
+                class="btn btn-outline-danger"
+                id="cancelDeleteConfirmBtn"
+              >
+                取消
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                id="confirmDeleteBtn"
+              >
+                确认删除
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="offer-modal" id="reviewModal" aria-hidden="true">
+        <div
+          class="offer-modal-dialog review-modal-dialog"
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="reviewModalTitle"
+        >
+          <div class="offer-modal-header">
+            <div class="offer-modal-title-wrap">
+              <h2 id="reviewModalTitle">面试复盘记录</h2>
+              <p id="reviewModalSubtitle">
+                记录你的自我介绍、问题复盘和后续改进点。
+              </p>
+            </div>
+            <button
+              type="button"
+              class="btn btn-modal-close"
+              id="closeReviewModalBtn"
+              aria-label="关闭复盘弹窗"
+            >
+              ×
+            </button>
+          </div>
+          <div class="offer-modal-body">
+            <form id="reviewForm" class="form-section">
+              <input type="hidden" id="reviewIdInput" />
+              <div class="mb-3">
+                <label class="form-label fw-bold" for="reviewTitle">标题</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="reviewTitle"
+                  placeholder="如：某公司一面复盘 / Java 后端技术面总结"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-bold" for="selfIntro"
+                  >自我介绍</label
+                >
+                <textarea
+                  class="form-control"
+                  id="selfIntro"
+                  rows="3"
+                  placeholder="请填写自我介绍内容，可根据不同岗位灵活调整..."
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-bold" for="interviewQues"
+                  >面试问题</label
+                >
+                <textarea
+                  class="form-control"
+                  id="interviewQues"
+                  rows="4"
+                  placeholder="记录面试中被问到的技术/业务/情景题，以及答题思路..."
+                ></textarea>
+              </div>
+              <div class="mb-3">
+                <label class="form-label fw-bold" for="askQues">反问问题</label>
+                <textarea
+                  class="form-control"
+                  id="askQues"
+                  rows="3"
+                  placeholder="准备向面试官反问的问题：团队、业务、培养、工作内容等..."
+                ></textarea>
+              </div>
+              <div class="mb-0">
+                <label class="form-label fw-bold" for="reviewRemark"
+                  >备注</label
+                >
+                <textarea
+                  class="form-control"
+                  id="reviewRemark"
+                  rows="3"
+                  placeholder="面试感受、改进点、后续准备等补充内容..."
+                ></textarea>
+              </div>
+              <div class="review-modal-footer">
+                <span id="reviewSaveTip" class="review-save-tip d-none"
+                  >保存成功，已更新本地记录。</span
+                >
+                <button
+                  type="button"
+                  class="btn btn-outline-danger d-none"
+                  id="deleteReviewBtn"
+                >
+                  删除记录
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-outline-danger"
+                  id="cancelReviewModalBtn"
+                >
+                  取消
+                </button>
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  id="saveReviewBtn"
+                >
+                  保存复盘记录
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <!-- 日历看板 -->
+      <div class="card">
+        <div class="card-header bg-info text-white">📅 面试日程日历</div>
+        <div class="card-body text-center">
+          <div class="month-selector">
+            <label for="monthSelect" class="form-label me-2">选择月份：</label>
+            <select
+              id="monthSelect"
+              class="form-select form-select-sm"
+            ></select>
+          </div>
+          <div class="calendar" id="calendar">
+            <div class="calendar-day-header">周一</div>
+            <div class="calendar-day-header">周二</div>
+            <div class="calendar-day-header">周三</div>
+            <div class="calendar-day-header">周四</div>
+            <div class="calendar-day-header">周五</div>
+            <div class="calendar-day-header">周六</div>
+            <div class="calendar-day-header">周日</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card filter-toolbar">
+        <div class="card-header bg-dark text-white">🔎 投递筛选</div>
+        <div class="card-body">
+          <div class="filter-grid">
+            <div>
+              <label for="companyFilter" class="form-label">公司</label>
+              <select id="companyFilter" class="form-select"></select>
+            </div>
+            <div>
+              <label for="postFilter" class="form-label">岗位</label>
+              <select id="postFilter" class="form-select"></select>
+            </div>
+            <div>
+              <label for="processStageFilter" class="form-label">流程进展</label>
+              <select id="processStageFilter" class="form-select"></select>
+            </div>
+            <div>
+              <label for="baseFilter" class="form-label">base</label>
+              <select id="baseFilter" class="form-select"></select>
+            </div>
+            <div>
+              <label for="priorityFilter" class="form-label">优先级</label>
+              <select id="priorityFilter" class="form-select"></select>
+            </div>
+            <div class="filter-actions">
+              <button type="button" class="btn btn-outline-danger" id="resetFiltersBtn">
+                清空筛选
+              </button>
+            </div>
+          </div>
+          <div class="filter-summary" id="filterSummary"></div>
+        </div>
+      </div>
+
+      <!-- 互联网公司表格 -->
+      <div class="card">
+        <div class="card-header bg-success text-white">
+          <div class="card-header-row">
+            <span class="card-header-title">💻 互联网公司Offer</span>
+            <button
+              type="button"
+              class="btn btn-open-offer-modal"
+              data-offer-type="互联网"
+            >
+              新增互联网投递
+            </button>
+          </div>
+        </div>
+        <div class="card-body p-0">
+          <div class="table-responsive">
+            <table class="table table-hover mb-0" id="internetTable">
+              <thead>
+                <tr>
+                  <th>公司</th>
+                  <th>岗位</th>
+                  <th>流程进展</th>
+                  <th>流程日期</th>
+                  <th>备注</th>
+                  <th>投递日期</th>
+                  <th>base地址</th>
+                  <th>优先级</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 银行表格 -->
+      <div class="card">
+        <div class="card-header bg-warning text-dark">
+          <div class="card-header-row">
+            <span class="card-header-title">🏦 银行Offer</span>
+            <button
+              type="button"
+              class="btn btn-open-offer-modal"
+              data-offer-type="银行"
+            >
+              新增银行投递
+            </button>
+          </div>
+        </div>
+        <div class="card-body p-0">
+          <div class="table-responsive">
+            <table class="table table-hover mb-0" id="bankTable">
+              <thead>
+                <tr>
+                  <th>公司</th>
+                  <th>岗位</th>
+                  <th>流程进展</th>
+                  <th>流程日期</th>
+                  <th>备注</th>
+                  <th>投递日期</th>
+                  <th>base地址</th>
+                  <th>优先级</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 国企表格 -->
+      <div class="card">
+        <div class="card-header bg-primary text-white">
+          <div class="card-header-row">
+            <span class="card-header-title">🏢 国企Offer</span>
+            <button
+              type="button"
+              class="btn btn-open-offer-modal"
+              data-offer-type="国企"
+            >
+              新增国企投递
+            </button>
+          </div>
+        </div>
+        <div class="card-body p-0">
+          <div class="table-responsive">
+            <table class="table table-hover mb-0" id="stateOwnedTable">
+              <thead>
+                <tr>
+                  <th>公司</th>
+                  <th>岗位</th>
+                  <th>流程进展</th>
+                  <th>流程日期</th>
+                  <th>备注</th>
+                  <th>投递日期</th>
+                  <th>base地址</th>
+                  <th>优先级</th>
+                  <th>操作</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- 🔥 新增：面试复盘记录模块 -->
+      <div class="card">
+        <div class="card-header bg-secondary text-white">
+          <div class="card-header-row">
+            <span class="card-header-title">📝 面试复盘记录</span>
+            <button
+              type="button"
+              class="btn btn-open-offer-modal"
+              id="openReviewModalBtn"
+            >
+              新增复盘记录
+            </button>
+          </div>
+        </div>
+        <div class="card-body">
+          <div id="reviewList" class="review-list"></div>
+          <div id="reviewEmptyState" class="review-empty d-none">
+            还没有复盘记录，点击右上角按钮新增第一条。
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const OFFER_STORAGE_KEY = "offerBoardRecords";
+      const REVIEW_STORAGE_KEY = "interviewReview";
+      const TYPE_TO_GROUP = {
+        互联网: "internet",
+        银行: "bank",
+        国企: "stateOwned",
+      };
+      const TYPE_THEME = {
+        互联网: { background: "#198754", color: "#ffffff" },
+        银行: { background: "#ffc107", color: "#212529" },
+        国企: { background: "#0d6efd", color: "#ffffff" },
+      };
+      const offerFilters = {
+        company: "",
+        post: "",
+        processStage: "",
+        base: "",
+        priority: "",
+      };
+      let activeOfferType = "互联网";
+      let activeOfferRecordId = "";
+      let pendingDeleteRecordId = "";
+      let pendingDeleteAction = null;
+      let reviewRecords = [];
+      let activeReviewId = "";
+
+      function createEmptyOfferData() {
+        return {
+          internet: [],
+          bank: [],
+          stateOwned: [],
+        };
+      }
+
+      function loadOfferData() {
+        const raw = localStorage.getItem(OFFER_STORAGE_KEY);
+        if (!raw) {
+          return createEmptyOfferData();
+        }
+
+        try {
+          const parsed = JSON.parse(raw);
+          return {
+            internet: Array.isArray(parsed.internet) ? parsed.internet : [],
+            bank: Array.isArray(parsed.bank) ? parsed.bank : [],
+            stateOwned: Array.isArray(parsed.stateOwned)
+              ? parsed.stateOwned
+              : [],
+          };
+        } catch (error) {
+          return createEmptyOfferData();
+        }
+      }
+
+      let offerData = loadOfferData();
+
+      function saveOfferData() {
+        localStorage.setItem(OFFER_STORAGE_KEY, JSON.stringify(offerData));
+      }
+
+      function createReviewRecord(fields = {}) {
+        const nowIso = new Date().toISOString();
+        return {
+          id:
+            fields.id || `${Date.now()}-${Math.random().toString(16).slice(2)}`,
+          title: fields.title || "",
+          selfIntro: fields.selfIntro || "",
+          interviewQues: fields.interviewQues || "",
+          askQues: fields.askQues || "",
+          reviewRemark: fields.reviewRemark || "",
+          createdAt: fields.createdAt || nowIso,
+          updatedAt: fields.updatedAt || nowIso,
+        };
+      }
+
+      function migrateLegacyReviewData(raw) {
+        if (!raw || Array.isArray(raw)) {
+          return raw;
+        }
+
+        const hasContent = [
+          raw.title,
+          raw.selfIntro,
+          raw.interviewQues,
+          raw.askQues,
+          raw.reviewRemark,
+        ].some((value) => String(value || "").trim());
+
+        if (!hasContent) {
+          return [];
+        }
+
+        return [createReviewRecord(raw)];
+      }
+
+      function loadReviewRecords() {
+        const raw = localStorage.getItem(REVIEW_STORAGE_KEY);
+        if (!raw) {
+          return [];
+        }
+
+        try {
+          const parsed = migrateLegacyReviewData(JSON.parse(raw));
+          if (!Array.isArray(parsed)) {
+            return [];
+          }
+
+          return parsed.map((item) => createReviewRecord(item));
+        } catch (error) {
+          return [];
+        }
+      }
+
+      function saveReviewRecords() {
+        localStorage.setItem(REVIEW_STORAGE_KEY, JSON.stringify(reviewRecords));
+      }
+
+      function syncBodyScrollLock() {
+        const hasOpenModal = document.querySelector(".offer-modal.is-open");
+        document.body.style.overflow = hasOpenModal ? "hidden" : "";
+      }
+
+      function escapeHtml(value) {
+        return String(value ?? "").replace(
+          /[&<>"']/g,
+          (char) =>
+            ({
+              "&": "&amp;",
+              "<": "&lt;",
+              ">": "&gt;",
+              '"': "&quot;",
+              "'": "&#39;",
+            })[char],
+        );
+      }
+
+      function getPriorityClass(priority) {
+        if (priority === "高") return "priority-high";
+        if (priority === "中") return "priority-medium";
+        return "priority-low";
+      }
+
+      function getAllOffers() {
+        return [
+          ...offerData.internet,
+          ...offerData.bank,
+          ...offerData.stateOwned,
+        ];
+      }
+
+      function getOfferProcessMeta(offer) {
+        const processValue = String(offer?.process || "");
+        const processMatch = processValue.match(/^(\d{4}-\d{2}-\d{2})\s*(.*)$/);
+        const processDate = processMatch?.[1] || "";
+        const processStage = (processMatch?.[2] || processValue).trim();
+        const processTimestamp = processDate
+          ? new Date(`${processDate}T00:00:00`).getTime()
+          : 0;
+
+        return {
+          processDate,
+          processStage,
+          processTimestamp: Number.isNaN(processTimestamp)
+            ? 0
+            : processTimestamp,
+        };
+      }
+
+      function getFilterValue(offer, field) {
+        const processMeta = getOfferProcessMeta(offer);
+        return {
+          company: String(offer.company || "").trim(),
+          post: String(offer.post || "").trim(),
+          processStage: processMeta.processStage,
+          base: String(offer.base || "").trim(),
+          priority: String(offer.priority || "").trim(),
+        }[field];
+      }
+
+      function getFilterPlaceholder(field) {
+        return {
+          company: "全部公司",
+          post: "全部岗位",
+          processStage: "全部流程进展",
+          base: "全部 base",
+          priority: "全部优先级",
+        }[field];
+      }
+
+      function getFilterOptions(field) {
+        const counts = new Map();
+        getAllOffers().forEach((offer) => {
+          const value = getFilterValue(offer, field);
+          if (!value) {
+            return;
+          }
+          counts.set(value, (counts.get(value) || 0) + 1);
+        });
+
+        const options = Array.from(counts.entries());
+        if (field === "priority") {
+          const priorityOrder = { 高: 0, 中: 1, 低: 2 };
+          return options.sort(
+            ([left], [right]) =>
+              (priorityOrder[left] ?? 99) - (priorityOrder[right] ?? 99),
+          );
+        }
+
+        return options.sort(([left], [right]) =>
+          left.localeCompare(right, "zh-CN"),
+        );
+      }
+
+      function renderFilterSelect(field, selectId) {
+        const select = document.getElementById(selectId);
+        const currentValue = offerFilters[field];
+        const options = getFilterOptions(field);
+        select.innerHTML = "";
+
+        const defaultOption = document.createElement("option");
+        defaultOption.value = "";
+        defaultOption.textContent = getFilterPlaceholder(field);
+        select.appendChild(defaultOption);
+
+        let hasCurrentValue = currentValue === "";
+        options.forEach(([value, count]) => {
+          const option = document.createElement("option");
+          option.value = value;
+          option.textContent = `${value} (${count})`;
+          if (value === currentValue) {
+            option.selected = true;
+            hasCurrentValue = true;
+          }
+          select.appendChild(option);
+        });
+
+        if (!hasCurrentValue) {
+          offerFilters[field] = "";
+          select.value = "";
+        }
+      }
+
+      function renderFilterOptions() {
+        renderFilterSelect("company", "companyFilter");
+        renderFilterSelect("post", "postFilter");
+        renderFilterSelect("processStage", "processStageFilter");
+        renderFilterSelect("base", "baseFilter");
+        renderFilterSelect("priority", "priorityFilter");
+      }
+
+      function offerMatchesFilters(offer) {
+        return Object.entries(offerFilters).every(([field, value]) => {
+          if (!value) {
+            return true;
+          }
+          return getFilterValue(offer, field) === value;
+        });
+      }
+
+      function getFilteredOffersByGroup(groupKey) {
+        return offerData[groupKey]
+          .filter(offerMatchesFilters)
+          .slice()
+          .sort((left, right) => {
+            const rightMeta = getOfferProcessMeta(right);
+            const leftMeta = getOfferProcessMeta(left);
+            if (rightMeta.processTimestamp !== leftMeta.processTimestamp) {
+              return rightMeta.processTimestamp - leftMeta.processTimestamp;
+            }
+            return String(left.company || "").localeCompare(
+              String(right.company || ""),
+              "zh-CN",
+            );
+          });
+      }
+
+      function getFilteredOffersCount() {
+        return ["internet", "bank", "stateOwned"].reduce(
+          (count, groupKey) => count + getFilteredOffersByGroup(groupKey).length,
+          0,
+        );
+      }
+
+      function renderFilterSummary() {
+        const filteredCount = getFilteredOffersCount();
+        const totalCount = getAllOffers().length;
+        document.getElementById("filterSummary").textContent =
+          filteredCount === totalCount
+            ? `当前共 ${totalCount} 条投递记录，表格默认按流程日期从近到远排序。`
+            : `筛选后展示 ${filteredCount} / ${totalCount} 条投递记录，表格按流程日期从近到远排序。`;
+      }
+
+      function renderTable(tableId, data) {
+        const tbody = document.querySelector(`#${tableId} tbody`);
+        tbody.innerHTML = "";
+
+        if (!data.length) {
+          const emptyRow = document.createElement("tr");
+          emptyRow.innerHTML =
+            '<td colspan="9" class="table-empty">暂无投递记录</td>';
+          tbody.appendChild(emptyRow);
+          return;
+        }
+
+        data.forEach((item) => {
+          const { processDate, processStage } = getOfferProcessMeta(item);
+          const tr = document.createElement("tr");
+          tr.innerHTML = `
+                    <td>${escapeHtml(item.company)}</td>
+                    <td>${escapeHtml(item.post)}</td>
+                    <td>${escapeHtml(processStage)}</td>
+                    <td>${escapeHtml(processDate)}</td>
+                    <td>${escapeHtml(item.remark)}</td>
+                    <td>${escapeHtml(item.sendDate)}</td>
+                    <td>${escapeHtml(item.base)}</td>
+                    <td class="${getPriorityClass(item.priority)}">${escapeHtml(item.priority)}</td>
+                    <td>
+                        <div class="d-flex gap-2 flex-wrap">
+                          <button type="button" class="btn btn-sm btn-primary btn-edit-record" data-id="${escapeHtml(item.id)}">修改</button>
+                          <button type="button" class="btn btn-sm btn-outline-danger btn-delete-record" data-id="${escapeHtml(item.id)}">删除</button>
+                        </div>
+                    </td>
+                `;
+          tbody.appendChild(tr);
+        });
+      }
+
+      function renderTables() {
+        renderFilterOptions();
+        renderFilterSummary();
+        renderTable("internetTable", getFilteredOffersByGroup("internet"));
+        renderTable("bankTable", getFilteredOffersByGroup("bank"));
+        renderTable(
+          "stateOwnedTable",
+          getFilteredOffersByGroup("stateOwned"),
+        );
+      }
+
+      const now = new Date();
+      const CURRENT_YEAR = now.getFullYear();
+      const CURRENT_MONTH = now.getMonth();
+      const CURRENT_DATE = now.getDate();
+      let selectedYear = CURRENT_YEAR;
+      let selectedMonth = CURRENT_MONTH;
+
+      function initMonthSelector() {
+        const select = document.getElementById("monthSelect");
+        for (let i = 0; i < 12; i++) {
+          const option = document.createElement("option");
+          option.value = i;
+          option.textContent = `${i + 1}月`;
+          if (i === CURRENT_MONTH) option.selected = true;
+          select.appendChild(option);
+        }
+        select.addEventListener("change", (e) => {
+          selectedMonth = parseInt(e.target.value);
+          renderCalendar(selectedYear, selectedMonth);
+        });
+      }
+
+      function clearCalendar() {
+        const calendar = document.getElementById("calendar");
+        while (calendar.children.length > 7) {
+          calendar.removeChild(calendar.lastChild);
+        }
+      }
+
+      function buildInterviewMap() {
+        return getAllOffers().reduce((map, offer) => {
+          const [dateStr] = String(offer.process || "").split(" ");
+          if (!/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+            return map;
+          }
+
+          if (!map[dateStr]) {
+            map[dateStr] = [];
+          }
+
+          map[dateStr].push({
+            label: `${offer.company}+${offer.post}`,
+            type: offer.type,
+          });
+          return map;
+        }, {});
+      }
+
+      function renderCalendar(year, month) {
+        clearCalendar();
+        const calendar = document.getElementById("calendar");
+        const firstDay = new Date(year, month, 1).getDay() || 7;
+        const daysInMonth = new Date(year, month + 1, 0).getDate();
+        const interviewMap = buildInterviewMap();
+
+        for (let i = 1; i < firstDay; i++) {
+          const empty = document.createElement("div");
+          empty.className = "calendar-day bg-light calendar-day-muted";
+          calendar.appendChild(empty);
+        }
+
+        for (let day = 1; day <= daysInMonth; day++) {
+          const dateStr = `${year}-${(month + 1).toString().padStart(2, "0")}-${day.toString().padStart(2, "0")}`;
+          const dayDiv = document.createElement("div");
+          dayDiv.className = "calendar-day";
+
+          if (
+            year === CURRENT_YEAR &&
+            month === CURRENT_MONTH &&
+            day === CURRENT_DATE
+          ) {
+            dayDiv.classList.add("today");
+            dayDiv.innerHTML = `<span class="date-circle">${day}</span>`;
+          } else {
+            dayDiv.innerHTML = `<strong>${day}</strong>`;
+          }
+
+          if (interviewMap[dateStr]) {
+            dayDiv.classList.add("has-event");
+            const eventList = document.createElement("div");
+            eventList.className = "event-list";
+
+            interviewMap[dateStr].forEach((event) => {
+              const theme = TYPE_THEME[event.type] || TYPE_THEME["互联网"];
+              const tag = document.createElement("span");
+              tag.className = "interview-tag";
+              tag.title = event.label;
+              tag.textContent = event.label;
+              tag.style.backgroundColor = theme.background;
+              tag.style.color = theme.color;
+              eventList.appendChild(tag);
+            });
+
+            dayDiv.appendChild(eventList);
+          }
+          calendar.appendChild(dayDiv);
+        }
+      }
+
+      function formatReviewTime(isoString) {
+        const date = new Date(isoString);
+        if (Number.isNaN(date.getTime())) {
+          return "";
+        }
+
+        return new Intl.DateTimeFormat("zh-CN", {
+          month: "2-digit",
+          day: "2-digit",
+          hour: "2-digit",
+          minute: "2-digit",
+        }).format(date);
+      }
+
+      function getReviewPreview(record) {
+        const source = [
+          record.reviewRemark,
+          record.interviewQues,
+          record.askQues,
+          record.selfIntro,
+        ].find((value) => String(value || "").trim());
+
+        return source
+          ? String(source).trim().replace(/\s+/g, " ").slice(0, 72)
+          : "点击查看这条复盘记录的详细内容。";
+      }
+
+      function getReviewTitle(record, index) {
+        const source = [
+          record.title,
+          record.reviewRemark,
+          record.interviewQues,
+          record.selfIntro,
+        ].find((value) => String(value || "").trim());
+
+        if (!source) {
+          return `复盘记录 ${index + 1}`;
+        }
+
+        return String(source).trim().replace(/\s+/g, " ").slice(0, 24);
+      }
+
+      function renderReviewList() {
+        const list = document.getElementById("reviewList");
+        const emptyState = document.getElementById("reviewEmptyState");
+        list.innerHTML = "";
+
+        if (!reviewRecords.length) {
+          emptyState.classList.remove("d-none");
+          return;
+        }
+
+        emptyState.classList.add("d-none");
+        reviewRecords.forEach((record, index) => {
+          const button = document.createElement("button");
+          button.type = "button";
+          button.className = "btn review-item";
+          button.dataset.reviewId = record.id;
+          button.innerHTML = `
+            <div class="review-item-head">
+              <div>
+                <p class="review-item-title">${escapeHtml(getReviewTitle(record, index))}</p>
+              </div>
+              <span class="review-item-time">${escapeHtml(formatReviewTime(record.updatedAt))}</span>
+            </div>
+            <p class="review-item-preview">${escapeHtml(getReviewPreview(record))}</p>
+          `;
+          list.appendChild(button);
+        });
+      }
+
+      function getReviewRecordById(reviewId) {
+        return reviewRecords.find((item) => item.id === reviewId) || null;
+      }
+
+      function resetReviewForm(record = null) {
+        document.getElementById("reviewForm").reset();
+        document.getElementById("reviewIdInput").value = record?.id || "";
+        document.getElementById("reviewTitle").value = record?.title || "";
+        document.getElementById("selfIntro").value = record?.selfIntro || "";
+        document.getElementById("interviewQues").value =
+          record?.interviewQues || "";
+        document.getElementById("askQues").value = record?.askQues || "";
+        document.getElementById("reviewRemark").value =
+          record?.reviewRemark || "";
+        document.getElementById("reviewSaveTip").classList.add("d-none");
+        document
+          .getElementById("deleteReviewBtn")
+          .classList.toggle("d-none", !record?.id);
+      }
+
+      function openReviewModal(reviewId = "") {
+        activeReviewId = reviewId;
+        const record = reviewId ? getReviewRecordById(reviewId) : null;
+        resetReviewForm(record);
+
+        document.getElementById("reviewModalTitle").textContent = record
+          ? "查看面试复盘记录"
+          : "新增面试复盘记录";
+        document.getElementById("reviewModalSubtitle").textContent = record
+          ? "你可以直接修改当前复盘内容，保存后会覆盖本地记录。"
+          : "填写新的面试复盘内容，保存后会追加到记录列表。";
+
+        const modal = document.getElementById("reviewModal");
+        modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+        syncBodyScrollLock();
+        window.setTimeout(() => {
+          document.getElementById("selfIntro").focus();
+        }, 0);
+      }
+
+      function closeReviewModal() {
+        activeReviewId = "";
+        const modal = document.getElementById("reviewModal");
+        modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+        syncBodyScrollLock();
+      }
+
+      function deleteReviewRecord(reviewId) {
+        if (!reviewId) {
+          return;
+        }
+
+        reviewRecords = reviewRecords.filter((item) => item.id !== reviewId);
+        saveReviewRecords();
+        renderReviewList();
+      }
+
+      function handleDeleteReviewRecord() {
+        const reviewId = document.getElementById("reviewIdInput").value;
+        if (!reviewId) {
+          return;
+        }
+
+        closeReviewModal();
+        openDeleteConfirmModal({
+          title: "确认删除复盘记录",
+          description: "删除后会立即从本地复盘列表中移除，且无法恢复。",
+          message: "你确定要删除这条复盘记录吗？",
+          highlight:
+            getReviewTitle(getReviewRecordById(reviewId) || {}, 0) ||
+            "这条复盘记录",
+          onConfirm: () => deleteReviewRecord(reviewId),
+        });
+      }
+
+      function saveReviewData(event) {
+        event.preventDefault();
+
+        const reviewId = document.getElementById("reviewIdInput").value;
+        const existingRecord = reviewId ? getReviewRecordById(reviewId) : null;
+        const record = createReviewRecord({
+          id: existingRecord?.id || reviewId,
+          createdAt: existingRecord?.createdAt,
+          title: document.getElementById("reviewTitle").value.trim(),
+          selfIntro: document.getElementById("selfIntro").value.trim(),
+          interviewQues: document.getElementById("interviewQues").value.trim(),
+          askQues: document.getElementById("askQues").value.trim(),
+          reviewRemark: document.getElementById("reviewRemark").value.trim(),
+          updatedAt: new Date().toISOString(),
+        });
+
+        const hasContent = [
+          record.title,
+          record.selfIntro,
+          record.interviewQues,
+          record.askQues,
+          record.reviewRemark,
+        ].some((value) => value.trim());
+
+        if (!hasContent) {
+          return;
+        }
+
+        if (existingRecord) {
+          reviewRecords = reviewRecords.map((item) =>
+            item.id === existingRecord.id ? record : item,
+          );
+        } else {
+          reviewRecords.unshift(record);
+        }
+
+        saveReviewRecords();
+        renderReviewList();
+
+        const tip = document.getElementById("reviewSaveTip");
+        tip.classList.remove("d-none");
+        setTimeout(() => tip.classList.add("d-none"), 1200);
+        setTimeout(() => closeReviewModal(), 240);
+      }
+
+      function createOfferRecord() {
+        const type = document.getElementById("typeInput").value;
+        return {
+          id:
+            document.getElementById("offerRecordIdInput").value ||
+            `${Date.now()}-${Math.random().toString(16).slice(2)}`,
+          company: document.getElementById("companyInput").value.trim(),
+          post: document.getElementById("postInput").value.trim(),
+          type,
+          process: `${document.getElementById("processDateInput").value} ${document.getElementById("processStageInput").value.trim()}`,
+          remark: document.getElementById("remarkInput").value.trim(),
+          latest: document.getElementById("latestInput").value.trim(),
+          sendDate: document.getElementById("sendDateInput").value,
+          base: document.getElementById("baseInput").value.trim(),
+          priority: document.getElementById("priorityInput").value,
+        };
+      }
+
+      function applyOfferType(type, mode = "create") {
+        activeOfferType = type;
+        const typeInput = document.getElementById("typeInput");
+        const modalSubtitle = document.getElementById("offerModalSubtitle");
+        const modalTitle = document.getElementById("offerModalTitle");
+        const saveButton = document.getElementById("saveOfferBtn");
+        typeInput.value = type;
+        if (mode === "edit") {
+          modalTitle.textContent = "修改投递记录";
+          modalSubtitle.textContent = `当前正在修改${type}分类下的投递记录，类别保持锁定。`;
+          saveButton.textContent = "保存修改";
+        } else {
+          modalTitle.textContent = "新增投递记录";
+          modalSubtitle.textContent = `当前将新增到${type}分类，类别已锁定不可修改。`;
+          saveButton.textContent = "新增投递记录";
+        }
+      }
+
+      function populateOfferForm(record) {
+        document.getElementById("offerRecordIdInput").value = record?.id || "";
+        document.getElementById("companyInput").value = record?.company || "";
+        document.getElementById("postInput").value = record?.post || "";
+        document.getElementById("latestInput").value = record?.latest || "";
+        document.getElementById("sendDateInput").value = record?.sendDate || "";
+        document.getElementById("baseInput").value = record?.base || "";
+        document.getElementById("priorityInput").value = record?.priority || "高";
+        document.getElementById("remarkInput").value = record?.remark || "";
+
+        const processValue = String(record?.process || "");
+        const processMatch = processValue.match(/^(\d{4}-\d{2}-\d{2})\s*(.*)$/);
+        document.getElementById("processDateInput").value = processMatch?.[1] || "";
+        document.getElementById("processStageInput").value = processMatch?.[2] || "";
+      }
+
+      function openOfferModal(type, record = null) {
+        activeOfferRecordId = record?.id || "";
+        applyOfferType(type, record ? "edit" : "create");
+        populateOfferForm(record);
+        const modal = document.getElementById("offerModal");
+        modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+        syncBodyScrollLock();
+        window.setTimeout(() => {
+          document.getElementById("companyInput").focus();
+        }, 0);
+      }
+
+      function closeOfferModal() {
+        activeOfferRecordId = "";
+        const modal = document.getElementById("offerModal");
+        modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+        syncBodyScrollLock();
+      }
+
+      function getOfferRecordById(recordId) {
+        return getAllOffers().find((item) => item.id === recordId) || null;
+      }
+
+      function openDeleteConfirmModal({
+        title,
+        description,
+        message,
+        highlight,
+        onConfirm,
+        recordId = "",
+      }) {
+        pendingDeleteRecordId = recordId;
+        pendingDeleteAction =
+          typeof onConfirm === "function" ? onConfirm : null;
+        document.getElementById("deleteConfirmTitle").textContent =
+          title || "确认删除记录";
+        document.getElementById("deleteConfirmDescription").textContent =
+          description || "删除后会立即从本地记录中移除。";
+        document.getElementById(
+          "deleteConfirmMessage",
+        ).childNodes[0].textContent =
+          `${message || "你确定要删除这条记录吗？"} `;
+        const confirmText = document.getElementById("deleteConfirmText");
+        confirmText.textContent = highlight || "这条记录";
+
+        const modal = document.getElementById("deleteConfirmModal");
+        modal.classList.add("is-open");
+        modal.setAttribute("aria-hidden", "false");
+        syncBodyScrollLock();
+      }
+
+      function closeDeleteConfirmModal() {
+        pendingDeleteRecordId = "";
+        pendingDeleteAction = null;
+        const modal = document.getElementById("deleteConfirmModal");
+        modal.classList.remove("is-open");
+        modal.setAttribute("aria-hidden", "true");
+        syncBodyScrollLock();
+      }
+
+      function resetOfferForm(type = activeOfferType) {
+        document.getElementById("offerForm").reset();
+        document.getElementById("offerRecordIdInput").value = "";
+        document.getElementById("priorityInput").value = "高";
+        activeOfferRecordId = "";
+        applyOfferType(type, "create");
+      }
+
+      function updateOfferRecord(updatedRecord) {
+        Object.keys(offerData).forEach((groupKey) => {
+          offerData[groupKey] = offerData[groupKey].map((item) =>
+            item.id === updatedRecord.id ? updatedRecord : item,
+          );
+        });
+      }
+
+      function addOfferRecord(event) {
+        event.preventDefault();
+
+        const type = document.getElementById("typeInput").value;
+        const groupKey = TYPE_TO_GROUP[type];
+        if (!groupKey) {
+          return;
+        }
+
+        const newRecord = createOfferRecord();
+        if (activeOfferRecordId) {
+          updateOfferRecord(newRecord);
+        } else {
+          offerData[groupKey].unshift(newRecord);
+        }
+        saveOfferData();
+        renderTables();
+        resetOfferForm(type);
+        closeOfferModal();
+      }
+
+      function deleteOfferRecord(recordId) {
+        Object.keys(offerData).forEach((groupKey) => {
+          offerData[groupKey] = offerData[groupKey].filter(
+            (item) => item.id !== recordId,
+          );
+        });
+        saveOfferData();
+        renderTables();
+      }
+
+      function bindFilterEvents() {
+        [
+          ["companyFilter", "company"],
+          ["postFilter", "post"],
+          ["processStageFilter", "processStage"],
+          ["baseFilter", "base"],
+          ["priorityFilter", "priority"],
+        ].forEach(([selectId, field]) => {
+          document.getElementById(selectId).addEventListener("change", (event) => {
+            offerFilters[field] = event.target.value;
+            renderTables();
+          });
+        });
+
+        document.getElementById("resetFiltersBtn").addEventListener("click", () => {
+          Object.keys(offerFilters).forEach((field) => {
+            offerFilters[field] = "";
+          });
+          renderTables();
+        });
+      }
+
+      function confirmDeleteAction() {
+        if (!pendingDeleteAction) {
+          closeDeleteConfirmModal();
+          return;
+        }
+
+        pendingDeleteAction();
+        closeDeleteConfirmModal();
+      }
+
+      function bindOfferEvents() {
+        bindFilterEvents();
+
+        document
+          .getElementById("offerForm")
+          .addEventListener("submit", addOfferRecord);
+
+        document
+          .getElementById("reviewForm")
+          .addEventListener("submit", saveReviewData);
+
+        document
+          .getElementById("openReviewModalBtn")
+          .addEventListener("click", () => openReviewModal());
+
+        document
+          .getElementById("closeReviewModalBtn")
+          .addEventListener("click", closeReviewModal);
+
+        document
+          .getElementById("cancelReviewModalBtn")
+          .addEventListener("click", closeReviewModal);
+
+        document
+          .getElementById("deleteReviewBtn")
+          .addEventListener("click", handleDeleteReviewRecord);
+
+        document
+          .getElementById("reviewModal")
+          .addEventListener("click", (event) => {
+            if (event.target.id !== "reviewModal") {
+              return;
+            }
+            closeReviewModal();
+          });
+
+        document
+          .getElementById("reviewList")
+          .addEventListener("click", (event) => {
+            const button = event.target.closest(".review-item");
+            if (!button) {
+              return;
+            }
+            openReviewModal(button.dataset.reviewId || "");
+          });
+
+        document
+          .querySelectorAll(".btn-open-offer-modal[data-offer-type]")
+          .forEach((button) => {
+            button.addEventListener("click", () => {
+              openOfferModal(button.dataset.offerType || "互联网");
+            });
+          });
+
+        document
+          .getElementById("closeOfferModalBtn")
+          .addEventListener("click", closeOfferModal);
+
+        document
+          .getElementById("cancelOfferModalBtn")
+          .addEventListener("click", () => {
+            resetOfferForm(activeOfferType);
+            closeOfferModal();
+          });
+
+        document
+          .getElementById("closeDeleteConfirmBtn")
+          .addEventListener("click", closeDeleteConfirmModal);
+
+        document
+          .getElementById("cancelDeleteConfirmBtn")
+          .addEventListener("click", closeDeleteConfirmModal);
+
+        document
+          .getElementById("confirmDeleteBtn")
+          .addEventListener("click", confirmDeleteAction);
+
+        document
+          .getElementById("offerModal")
+          .addEventListener("click", (event) => {
+            if (event.target.id !== "offerModal") {
+              return;
+            }
+            resetOfferForm(activeOfferType);
+            closeOfferModal();
+          });
+
+        document
+          .getElementById("deleteConfirmModal")
+          .addEventListener("click", (event) => {
+            if (event.target.id !== "deleteConfirmModal") {
+              return;
+            }
+            closeDeleteConfirmModal();
+          });
+
+        document.addEventListener("keydown", (event) => {
+          if (event.key !== "Escape") {
+            return;
+          }
+
+          const modal = document.getElementById("offerModal");
+          const deleteModal = document.getElementById("deleteConfirmModal");
+          const reviewModal = document.getElementById("reviewModal");
+
+          if (reviewModal.classList.contains("is-open")) {
+            closeReviewModal();
+            return;
+          }
+
+          if (deleteModal.classList.contains("is-open")) {
+            closeDeleteConfirmModal();
+            return;
+          }
+
+          if (modal.classList.contains("is-open")) {
+            resetOfferForm(activeOfferType);
+            closeOfferModal();
+          }
+        });
+
+        ["internetTable", "bankTable", "stateOwnedTable"].forEach((tableId) => {
+          document
+            .getElementById(tableId)
+            .addEventListener("click", (event) => {
+              const editButton = event.target.closest(".btn-edit-record");
+              if (editButton) {
+                const record = getOfferRecordById(editButton.dataset.id);
+                if (!record) {
+                  return;
+                }
+                openOfferModal(record.type || "互联网", record);
+                return;
+              }
+
+              const button = event.target.closest(".btn-delete-record");
+              if (!button) {
+                return;
+              }
+              const record = getOfferRecordById(button.dataset.id);
+              openDeleteConfirmModal({
+                title: "确认删除投递记录",
+                description: "删除后会立即从本地记录和日历标注中移除。",
+                message: "你确定要删除这条投递记录吗？",
+                highlight: record
+                  ? `${record.company} · ${record.post}`
+                  : "这条投递记录",
+                recordId: button.dataset.id,
+                onConfirm: () => deleteOfferRecord(button.dataset.id),
+              });
+            });
+        });
+      }
+
+      initMonthSelector();
+      renderTables();
+      renderCalendar(selectedYear, selectedMonth);
+      reviewRecords = loadReviewRecords();
+      saveReviewRecords();
+      renderReviewList();
+      resetOfferForm();
+      bindOfferEvents();
+    </script>
+  </body>
+</html>
