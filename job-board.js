@@ -6,7 +6,7 @@ const REVIEW_KEY = "interviewReview";
 const OPENING_KEY = "autumnOpenings";
 const OPENING_VER_KEY = "autumnOpeningsSeedVersion";
 const REMINDER_KEY = "trackReminders";
-const OPENING_SEED_VERSION = "2026-08-05b";
+const OPENING_SEED_VERSION = "2026-08-06";
 
 /* 可选行业清单（下拉展示 + 新增投递时选择）。可自由扩展。 */
 const SECTORS = [
@@ -66,6 +66,9 @@ const OPENING_SEED = [
   // —— 跨境支付 / 金融科技（金融实习+数字经济双背景） ——
   { company: "Airwallex 空中云汇", post: "全球支付运营 / 客户成功", sector: "金融科技", base: "上海/香港", status: "open", channel: "官网校招 / 内推", link: "https://www.airwallex.com/cn/careers", apply_limit: "外企一般不限次数（以招聘页为准）", reason: "出海金融科技独角兽，重视语言与运营，金融类实习非常对口。" },
   { company: "连连数科 LianLian", post: "跨境支付运营 / 商户运营", sector: "金融科技", base: "杭州/上海", status: "soon", channel: "官网校招", link: "https://www.lianlianpay.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "跨境支付牌照齐全，金融+运营双背景强匹配，稳增长赛道，双非可投。" },
+  // —— 2026-08-06 新增（本周新开放，与画像匹配） ——
+  { company: "海尔消费金融", post: "用户运营 / 数据分析 / 产品运营（消金业务）", sector: "消费金融", base: "青岛/成都", status: "open", channel: "官网校招（智联 zhiye）", link: "https://haiercash.zhiye.com/campus/jobs", apply_limit: "一般限报1-2个岗位（以官网为准）", reason: "持牌消费金融，2027届校招已开放；用户运营/数据分析岗与你信用卡产品运营+广告投放经历强对口，非一线城市竞争相对小，双非本硕友好。" },
+  { company: "4399 游戏", post: "全球化运营管培生 / 海外发行运营 / 游戏运营专员", sector: "游戏", base: "广州", status: "open", channel: "官网校招（web.4399.com/campus）", link: "http://web.4399.com/campus", apply_limit: "以官网为准（校招一般限报1-2个岗位）", reason: "8月初启动的2027秋招，设全球化运营/海外发行方向；西语本科可切拉美西语区发行运营，产品运营+投放经历可迁移，运营管培培养体系完善。" },
 ];
 
 /* ================= 状态 ================= */
@@ -327,8 +330,11 @@ function saveReminder(e) {
 
 /* ================= 秋招岗位 ================= */
 function mkOpening(f = {}) {
-  return { id: f.id || uid(), company: f.company || "", post: f.post || "", sector: f.sector || "", base: f.base || "", status: f.status === "open" ? "open" : "soon", channel: f.channel || "", link: f.link || "", apply_limit: f.apply_limit || "", reason: f.reason || "" };
+  return { id: f.id || uid(), company: f.company || "", post: f.post || "", sector: f.sector || "", base: f.base || "", status: f.status === "open" ? "open" : "soon", channel: f.channel || "", link: f.link || "", apply_limit: f.apply_limit || "", reason: f.reason || "", userAdded: !!f.userAdded };
 }
+/* 远程岗位数据地址：与页面同目录的 openings.json（GitHub Pages 上可直接访问） */
+const OPENINGS_URL = "./openings.json";
+const OPENING_REMOTE_VER_KEY = "autumnOpeningsRemoteVersion";
 function loadOpenings() {
   const raw = localStorage.getItem(OPENING_KEY);
   const ver = localStorage.getItem(OPENING_VER_KEY);
@@ -341,12 +347,36 @@ function loadOpenings() {
   if (!raw) return [];
   try { const p = JSON.parse(raw); return Array.isArray(p) ? p.map(mkOpening) : []; } catch { return []; }
 }
+/* 拉取远程 openings.json；若版本更新则用“远程推荐 + 用户手动新增项”合并覆盖 */
+async function fetchRemoteOpenings() {
+  try {
+    const res = await fetch(`${OPENINGS_URL}?t=${Date.now()}`, { cache: "no-store" });
+    if (!res.ok) return;
+    const data = await res.json();
+    const remote = Array.isArray(data.openings) ? data.openings : (Array.isArray(data) ? data : null);
+    if (!remote) return;
+    const remoteVer = data.version || data.updatedAt || String(remote.length);
+    const cachedVer = localStorage.getItem(OPENING_REMOTE_VER_KEY);
+    if (remoteVer === cachedVer) return; // 无更新，不动
+    const userItems = openingRecords.filter((o) => o.userAdded);
+    openingRecords = [...remote.map(mkOpening), ...userItems];
+    localStorage.setItem(OPENING_REMOTE_VER_KEY, remoteVer);
+    saveOpenings();
+    renderOpenings();
+  } catch (e) {
+    /* 离线或本地直接打开 file:// 时 fetch 可能失败，忽略，继续用本地数据 */
+  }
+}
 function saveOpenings() { localStorage.setItem(OPENING_KEY, JSON.stringify(openingRecords)); }
-function resetOpenings() {
+async function resetOpenings() {
+  // 先回退到内置 seed，保证即使离线也能恢复
   openingRecords = OPENING_SEED.map(mkOpening);
   localStorage.setItem(OPENING_KEY, JSON.stringify(openingRecords));
   localStorage.setItem(OPENING_VER_KEY, OPENING_SEED_VERSION);
   renderOpenings();
+  // 再尝试拉取云端最新（成功会覆盖为最新推荐）
+  localStorage.removeItem(OPENING_REMOTE_VER_KEY);
+  await fetchRemoteOpenings();
 }
 function renderOpenings() {
   const list = $("openingList"), empty = $("openingEmpty");
@@ -385,7 +415,7 @@ function saveOpening(e) {
     sector: $("opSector").value.trim(), base: $("opBase").value.trim(),
     status: $("opStatus").value, channel: $("opChannel").value.trim(),
     link: $("opLink").value.trim(), apply_limit: $("opLimit").value.trim(),
-    reason: $("opReason").value.trim(),
+    reason: $("opReason").value.trim(), userAdded: true,
   });
   if (!rec.company || !rec.post) return;
   openingRecords.unshift(rec); saveOpenings(); renderOpenings(); closeModal("openingModal");
@@ -600,3 +630,5 @@ openingRecords = loadOpenings();
 renderOpenings();
 resetOfferForm();
 bind();
+/* 打开页面后异步拉取云端最新岗位（有更新则自动刷新推荐栏） */
+fetchRemoteOpenings();
