@@ -6,7 +6,40 @@ const REVIEW_KEY = "interviewReview";
 const OPENING_KEY = "autumnOpenings";
 const OPENING_VER_KEY = "autumnOpeningsSeedVersion";
 const REMINDER_KEY = "trackReminders";
-const OPENING_SEED_VERSION = "2026-08-06";
+const OPENING_SEED_VERSION = "2026-08-12";
+
+/* ================= Supabase 云同步（可选，未配置则走本地模式） ================= */
+let sb = null;              // supabase client
+let currentUser = null;    // 已登录用户
+let cloudReady = false;    // 是否已接入云端（配置有效）
+const CLOUD_TABLE = { offers: "offers", reminders: "reminders", reviews: "reviews" };
+
+function cloudEnabled() { return cloudReady && !!currentUser; }
+
+function initSupabase() {
+  const url = window.SUPABASE_URL, key = window.SUPABASE_ANON_KEY;
+  if (!url || !key || typeof window.supabase === "undefined") return false;
+  try { sb = window.supabase.createClient(url, key); cloudReady = true; return true; }
+  catch { return false; }
+}
+
+/* 读取某类数据的整包数组（登录态从云端，否则本地） */
+async function cloudLoad(table, localKey) {
+  if (!cloudEnabled()) {
+    const raw = localStorage.getItem(localKey);
+    try { const p = raw ? JSON.parse(raw) : []; return Array.isArray(p) ? p : (p || []); } catch { return []; }
+  }
+  const { data, error } = await sb.from(table).select("data").eq("user_id", currentUser.id).maybeSingle();
+  if (error || !data) return [];
+  return Array.isArray(data.data) ? data.data : (data.data || []);
+}
+
+/* 写入某类数据整包（登录态 upsert 到云端；同时也写本地做缓存） */
+async function cloudSave(table, localKey, arr) {
+  localStorage.setItem(localKey, JSON.stringify(arr));
+  if (!cloudEnabled()) return;
+  await sb.from(table).upsert({ user_id: currentUser.id, data: arr, updated_at: new Date().toISOString() }, { onConflict: "user_id" });
+}
 
 /* 可选行业清单（下拉展示 + 新增投递时选择）。可自由扩展。 */
 const SECTORS = [
@@ -41,34 +74,48 @@ const COLUMN_STORAGE_KEY = "trackColumnSectors";
  * apply_limit = 各企业秋招投递次数限制（来自公开信息，均建议以官网公告为准）。
  */
 const OPENING_SEED = [
-  // —— 字节跳动：行业运营（用户明确感兴趣） ——
-  { company: "字节跳动", post: "行业运营 / 商业化运营（巨量引擎·抖音电商）", sector: "行业运营", base: "北京/上海/深圳", status: "open", channel: "官网校招 / 内推", link: "https://jobs.bytedance.com/campus", apply_limit: "2027校招按年度分段：2026年段2次+2027年段2次，单次投递≤2个岗位（以官网为准）", reason: "你明确感兴趣的行业运营；广告投放+信用卡运营经历高度契合巨量引擎/抖音电商商业化运营。双非可投，看重实习含金量。" },
-  { company: "字节跳动", post: "用户运营 / 增长运营", sector: "用户运营", base: "北京/杭州", status: "open", channel: "官网校招 / 内推", link: "https://jobs.bytedance.com/campus", apply_limit: "同上：年度分段共4次，单次≤2岗（以官网为准）", reason: "用户增长/促活运营，广告投放的数据与转化经验直接可迁移，双非本硕友好。" },
-  // —— 信用卡 / 消费金融运营（你的信用卡产品运营经历直接对口） ——
-  { company: "招商银行信用卡中心（招银网络科技）", post: "用户运营 / 权益运营 / 数字化营销", sector: "信用卡运营", base: "深圳/上海", status: "open", channel: "招商银行校园招聘官网", link: "https://career.cmbchina.com", apply_limit: "银行系一般每人限报1-2个岗位（以招聘公告为准）", reason: "信用卡产品运营经历最对口；掌上生活App用户/权益运营，广告投放经验加分，双非本硕可投。" },
-  { company: "中信银行信用卡中心", post: "渠道运营 / 效果投放 / 用户增长", sector: "信用卡运营", base: "深圳", status: "open", channel: "信用卡中心招聘官网", link: "https://creditcard.ecitic.com/zhaopin/", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "岗位直接要求信息流投放(抖音/朋友圈)+数据分析+活动策划，几乎踩中你全部经历。" },
-  { company: "招联消费金融", post: "用户运营 / 活动运营 / 投放运营", sector: "消费金融", base: "深圳", status: "soon", channel: "招联金融校园招聘官网 / 内推", link: "https://mucfc.hotjob.cn", apply_limit: "通常限报1-2个岗位（以公告为准）", reason: "持牌消金龙头，用户运营+效果投放，金融类实习与广告投放双匹配，双非友好。" },
-  { company: "马上消费金融", post: "用户运营 / 增长运营", sector: "消费金融", base: "重庆/北京", status: "soon", channel: "官网校招", link: "https://www.msxf.com/joinus", apply_limit: "通常限报1个岗位（以公告为准）", reason: "头部消金，用户生命周期运营，金融实习+数据运营背景对口，非一线城市竞争相对小。" },
-  { company: "度小满金融", post: "用户运营 / 商业化运营", sector: "金融科技", base: "北京", status: "soon", channel: "官网校招 / 内推", link: "https://duxiaoman.zhiye.com", apply_limit: "参照百度系，一般≤2个岗位（以公告为准）", reason: "信贷+理财运营，广告投放/效果营销经验对口，数字经济背景加分。" },
-  { company: "蚂蚁集团（支付宝）", post: "行业运营 / 用户运营 / 商家运营", sector: "金融科技", base: "杭州/上海", status: "open", channel: "蚂蚁校招官网", link: "https://talent.antgroup.com", apply_limit: "阿里系官方未统一公示，行业惯例≤2个岗位（以官网为准）", reason: "支付宝行业/商家运营与你的行业运营意向一致，信用卡运营与支付场景相通。" },
-  // —— 互联网大厂运营（投递次数已核） ——
-  { company: "美团", post: "用户运营 / 商业分析 / 到店行业运营", sector: "本地生活运营", base: "北京/上海", status: "open", channel: "美团校园招聘官网", link: "https://campus.meituan.com", apply_limit: "官方未统一公示，行业惯例≤2个岗位（以官网为准）", reason: "到店/到家行业运营与你的行业运营兴趣一致，运营方法论通用，双非可投。" },
-  { company: "京东", post: "用户运营 / 商业化运营（新星计划）", sector: "电商运营", base: "北京", status: "open", channel: "京东校园招聘官网", link: "https://campus.jd.com", apply_limit: "新星计划最多2个（主投+调剂）；管培生(TET)仅1个", reason: "电商用户/商业化运营，广告投放经验对口京东零售商业化，双非本硕可投。" },
-  { company: "拼多多 / Temu", post: "用户运营 / 类目运营 / 海外运营", sector: "电商运营", base: "上海/深圳", status: "open", channel: "PDD 校园招聘官网", link: "https://careers.pddglobalhr.com", apply_limit: "提前批最多2个（含调剂），后续批次不影响", reason: "Temu 出海高速扩张，西语可切拉美站；运营岗节奏快、双非友好、给薪有竞争力。" },
-  { company: "快手", post: "商业化运营 / 用户运营（磁力引擎）", sector: "商业化运营", base: "北京", status: "open", channel: "快手校园招聘官网", link: "https://campus.kuaishou.cn", apply_limit: "官方未统一公示，行业惯例≤2个岗位（以官网为准）", reason: "磁力引擎商业化投放运营，与你广告投放经历强相关。" },
-  // —— 消费电子 / 出海（西语+数字经济优势，双非友好，含运营岗） ——
-  { company: "拓竹科技 Bambu Lab", post: "海外运营 / 拉美市场运营", sector: "消费电子出海", base: "深圳", status: "soon", channel: "校招官网 / 公众号", link: "https://bambulab.zhiye.com", apply_limit: "中小企业一般不限次数（以招聘页为准）", reason: "CES 常客 3D 打印独角兽，西语切拉美电商运营，产品运营实习对口，双非友好。" },
-  { company: "安克创新 Anker", post: "海外品牌运营管培生 / 用户运营", sector: "消费电子出海", base: "深圳/长沙", status: "soon", channel: "校招官网", link: "https://anker.zhiye.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "出海标杆，多语种区域运营，广告投放+产品运营背景匹配。" },
+  { company: "字节跳动", post: "行业运营 / 商业化运营（巨量引擎·抖音电商）", sector: "互联网", base: "北京/上海/深圳/杭州", status: "open", channel: "字节校园招聘官网", link: "https://jobs.bytedance.com/campus", apply_limit: "2027校招全年4次机会，年内2次，单次≤2岗（招满即止）", reason: "27届8月3日已启动；你感兴趣的行业运营，广告投放+信用卡运营经历高度契合商业化运营，双非看重实习含金量。" },
+  { company: "字节跳动", post: "用户运营 / 增长运营", sector: "互联网", base: "北京/杭州", status: "open", channel: "字节校园招聘官网", link: "https://jobs.bytedance.com/campus", apply_limit: "同上：全年4次，年内2次，单次≤2岗", reason: "27届已开；用户增长/促活运营，广告投放的数据与转化经验直接可迁移，双非友好。" },
+  { company: "阿里巴巴", post: "运营 / 商家运营 / 用户运营", sector: "互联网", base: "杭州/北京/上海/成都", status: "open", channel: "阿里校园招聘官网（一站投递）", link: "https://talent.alibaba.com/campus/home", apply_limit: "每个业务集团1次机会，最多选2个意向", reason: "27届8月启动，本硕博均可（双非本科有机会）；淘天/本地生活运营岗多，运营方法论通用。" },
+  { company: "阿里国际 AIDC", post: "海外运营 / 跨境招商运营（速卖通/Lazada）", sector: "跨境电商", base: "杭州/深圳", status: "open", channel: "阿里国际校园招聘", link: "https://talent.alibaba.com/campus/home", apply_limit: "每业务集团1次，最多2个意向", reason: "西语可切拉美/西语区市场，跨境运营与你产品运营实习对口，双非可投。" },
+  { company: "腾讯", post: "用户运营 / 内容运营 / 商业化运营", sector: "互联网", base: "深圳/北京/上海", status: "open", channel: "腾讯校园招聘官网", link: "https://join.qq.com/campus.html", apply_limit: "以官网为准（一般≤2个岗位）", reason: "27届秋招开放；广告/内容/用户运营方向多，广告投放经验对口广告线，双非可投。" },
+  { company: "百度", post: "用户运营 / 商业产品运营", sector: "互联网", base: "北京", status: "open", channel: "百度校园招聘官网", link: "https://talent.baidu.com/jobs/list", apply_limit: "以官网为准", reason: "27届开放；商业化/搜索广告运营与你广告投放经历强相关，双非友好。" },
+  { company: "美团", post: "用户运营 / 到店行业运营 / 商业分析", sector: "互联网", base: "北京/上海", status: "open", channel: "美团校园招聘官网", link: "https://campus.meituan.com", apply_limit: "以官网为准（惯例≤2岗）", reason: "到店/到家行业运营与你的行业运营兴趣一致，运营方法论通用，双非量大。" },
+  { company: "京东", post: "用户运营 / 商业化运营（新星计划）", sector: "互联网", base: "北京", status: "open", channel: "京东校园招聘官网", link: "https://campus.jd.com", apply_limit: "新星计划最多2个（主投+调剂）；管培生TET仅1个", reason: "电商用户/商业化运营，广告投放经验对口京东零售商业化，双非本硕可投。" },
+  { company: "拼多多 / Temu", post: "用户运营 / 类目运营 / 海外运营", sector: "跨境电商", base: "上海/深圳", status: "open", channel: "PDD 校园招聘官网", link: "https://careers.pddglobalhr.com", apply_limit: "提前批最多2个（含调剂），后续批次不影响", reason: "Temu 出海高速扩张，西语切拉美站；运营节奏快、双非友好、给薪有竞争力。" },
+  { company: "快手", post: "商业化运营 / 用户运营（磁力引擎）", sector: "互联网", base: "北京", status: "open", channel: "快手校园招聘官网", link: "https://zhaopin.kuaishou.cn", apply_limit: "以官网为准", reason: "磁力引擎商业化投放运营，与你广告投放经历强相关，双非可投。" },
+  { company: "哔哩哔哩", post: "产品运营 / 内容运营 / 商业化运营", sector: "互联网", base: "上海/北京/深圳", status: "open", channel: "B站校园招聘官网", link: "https://jobs.bilibili.com/campus", apply_limit: "以官网为准（惯例≤2岗）", reason: "27届8月3日启动；社区+内容+商业化运营与你广告投放/内容运营契合，双非友好。" },
+  { company: "小米", post: "用户运营 / 新零售运营 / 海外运营", sector: "消费电子/出海", base: "北京/武汉", status: "open", channel: "小米校园招聘官网", link: "https://job.xiaomi.com/campus", apply_limit: "以官网为准", reason: "27届开放；生态链+海外市场运营，语言+运营组合有竞争力，双非量大。" },
+  { company: "贝壳找房", post: "用户运营 / 城市运营", sector: "互联网", base: "北京/成都", status: "open", channel: "贝壳校园招聘官网", link: "https://job.ke.com/campus", apply_limit: "以官网为准", reason: "平台+城市运营，运营岗多、门槛相对友好，适合双非本硕补充投递。" },
+  { company: "米哈游 miHoYo", post: "用户运营 / 发行运营 / 社区运营", sector: "游戏", base: "上海", status: "open", channel: "米哈游校园招聘官网", link: "https://campus.mihoyo.com", apply_limit: "以官网为准", reason: "27届8月3日启动；社区/发行运营方法论通用，广告投放经验可迁移到买量发行。" },
+  { company: "蚂蚁集团（支付宝）", post: "行业运营 / 商家运营 / 用户运营", sector: "金融科技/支付", base: "杭州/上海", status: "open", channel: "蚂蚁校园招聘官网", link: "https://talent.antgroup.com/campus", apply_limit: "以官网为准（惯例≤2岗）", reason: "支付宝行业/商家运营与你行业运营意向一致，信用卡运营与支付场景相通，双非可投。" },
+  { company: "连连数科 LianLian", post: "跨境支付运营 / 商户运营", sector: "金融科技/支付", base: "杭州/上海", status: "soon", channel: "官网校招", link: "https://www.lianlianpay.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "跨境支付牌照齐全，金融+运营双背景强匹配，稳增长赛道，双非可投。" },
+  { company: "PingPong", post: "海外市场运营 / 跨境金融运营", sector: "金融科技/支付", base: "杭州", status: "soon", channel: "官网校招", link: "https://www.pingpongx.com", apply_limit: "以官网为准", reason: "跨境收款龙头，拉美是增长市场，西语+金融运营组合稀缺。" },
+  { company: "Airwallex 空中云汇", post: "全球支付运营 / 客户成功", sector: "金融科技/支付", base: "上海/香港", status: "open", channel: "官网校招 / 内推", link: "https://www.airwallex.com/cn/careers", apply_limit: "外企一般不限次数（以招聘页为准）", reason: "出海金融科技独角兽，重视语言与运营，金融类实习非常对口。" },
+  { company: "PayPal 中国", post: "跨境支付运营 / 商户运营", sector: "金融科技/支付", base: "上海", status: "soon", channel: "官网校招 / 内推", link: "https://careers.pypl.com", apply_limit: "外企一般不限次数（以招聘页为准）", reason: "金融+数字经济双背景强匹配，西语可服务拉美商户，金融实习加分。" },
+  { company: "度小满金融", post: "用户运营 / 商业化运营", sector: "金融科技/支付", base: "北京", status: "soon", channel: "官网校招 / 内推", link: "https://duxiaoman.zhiye.com", apply_limit: "参照百度系，一般≤2个岗位（以公告为准）", reason: "信贷+理财运营，广告投放/效果营销经验对口，数字经济背景加分，双非可投。" },
+  { company: "奇富科技（360数科）", post: "用户运营 / 增长运营", sector: "金融科技/支付", base: "上海", status: "soon", channel: "官网校招", link: "https://www.360shuke.com", apply_limit: "以官网为准", reason: "信贷科技，用户增长+效果投放运营，广告投放与金融实习双对口，学历要求相对友好。" },
+  { company: "招商银行信用卡中心（招银网络科技）", post: "用户运营 / 权益运营 / 数字化营销", sector: "消费金融", base: "深圳/上海", status: "open", channel: "招银网络科技校园招聘", link: "https://career.cmbchina.com", apply_limit: "银行系一般每人限报1-2个岗位（以公告为准）", reason: "27届8月已启动；信用卡产品运营经历最对口，掌上生活App用户/权益运营，广告投放加分。" },
+  { company: "中信银行信用卡中心", post: "渠道运营 / 效果投放 / 用户增长", sector: "消费金融", base: "深圳", status: "open", channel: "信用卡中心招聘官网", link: "https://creditcard.ecitic.com/zhaopin/", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "岗位直接要求信息流投放(抖音/朋友圈)+数据分析+活动策划，几乎踩中你全部经历。" },
+  { company: "招联消费金融", post: "用户运营 / 活动运营 / 投放运营", sector: "消费金融", base: "深圳", status: "soon", channel: "招联金融校园招聘官网", link: "https://mucfc.hotjob.cn", apply_limit: "通常限报1-2个岗位（以公告为准）", reason: "持牌消金龙头，用户运营+效果投放，金融类实习与广告投放双匹配，本科可投。" },
+  { company: "马上消费金融", post: "用户运营 / 增长运营", sector: "消费金融", base: "重庆/北京", status: "soon", channel: "官网校招", link: "https://www.msxf.com/joinus", apply_limit: "通常限报1个岗位（以公告为准）", reason: "头部消金，用户生命周期运营，金融实习+数据运营对口，非一线城市竞争相对小，双非友好。" },
+  { company: "海尔消费金融", post: "用户运营 / 数据运营", sector: "消费金融", base: "青岛/上海", status: "open", channel: "海尔消金校园招聘", link: "https://haiercf.zhiye.com", apply_limit: "以官网为准（部分岗位偏硕博）", reason: "持牌产融结合消金，运营+数据方向，金融实习对口；注意部分岗位要求硕博。" },
+  { company: "乐信 分期乐", post: "用户运营 / 权益运营", sector: "消费金融", base: "深圳", status: "soon", channel: "乐信招聘官网", link: "https://www.lexin.com/join", apply_limit: "以官网为准", reason: "分期消费平台，用户/权益运营与信用卡运营高度相通，年轻团队对双非相对友好。" },
+  { company: "哈银消费金融", post: "运营 / 数据分析", sector: "消费金融", base: "哈尔滨/北京", status: "soon", channel: "校招官网 / 公众号", link: "https://mucfc.hotjob.cn", apply_limit: "以公告为准（本科可投）", reason: "国有持牌消金，明确招本科生，运营岗门槛友好，适合双非稳妥投递（链接为示例，以其公告入口为准）。" },
+  { company: "京东科技 / 京东金融", post: "用户运营 / 商业化运营", sector: "消费金融", base: "北京", status: "open", channel: "京东金融校招入口", link: "https://qifu.jd.com", apply_limit: "随京东校招（新星2个/管培1个）", reason: "白条等消费金融业务，用户运营+营销，信用卡运营经历对口，双非可投。" },
+  { company: "拓竹科技 Bambu Lab", post: "海外运营 / 拉美市场运营", sector: "消费电子/出海", base: "深圳", status: "soon", channel: "校招官网 / 公众号", link: "https://bambulab.zhiye.com", apply_limit: "中小企业一般不限次数（以招聘页为准）", reason: "CES常客3D打印独角兽，西语切拉美电商运营，产品运营实习对口，双非友好。" },
+  { company: "安克创新 Anker", post: "海外品牌运营管培生 / 用户运营", sector: "消费电子/出海", base: "深圳/长沙", status: "soon", channel: "校招官网", link: "https://anker.zhiye.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "出海标杆，多语种区域运营，广告投放+产品运营背景匹配。" },
   { company: "SHEIN", post: "海外运营管培生（西语区）/ 内容运营", sector: "跨境电商", base: "广州", status: "open", channel: "官网校招", link: "https://careers.shein.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "西语区拉美重点市场，内容/用户运营实习直接可用，双非本硕大量在招。" },
-  { company: "Insta360 影石", post: "海外内容运营 / 社媒运营", sector: "消费电子出海", base: "深圳", status: "open", channel: "校招官网", link: "https://insta360.zhiye.com", apply_limit: "一般不限次数（以招聘页为准）", reason: "CES 常胜军，内容+社媒运营，西语覆盖西语区社媒，广告投放经验对口。" },
-  { company: "传音控股 Transsion", post: "新兴市场用户运营 / 运营管培", sector: "消费电子出海", base: "深圳", status: "soon", channel: "校招官网", link: "https://transsion.zhiye.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "非洲+拉美布局，小语种运营人才紧缺，数字经济背景加分。" },
-  { company: "涂鸦智能 Tuya", post: "海外生态运营 / 客户运营", sector: "人工智能", base: "杭州", status: "soon", channel: "校招官网", link: "https://tuya.zhiye.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "WAIC 活跃 IoT 平台，全球客户运营，数字经济背景契合，双非友好。" },
-  // —— 跨境支付 / 金融科技（金融实习+数字经济双背景） ——
-  { company: "Airwallex 空中云汇", post: "全球支付运营 / 客户成功", sector: "金融科技", base: "上海/香港", status: "open", channel: "官网校招 / 内推", link: "https://www.airwallex.com/cn/careers", apply_limit: "外企一般不限次数（以招聘页为准）", reason: "出海金融科技独角兽，重视语言与运营，金融类实习非常对口。" },
-  { company: "连连数科 LianLian", post: "跨境支付运营 / 商户运营", sector: "金融科技", base: "杭州/上海", status: "soon", channel: "官网校招", link: "https://www.lianlianpay.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "跨境支付牌照齐全，金融+运营双背景强匹配，稳增长赛道，双非可投。" },
-  // —— 2026-08-06 新增（本周新开放，与画像匹配） ——
-  { company: "海尔消费金融", post: "用户运营 / 数据分析 / 产品运营（消金业务）", sector: "消费金融", base: "青岛/成都", status: "open", channel: "官网校招（智联 zhiye）", link: "https://haiercash.zhiye.com/campus/jobs", apply_limit: "一般限报1-2个岗位（以官网为准）", reason: "持牌消费金融，2027届校招已开放；用户运营/数据分析岗与你信用卡产品运营+广告投放经历强对口，非一线城市竞争相对小，双非本硕友好。" },
-  { company: "4399 游戏", post: "全球化运营管培生 / 海外发行运营 / 游戏运营专员", sector: "游戏", base: "广州", status: "open", channel: "官网校招（web.4399.com/campus）", link: "http://web.4399.com/campus", apply_limit: "以官网为准（校招一般限报1-2个岗位）", reason: "8月初启动的2027秋招，设全球化运营/海外发行方向；西语本科可切拉美西语区发行运营，产品运营+投放经历可迁移，运营管培培养体系完善。" },
+  { company: "Temu（拼多多海外）", post: "招商运营 / 海外运营", sector: "跨境电商", base: "上海/广州", status: "open", channel: "Temu 招聘官网", link: "https://www.temu.com/careers", apply_limit: "以官网为准", reason: "出海高增长，西语切拉美站，招商/运营岗多、双非友好、给薪高。" },
+  { company: "Insta360 影石", post: "海外内容运营 / 社媒运营", sector: "消费电子/出海", base: "深圳", status: "open", channel: "校招官网", link: "https://insta360.zhiye.com", apply_limit: "一般不限次数（以招聘页为准）", reason: "CES常胜军，内容+社媒运营，西语覆盖西语区社媒，广告投放经验对口。" },
+  { company: "传音控股 Transsion", post: "新兴市场用户运营 / 运营管培", sector: "消费电子/出海", base: "深圳", status: "soon", channel: "校招官网", link: "https://transsion.zhiye.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "非洲+拉美布局，小语种运营人才紧缺，数字经济背景加分，双非友好。" },
+  { company: "大疆 DJI", post: "海外市场运营 / 品牌运营", sector: "消费电子/出海", base: "深圳", status: "soon", channel: "官网校招", link: "https://we.dji.com", apply_limit: "以官网为准", reason: "全球品牌，区域市场运营岗，语言+运营组合有竞争力。" },
+  { company: "涂鸦智能 Tuya", post: "海外生态运营 / 客户运营", sector: "人工智能", base: "杭州", status: "soon", channel: "校招官网", link: "https://tuya.zhiye.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "WAIC活跃IoT平台，全球客户运营，数字经济背景契合，双非友好。" },
+  { company: "帆软软件", post: "客户交付与运营 / 市场运营", sector: "互联网", base: "南京/无锡/成都/杭州", status: "open", channel: "帆软校园招聘", link: "https://www.fanruan.com/campus", apply_limit: "以官网为准", reason: "27届8月提前批已开，客户交付与运营岗，运营方法论通用，双非友好、需求量大。" },
+  { company: "Shopee（东南亚电商）", post: "跨境运营 / 招商运营（LDP管培）", sector: "跨境电商", base: "深圳/上海", status: "open", channel: "Shopee 校园招聘", link: "https://careers.shopee.com", apply_limit: "以官网为准", reason: "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。" },
+  { company: "科大讯飞 iFLYTEK", post: "海外产品运营 / 生态运营", sector: "人工智能", base: "合肥/北京", status: "soon", channel: "官网校招", link: "https://campus.iflytek.com", apply_limit: "以官网为准", reason: "WAIC/AI展常客，翻译与国际化业务，语言背景天然贴合，双非量大。" },
+  { company: "石头科技 Roborock", post: "海外市场运营 / 电商运营", sector: "消费电子/出海", base: "北京", status: "soon", channel: "官网校招", link: "https://roborock.zhiye.com", apply_limit: "以官网为准", reason: "AWE/CES明星企业，欧洲+拉美扩张，西语区运营需求上升。" },
+  { company: "科沃斯 Ecovacs", post: "海外区域运营（欧洲/拉美）", sector: "消费电子/出海", base: "苏州", status: "soon", channel: "官网校招", link: "https://ecovacs.zhiye.com", apply_limit: "一般限报1-2个岗位（以公告为准）", reason: "扫地机出海头部，多语种区域运营，产品运营实习可迁移，双非友好。" },
 ];
 
 /* ================= 状态 ================= */
@@ -107,7 +154,7 @@ function loadOffers() {
   } catch { return []; }
 }
 let offerData = loadOffers();
-function saveOffers() { localStorage.setItem(OFFER_KEY, JSON.stringify(offerData)); }
+function saveOffers() { localStorage.setItem(OFFER_KEY, JSON.stringify(offerData)); if (cloudEnabled()) cloudSave(CLOUD_TABLE.offers, OFFER_KEY, offerData); }
 function allOffers() { return offerData.slice(); }
 
 /* 列-行业配置 */
@@ -274,7 +321,7 @@ function loadReminders() {
   if (!raw) return [];
   try { const p = JSON.parse(raw); return Array.isArray(p) ? p : []; } catch { return []; }
 }
-function saveReminders() { localStorage.setItem(REMINDER_KEY, JSON.stringify(reminderRecords)); }
+function saveReminders() { localStorage.setItem(REMINDER_KEY, JSON.stringify(reminderRecords)); if (cloudEnabled()) cloudSave(CLOUD_TABLE.reminders, REMINDER_KEY, reminderRecords); }
 function fmtReminderDate(d) {
   if (!d) return "无日期";
   const dt = new Date(`${d}T00:00:00`);
@@ -330,7 +377,7 @@ function saveReminder(e) {
 
 /* ================= 秋招岗位 ================= */
 function mkOpening(f = {}) {
-  return { id: f.id || uid(), company: f.company || "", post: f.post || "", sector: f.sector || "", base: f.base || "", status: f.status === "open" ? "open" : "soon", channel: f.channel || "", link: f.link || "", apply_limit: f.apply_limit || "", reason: f.reason || "", userAdded: !!f.userAdded };
+  return { id: f.id || uid(), company: f.company || "", post: f.post || "", sector: f.sector || "", base: f.base || "", status: f.status === "open" ? "open" : "soon", channel: f.channel || "", link: f.link || "", apply_limit: f.apply_limit || "", reason: f.reason || "", userAdded: !!f.userAdded, isNew: !!f.isNew };
 }
 /* 远程岗位数据地址：与页面同目录的 openings.json（GitHub Pages 上可直接访问） */
 const OPENINGS_URL = "./openings.json";
@@ -347,7 +394,13 @@ function loadOpenings() {
   if (!raw) return [];
   try { const p = JSON.parse(raw); return Array.isArray(p) ? p.map(mkOpening) : []; } catch { return []; }
 }
-/* 拉取远程 openings.json；若版本更新则用“远程推荐 + 用户手动新增项”合并覆盖 */
+/* 岗位去重键：公司+岗位 */
+function openingKey(o) { return `${String(o.company || "").trim()}|${String(o.post || "").trim()}`; }
+/*
+ * 拉取远程 openings.json —— 纯追加合并，绝不覆盖已有岗位。
+ * 规则：本地现有岗位（含内置推荐、每日已追加、用户手动新增）全部保留；
+ *      只把远程里“本地还没有的”新岗位追加到末尾，并标记 isNew 显示“新”角标。
+ */
 async function fetchRemoteOpenings() {
   try {
     const res = await fetch(`${OPENINGS_URL}?t=${Date.now()}`, { cache: "no-store" });
@@ -355,14 +408,19 @@ async function fetchRemoteOpenings() {
     const data = await res.json();
     const remote = Array.isArray(data.openings) ? data.openings : (Array.isArray(data) ? data : null);
     if (!remote) return;
+    const seen = new Set(openingRecords.map(openingKey));
+    let added = 0;
+    remote.forEach((r) => {
+      if (!r || !r.company || !r.post) return;
+      const k = openingKey(r);
+      if (seen.has(k)) return;      // 已有则跳过，保留原有，不覆盖
+      seen.add(k);
+      openingRecords.push(mkOpening({ ...r, isNew: true }));
+      added++;
+    });
     const remoteVer = data.version || data.updatedAt || String(remote.length);
-    const cachedVer = localStorage.getItem(OPENING_REMOTE_VER_KEY);
-    if (remoteVer === cachedVer) return; // 无更新，不动
-    const userItems = openingRecords.filter((o) => o.userAdded);
-    openingRecords = [...remote.map(mkOpening), ...userItems];
     localStorage.setItem(OPENING_REMOTE_VER_KEY, remoteVer);
-    saveOpenings();
-    renderOpenings();
+    if (added > 0) { saveOpenings(); renderOpenings(); }
   } catch (e) {
     /* 离线或本地直接打开 file:// 时 fetch 可能失败，忽略，继续用本地数据 */
   }
@@ -375,6 +433,25 @@ async function resetOpenings() {
   localStorage.setItem(OPENING_VER_KEY, OPENING_SEED_VERSION);
   renderOpenings();
   // 再尝试拉取云端最新（成功会覆盖为最新推荐）
+  localStorage.removeItem(OPENING_REMOTE_VER_KEY);
+  await fetchRemoteOpenings();
+}
+/*
+ * 拉取最新岗位（纯追加，不覆盖、不删除任何已有岗位）：
+ *  1) 把内置 seed 里“本地还没有的”补进来（防止早期版本缺失）
+ *  2) 再拉云端 openings.json 追加新岗位
+ */
+async function pullLatestOpenings() {
+  const seen = new Set(openingRecords.map(openingKey));
+  let added = 0;
+  OPENING_SEED.forEach((s) => {
+    const k = openingKey(s);
+    if (seen.has(k)) return;
+    seen.add(k);
+    openingRecords.push(mkOpening(s));
+    added++;
+  });
+  if (added > 0) { saveOpenings(); renderOpenings(); }
   localStorage.removeItem(OPENING_REMOTE_VER_KEY);
   await fetchRemoteOpenings();
 }
@@ -397,6 +474,7 @@ function renderOpenings() {
           <span class="opening-company">${esc(it.company)}</span>
           <span class="opening-post">${esc(it.post)}</span>
           <span class="badge ${it.status}">${label}</span>
+          ${it.isNew ? `<span class="badge new">新</span>` : ""}
           ${it.sector ? `<span class="badge sector">${esc(it.sector)}</span>` : ""}
         </div>
         <div class="opening-meta">${it.base ? "📍 " + esc(it.base) : ""}${it.channel ? " ｜ " + esc(it.channel) : ""}</div>
@@ -438,7 +516,7 @@ function loadReviews() {
     return Array.isArray(p) ? p.map(mkReview) : [];
   } catch { return []; }
 }
-function saveReviews() { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRecords)); }
+function saveReviews() { localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRecords)); if (cloudEnabled()) cloudSave(CLOUD_TABLE.reviews, REVIEW_KEY, reviewRecords); }
 function reviewTime(iso) { const d = new Date(iso); return Number.isNaN(d.getTime()) ? "" : new Intl.DateTimeFormat("zh-CN", { month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" }).format(d); }
 function reviewPreview(r) { const s = [r.reviewRemark, r.interviewQues, r.askQues, r.selfIntro].find((v) => String(v || "").trim()); return s ? String(s).trim().replace(/\s+/g, " ").slice(0, 80) : "点击查看这条复盘的详细内容。"; }
 function reviewTitle(r, i) { const s = [r.title, r.reviewRemark, r.interviewQues, r.selfIntro].find((v) => String(v || "").trim()); return s ? String(s).trim().replace(/\s+/g, " ").slice(0, 26) : `复盘记录 ${i + 1}`; }
@@ -564,7 +642,7 @@ function bind() {
   $("openOpeningBtn").addEventListener("click", () => { $("openingForm").reset(); $("opStatus").value = "open"; openModal("openingModal"); setTimeout(() => $("opCompany").focus(), 0); });
   $("openingClose").addEventListener("click", () => closeModal("openingModal"));
   $("openingCancel").addEventListener("click", () => closeModal("openingModal"));
-  $("resetOpeningsBtn").addEventListener("click", () => openConfirm({ title: "恢复推荐清单", desc: "会用默认 20 家推荐覆盖当前列表。", msg: "确定恢复默认推荐清单吗？", highlight: "会覆盖你手动增删的岗位", onOk: resetOpenings }));
+  $("resetOpeningsBtn").addEventListener("click", () => pullLatestOpenings());
   $("openingList").addEventListener("click", (e) => {
     const del = e.target.closest(".del-opening"); if (!del) return;
     const r = openingById(del.dataset.id);
@@ -617,6 +695,122 @@ function bind() {
   });
 }
 
+/* ================= 登录 / 云同步流程 ================= */
+let authMode = "login"; // login | signup
+
+function updateAccountBar() {
+  const badge = $("cloudBadge"), who = $("whoami"), loginBtn = $("loginBtn"), logoutBtn = $("logoutBtn");
+  if (!badge) return;
+  if (!cloudReady) {
+    badge.textContent = "本地模式"; badge.className = "cloud-badge off";
+    who.textContent = ""; loginBtn.classList.add("hidden"); logoutBtn.classList.add("hidden");
+    return;
+  }
+  if (currentUser) {
+    badge.textContent = "已云端同步"; badge.className = "cloud-badge on";
+    who.textContent = currentUser.email || "";
+    loginBtn.classList.add("hidden"); logoutBtn.classList.remove("hidden");
+  } else {
+    badge.textContent = "未登录（本地）"; badge.className = "cloud-badge off";
+    who.textContent = ""; loginBtn.classList.remove("hidden"); logoutBtn.classList.add("hidden");
+  }
+}
+
+function setAuthMode(mode) {
+  authMode = mode;
+  $("authTitle").textContent = mode === "signup" ? "注册" : "登录";
+  $("authSubmit").textContent = mode === "signup" ? "注册" : "登录";
+  $("authSwitch").innerHTML = mode === "signup"
+    ? '已有账号？<a id="authToggle">去登录</a>'
+    : '还没有账号？<a id="authToggle">注册一个</a>';
+  $("authToggle").addEventListener("click", () => setAuthMode(mode === "signup" ? "login" : "signup"));
+  const msg = $("authMsg"); msg.textContent = ""; msg.className = "auth-msg";
+}
+
+function openAuthModal() { setAuthMode("login"); $("authEmail").value = ""; $("authPassword").value = ""; openModal("authModal"); setTimeout(() => $("authEmail").focus(), 0); }
+function closeAuthModal() { closeModal("authModal"); }
+
+async function handleAuthSubmit(e) {
+  e.preventDefault();
+  const email = $("authEmail").value.trim();
+  const password = $("authPassword").value;
+  const msg = $("authMsg");
+  if (!email || password.length < 6) { msg.textContent = "请输入邮箱和至少 6 位密码。"; msg.className = "auth-msg err"; return; }
+  msg.textContent = "处理中…"; msg.className = "auth-msg";
+  try {
+    if (authMode === "signup") {
+      const { error } = await sb.auth.signUp({ email, password });
+      if (error) throw error;
+      msg.textContent = "注册成功。若开启了邮箱验证，请查收邮件后再登录。"; msg.className = "auth-msg ok";
+      setAuthMode("login");
+      return;
+    }
+    const { error } = await sb.auth.signInWithPassword({ email, password });
+    if (error) throw error;
+    msg.textContent = "登录成功。"; msg.className = "auth-msg ok";
+    closeAuthModal();
+  } catch (err) {
+    msg.textContent = "失败：" + (err && err.message ? err.message : "请重试"); msg.className = "auth-msg err";
+  }
+}
+
+async function handleLogout() {
+  if (sb) await sb.auth.signOut();
+}
+
+/* 登录后：把云端三类数据拉下来覆盖内存与本地并重渲染。
+ * 若云端为空而本地有数据 → 视为首次登录，把本地数据迁移上云。 */
+async function syncPullAll() {
+  if (!cloudEnabled()) return;
+  const [cOffers, cRem, cRev] = await Promise.all([
+    cloudLoad(CLOUD_TABLE.offers, OFFER_KEY),
+    cloudLoad(CLOUD_TABLE.reminders, REMINDER_KEY),
+    cloudLoad(CLOUD_TABLE.reviews, REVIEW_KEY),
+  ]);
+  const cloudEmpty = (!cOffers || !cOffers.length) && (!cRem || !cRem.length) && (!cRev || !cRev.length);
+  const localHas = offerData.length || reminderRecords.length || reviewRecords.length;
+  if (cloudEmpty && localHas) {
+    // 首次登录：本地 → 云端
+    await Promise.all([
+      cloudSave(CLOUD_TABLE.offers, OFFER_KEY, offerData),
+      cloudSave(CLOUD_TABLE.reminders, REMINDER_KEY, reminderRecords),
+      cloudSave(CLOUD_TABLE.reviews, REVIEW_KEY, reviewRecords),
+    ]);
+  } else {
+    // 云端 → 内存/本地
+    offerData = (cOffers || []).map(normalizeOffer);
+    reminderRecords = cRem || [];
+    reviewRecords = (cRev || []).map(mkReview);
+    localStorage.setItem(OFFER_KEY, JSON.stringify(offerData));
+    localStorage.setItem(REMINDER_KEY, JSON.stringify(reminderRecords));
+    localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRecords));
+  }
+  renderTables(); renderReminders(); renderCalendar(); renderReviews();
+}
+
+async function setupAuth() {
+  if (!initSupabase()) { updateAccountBar(); return; }
+  $("loginBtn").addEventListener("click", openAuthModal);
+  $("logoutBtn").addEventListener("click", handleLogout);
+  $("authClose").addEventListener("click", closeAuthModal);
+  $("authCancel").addEventListener("click", closeAuthModal);
+  $("authForm").addEventListener("submit", handleAuthSubmit);
+  $("authModal").addEventListener("click", (e) => { if (e.target.id === "authModal") closeAuthModal(); });
+
+  // 恢复已有会话
+  const { data } = await sb.auth.getSession();
+  currentUser = data && data.session ? data.session.user : null;
+  updateAccountBar();
+  if (currentUser) await syncPullAll();
+
+  // 监听登录态变化
+  sb.auth.onAuthStateChange(async (_event, session) => {
+    currentUser = session ? session.user : null;
+    updateAccountBar();
+    if (currentUser) await syncPullAll();
+  });
+}
+
 /* ================= 初始化 ================= */
 initMonth();
 fillSectorSelect();
@@ -630,5 +824,8 @@ openingRecords = loadOpenings();
 renderOpenings();
 resetOfferForm();
 bind();
-/* 打开页面后异步拉取云端最新岗位（有更新则自动刷新推荐栏） */
-fetchRemoteOpenings();
+/* 打开页面后自动补齐岗位（追加式，不覆盖/不删除已有）：
+ * 先用内置 seed 补齐（file:// 直接打开也能生效），再尝试拉云端 openings.json。 */
+pullLatestOpenings();
+/* 初始化登录 / 云同步（未配置 Supabase 时自动退回本地模式） */
+setupAuth();

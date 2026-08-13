@@ -52,6 +52,19 @@
       .masthead .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 0.02em; color: var(--accent); margin-bottom: 8px; }
       .masthead h1 { font-size: clamp(30px, 4.4vw, 52px); font-weight: 700; letter-spacing: -0.03em; line-height: 1.06; color: var(--ink); }
       .masthead p { margin-top: 12px; font-size: 17px; color: var(--ink-3); font-weight: 400; }
+      .account-bar { margin-top: 16px; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--ink-3); }
+      .account-bar .who { font-weight: 500; color: var(--ink-2); }
+      .cloud-badge { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 980px; }
+      .cloud-badge.on { background: var(--green-soft); color: #1c7a34; }
+      .cloud-badge.off { background: var(--panel-soft); color: var(--ink-4); }
+      .auth-fields { display: grid; gap: 12px; }
+      .auth-fields input { width: 100%; font-family: var(--sf); font-size: 14px; color: var(--ink); background: var(--bg-elevated); border: 1px solid var(--hairline); border-radius: var(--radius-sm); padding: 10px 12px; }
+      .auth-fields input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+      .auth-msg { font-size: 13px; margin-top: 4px; min-height: 18px; }
+      .auth-msg.err { color: var(--red); }
+      .auth-msg.ok { color: var(--green); }
+      .auth-switch { font-size: 13px; color: var(--ink-3); text-align: center; margin-top: 14px; }
+      .auth-switch a { color: var(--accent); cursor: pointer; text-decoration: none; }
 
       .panel { background: var(--panel); border: 1px solid var(--hairline-soft); border-radius: var(--radius-lg); box-shadow: var(--shadow); overflow: hidden; }
       .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 18px 22px; border-bottom: 1px solid var(--hairline-soft); }
@@ -137,6 +150,7 @@
       .badge.sector { background: var(--panel-soft); color: var(--ink-3); }
       .badge.open { background: var(--green-soft); color: #1c7a34; }
       .badge.soon { background: var(--orange-soft); color: #a15c00; }
+      .badge.new { background: var(--accent); color: #fff; }
       .badge.limit { background: rgba(94,92,230,0.12); color: #4b49c4; }
       .opening-meta { font-size: 12px; color: var(--ink-4); margin-bottom: 4px; }
       .opening-limit { font-size: 12px; color: #4b49c4; margin-bottom: 4px; font-weight: 500; }
@@ -218,6 +232,12 @@
         <div class="eyebrow">AUTUMN RECRUITMENT · 2027</div>
         <h1>27届校招投递 Track</h1>
         <p>日程、提醒、目标岗位与复盘，一处掌控。</p>
+        <div class="account-bar" id="accountBar">
+          <span class="cloud-badge off" id="cloudBadge">本地模式</span>
+          <span class="who" id="whoami"></span>
+          <button type="button" class="btn btn-ghost btn-sm hidden" id="loginBtn">登录 / 注册</button>
+          <button type="button" class="btn btn-ghost btn-sm hidden" id="logoutBtn">退出登录</button>
+        </div>
       </header>
 
       <section class="grid-top">
@@ -257,11 +277,11 @@
           <div class="panel-body">
             <div class="openings-toolbar">
               <span class="panel-sub" id="openingsMeta"></span>
-              <button type="button" class="btn btn-quiet btn-sm" id="resetOpeningsBtn">恢复推荐清单</button>
+              <button type="button" class="btn btn-quiet btn-sm" id="resetOpeningsBtn">拉取最新岗位</button>
             </div>
             <div class="openings-body">
               <div id="openingList"></div>
-              <div id="openingEmpty" class="opening-empty hidden">暂无岗位，点“新增岗位”添加，或“恢复推荐清单”。</div>
+              <div id="openingEmpty" class="opening-empty hidden">暂无岗位，点“新增岗位”添加，或“拉取最新岗位”。</div>
             </div>
           </div>
         </div>
@@ -454,6 +474,32 @@
       </div>
     </div>
 
+    <!-- 登录 / 注册弹窗 -->
+    <div class="modal" id="authModal" aria-hidden="true">
+      <div class="modal-card narrow" role="dialog" aria-modal="true">
+        <div class="modal-head">
+          <div><h2 id="authTitle">登录</h2><p id="authSub">登录后，投递 / 提醒 / 复盘会云端同步，跨设备可见，且只有你自己能看到。</p></div>
+          <button type="button" class="modal-close" id="authClose">×</button>
+        </div>
+        <div class="modal-body">
+          <form id="authForm">
+            <div class="auth-fields">
+              <input type="email" id="authEmail" placeholder="邮箱" autocomplete="email" required />
+              <input type="password" id="authPassword" placeholder="密码（至少 6 位）" autocomplete="current-password" required />
+            </div>
+            <div class="auth-msg" id="authMsg"></div>
+            <div class="modal-actions">
+              <button type="button" class="btn btn-ghost" id="authCancel">取消</button>
+              <button type="submit" class="btn btn-primary" id="authSubmit">登录</button>
+            </div>
+            <div class="auth-switch" id="authSwitch">还没有账号？<a id="authToggle">注册一个</a></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./config.js"></script>
     <script src="./job-board.js"></script>
   </body>
 </html>
