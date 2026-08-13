@@ -1,0 +1,5 @@
+# 工具与临时文件，不提交
+.tools/
+*.zip
+node_modules/
+.DS_Store

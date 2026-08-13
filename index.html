@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>27届校招投递 Track</title>
+    <style>
+      :root {
+        --bg: #fbfbfd;
+        --bg-elevated: #ffffff;
+        --panel: #ffffff;
+        --panel-soft: #f5f5f7;
+        --hairline: #d2d2d7;
+        --hairline-soft: #e8e8ed;
+        --ink: #1d1d1f;
+        --ink-2: #424245;
+        --ink-3: #6e6e73;
+        --ink-4: #86868b;
+        --accent: #0071e3;
+        --accent-press: #0077ed;
+        --accent-soft: rgba(0, 113, 227, 0.1);
+        --green: #34c759;
+        --green-soft: rgba(52, 199, 89, 0.14);
+        --orange: #ff9500;
+        --orange-soft: rgba(255, 149, 0, 0.16);
+        --red: #ff3b30;
+        --red-soft: rgba(255, 59, 48, 0.12);
+        --purple: #5e5ce6;
+        --radius-lg: 20px;
+        --radius-md: 14px;
+        --radius-sm: 10px;
+        --shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+        --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.1);
+        --sf: -apple-system, BlinkMacSystemFont, "SF Pro Display",
+          "SF Pro Text", "Helvetica Neue", "PingFang SC",
+          "Microsoft YaHei", sans-serif;
+      }
+
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+      body {
+        min-height: 100vh;
+        font-family: var(--sf);
+        color: var(--ink);
+        background: var(--bg);
+        letter-spacing: -0.01em;
+        padding: 0 22px 72px;
+      }
+      .wrap { max-width: 1180px; margin: 0 auto; }
+
+      .masthead { padding: 54px 0 30px; text-align: center; }
+      .masthead .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 0.02em; color: var(--accent); margin-bottom: 8px; }
+      .masthead h1 { font-size: clamp(30px, 4.4vw, 52px); font-weight: 700; letter-spacing: -0.03em; line-height: 1.06; color: var(--ink); }
+      .masthead p { margin-top: 12px; font-size: 17px; color: var(--ink-3); font-weight: 400; }
+      .account-bar { margin-top: 16px; display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; font-size: 13px; color: var(--ink-3); }
+      .account-bar .who { font-weight: 500; color: var(--ink-2); }
+      .cloud-badge { font-size: 11px; font-weight: 600; padding: 3px 10px; border-radius: 980px; }
+      .cloud-badge.on { background: var(--green-soft); color: #1c7a34; }
+      .cloud-badge.off { background: var(--panel-soft); color: var(--ink-4); }
+      .auth-fields { display: grid; gap: 12px; }
+      .auth-fields input { width: 100%; font-family: var(--sf); font-size: 14px; color: var(--ink); background: var(--bg-elevated); border: 1px solid var(--hairline); border-radius: var(--radius-sm); padding: 10px 12px; }
+      .auth-fields input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+      .auth-msg { font-size: 13px; margin-top: 4px; min-height: 18px; }
+      .auth-msg.err { color: var(--red); }
+      .auth-msg.ok { color: var(--green); }
+      .auth-switch { font-size: 13px; color: var(--ink-3); text-align: center; margin-top: 14px; }
+      .auth-switch a { color: var(--accent); cursor: pointer; text-decoration: none; }
+
+      .panel { background: var(--panel); border: 1px solid var(--hairline-soft); border-radius: var(--radius-lg); box-shadow: var(--shadow); overflow: hidden; }
+      .panel-head { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: 18px 22px; border-bottom: 1px solid var(--hairline-soft); }
+      .panel-title { display: flex; align-items: center; gap: 9px; font-size: 18px; font-weight: 600; letter-spacing: -0.02em; color: var(--ink); }
+      .panel-title .dot { width: 9px; height: 9px; border-radius: 50%; background: var(--accent); }
+      .dot.green { background: var(--green); }
+      .dot.orange { background: var(--orange); }
+      .dot.purple { background: var(--purple); }
+      .dot.red { background: var(--red); }
+      .dot.gray { background: var(--ink-4); }
+      .panel-sub { font-size: 12.5px; color: var(--ink-4); font-weight: 400; }
+      .panel-body { padding: 22px; }
+      .panel-body.flush { padding: 0; }
+
+      .btn {
+        display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+        font-family: var(--sf); font-size: 14px; font-weight: 500; letter-spacing: -0.01em;
+        border: 0; border-radius: 980px; padding: 8px 17px; cursor: pointer;
+        transition: background 0.2s ease, color 0.2s ease, transform 0.1s ease, border-color 0.2s ease;
+        text-decoration: none;
+      }
+      .btn:active { transform: scale(0.97); }
+      .btn-primary { background: var(--accent); color: #fff; }
+      .btn-primary:hover { background: var(--accent-press); color: #fff; }
+      /* 透明描边按钮：尺寸/形状与 .btn 完全一致，仅透明底+边框 */
+      .btn-outline { background: transparent; color: var(--ink-2); border: 1px solid var(--hairline); }
+      .btn-outline:hover { background: var(--panel-soft); color: var(--ink); }
+      .btn-outline.danger { color: var(--red); border-color: rgba(255,59,48,0.4); }
+      .btn-outline.danger:hover { background: var(--red-soft); color: var(--red); }
+      .btn-ghost { background: var(--panel-soft); color: var(--ink); }
+      .btn-ghost:hover { background: #ebebef; }
+      .btn-quiet { background: transparent; color: var(--accent); padding: 8px 12px; }
+      .btn-quiet:hover { background: var(--accent-soft); }
+      .btn-danger-quiet { background: transparent; color: var(--red); padding: 8px 12px; }
+      .btn-danger-quiet:hover { background: var(--red-soft); }
+      .btn-sm { font-size: 12.5px; padding: 6px 13px; }
+
+      .grid-top { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 22px; align-items: start; margin-bottom: 22px; }
+
+      .cal-toolbar { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 14px; }
+      .cal-select { font-family: var(--sf); font-size: 14px; font-weight: 500; color: var(--ink); background: var(--panel-soft); border: 1px solid var(--hairline-soft); border-radius: var(--radius-sm); padding: 7px 12px; cursor: pointer; }
+      .calendar { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+      .cal-head { text-align: center; font-size: 11px; font-weight: 600; color: var(--ink-4); padding: 4px 0 8px; }
+      .cal-day { min-height: 46px; border-radius: var(--radius-sm); background: var(--panel-soft); padding: 5px; font-size: 12px; font-weight: 500; color: var(--ink-2); position: relative; cursor: pointer; transition: background 0.15s ease, transform 0.12s ease; border: 1px solid transparent; }
+      .cal-day:hover { background: #ececf0; transform: translateY(-1px); }
+      .cal-day.muted { background: transparent; cursor: default; }
+      .cal-day.muted:hover { transform: none; }
+      .cal-day.today { border-color: var(--accent); background: var(--accent-soft); }
+      .cal-day.today .num { color: var(--accent); font-weight: 700; }
+      .cal-day .num { display: block; }
+      /* 日历角标：空心圆圈+数字 */
+      .cal-rings { display: flex; gap: 4px; margin-top: 4px; flex-wrap: wrap; }
+      .cal-ring { display: inline-flex; align-items: center; justify-content: center; width: 18px; height: 18px; border-radius: 50%; border: 1.5px solid; background: transparent; font-size: 10px; font-weight: 700; line-height: 1; }
+      .cal-ring.green { border-color: #34c759; color: #1c7a34; }
+      .cal-ring.red { border-color: #ff3b30; color: #d70015; }
+      .cal-legend { display: flex; gap: 16px; justify-content: center; margin-top: 14px; font-size: 12px; color: var(--ink-3); }
+      .cal-legend span { display: inline-flex; align-items: center; gap: 6px; }
+      .legend-ring { width: 14px; height: 14px; border-radius: 50%; border: 1.5px solid; background: transparent; display: inline-block; }
+      .legend-ring.green { border-color: #34c759; }
+      .legend-ring.red { border-color: #ff3b30; }
+      /* 日期详情弹窗块 */
+      .day-block { margin-bottom: 16px; }
+      .day-block:last-child { margin-bottom: 0; }
+      .day-block-title { font-size: 13px; font-weight: 700; margin-bottom: 8px; color: var(--ink); }
+      .day-block-title.red { color: #d70015; }
+      .day-block-title.green { color: #1c7a34; }
+      .day-job { display: flex; justify-content: space-between; gap: 10px; align-items: flex-start; padding: 8px 10px; border-radius: 10px; background: var(--panel-soft); margin-bottom: 6px; }
+      .day-job:last-child { margin-bottom: 0; }
+      .day-job-main { min-width: 0; }
+      .day-job-company { font-size: 13px; font-weight: 600; color: var(--ink); }
+      .day-job-post { font-size: 11.5px; color: var(--ink-4); margin-top: 2px; word-break: break-word; }
+      .day-job a { font-size: 12px; white-space: nowrap; }
+      .day-reminder { display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 8px 10px; border-radius: 10px; background: var(--panel-soft); margin-bottom: 6px; }
+      .day-reminder-text { font-size: 13px; color: var(--ink); }
+      .day-reminder.done .day-reminder-text { text-decoration: line-through; color: var(--ink-4); }
+      .day-empty { text-align: center; color: var(--ink-4); font-size: 13px; padding: 20px 0; }
+
+      .reminders { margin-top: 18px; border-top: 1px solid var(--hairline-soft); padding-top: 16px; }
+      .reminders-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+      .reminders-head h3 { font-size: 14px; font-weight: 600; color: var(--ink); }
+      .reminder-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; border-radius: var(--radius-sm); background: var(--panel-soft); margin-bottom: 8px; }
+      .reminder-check { appearance: none; -webkit-appearance: none; width: 18px; height: 18px; border-radius: 50%; border: 1.6px solid var(--hairline); margin-top: 1px; cursor: pointer; flex: 0 0 auto; position: relative; transition: background 0.15s, border-color 0.15s; }
+      .reminder-check:checked { background: var(--green); border-color: var(--green); }
+      .reminder-check:checked::after { content: "✓"; position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; color: #fff; font-size: 11px; font-weight: 700; }
+      .reminder-main { flex: 1 1 auto; min-width: 0; }
+      .reminder-text { font-size: 13.5px; color: var(--ink); line-height: 1.4; word-break: break-word; }
+      .reminder-item.done .reminder-text { color: var(--ink-4); text-decoration: line-through; }
+      .reminder-date { font-size: 11.5px; color: var(--ink-4); margin-top: 2px; }
+      .reminder-actions { display: flex; gap: 2px; flex: 0 0 auto; }
+      .icon-btn { border: 0; background: transparent; color: var(--ink-4); font-size: 13px; cursor: pointer; padding: 3px 6px; border-radius: 7px; transition: background 0.15s, color 0.15s; }
+      .icon-btn:hover { background: #e5e5ea; color: var(--ink); }
+      .icon-btn.del:hover { background: var(--red-soft); color: var(--red); }
+      .reminders-empty { text-align: center; color: var(--ink-4); font-size: 12.5px; padding: 14px 0; }
+
+      .openings-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; }
+      .openings-body { max-height: 520px; overflow-y: auto; padding-right: 4px; }
+      .opening-card { display: flex; gap: 13px; align-items: flex-start; padding: 14px; margin-bottom: 10px; border: 1px solid var(--hairline-soft); border-radius: var(--radius-md); background: var(--bg-elevated); transition: box-shadow 0.2s ease, transform 0.15s ease; }
+      .opening-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
+      .opening-card:last-child { margin-bottom: 0; }
+      .opening-index { flex: 0 0 auto; width: 26px; height: 26px; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 12px; color: var(--ink-3); background: var(--panel-soft); }
+      .opening-main { flex: 1 1 auto; min-width: 0; }
+      .opening-title-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; margin-bottom: 4px; }
+      .opening-company { font-size: 15px; font-weight: 600; color: var(--ink); }
+      .opening-post { font-size: 13px; font-weight: 500; color: var(--accent); }
+      .badge { font-size: 11px; font-weight: 500; padding: 2px 9px; border-radius: 980px; }
+      .badge.sector { background: var(--panel-soft); color: var(--ink-3); }
+      .badge.open { background: var(--green-soft); color: #1c7a34; }
+      .badge.soon { background: var(--orange-soft); color: #a15c00; }
+      .badge.new { background: var(--accent); color: #fff; }
+      .badge.daily { background: linear-gradient(135deg, #ff3b30, #ff9500); color: #fff; }
+      .badge.limit { background: rgba(94,92,230,0.12); color: #4b49c4; }
+      .opening-meta { font-size: 12px; color: var(--ink-4); margin-bottom: 4px; }
+      .opening-limit { font-size: 12px; color: #4b49c4; margin-bottom: 4px; font-weight: 500; }
+      .opening-reason { font-size: 12.5px; color: var(--ink-2); line-height: 1.55; }
+      .opening-actions { flex: 0 0 auto; display: flex; flex-direction: column; gap: 6px; }
+      .opening-empty, .table-empty { text-align: center; color: var(--ink-4); font-size: 13px; padding: 26px 10px; }
+
+      .filter-panel { margin-bottom: 22px; }
+      .filter-grid { display: grid; grid-template-columns: repeat(5, 1fr) auto; gap: 14px; align-items: end; }
+      .field label { display: block; font-size: 12px; font-weight: 500; color: var(--ink-3); margin-bottom: 6px; }
+      .field select, .form-field input, .form-field select, .form-field textarea { width: 100%; font-family: var(--sf); font-size: 14px; color: var(--ink); background: var(--bg-elevated); border: 1px solid var(--hairline); border-radius: var(--radius-sm); padding: 9px 12px; transition: border-color 0.15s, box-shadow 0.15s; }
+      .field select:focus, .form-field input:focus, .form-field select:focus, .form-field textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+      .filter-summary { margin-top: 12px; font-size: 12.5px; color: var(--ink-4); }
+
+      .grid-tables { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; align-items: start; }
+      .col-head-left { display: flex; align-items: center; gap: 9px; min-width: 0; }
+      .col-sector-select { font-family: var(--sf); font-size: 15px; font-weight: 600; letter-spacing: -0.02em; color: var(--ink); background: transparent; border: 0; border-radius: 8px; padding: 2px 22px 2px 4px; cursor: pointer; max-width: 150px; appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%2386868b' d='M5 6L0 0h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 4px center; }
+      .col-sector-select:hover { background-color: var(--panel-soft); }
+      .col-sector-select:focus { outline: none; box-shadow: 0 0 0 3px var(--accent-soft); }
+      table { width: 100%; border-collapse: collapse; }
+      .mini-table th { text-align: left; font-size: 11px; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase; color: var(--ink-4); padding: 12px 16px; border-bottom: 1px solid var(--hairline-soft); background: var(--panel-soft); }
+      .mini-table td { font-size: 13px; color: var(--ink-2); padding: 12px 16px; border-bottom: 1px solid var(--hairline-soft); vertical-align: top; }
+      .mini-table tr:last-child td { border-bottom: 0; }
+      .mini-table tbody tr:hover { background: var(--panel-soft); }
+      .cell-company { font-weight: 600; color: var(--ink); }
+      .cell-sub { font-size: 11.5px; color: var(--ink-4); margin-top: 2px; }
+      .pill { display: inline-block; font-size: 11px; font-weight: 500; padding: 2px 8px; border-radius: 980px; }
+      .pri-高 { background: var(--red-soft); color: #c9271d; }
+      .pri-中 { background: var(--orange-soft); color: #a15c00; }
+      .pri-低 { background: var(--green-soft); color: #1c7a34; }
+      .row-actions { display: flex; gap: 4px; margin-top: 8px; }
+
+      .review-grid { display: grid; gap: 12px; }
+      .review-card { text-align: left; width: 100%; border: 1px solid var(--hairline-soft); border-radius: var(--radius-md); background: var(--bg-elevated); padding: 16px 18px; cursor: pointer; font-family: var(--sf); transition: box-shadow 0.2s, transform 0.15s; }
+      .review-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-1px); }
+      .review-card-head { display: flex; justify-content: space-between; gap: 14px; margin-bottom: 6px; }
+      .review-card-title { font-size: 15px; font-weight: 600; color: var(--ink); }
+      .review-card-time { font-size: 12px; color: var(--ink-4); white-space: nowrap; }
+      .review-card-preview { font-size: 13px; color: var(--ink-3); line-height: 1.6; }
+      .review-empty { text-align: center; color: var(--ink-4); font-size: 13px; padding: 26px 10px; border: 1px dashed var(--hairline); border-radius: var(--radius-md); }
+
+      .modal { position: fixed; inset: 0; z-index: 100; display: flex; align-items: center; justify-content: center; padding: 22px; background: rgba(0, 0, 0, 0.32); backdrop-filter: blur(6px); opacity: 0; pointer-events: none; transition: opacity 0.22s ease; }
+      .modal.open { opacity: 1; pointer-events: auto; }
+      .modal-card { width: min(760px, 100%); max-height: calc(100vh - 44px); overflow: auto; background: var(--bg); border-radius: 22px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25); }
+      .modal-card.narrow { width: min(440px, 100%); }
+      .modal-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 14px; padding: 24px 26px 8px; }
+      .modal-head h2 { font-size: 21px; font-weight: 600; letter-spacing: -0.02em; }
+      .modal-head p { margin-top: 6px; font-size: 13.5px; color: var(--ink-3); }
+      .modal-close { width: 30px; height: 30px; border-radius: 50%; border: 0; background: var(--panel-soft); color: var(--ink-3); font-size: 16px; cursor: pointer; flex: 0 0 auto; }
+      .modal-close:hover { background: #e5e5ea; }
+      .modal-body { padding: 16px 26px 26px; }
+      .form-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 15px; }
+      .form-field.full { grid-column: 1 / -1; }
+      .form-field label { display: block; font-size: 12px; font-weight: 500; color: var(--ink-3); margin-bottom: 6px; }
+      .form-field textarea { resize: vertical; min-height: 70px; }
+      .modal-actions { display: flex; justify-content: flex-end; gap: 10px; margin-top: 20px; flex-wrap: wrap; }
+      .locked { background: var(--panel-soft) !important; color: var(--ink-3); }
+      .save-tip { color: var(--green); font-size: 13px; font-weight: 500; align-self: center; margin-right: auto; }
+      .confirm-text { font-size: 15px; color: var(--ink-2); line-height: 1.6; }
+      .confirm-highlight { display: inline-block; margin-top: 10px; padding: 7px 12px; border-radius: var(--radius-sm); background: var(--red-soft); color: #c9271d; font-weight: 600; font-size: 13.5px; }
+      .hidden { display: none !important; }
+
+      @media (max-width: 980px) {
+        .grid-top { grid-template-columns: 1fr; }
+        .grid-tables { grid-template-columns: 1fr; }
+        .filter-grid { grid-template-columns: repeat(2, 1fr); }
+      }
+      @media (max-width: 560px) {
+        body { padding: 0 14px 48px; }
+        .filter-grid { grid-template-columns: 1fr; }
+        .form-grid { grid-template-columns: 1fr; }
+        .masthead { padding: 40px 0 24px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="masthead">
+        <div class="eyebrow">AUTUMN RECRUITMENT · 2027</div>
+        <h1>27届校招投递 Track</h1>
+        <p>日程、提醒、目标岗位与复盘，一处掌控。</p>
+        <div class="account-bar" id="accountBar">
+          <span class="cloud-badge off" id="cloudBadge">本地模式</span>
+          <span class="who" id="whoami"></span>
+          <button type="button" class="btn btn-ghost btn-sm hidden" id="loginBtn">登录 / 注册</button>
+          <button type="button" class="btn btn-ghost btn-sm hidden" id="logoutBtn">退出登录</button>
+        </div>
+      </header>
+
+      <section class="grid-top">
+        <div class="panel">
+          <div class="panel-head">
+            <span class="panel-title"><span class="dot"></span>日程日历</span>
+          </div>
+          <div class="panel-body">
+            <div class="cal-toolbar">
+              <select id="monthSelect" class="cal-select"></select>
+            </div>
+            <div class="calendar" id="calendar">
+              <div class="cal-head">一</div>
+              <div class="cal-head">二</div>
+              <div class="cal-head">三</div>
+              <div class="cal-head">四</div>
+              <div class="cal-head">五</div>
+              <div class="cal-head">六</div>
+              <div class="cal-head">日</div>
+            </div>
+            <div class="cal-legend">
+              <span><span class="legend-ring green"></span>新增岗位</span>
+              <span><span class="legend-ring red"></span>投递截止</span>
+            </div>
+            <div class="reminders">
+              <div class="reminders-head">
+                <h3>提醒事项</h3>
+                <button type="button" class="btn btn-quiet btn-sm" id="openReminderBtn">＋ 添加</button>
+              </div>
+              <div id="reminderList"></div>
+              <div id="reminderEmpty" class="reminders-empty hidden">还没有提醒，点“添加”记下截止日期或待办。</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <div class="panel-head">
+            <span class="panel-title"><span class="dot red"></span>已开放秋招投递岗位</span>
+            <button type="button" class="btn btn-ghost btn-sm" id="openOpeningBtn">＋ 新增岗位</button>
+          </div>
+          <div class="panel-body">
+            <div class="openings-toolbar">
+              <span class="panel-sub" id="openingsMeta"></span>
+              <button type="button" class="btn btn-quiet btn-sm" id="resetOpeningsBtn">拉取最新岗位</button>
+            </div>
+            <div class="openings-body">
+              <div id="openingList"></div>
+              <div id="openingEmpty" class="opening-empty hidden">暂无岗位，点“新增岗位”添加，或“拉取最新岗位”。</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel filter-panel">
+        <div class="panel-head">
+          <span class="panel-title"><span class="dot gray"></span>投递筛选</span>
+          <button type="button" class="btn btn-quiet btn-sm" id="resetFiltersBtn">清空筛选</button>
+        </div>
+        <div class="panel-body">
+          <div class="filter-grid">
+            <div class="field"><label>公司</label><select id="companyFilter"></select></div>
+            <div class="field"><label>岗位</label><select id="postFilter"></select></div>
+            <div class="field"><label>流程进展</label><select id="processStageFilter"></select></div>
+            <div class="field"><label>Base</label><select id="baseFilter"></select></div>
+            <div class="field"><label>优先级</label><select id="priorityFilter"></select></div>
+          </div>
+          <div class="filter-summary" id="filterSummary"></div>
+        </div>
+      </section>
+
+      <section class="grid-tables">
+        <div class="panel">
+          <div class="panel-head">
+            <span class="col-head-left"><span class="dot" id="col1Dot"></span><select id="col1Sector" class="col-sector-select" aria-label="选择第一列行业"></select></span>
+            <button type="button" class="btn btn-ghost btn-sm open-offer" data-col="col1">＋ 新增</button>
+          </div>
+          <div class="panel-body flush">
+            <table class="mini-table" id="col1Table">
+              <thead><tr><th>公司 / 岗位</th><th>进展</th><th>优先级</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <span class="col-head-left"><span class="dot" id="col2Dot"></span><select id="col2Sector" class="col-sector-select" aria-label="选择第二列行业"></select></span>
+            <button type="button" class="btn btn-ghost btn-sm open-offer" data-col="col2">＋ 新增</button>
+          </div>
+          <div class="panel-body flush">
+            <table class="mini-table" id="col2Table">
+              <thead><tr><th>公司 / 岗位</th><th>进展</th><th>优先级</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="panel-head">
+            <span class="col-head-left"><span class="dot" id="col3Dot"></span><select id="col3Sector" class="col-sector-select" aria-label="选择第三列行业"></select></span>
+            <button type="button" class="btn btn-ghost btn-sm open-offer" data-col="col3">＋ 新增</button>
+          </div>
+          <div class="panel-body flush">
+            <table class="mini-table" id="col3Table">
+              <thead><tr><th>公司 / 岗位</th><th>进展</th><th>优先级</th></tr></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" style="margin-top: 22px;">
+        <div class="panel-head">
+          <span class="panel-title"><span class="dot"></span>面试复盘记录</span>
+          <button type="button" class="btn btn-ghost btn-sm" id="openReviewBtn">＋ 新增复盘</button>
+        </div>
+        <div class="panel-body">
+          <div id="reviewList" class="review-grid"></div>
+          <div id="reviewEmpty" class="review-empty hidden">还没有复盘记录，点“新增复盘”记录第一条。</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal" id="offerModal" aria-hidden="true">
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <div class="modal-head">
+          <div><h2 id="offerModalTitle">新增投递记录</h2><p id="offerModalSub">填写投递信息，提交后写入本地数据。</p></div>
+          <button type="button" class="modal-close" id="offerClose">×</button>
+        </div>
+        <div class="modal-body">
+          <form id="offerForm">
+            <input type="hidden" id="offerId" />
+            <div class="form-grid">
+              <div class="form-field"><label>公司名称</label><input type="text" id="companyInput" required /></div>
+              <div class="form-field"><label>岗位名称</label><input type="text" id="postInput" required /></div>
+              <div class="form-field"><label>所属行业</label><select id="typeInput"></select></div>
+              <div class="form-field"><label>考核日期</label><input type="date" id="processDateInput" required /></div>
+              <div class="form-field"><label>流程进展</label><select id="processStageInput" required><option>投递</option><option>测评</option><option>笔试</option><option>简历筛选</option><option>一面</option><option>二面</option><option>三面</option><option>HR面</option><option>Offer</option></select></div>
+              <div class="form-field"><label>投递日期</label><input type="date" id="sendDateInput" required /></div>
+              <div class="form-field"><label>最新进展</label><input type="text" id="latestInput" placeholder="如：待安排面试" /></div>
+              <div class="form-field"><label>Base 地址</label><input type="text" id="baseInput" required /></div>
+              <div class="form-field"><label>优先级</label><select id="priorityInput" required><option>高</option><option>中</option><option>低</option></select></div>
+              <div class="form-field full"><label>备注</label><textarea id="remarkInput" placeholder="项目亮点、内推信息或准备重点"></textarea></div>
+            </div>
+            <div class="modal-actions">
+              <button type="button" class="btn btn-ghost" id="offerCancel">取消</button>
+              <button type="submit" class="btn btn-primary" id="offerSave">新增投递记录</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="openingModal" aria-hidden="true">
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <div class="modal-head">
+          <div><h2>新增秋招岗位</h2><p>添加已开放/即将开放的目标岗位，保存到本地并支持增删。</p></div>
+          <button type="button" class="modal-close" id="openingClose">×</button>
+        </div>
+        <div class="modal-body">
+          <form id="openingForm">
+            <div class="form-grid">
+              <div class="form-field"><label>公司名称</label><input type="text" id="opCompany" required /></div>
+              <div class="form-field"><label>推荐岗位</label><input type="text" id="opPost" required /></div>
+              <div class="form-field"><label>行业 / 领域</label><input type="text" id="opSector" placeholder="如：信用卡运营 / 行业运营" /></div>
+              <div class="form-field"><label>Base 地点</label><input type="text" id="opBase" placeholder="如：深圳 / 上海" /></div>
+              <div class="form-field"><label>投递状态</label><select id="opStatus"><option value="open">已开放</option><option value="soon">即将开放</option></select></div>
+              <div class="form-field"><label>投递次数限制</label><input type="text" id="opLimit" placeholder="如：最多2个岗位 / 官网为准" /></div>
+              <div class="form-field"><label>投递截止日期（可选）</label><input type="date" id="opDeadline" /></div>
+              <div class="form-field"><label>投递渠道</label><input type="text" id="opChannel" placeholder="如：官网校招 / 内推" /></div>
+              <div class="form-field"><label>链接（可选）</label><input type="url" id="opLink" placeholder="https://" /></div>
+              <div class="form-field full"><label>匹配理由</label><textarea id="opReason" placeholder="为什么适合你（广告投放/信用卡运营/行业运营/西语/数字经济）"></textarea></div>
+            </div>
+            <div class="modal-actions">
+              <button type="button" class="btn btn-ghost" id="openingCancel">取消</button>
+              <button type="submit" class="btn btn-primary">新增岗位</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- 日期详情弹窗：点日历某天弹出 -->
+    <div class="modal" id="dayModal" aria-hidden="true">
+      <div class="modal-card narrow" role="dialog" aria-modal="true">
+        <div class="modal-head">
+          <div><h2 id="dayModalTitle">某月某日</h2><p id="dayModalSub">当天的投递截止与新增岗位。</p></div>
+          <div style="display:flex;align-items:center;gap:8px;">
+            <button type="button" class="btn btn-quiet btn-sm" id="dayAddReminderBtn">＋ 新增提醒</button>
+            <button type="button" class="modal-close" id="dayClose">×</button>
+          </div>
+        </div>
+        <div class="modal-body">
+          <div id="dayDeadlineBlock" class="day-block">
+            <h4 class="day-block-title red">🔴 投递截止</h4>
+            <div id="dayDeadlineList"></div>
+          </div>
+          <div id="dayNewBlock" class="day-block">
+            <h4 class="day-block-title green">🟢 新增岗位</h4>
+            <div id="dayNewList"></div>
+          </div>
+          <div id="dayReminderBlock" class="day-block">
+            <h4 class="day-block-title">📌 我的提醒</h4>
+            <div id="dayReminderList"></div>
+          </div>
+          <div id="dayEmpty" class="day-empty hidden">这一天暂无事项。可点右上角“新增提醒”。</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 手动新增提醒弹窗 -->
+    <div class="modal" id="reminderModal" aria-hidden="true">
+      <div class="modal-card narrow" role="dialog" aria-modal="true">
+        <div class="modal-head">
+          <div><h2 id="reminderModalTitle">新增提醒</h2><p>记录截止日期、笔试、面试等待办。</p></div>
+          <button type="button" class="modal-close" id="reminderClose">×</button>
+        </div>
+        <div class="modal-body">
+          <form id="reminderForm">
+            <input type="hidden" id="reminderId" />
+            <div class="form-field" style="margin-bottom: 15px;"><label>提醒内容</label><input type="text" id="reminderText" placeholder="如：字节笔试 / 提交简历" required /></div>
+            <div class="form-field"><label>日期</label><input type="date" id="reminderDate" /></div>
+            <div class="modal-actions">
+              <button type="button" class="btn btn-ghost" id="reminderCancel">取消</button>
+              <button type="submit" class="btn btn-primary" id="reminderSave">保存提醒</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="reviewModal" aria-hidden="true">
+      <div class="modal-card" role="dialog" aria-modal="true">
+        <div class="modal-head">
+          <div><h2 id="reviewModalTitle">面试复盘记录</h2><p id="reviewModalSub">记录自我介绍、问题复盘和改进点。</p></div>
+          <button type="button" class="modal-close" id="reviewClose">×</button>
+        </div>
+        <div class="modal-body">
+          <form id="reviewForm">
+            <input type="hidden" id="reviewId" />
+            <div class="form-field full" style="margin-bottom:15px;"><label>标题</label><input type="text" id="reviewTitle" placeholder="如：某公司一面复盘" /></div>
+            <div class="form-field full" style="margin-bottom:15px;"><label>自我介绍</label><textarea id="selfIntro" placeholder="自我介绍内容，可按岗位灵活调整…"></textarea></div>
+            <div class="form-field full" style="margin-bottom:15px;"><label>面试问题</label><textarea id="interviewQues" placeholder="被问到的技术/业务/情景题及答题思路…"></textarea></div>
+            <div class="form-field full" style="margin-bottom:15px;"><label>反问问题</label><textarea id="askQues" placeholder="准备反问面试官的问题…"></textarea></div>
+            <div class="form-field full"><label>备注</label><textarea id="reviewRemark" placeholder="面试感受、改进点、后续准备…"></textarea></div>
+            <div class="modal-actions">
+              <span id="reviewSaveTip" class="save-tip hidden">已保存</span>
+              <button type="button" class="btn btn-danger-quiet hidden" id="reviewDelete">删除记录</button>
+              <button type="button" class="btn btn-ghost" id="reviewCancel">取消</button>
+              <button type="submit" class="btn btn-primary">保存复盘</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal" id="confirmModal" aria-hidden="true">
+      <div class="modal-card narrow" role="dialog" aria-modal="true">
+        <div class="modal-head">
+          <div><h2 id="confirmTitle">确认删除</h2><p id="confirmDesc">删除后会立即从本地移除。</p></div>
+          <button type="button" class="modal-close" id="confirmClose">×</button>
+        </div>
+        <div class="modal-body">
+          <p class="confirm-text" id="confirmMsg">确定删除吗？<span class="confirm-highlight" id="confirmHighlight"></span></p>
+          <div class="modal-actions">
+            <button type="button" class="btn btn-ghost" id="confirmCancel">取消</button>
+            <button type="button" class="btn btn-primary" id="confirmOk">确认删除</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 登录 / 注册弹窗 -->
+    <div class="modal" id="authModal" aria-hidden="true">
+      <div class="modal-card narrow" role="dialog" aria-modal="true">
+        <div class="modal-head">
+          <div><h2 id="authTitle">登录</h2><p id="authSub">登录后，投递 / 提醒 / 复盘会云端同步，跨设备可见，且只有你自己能看到。</p></div>
+          <button type="button" class="modal-close" id="authClose">×</button>
+        </div>
+        <div class="modal-body">
+          <form id="authForm">
+            <div class="auth-fields">
+              <input type="email" id="authEmail" placeholder="邮箱" autocomplete="email" required />
+              <input type="password" id="authPassword" placeholder="密码（至少 6 位）" autocomplete="current-password" required />
+            </div>
+            <div class="auth-msg" id="authMsg"></div>
+            <div class="modal-actions">
+              <button type="button" class="btn btn-ghost" id="authCancel">取消</button>
+              <button type="submit" class="btn btn-primary" id="authSubmit">登录</button>
+            </div>
+            <div class="auth-switch" id="authSwitch">还没有账号？<a id="authToggle">注册一个</a></div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="./config.js"></script>
+    <script src="./job-board.js"></script>
+  </body>
+</html>
