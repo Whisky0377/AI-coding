@@ -6,7 +6,7 @@ const REVIEW_KEY = "interviewReview";
 const OPENING_KEY = "autumnOpenings";
 const OPENING_VER_KEY = "autumnOpeningsSeedVersion";
 const REMINDER_KEY = "trackReminders";
-const OPENING_SEED_VERSION = "2026-08-13";
+const OPENING_SEED_VERSION = "2026-08-17";
 
 /* ================= Supabase 云同步（可选，未配置则走本地模式） ================= */
 let sb = null;              // supabase client
@@ -74,6 +74,16 @@ const COLUMN_STORAGE_KEY = "trackColumnSectors";
  * apply_limit = 各企业秋招投递次数限制（来自公开信息，均建议以官网公告为准）。
  */
 const OPENING_SEED = [
+  { company: "携程 Trip.com", post: "用户运营 / 海外市场运营", sector: "互联网", base: "上海", status: "open", channel: "携程校园招聘官网", link: "https://careers.trip.com/campus", apply_limit: "以官网为准", addedDate: "2026-08-13", deadline: "", reason: "在线旅游龙头，海外运营需要语言能力，西语可切拉美市场，福利与晋升好。" },
+  { company: "爱奇艺", post: "内容运营 / 会员运营", sector: "互联网", base: "北京", status: "open", channel: "爱奇艺校园招聘官网", link: "https://careers.iqiyi.com", apply_limit: "以官网为准", addedDate: "2026-08-13", deadline: "", reason: "长视频平台，会员/内容运营，运营方法论通用，双非可投。" },
+  { company: "Shopee（东南亚电商）", post: "跨境运营 / 招商运营（GLP管培）", sector: "跨境电商", base: "深圳/上海", status: "open", channel: "Shopee 校园招聘官网", link: "https://careers.shopee.com", apply_limit: "以官网为准", addedDate: "2026-08-13", deadline: "", reason: "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。" },
+  { company: "联想 Lenovo", post: "市场与销售 / 管培生 Future Leaders", sector: "互联网", base: "北京/深圳/上海", status: "open", channel: "联想校园招聘官网", link: "https://talent.lenovo.com.cn", apply_limit: "网申8/5-11/13，岗位招满即止（以官网为准）", addedDate: "2026-08-17", deadline: "2026-11-13", reason: "27届已全面启动，含Future Leaders管培+市场销售，运营/市场方向对口，双非可投，网申截止11/13明确。" },
+  { company: "vivo", post: "用户运营 / 市场运营（蓝极星）", sector: "消费电子/出海", base: "深圳/东莞", status: "open", channel: "vivo校园招聘官网", link: "https://vivo.zhiye.com", apply_limit: "以官网为准", addedDate: "2026-08-17", deadline: "", reason: "27届蓝极星项目已开，手机出海海外市场运营需要语言能力，西语可切海外市场，双非量大。" },
+  { company: "网易游戏（互娱）", post: "游戏运营 / 市场 / 用户运营", sector: "游戏", base: "广州/杭州/上海", status: "open", channel: "网易游戏校园招聘官网", link: "https://game.campus.163.com", apply_limit: "以官网为准", addedDate: "2026-08-17", deadline: "", reason: "27届7/21启动，运营/市场/产品类年薪20-28万+房补餐补，福利极好；社区/发行运营方法论通用，广告投放经验可迁移。" },
+  { company: "平安银行（信用卡中心 / 汽车消费金融中心）", post: "信用卡中心培训生 / 运营培训生", sector: "消费金融", base: "上海/深圳/全国", status: "open", channel: "中国平安校园招聘官网（PAB营地计划）", link: "https://campus.pingan.com/", apply_limit: "网申2026-08-10至11-06，一般每人限投1-2个岗位（以官网为准）", addedDate: "2026-08-14", deadline: "2026-11-06", reason: "27届8月10日已启动网申；信用卡中心+汽车消费金融中心培训生做卡中心运营/风控/客户经营轮岗，与你信用卡产品运营、广告投放/效果营销经历高度对口，双非本硕友好、年薪17万+。" },
+  { company: "XTransfer", post: "跨境支付运营 / 客户运营（外贸B2B收付款）", sector: "金融科技/支付", base: "上海/深圳", status: "open", channel: "XTransfer 校园招聘官网（北森）", link: "https://xtransfer.zhiye.com/Campus", apply_limit: "以官网为准（网申/内推 6月15日-9月30日）", addedDate: "2026-08-15", deadline: "2026-09-30", reason: "27届秋招网申进行中；跨境B2B收付款平台，外贸客户覆盖拉美/西语区市场，西语+金融/支付实习双背景高度对口，广告投放与用户运营经验可迁移到获客与商户运营，双非友好。" },
+  { company: "OPPO", post: "海外运营 / 用户运营（销售服务类）", sector: "消费电子出海", base: "深圳/东莞/西安/海外", status: "open", channel: "OPPO 2027届校园招聘官网", link: "https://careers.oppo.com/university/oppo/campus", apply_limit: "每人最多申请2个岗位（以官网为准），招满即止", addedDate: "2026-08-15", deadline: "", reason: "27届全球校招进行中；OPPO在拉美/西语区有成熟出海业务，海外/用户运营岗与西语语言+运营背景强匹配，广告投放与信用卡产品运营经验可迁移到市场与用户增长。" },
+  { company: "淘宝闪购（阿里巴巴）", post: "用户运营 / AI产品运营 / 商品运营", sector: "互联网", base: "上海/杭州/北京", status: "open", channel: "淘宝闪购2027届校招官网（一站投递）", link: "https://talent.ele.me/campus/home?lang=zh", apply_limit: "阿里系每业务集团1次机会，最多投3个意向（以官网为准）", addedDate: "2026-08-16", deadline: "", reason: "饿了么升级为淘宝闪购后大量新增HC，27届8月已开放；用户运营/商品运营/AI产品运营与你产品运营+广告投放经历直接对口，属阿里独立业务线（与集团一站不同入口），双非可投。" },
   { company: "字节跳动", post: "行业运营 / 商业化运营（巨量引擎·抖音电商）", sector: "互联网", base: "北京/上海/深圳/杭州", status: "open", channel: "字节校园招聘官网", link: "https://jobs.bytedance.com/campus", apply_limit: "2027校招全年4次机会，年内2次，单次≤2岗（招满即止）", addedDate: "2026-08-13", deadline: "2027-05-31", reason: "27届8月3日已启动；你感兴趣的行业运营，广告投放+信用卡运营经历高度契合商业化运营，双非看重实习含金量。" },
   { company: "字节跳动", post: "用户运营 / 增长运营", sector: "互联网", base: "北京/杭州", status: "open", channel: "字节校园招聘官网", link: "https://jobs.bytedance.com/campus", apply_limit: "同上：全年4次，年内2次，单次≤2岗", addedDate: "2026-08-13", deadline: "2027-05-31", reason: "27届已开；用户增长/促活运营，广告投放的数据与转化经验直接可迁移，双非友好。" },
   { company: "阿里巴巴", post: "运营 / 商家运营 / 用户运营", sector: "互联网", base: "杭州/北京/上海/成都", status: "open", channel: "阿里校园招聘官网（一站投递）", link: "https://talent.alibaba.com/campus/home", apply_limit: "每个业务集团1次机会，最多选2个意向", addedDate: "2026-08-13", deadline: "", reason: "27届8月启动，本硕博均可（双非本科有机会）；淘天/本地生活运营岗多，运营方法论通用。" },
@@ -129,9 +139,6 @@ const OPENING_SEED = [
   { company: "特斯拉 Tesla", post: "运营管培 / 市场运营", sector: "汽车/新能源", base: "上海", status: "open", channel: "特斯拉招聘官网", link: "https://www.tesla.cn/careers", apply_limit: "以官网为准", addedDate: "2026-08-13", deadline: "", reason: "新能源标杆，运营/市场方向，成长快、平台强，英语与数据能力加分。" },
   { company: "小红书", post: "社区运营 / 商业化运营 / 用户运营", sector: "互联网", base: "上海/北京", status: "open", channel: "小红书校园招聘官网", link: "https://job.xiaohongshu.com", apply_limit: "以官网为准", addedDate: "2026-08-13", deadline: "", reason: "内容社区高增长，社区/商业化运营与你广告投放+内容运营高度契合，福利好、氛围年轻。" },
   { company: "网易", post: "用户运营 / 产品运营", sector: "互联网", base: "杭州/广州/北京", status: "open", channel: "网易校园招聘官网", link: "https://campus.163.com", apply_limit: "以官网为准", addedDate: "2026-08-13", deadline: "", reason: "福利待遇口碑好的大厂，游戏/电商/传媒运营岗多，双非有机会。" },
-  { company: "携程 Trip.com", post: "用户运营 / 海外市场运营", sector: "互联网", base: "上海", status: "open", channel: "携程校园招聘官网", link: "https://careers.trip.com/campus", apply_limit: "以官网为准", addedDate: "2026-08-13", deadline: "", reason: "在线旅游龙头，海外运营需要语言能力，西语可切拉美市场，福利与晋升好。" },
-  { company: "爱奇艺", post: "内容运营 / 会员运营", sector: "互联网", base: "北京", status: "open", channel: "爱奇艺校园招聘官网", link: "https://careers.iqiyi.com", apply_limit: "以官网为准", addedDate: "2026-08-13", deadline: "", reason: "长视频平台，会员/内容运营，运营方法论通用，双非可投。" },
-  { company: "Shopee（东南亚电商）", post: "跨境运营 / 招商运营（GLP管培）", sector: "跨境电商", base: "深圳/上海", status: "open", channel: "Shopee 校园招聘官网", link: "https://careers.shopee.com", apply_limit: "以官网为准", addedDate: "2026-08-13", deadline: "", reason: "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。" },
 ];
 
 /* ================= 状态 ================= */
