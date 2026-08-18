@@ -1,9 +1,9 @@
 {
-  "version": "2026-08-17",
-  "updatedAt": "2026-08-17T07:28:03.083Z",
+  "version": "2026-08-18",
+  "updatedAt": "2026-08-18T02:17:41.811Z",
   "grad_year": "2027",
   "dailyCount": 10,
-  "source": "candidates+rotate",
+  "source": "rotate",
   "openings": [
     {
       "company": "携程 Trip.com",
