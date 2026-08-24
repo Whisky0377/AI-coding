@@ -1,10 +1,80 @@
 {
-  "version": "2026-08-23",
-  "updatedAt": "2026-08-23T02:25:15.684Z",
+  "version": "2026-08-24",
+  "updatedAt": "2026-08-24T02:24:17.370Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "亚马逊 Amazon",
+      "post": "运营管培 / 客户体验运营",
+      "sector": "人工智能",
+      "base": "北京/上海/深圳",
+      "status": "open",
+      "channel": "Amazon Student Programs",
+      "link": "https://www.amazon.jobs/en/teams/internships-for-students",
+      "apply_limit": "以官网为准",
+      "reason": "全球科技巨头，运营/项目管理方向，英语好+数据运营对口，薪酬福利行业顶尖。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "微软 Microsoft",
+      "post": "MACH 运营 / 商业项目管培",
+      "sector": "人工智能",
+      "base": "北京/上海/苏州",
+      "status": "open",
+      "channel": "Microsoft Students",
+      "link": "https://careers.microsoft.com/students",
+      "apply_limit": "以官网为准",
+      "reason": "顶级科技外企，商业运营/项目方向，工作生活平衡与晋升口碑极好，双非有机会。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "特斯拉 Tesla",
+      "post": "运营管培 / 市场运营",
+      "sector": "汽车/新能源",
+      "base": "上海",
+      "status": "open",
+      "channel": "特斯拉招聘官网",
+      "link": "https://www.tesla.cn/careers",
+      "apply_limit": "以官网为准",
+      "reason": "新能源标杆，运营/市场方向，成长快、平台强，英语与数据能力加分。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "小红书",
+      "post": "社区运营 / 商业化运营 / 用户运营",
+      "sector": "互联网",
+      "base": "上海/北京",
+      "status": "open",
+      "channel": "小红书校园招聘官网",
+      "link": "https://job.xiaohongshu.com",
+      "apply_limit": "以官网为准",
+      "reason": "内容社区高增长，社区/商业化运营与你广告投放+内容运营高度契合，福利好、氛围年轻。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "网易",
+      "post": "用户运营 / 产品运营",
+      "sector": "互联网",
+      "base": "杭州/广州/北京",
+      "status": "open",
+      "channel": "网易校园招聘官网",
+      "link": "https://campus.163.com",
+      "apply_limit": "以官网为准",
+      "reason": "福利待遇口碑好的大厂，游戏/电商/传媒运营岗多，双非有机会。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
     {
       "company": "石头科技 Roborock",
       "post": "海外市场运营 / 电商运营",
@@ -86,8 +156,7 @@
       "apply_limit": "以官网为准",
       "reason": "顶级雇主品牌，管培生年薪高，市场运营方向，工作氛围与福利口碑极好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "雀巢 Nestlé",
@@ -100,8 +169,7 @@
       "apply_limit": "以官网为准",
       "reason": "全球食品饮料龙头，市场/渠道运营岗，稳定福利好，双非可投。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "亿滋 Mondelēz",
@@ -114,8 +182,7 @@
       "apply_limit": "以官网为准",
       "reason": "奥利奥/趣多多母公司，管培生福利好，市场运营方向，对双非友好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "达能 Danone",
@@ -128,8 +195,7 @@
       "apply_limit": "以官网为准",
       "reason": "食品饮料外企，电商/市场运营，福利与工作生活平衡口碑好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "雅培 Abbott",
@@ -142,8 +208,7 @@
       "apply_limit": "以官网为准",
       "reason": "27届外企秋招已开，医疗健康消费品，市场运营方向，外企福利与晋升好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "安克创新 Anker",
@@ -793,71 +858,6 @@
       "apply_limit": "阿里系每业务集团1次机会，最多投3个意向（以官网为准）",
       "reason": "饿了么升级为淘宝闪购后大量新增HC，27届8月已开放；用户运营/商品运营/AI产品运营与你产品运营+广告投放经历直接对口，属阿里独立业务线（与集团一站不同入口），双非可投。",
       "addedDate": "2026-08-16",
-      "deadline": ""
-    },
-    {
-      "company": "亚马逊 Amazon",
-      "post": "运营管培 / 客户体验运营",
-      "sector": "人工智能",
-      "base": "北京/上海/深圳",
-      "status": "open",
-      "channel": "Amazon Student Programs",
-      "link": "https://www.amazon.jobs/en/teams/internships-for-students",
-      "apply_limit": "以官网为准",
-      "reason": "全球科技巨头，运营/项目管理方向，英语好+数据运营对口，薪酬福利行业顶尖。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "微软 Microsoft",
-      "post": "MACH 运营 / 商业项目管培",
-      "sector": "人工智能",
-      "base": "北京/上海/苏州",
-      "status": "open",
-      "channel": "Microsoft Students",
-      "link": "https://careers.microsoft.com/students",
-      "apply_limit": "以官网为准",
-      "reason": "顶级科技外企，商业运营/项目方向，工作生活平衡与晋升口碑极好，双非有机会。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "特斯拉 Tesla",
-      "post": "运营管培 / 市场运营",
-      "sector": "汽车/新能源",
-      "base": "上海",
-      "status": "open",
-      "channel": "特斯拉招聘官网",
-      "link": "https://www.tesla.cn/careers",
-      "apply_limit": "以官网为准",
-      "reason": "新能源标杆，运营/市场方向，成长快、平台强，英语与数据能力加分。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "小红书",
-      "post": "社区运营 / 商业化运营 / 用户运营",
-      "sector": "互联网",
-      "base": "上海/北京",
-      "status": "open",
-      "channel": "小红书校园招聘官网",
-      "link": "https://job.xiaohongshu.com",
-      "apply_limit": "以官网为准",
-      "reason": "内容社区高增长，社区/商业化运营与你广告投放+内容运营高度契合，福利好、氛围年轻。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "网易",
-      "post": "用户运营 / 产品运营",
-      "sector": "互联网",
-      "base": "杭州/广州/北京",
-      "status": "open",
-      "channel": "网易校园招聘官网",
-      "link": "https://campus.163.com",
-      "apply_limit": "以官网为准",
-      "reason": "福利待遇口碑好的大厂，游戏/电商/传媒运营岗多，双非有机会。",
-      "addedDate": "2026-08-13",
       "deadline": ""
     }
   ]
