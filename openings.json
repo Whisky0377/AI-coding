@@ -1,10 +1,150 @@
 {
-  "version": "2026-08-25",
-  "updatedAt": "2026-08-25T02:19:54.283Z",
+  "version": "2026-08-26",
+  "updatedAt": "2026-08-26T02:26:45.958Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "安克创新 Anker",
+      "post": "海外品牌运营管培生 / 用户运营",
+      "sector": "消费电子/出海",
+      "base": "深圳/长沙",
+      "status": "soon",
+      "channel": "校招官网",
+      "link": "https://anker.zhiye.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "出海标杆，多语种区域运营，广告投放+产品运营背景匹配。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "SHEIN",
+      "post": "海外运营管培生（西语区）/ 内容运营",
+      "sector": "跨境电商",
+      "base": "广州",
+      "status": "open",
+      "channel": "官网校招",
+      "link": "https://careers.shein.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "西语区拉美重点市场，内容/用户运营实习直接可用，双非本硕大量在招。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "Temu（拼多多海外）",
+      "post": "招商运营 / 海外运营",
+      "sector": "跨境电商",
+      "base": "上海/广州",
+      "status": "open",
+      "channel": "Temu 招聘官网",
+      "link": "https://www.temu.com/careers",
+      "apply_limit": "以官网为准",
+      "reason": "出海高增长，西语切拉美站，招商/运营岗多、双非友好、给薪高。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "Insta360 影石",
+      "post": "海外内容运营 / 社媒运营",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "校招官网",
+      "link": "https://insta360.zhiye.com",
+      "apply_limit": "一般不限次数（以招聘页为准）",
+      "reason": "CES常胜军，内容+社媒运营，西语覆盖西语区社媒，广告投放经验对口。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "传音控股 Transsion",
+      "post": "新兴市场用户运营 / 运营管培",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "校招官网",
+      "link": "https://transsion.zhiye.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "非洲+拉美布局，小语种运营人才紧缺，数字经济背景加分，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "大疆 DJI",
+      "post": "海外市场运营 / 品牌运营",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://we.dji.com",
+      "apply_limit": "以官网为准",
+      "reason": "全球品牌，区域市场运营岗，语言+运营组合有竞争力。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "涂鸦智能 Tuya",
+      "post": "海外生态运营 / 客户运营",
+      "sector": "人工智能",
+      "base": "杭州",
+      "status": "soon",
+      "channel": "校招官网",
+      "link": "https://tuya.zhiye.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "WAIC活跃IoT平台，全球客户运营，数字经济背景契合，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "帆软软件",
+      "post": "客户交付与运营 / 市场运营",
+      "sector": "互联网",
+      "base": "南京/无锡/成都/杭州",
+      "status": "open",
+      "channel": "帆软校园招聘",
+      "link": "https://www.fanruan.com/campus",
+      "apply_limit": "以官网为准",
+      "reason": "27届8月提前批已开，客户交付与运营岗，运营方法论通用，双非友好、需求量大。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "Shopee（东南亚电商）",
+      "post": "跨境运营 / 招商运营（LDP管培）",
+      "sector": "跨境电商",
+      "base": "深圳/上海",
+      "status": "open",
+      "channel": "Shopee 校园招聘",
+      "link": "https://careers.shopee.com",
+      "apply_limit": "以官网为准",
+      "reason": "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "科大讯飞 iFLYTEK",
+      "post": "海外产品运营 / 生态运营",
+      "sector": "人工智能",
+      "base": "合肥/北京",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://campus.iflytek.com",
+      "apply_limit": "以官网为准",
+      "reason": "WAIC/AI展常客，翻译与国际化业务，语言背景天然贴合，双非量大。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
     {
       "company": "石头科技 Roborock",
       "post": "海外市场运营 / 电商运营",
@@ -16,8 +156,7 @@
       "apply_limit": "以官网为准",
       "reason": "AWE/CES明星企业，欧洲+拉美扩张，西语区运营需求上升。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "科沃斯 Ecovacs",
@@ -30,8 +169,7 @@
       "apply_limit": "一般限报1-2个岗位（以公告为准）",
       "reason": "扫地机出海头部，多语种区域运营，产品运营实习可迁移，双非友好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "宝洁 P&G",
@@ -44,8 +182,7 @@
       "apply_limit": "以官网为准",
       "reason": "顶级快消管培，不卡专业、看重英语与逻辑，品牌/市场运营与你广告投放经历对口，福利与晋升行业标杆。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "联合利华 Unilever",
@@ -58,8 +195,7 @@
       "apply_limit": "以官网为准",
       "reason": "UFLP 全球轮岗管培，年薪高、成长快；市场/渠道运营方向，双非有机会，英语好加分。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "欧莱雅 L'Oréal",
@@ -72,8 +208,7 @@
       "apply_limit": "以官网为准",
       "reason": "美妆龙头，电商/数字营销运营与你广告投放高度对口，福利与培养体系优秀。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "玛氏 Mars",
@@ -86,8 +221,7 @@
       "apply_limit": "以官网为准",
       "reason": "顶级雇主品牌，管培生年薪高，市场运营方向，工作氛围与福利口碑极好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "雀巢 Nestlé",
@@ -100,8 +234,7 @@
       "apply_limit": "以官网为准",
       "reason": "全球食品饮料龙头，市场/渠道运营岗，稳定福利好，双非可投。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "亿滋 Mondelēz",
@@ -114,8 +247,7 @@
       "apply_limit": "以官网为准",
       "reason": "奥利奥/趣多多母公司，管培生福利好，市场运营方向，对双非友好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "达能 Danone",
@@ -128,8 +260,7 @@
       "apply_limit": "以官网为准",
       "reason": "食品饮料外企，电商/市场运营，福利与工作生活平衡口碑好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "雅培 Abbott",
@@ -142,8 +273,7 @@
       "apply_limit": "以官网为准",
       "reason": "27届外企秋招已开，医疗健康消费品，市场运营方向，外企福利与晋升好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "亚马逊 Amazon",
@@ -207,136 +337,6 @@
       "link": "https://campus.163.com",
       "apply_limit": "以官网为准",
       "reason": "福利待遇口碑好的大厂，游戏/电商/传媒运营岗多，双非有机会。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "安克创新 Anker",
-      "post": "海外品牌运营管培生 / 用户运营",
-      "sector": "消费电子/出海",
-      "base": "深圳/长沙",
-      "status": "soon",
-      "channel": "校招官网",
-      "link": "https://anker.zhiye.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "出海标杆，多语种区域运营，广告投放+产品运营背景匹配。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "SHEIN",
-      "post": "海外运营管培生（西语区）/ 内容运营",
-      "sector": "跨境电商",
-      "base": "广州",
-      "status": "open",
-      "channel": "官网校招",
-      "link": "https://careers.shein.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "西语区拉美重点市场，内容/用户运营实习直接可用，双非本硕大量在招。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "Temu（拼多多海外）",
-      "post": "招商运营 / 海外运营",
-      "sector": "跨境电商",
-      "base": "上海/广州",
-      "status": "open",
-      "channel": "Temu 招聘官网",
-      "link": "https://www.temu.com/careers",
-      "apply_limit": "以官网为准",
-      "reason": "出海高增长，西语切拉美站，招商/运营岗多、双非友好、给薪高。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "Insta360 影石",
-      "post": "海外内容运营 / 社媒运营",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "open",
-      "channel": "校招官网",
-      "link": "https://insta360.zhiye.com",
-      "apply_limit": "一般不限次数（以招聘页为准）",
-      "reason": "CES常胜军，内容+社媒运营，西语覆盖西语区社媒，广告投放经验对口。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "传音控股 Transsion",
-      "post": "新兴市场用户运营 / 运营管培",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "校招官网",
-      "link": "https://transsion.zhiye.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "非洲+拉美布局，小语种运营人才紧缺，数字经济背景加分，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "大疆 DJI",
-      "post": "海外市场运营 / 品牌运营",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://we.dji.com",
-      "apply_limit": "以官网为准",
-      "reason": "全球品牌，区域市场运营岗，语言+运营组合有竞争力。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "涂鸦智能 Tuya",
-      "post": "海外生态运营 / 客户运营",
-      "sector": "人工智能",
-      "base": "杭州",
-      "status": "soon",
-      "channel": "校招官网",
-      "link": "https://tuya.zhiye.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "WAIC活跃IoT平台，全球客户运营，数字经济背景契合，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "帆软软件",
-      "post": "客户交付与运营 / 市场运营",
-      "sector": "互联网",
-      "base": "南京/无锡/成都/杭州",
-      "status": "open",
-      "channel": "帆软校园招聘",
-      "link": "https://www.fanruan.com/campus",
-      "apply_limit": "以官网为准",
-      "reason": "27届8月提前批已开，客户交付与运营岗，运营方法论通用，双非友好、需求量大。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "Shopee（东南亚电商）",
-      "post": "跨境运营 / 招商运营（LDP管培）",
-      "sector": "跨境电商",
-      "base": "深圳/上海",
-      "status": "open",
-      "channel": "Shopee 校园招聘",
-      "link": "https://careers.shopee.com",
-      "apply_limit": "以官网为准",
-      "reason": "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "科大讯飞 iFLYTEK",
-      "post": "海外产品运营 / 生态运营",
-      "sector": "人工智能",
-      "base": "合肥/北京",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://campus.iflytek.com",
-      "apply_limit": "以官网为准",
-      "reason": "WAIC/AI展常客，翻译与国际化业务，语言背景天然贴合，双非量大。",
       "addedDate": "2026-08-13",
       "deadline": ""
     },
