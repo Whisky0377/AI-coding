@@ -22,7 +22,7 @@
 
 1. 左侧 `SQL Editor` → `New query`。
 2. 打开本仓库的 `supabase-schema.sql`，把内容**全部复制**粘进去。
-3. 点 `Run`。看到 Success 即建好三张表并开启了行级安全。
+3. 点 `Run`。看到 Success 即建好两张表并开启了行级安全。
 
 ## 第三步：拿到两个密钥
 

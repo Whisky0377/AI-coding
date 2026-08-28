@@ -5,14 +5,13 @@ const OFFER_KEY = "offerBoardRecords";
 const REVIEW_KEY = "interviewReview";
 const OPENING_KEY = "autumnOpenings";
 const OPENING_VER_KEY = "autumnOpeningsSeedVersion";
-const REMINDER_KEY = "trackReminders";
 const OPENING_SEED_VERSION = "2026-08-17";
 
 /* ================= Supabase 云同步（可选，未配置则走本地模式） ================= */
 let sb = null;              // supabase client
 let currentUser = null;    // 已登录用户
 let cloudReady = false;    // 是否已接入云端（配置有效）
-const CLOUD_TABLE = { offers: "offers", reminders: "reminders", reviews: "reviews" };
+const CLOUD_TABLE = { offers: "offers", reviews: "reviews" };
 
 function cloudEnabled() { return cloudReady && !!currentUser; }
 
@@ -148,12 +147,33 @@ let activeOfferId = "";
 let pendingConfirm = null;
 let reviewRecords = [];
 let openingRecords = [];
-let reminderRecords = [];
+let openingQuery = "";
+let openingOpenOnly = false;
 
 const $ = (id) => document.getElementById(id);
 const uid = () => `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 function esc(v) {
   return String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function renderDashboard() {
+  const offers = allOffers();
+  const interviewing = offers.filter((o) => /面|面试/.test(offerMeta(o).stage)).length;
+  const openTargets = openingRecords.filter((o) => o.status === "open").length;
+  const today = new Date();
+  const start = new Date(today.getFullYear(), today.getMonth(), today.getDate() - 6).getTime();
+  const recentOffers = offers.filter((o) => {
+    const ts = o.sendDate ? new Date(`${o.sendDate}T00:00:00`).getTime() : 0;
+    return ts >= start && ts <= today.getTime();
+  });
+  const todayText = new Intl.DateTimeFormat("zh-CN", { month: "long", day: "numeric", weekday: "long" }).format(today);
+  if ($("todayLabel")) $("todayLabel").textContent = `${todayText} · 2027 届校招`;
+  if ($("metricOffers")) $("metricOffers").textContent = offers.length;
+  if ($("metricInterviews")) $("metricInterviews").textContent = interviewing;
+  if ($("metricRecentOffers")) $("metricRecentOffers").textContent = recentOffers.length;
+  if ($("metricOpenings")) $("metricOpenings").textContent = openTargets;
+  if ($("metricOffersNote")) $("metricOffersNote").textContent = offers.length ? `覆盖 ${new Set(offers.map((o) => o.sector || "其他")).size} 个行业方向` : "开始记录第一份申请";
+  if ($("metricRecentNote")) $("metricRecentNote").textContent = recentOffers.length ? `最近一笔：${fmtHistoryDate(recentOffers.slice().sort((a, b) => (b.sendDate || "").localeCompare(a.sendDate || ""))[0].sendDate)}` : "还没有投递记录";
 }
 
 /* ================= Offer 数据（扁平数组，每条带 sector 行业） ================= */
@@ -288,6 +308,8 @@ function renderTables() {
   COLUMN_KEYS.forEach((key) => {
     renderTable(COLUMN_TABLE[key], offersBySector(columnSectors[key]));
   });
+  renderApplicationHistory();
+  renderDashboard();
 }
 
 /* ================= 日历 ================= */
@@ -308,9 +330,9 @@ function newOpeningsOn(ds) {
 function deadlineOpeningsOn(ds) {
   return openingRecords.filter((o) => (o.deadline || "").slice(0, 10) === ds);
 }
-/* 某天手动提醒 */
-function remindersOn(ds) {
-  return reminderRecords.filter((r) => (r.date || "") === ds);
+/* 某天的投递记录（按投递日期） */
+function offersOn(ds) {
+  return allOffers().filter((o) => (o.sendDate || "").slice(0, 10) === ds);
 }
 function renderCalendar() {
   const cal = $("calendar");
@@ -326,9 +348,10 @@ function renderCalendar() {
     cell.innerHTML = `<span class="num">${d}</span>`;
     const newCount = newOpeningsOn(ds).length;
     const dlCount = deadlineOpeningsOn(ds).length;
-    if (newCount || dlCount) {
+    const offerCount = offersOn(ds).length;
+    if (newCount || dlCount || offerCount) {
       const rings = document.createElement("div"); rings.className = "cal-rings";
-      // 红色截止在前（更需提醒），绿色新增在后
+      if (offerCount) { const b = document.createElement("span"); b.className = "cal-ring blue"; b.textContent = offerCount; b.title = `${offerCount} 条投递记录`; rings.appendChild(b); }
       if (dlCount) { const r = document.createElement("span"); r.className = "cal-ring red"; r.textContent = dlCount; r.title = `${dlCount} 个岗位今日截止`; rings.appendChild(r); }
       if (newCount) { const g = document.createElement("span"); g.className = "cal-ring green"; g.textContent = newCount; g.title = `${newCount} 个新增岗位`; rings.appendChild(g); }
       cell.appendChild(rings);
@@ -338,55 +361,43 @@ function renderCalendar() {
   }
 }
 
-/* ================= 提醒事项 ================= */
-function loadReminders() {
-  const raw = localStorage.getItem(REMINDER_KEY);
-  if (!raw) return [];
-  try { const p = JSON.parse(raw); return Array.isArray(p) ? p : []; } catch { return []; }
-}
-function saveReminders() { localStorage.setItem(REMINDER_KEY, JSON.stringify(reminderRecords)); if (cloudEnabled()) cloudSave(CLOUD_TABLE.reminders, REMINDER_KEY, reminderRecords); }
-function fmtReminderDate(d) {
+/* ================= 投递记录历史 ================= */
+function fmtHistoryDate(d) {
   if (!d) return "无日期";
   const dt = new Date(`${d}T00:00:00`);
   if (Number.isNaN(dt.getTime())) return d;
   return `${dt.getMonth() + 1}月${dt.getDate()}日`;
 }
-/* 提醒事项列表（日历下方栏）；与日期详情弹窗共用同一份 reminderRecords */
-function fmtReminderDate(d) {
-  if (!d) return "无日期";
-  const dt = new Date(`${d}T00:00:00`);
-  if (Number.isNaN(dt.getTime())) return d;
-  return `${dt.getMonth() + 1}月${dt.getDate()}日`;
-}
-function renderReminders() {
-  const list = $("reminderList"), empty = $("reminderEmpty");
+function renderApplicationHistory() {
+  const list = $("applicationHistoryList"), empty = $("applicationHistoryEmpty");
   if (!list) return;
   list.innerHTML = "";
-  if (!reminderRecords.length) { empty.classList.remove("hidden"); return; }
+  const sorted = allOffers().slice().sort((a, b) => (b.sendDate || "0000").localeCompare(a.sendDate || "0000"));
+  if (!sorted.length) { empty.classList.remove("hidden"); renderDashboard(); return; }
   empty.classList.add("hidden");
-  const sorted = reminderRecords.slice().sort((a, b) => {
-    if (a.done !== b.done) return a.done ? 1 : -1;
-    return (a.date || "9999").localeCompare(b.date || "9999");
-  });
-  sorted.forEach((r) => {
+  sorted.forEach((o) => {
+    const dt = o.sendDate ? new Date(`${o.sendDate}T00:00:00`) : null;
+    const day = dt && !Number.isNaN(dt.getTime()) ? dt.getDate() : "—";
+    const month = dt && !Number.isNaN(dt.getTime()) ? `${dt.getMonth() + 1}月` : "无日期";
+    const stage = offerMeta(o).stage || "投递";
     const item = document.createElement("div");
-    item.className = "reminder-item" + (r.done ? " done" : "");
+    item.className = "history-item";
     item.innerHTML = `
-      <input type="checkbox" class="reminder-check" data-id="${esc(r.id)}" ${r.done ? "checked" : ""} />
-      <div class="reminder-main">
-        <div class="reminder-text">${esc(r.text)}</div>
-        <div class="reminder-date">${esc(fmtReminderDate(r.date))}</div>
+      <div class="history-date"><div><strong>${esc(day)}</strong><span>${esc(month)}</span></div></div>
+      <div>
+        <div class="history-company">${esc(o.company)}</div>
+        <div class="history-meta">${esc(o.post)} · ${esc(stage)}${o.base ? ` · ${esc(o.base)}` : ""}</div>
       </div>
-      <div class="reminder-actions">
-        <button type="button" class="icon-btn edit-reminder" data-id="${esc(r.id)}" title="编辑">✎</button>
-        <button type="button" class="icon-btn del del-reminder" data-id="${esc(r.id)}" title="删除">🗑</button>
+      <div class="history-actions">
+        <button type="button" class="icon-btn edit-history-offer" data-id="${esc(o.id)}" aria-label="编辑 ${esc(o.company)} 投递记录">✎</button>
+        <button type="button" class="icon-btn del delete-history-offer" data-id="${esc(o.id)}" aria-label="删除 ${esc(o.company)} 投递记录">×</button>
       </div>`;
     list.appendChild(item);
   });
+  renderDashboard();
 }
-function reminderById(id) { return reminderRecords.find((r) => r.id === id) || null; }
 
-/* ===== 日期详情弹窗（点日历某天弹出：红色截止在上，绿色新增在下，再下面是我的提醒） ===== */
+/* ===== 日期详情弹窗：岗位动态 + 当天投递记录 ===== */
 let activeDayDate = "";
 function fmtDayTitle(ds) {
   const dt = new Date(`${ds}T00:00:00`);
@@ -398,7 +409,7 @@ function openDayModal(ds) {
   $("dayModalTitle").textContent = fmtDayTitle(ds);
   const dls = deadlineOpeningsOn(ds);
   const news = newOpeningsOn(ds);
-  const rems = remindersOn(ds);
+  const dayOffers = offersOn(ds);
 
   // 红：投递截止
   const dlBlock = $("dayDeadlineBlock"), dlList = $("dayDeadlineList");
@@ -426,46 +437,21 @@ function openDayModal(ds) {
     });
   } else { newBlock.classList.add("hidden"); }
 
-  // 我的提醒
-  const remBlock = $("dayReminderBlock"), remList = $("dayReminderList");
-  remList.innerHTML = "";
-  if (rems.length) {
-    remBlock.classList.remove("hidden");
-    rems.forEach((r) => {
-      const el = document.createElement("div"); el.className = "day-reminder" + (r.done ? " done" : "");
-      el.innerHTML = `<span class="day-reminder-text">${esc(r.text)}</span>
-        <span style="display:flex;gap:4px;">
-          <button type="button" class="icon-btn toggle-reminder" data-id="${esc(r.id)}" title="完成">${r.done ? "↩" : "✓"}</button>
-          <button type="button" class="icon-btn del del-reminder" data-id="${esc(r.id)}" title="删除">🗑</button>
-        </span>`;
-      remList.appendChild(el);
+  const offerBlock = $("dayOfferBlock"), offerList = $("dayOfferList");
+  offerList.innerHTML = "";
+  if (dayOffers.length) {
+    offerBlock.classList.remove("hidden");
+    dayOffers.forEach((o) => {
+      const meta = offerMeta(o);
+      const el = document.createElement("div"); el.className = "day-job day-offer";
+      el.innerHTML = `<div class="day-job-main"><div class="day-job-company">${esc(o.company)}</div><div class="day-job-post">${esc(o.post)} · ${esc(meta.stage || "投递")}${o.base ? ` · ${esc(o.base)}` : ""}</div></div>
+        <button type="button" class="btn btn-quiet btn-sm edit-day-offer" data-id="${esc(o.id)}">编辑</button>`;
+      offerList.appendChild(el);
     });
-  } else { remBlock.classList.add("hidden"); }
+  } else { offerBlock.classList.add("hidden"); }
 
-  $("dayEmpty").classList.toggle("hidden", dls.length || news.length || rems.length);
+  $("dayEmpty").classList.toggle("hidden", dls.length || news.length || dayOffers.length);
   openModal("dayModal");
-}
-/* 打开手动新增提醒弹窗（带当前日期） */
-function openReminderModal(id = "", presetDate = "") {
-  const r = id ? reminderById(id) : null;
-  $("reminderId").value = r?.id || "";
-  $("reminderText").value = r?.text || "";
-  $("reminderDate").value = r?.date || presetDate || activeDayDate || "";
-  $("reminderModalTitle").textContent = r ? "编辑提醒" : "新增提醒";
-  openModal("reminderModal");
-  setTimeout(() => $("reminderText").focus(), 0);
-}
-function saveReminder(e) {
-  e.preventDefault();
-  const id = $("reminderId").value;
-  const text = $("reminderText").value.trim();
-  const date = $("reminderDate").value;
-  if (!text) return;
-  const existing = id ? reminderById(id) : null;
-  if (existing) { existing.text = text; existing.date = date; }
-  else { reminderRecords.unshift({ id: uid(), text, date, done: false }); }
-  saveReminders(); renderReminders(); renderCalendar(); closeModal("reminderModal");
-  if (activeDayDate && $("dayModal").classList.contains("open")) openDayModal(activeDayDate);
 }
 
 /* ================= 秋招岗位 ================= */
@@ -561,12 +547,20 @@ function renderOpenings() {
   const list = $("openingList"), empty = $("openingEmpty");
   const total = openingRecords.length;
   const open = openingRecords.filter((o) => o.status === "open").length;
-  $("openingsMeta").textContent = `共 ${total} 个目标 · 已开放 ${open} · 即将开放 ${total - open}`;
+  const q = openingQuery.trim().toLocaleLowerCase("zh-CN");
+  const visible = openingRecords.filter((o) => {
+    if (openingOpenOnly && o.status !== "open") return false;
+    if (!q) return true;
+    return [o.company, o.post, o.sector, o.base, o.channel].some((v) => String(v || "").toLocaleLowerCase("zh-CN").includes(q));
+  });
+  $("openingsMeta").textContent = visible.length === total
+    ? `共 ${total} 个目标 · 已开放 ${open} · 即将开放 ${total - open}`
+    : `找到 ${visible.length} 个岗位 · 目标池共 ${total} 个`;
   list.innerHTML = "";
-  if (!total) { empty.classList.remove("hidden"); return; }
+  if (!visible.length) { empty.textContent = total ? "没有符合条件的岗位，试试其他关键词。" : "暂无岗位，点“新增岗位”添加，或“拉取最新岗位”。"; empty.classList.remove("hidden"); renderDashboard(); return; }
   empty.classList.add("hidden");
-  openingRecords.forEach((it, i) => {
-    const card = document.createElement("div"); card.className = "opening-card";
+  visible.forEach((it, i) => {
+    const card = document.createElement("article"); card.className = "opening-card";
     const label = it.status === "open" ? "已开放" : "即将开放";
     const link = it.link ? `<a class="btn btn-primary btn-sm" href="${esc(it.link)}" target="_blank" rel="noopener">投递</a>` : "";
     card.innerHTML = `
@@ -584,9 +578,10 @@ function renderOpenings() {
         ${it.apply_limit ? `<div class="opening-limit">🎯 投递次数：${esc(it.apply_limit)}</div>` : ""}
         ${it.reason ? `<div class="opening-reason">${esc(it.reason)}</div>` : ""}
       </div>
-      <div class="opening-actions">${link}<button type="button" class="btn btn-outline danger btn-sm del-opening" data-id="${esc(it.id)}">删除</button></div>`;
+      <div class="opening-actions">${link}<button type="button" class="btn btn-ghost btn-sm track-opening" data-id="${esc(it.id)}">加入投递</button><button type="button" class="btn btn-outline danger btn-sm del-opening" data-id="${esc(it.id)}">删除</button></div>`;
     list.appendChild(card);
   });
+  renderDashboard();
 }
 function openingById(id) { return openingRecords.find((o) => o.id === id) || null; }
 function saveOpening(e) {
@@ -674,10 +669,11 @@ function fillSectorSelect() {
 }
 function mkOffer() {
   const sector = $("typeInput").value;
-  return { id: $("offerId").value || uid(), company: $("companyInput").value.trim(), post: $("postInput").value.trim(), sector, process: `${$("processDateInput").value} ${$("processStageInput").value.trim()}`, remark: $("remarkInput").value.trim(), latest: $("latestInput").value.trim(), sendDate: $("sendDateInput").value, base: $("baseInput").value.trim(), priority: $("priorityInput").value };
+  const sendDate = $("sendDateInput").value;
+  return { id: $("offerId").value || uid(), company: $("companyInput").value.trim(), post: $("postInput").value.trim(), sector, process: `${sendDate} ${$("processStageInput").value.trim()}`, remark: $("remarkInput").value.trim(), latest: $("latestInput").value.trim(), sendDate, base: $("baseInput").value.trim(), priority: $("priorityInput").value };
 }
 function applyType(sector, mode) {
-  activeOfferType = sector; $("typeInput").value = sector;
+  activeOfferType = SECTORS.includes(sector) ? sector : "其他"; $("typeInput").value = activeOfferType;
   $("offerModalTitle").textContent = mode === "edit" ? "修改投递记录" : "新增投递记录";
   $("offerModalSub").textContent = mode === "edit" ? "修改投递信息，可调整所属行业。" : "填写投递信息并选择所属行业，提交后写入本地数据。";
   $("offerSave").textContent = mode === "edit" ? "保存修改" : "新增投递记录";
@@ -687,9 +683,31 @@ function fillOffer(r) {
   $("latestInput").value = r?.latest || ""; $("sendDateInput").value = r?.sendDate || ""; $("baseInput").value = r?.base || "";
   $("priorityInput").value = r?.priority || "高"; $("remarkInput").value = r?.remark || "";
   const m = String(r?.process || "").match(/^(\d{4}-\d{2}-\d{2})\s*(.*)$/);
-  $("processDateInput").value = m?.[1] || ""; $("processStageInput").value = m?.[2] || "投递";
+  $("processStageInput").value = m?.[2] || "投递";
 }
-function openOfferModal(type, r = null) { activeOfferId = r?.id || ""; applyType(type, r ? "edit" : "create"); fillOffer(r); openModal("offerModal"); setTimeout(() => $("companyInput").focus(), 0); }
+function openOfferModal(type, r = null) { activeOfferId = r?.id || ""; applyType(type, r?.id ? "edit" : "create"); fillOffer(r); openModal("offerModal"); setTimeout(() => $("companyInput").focus(), 0); }
+function openOfferForDate(ds) {
+  const now = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  const date = ds || `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
+  if ($("dayModal").classList.contains("open")) closeModal("dayModal");
+  openOfferModal("互联网", { process: `${date} 投递`, sendDate: date, priority: "高" });
+}
+function trackOpeningAsOffer(opening) {
+  if (!opening) return;
+  const d = new Date();
+  const pad = (n) => String(n).padStart(2, "0");
+  const today = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+  openOfferModal(opening.sector || "其他", {
+    company: opening.company,
+    post: opening.post,
+    base: opening.base,
+    process: `${today} 投递`,
+    sendDate: today,
+    priority: "高",
+    remark: opening.link ? `投递链接：${opening.link}` : "",
+  });
+}
 function resetOfferForm(type = activeOfferType) { $("offerForm").reset(); $("offerId").value = ""; $("priorityInput").value = "高"; activeOfferId = ""; applyType(type, "create"); }
 function offerById(id) { return allOffers().find((o) => o.id === id) || null; }
 function saveOffer(e) {
@@ -727,56 +745,38 @@ function bind() {
   $("offerForm").addEventListener("submit", saveOffer);
   $("openingForm").addEventListener("submit", saveOpening);
   $("reviewForm").addEventListener("submit", saveReview);
-  $("reminderForm").addEventListener("submit", saveReminder);
 
   // 日期详情弹窗
   $("dayClose").addEventListener("click", () => closeModal("dayModal"));
-  $("dayAddReminderBtn").addEventListener("click", () => openReminderModal("", activeDayDate));
-  $("dayReminderList").addEventListener("click", (e) => {
-    const del = e.target.closest(".del-reminder");
-    if (del) {
-      const r = reminderById(del.dataset.id);
-      openConfirm({ title: "删除提醒", msg: "确定删除这条提醒吗？", highlight: r?.text || "这条提醒", onOk: () => {
-        reminderRecords = reminderRecords.filter((x) => x.id !== del.dataset.id);
-        saveReminders(); renderCalendar(); if (activeDayDate) openDayModal(activeDayDate);
-      } });
-      return;
-    }
-    const tog = e.target.closest(".toggle-reminder");
-    if (tog) { const r = reminderById(tog.dataset.id); if (r) { r.done = !r.done; saveReminders(); renderCalendar(); openDayModal(activeDayDate); } }
+  $("dayAddOfferBtn").addEventListener("click", () => openOfferForDate(activeDayDate));
+  $("dayOfferList").addEventListener("click", (e) => {
+    const edit = e.target.closest(".edit-day-offer");
+    if (!edit) return;
+    const record = offerById(edit.dataset.id);
+    if (record) { closeModal("dayModal"); openOfferModal(record.sector || "其他", record); }
   });
-  // 手动新增提醒弹窗
-  $("reminderClose").addEventListener("click", () => closeModal("reminderModal"));
-  $("reminderCancel").addEventListener("click", () => closeModal("reminderModal"));
 
-  // 提醒事项栏（日历下方列表）
-  $("openReminderBtn").addEventListener("click", () => openReminderModal());
-  $("reminderList").addEventListener("click", (e) => {
-    const del = e.target.closest(".del-reminder");
-    if (del) {
-      const r = reminderById(del.dataset.id);
-      openConfirm({ title: "删除提醒", msg: "确定删除这条提醒吗？", highlight: r?.text || "这条提醒", onOk: () => {
-        reminderRecords = reminderRecords.filter((x) => x.id !== del.dataset.id);
-        saveReminders(); renderReminders(); renderCalendar();
-      } });
-      return;
-    }
-    const edit = e.target.closest(".edit-reminder");
-    if (edit) openReminderModal(edit.dataset.id);
-  });
-  $("reminderList").addEventListener("change", (e) => {
-    const chk = e.target.closest(".reminder-check");
-    if (!chk) return;
-    const r = reminderById(chk.dataset.id);
-    if (r) { r.done = chk.checked; saveReminders(); renderReminders(); renderCalendar(); }
+  // 投递历史
+  $("historyAddOfferBtn").addEventListener("click", () => openOfferForDate());
+  $("applicationHistoryList").addEventListener("click", (e) => {
+    const edit = e.target.closest(".edit-history-offer");
+    if (edit) { const record = offerById(edit.dataset.id); if (record) openOfferModal(record.sector || "其他", record); return; }
+    const del = e.target.closest(".delete-history-offer");
+    if (!del) return;
+    const record = offerById(del.dataset.id);
+    openConfirm({ title: "删除投递记录", desc: "删除后会同时从历史、看板和日历移除。", msg: "确定删除这条投递记录吗？", highlight: record ? `${record.company} · ${record.post}` : "这条记录", onOk: () => deleteOffer(del.dataset.id) });
   });
 
   // 秋招
   $("openOpeningBtn").addEventListener("click", () => { $("openingForm").reset(); $("opStatus").value = "open"; openModal("openingModal"); setTimeout(() => $("opCompany").focus(), 0); });
+  $("openingSearch").addEventListener("input", (e) => { openingQuery = e.target.value; renderOpenings(); });
+  $("openOnlyToggle").addEventListener("change", (e) => { openingOpenOnly = e.target.checked; renderOpenings(); });
   $("openingClose").addEventListener("click", () => closeModal("openingModal"));
   $("openingCancel").addEventListener("click", () => closeModal("openingModal"));
   $("resetOpeningsBtn").addEventListener("click", () => pullLatestOpenings());
   $("openingList").addEventListener("click", (e) => {
+    const track = e.target.closest(".track-opening");
+    if (track) { trackOpeningAsOffer(openingById(track.dataset.id)); return; }
     const del = e.target.closest(".del-opening"); if (!del) return;
     const r = openingById(del.dataset.id);
     openConfirm({ title: "删除目标岗位", msg: "确定删除这个目标岗位吗？", highlight: r ? `${r.company} · ${r.post}` : "这个岗位", onOk: () => { openingRecords = openingRecords.filter((x) => x.id !== del.dataset.id); saveOpenings(); renderOpenings(); } });
@@ -800,6 +800,7 @@ function bind() {
     b.addEventListener("click", () => openOfferModal(columnSectors[b.dataset.col] || "互联网")));
   $("offerClose").addEventListener("click", () => closeModal("offerModal"));
   $("offerCancel").addEventListener("click", () => { resetOfferForm(activeOfferType); closeModal("offerModal"); });
+  $("heroOfferBtn").addEventListener("click", () => openOfferForDate());
   ["col1Table", "col2Table", "col3Table"].forEach((id) => {
     $(id).addEventListener("click", (e) => {
       const ed = e.target.closest(".edit-offer"); if (ed) { const r = offerById(ed.dataset.id); if (r) openOfferModal(r.sector || "其他", r); return; }
@@ -815,7 +816,7 @@ function bind() {
   $("confirmOk").addEventListener("click", () => { if (pendingConfirm) pendingConfirm(); pendingConfirm = null; closeModal("confirmModal"); });
 
   // 点遮罩关闭
-  ["offerModal", "openingModal", "reminderModal", "reviewModal", "confirmModal", "dayModal"].forEach((id) => {
+  ["offerModal", "openingModal", "reviewModal", "confirmModal", "dayModal"].forEach((id) => {
     $(id).addEventListener("click", (e) => { if (e.target.id === id) { if (id === "offerModal") resetOfferForm(activeOfferType); closeModal(id); } });
   });
 
@@ -891,34 +892,30 @@ async function handleLogout() {
   if (sb) await sb.auth.signOut();
 }
 
-/* 登录后：把云端三类数据拉下来覆盖内存与本地并重渲染。
+/* 登录后：把云端投递与复盘数据拉下来覆盖内存与本地并重渲染。
  * 若云端为空而本地有数据 → 视为首次登录，把本地数据迁移上云。 */
 async function syncPullAll() {
   if (!cloudEnabled()) return;
-  const [cOffers, cRem, cRev] = await Promise.all([
+  const [cOffers, cRev] = await Promise.all([
     cloudLoad(CLOUD_TABLE.offers, OFFER_KEY),
-    cloudLoad(CLOUD_TABLE.reminders, REMINDER_KEY),
     cloudLoad(CLOUD_TABLE.reviews, REVIEW_KEY),
   ]);
-  const cloudEmpty = (!cOffers || !cOffers.length) && (!cRem || !cRem.length) && (!cRev || !cRev.length);
-  const localHas = offerData.length || reminderRecords.length || reviewRecords.length;
+  const cloudEmpty = (!cOffers || !cOffers.length) && (!cRev || !cRev.length);
+  const localHas = offerData.length || reviewRecords.length;
   if (cloudEmpty && localHas) {
     // 首次登录：本地 → 云端
     await Promise.all([
       cloudSave(CLOUD_TABLE.offers, OFFER_KEY, offerData),
-      cloudSave(CLOUD_TABLE.reminders, REMINDER_KEY, reminderRecords),
       cloudSave(CLOUD_TABLE.reviews, REVIEW_KEY, reviewRecords),
     ]);
   } else {
     // 云端 → 内存/本地
     offerData = (cOffers || []).map(normalizeOffer);
-    reminderRecords = cRem || [];
     reviewRecords = (cRev || []).map(mkReview);
     localStorage.setItem(OFFER_KEY, JSON.stringify(offerData));
-    localStorage.setItem(REMINDER_KEY, JSON.stringify(reminderRecords));
     localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRecords));
   }
-  renderTables(); renderCalendar(); renderReviews(); renderReminders();
+  renderTables(); renderCalendar(); renderReviews(); renderApplicationHistory();
 }
 
 async function setupAuth() {
@@ -948,9 +945,8 @@ async function setupAuth() {
 initMonth();
 fillSectorSelect();
 renderTables();
-reminderRecords = loadReminders();
 renderCalendar();
-renderReminders();
+renderApplicationHistory();
 reviewRecords = loadReviews();
 renderReviews();
 openingRecords = loadOpenings();
