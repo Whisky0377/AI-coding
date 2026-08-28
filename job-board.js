@@ -81,7 +81,7 @@ const OPENING_SEED = [
   { company: "网易游戏（互娱）", post: "游戏运营 / 市场 / 用户运营", sector: "游戏", base: "广州/杭州/上海", status: "open", channel: "网易游戏校园招聘官网", link: "https://game.campus.163.com", apply_limit: "以官网为准", addedDate: "2026-08-17", deadline: "", reason: "27届7/21启动，运营/市场/产品类年薪20-28万+房补餐补，福利极好；社区/发行运营方法论通用，广告投放经验可迁移。" },
   { company: "平安银行（信用卡中心 / 汽车消费金融中心）", post: "信用卡中心培训生 / 运营培训生", sector: "消费金融", base: "上海/深圳/全国", status: "open", channel: "中国平安校园招聘官网（PAB营地计划）", link: "https://campus.pingan.com/", apply_limit: "网申2026-08-10至11-06，一般每人限投1-2个岗位（以官网为准）", addedDate: "2026-08-14", deadline: "2026-11-06", reason: "27届8月10日已启动网申；信用卡中心+汽车消费金融中心培训生做卡中心运营/风控/客户经营轮岗，与你信用卡产品运营、广告投放/效果营销经历高度对口，双非本硕友好、年薪17万+。" },
   { company: "XTransfer", post: "跨境支付运营 / 客户运营（外贸B2B收付款）", sector: "金融科技/支付", base: "上海/深圳", status: "open", channel: "XTransfer 校园招聘官网（北森）", link: "https://xtransfer.zhiye.com/Campus", apply_limit: "以官网为准（网申/内推 6月15日-9月30日）", addedDate: "2026-08-15", deadline: "2026-09-30", reason: "27届秋招网申进行中；跨境B2B收付款平台，外贸客户覆盖拉美/西语区市场，西语+金融/支付实习双背景高度对口，广告投放与用户运营经验可迁移到获客与商户运营，双非友好。" },
-  { company: "OPPO", post: "海外运营 / 用户运营（销售服务类）", sector: "消费电子出海", base: "深圳/东莞/西安/海外", status: "open", channel: "OPPO 2027届校园招聘官网", link: "https://careers.oppo.com/university/oppo/campus", apply_limit: "每人最多申请2个岗位（以官网为准），招满即止", addedDate: "2026-08-15", deadline: "", reason: "27届全球校招进行中；OPPO在拉美/西语区有成熟出海业务，海外/用户运营岗与西语语言+运营背景强匹配，广告投放与信用卡产品运营经验可迁移到市场与用户增长。" },
+  { company: "OPPO", post: "海外运营 / 用户运营（销售服务类）", sector: "消费电子/出海", base: "深圳/东莞/西安/海外", status: "open", channel: "OPPO 2027届校园招聘官网", link: "https://careers.oppo.com/university/oppo/campus", apply_limit: "每人最多申请2个岗位（以官网为准），招满即止", addedDate: "2026-08-15", deadline: "", reason: "27届全球校招进行中；OPPO在拉美/西语区有成熟出海业务，海外/用户运营岗与西语语言+运营背景强匹配，广告投放与信用卡产品运营经验可迁移到市场与用户增长。" },
   { company: "淘宝闪购（阿里巴巴）", post: "用户运营 / AI产品运营 / 商品运营", sector: "互联网", base: "上海/杭州/北京", status: "open", channel: "淘宝闪购2027届校招官网（一站投递）", link: "https://talent.ele.me/campus/home?lang=zh", apply_limit: "阿里系每业务集团1次机会，最多投3个意向（以官网为准）", addedDate: "2026-08-16", deadline: "", reason: "饿了么升级为淘宝闪购后大量新增HC，27届8月已开放；用户运营/商品运营/AI产品运营与你产品运营+广告投放经历直接对口，属阿里独立业务线（与集团一站不同入口），双非可投。" },
   { company: "字节跳动", post: "行业运营 / 商业化运营（巨量引擎·抖音电商）", sector: "互联网", base: "北京/上海/深圳/杭州", status: "open", channel: "字节校园招聘官网", link: "https://jobs.bytedance.com/campus", apply_limit: "2027校招全年4次机会，年内2次，单次≤2岗（招满即止）", addedDate: "2026-08-13", deadline: "2027-05-31", reason: "27届8月3日已启动；你感兴趣的行业运营，广告投放+信用卡运营经历高度契合商业化运营，双非看重实习含金量。" },
   { company: "字节跳动", post: "用户运营 / 增长运营", sector: "互联网", base: "北京/杭州", status: "open", channel: "字节校园招聘官网", link: "https://jobs.bytedance.com/campus", apply_limit: "同上：全年4次，年内2次，单次≤2岗", addedDate: "2026-08-13", deadline: "2027-05-31", reason: "27届已开；用户增长/促活运营，广告投放的数据与转化经验直接可迁移，双非友好。" },
@@ -154,6 +154,12 @@ const $ = (id) => document.getElementById(id);
 const uid = () => `${Date.now()}-${Math.random().toString(16).slice(2)}`;
 function esc(v) {
   return String(v ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+function safeUrl(v) {
+  try {
+    const url = new URL(String(v || ""), window.location.href);
+    return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+  } catch { return ""; }
 }
 
 function renderDashboard() {
@@ -319,8 +325,20 @@ let selYear = CY, selMonth = CM;
 
 function initMonth() {
   const sel = $("monthSelect");
-  for (let i = 0; i < 12; i++) { const o = document.createElement("option"); o.value = i; o.textContent = `${CY}年 ${i + 1}月`; if (i === CM) o.selected = true; sel.appendChild(o); }
-  sel.addEventListener("change", (e) => { selMonth = parseInt(e.target.value, 10); renderCalendar(); });
+  for (let yearOffset = 0; yearOffset <= 1; yearOffset++) {
+    const year = CY + yearOffset;
+    for (let month = 0; month < 12; month++) {
+      const o = document.createElement("option");
+      o.value = `${year}-${month}`;
+      o.textContent = `${year}年 ${month + 1}月`;
+      if (year === CY && month === CM) o.selected = true;
+      sel.appendChild(o);
+    }
+  }
+  sel.addEventListener("change", (e) => {
+    const [year, month] = e.target.value.split("-").map(Number);
+    selYear = year; selMonth = month; renderCalendar();
+  });
 }
 /* 某天新增岗位（按 addedDate） */
 function newOpeningsOn(ds) {
@@ -345,6 +363,9 @@ function renderCalendar() {
     const cell = document.createElement("div");
     cell.className = "cal-day" + (selYear === CY && selMonth === CM && d === CD ? " today" : "");
     cell.dataset.date = ds;
+    cell.setAttribute("role", "button");
+    cell.setAttribute("tabindex", "0");
+    cell.setAttribute("aria-label", `${selYear}年${selMonth + 1}月${d}日，查看详情`);
     cell.innerHTML = `<span class="num">${d}</span>`;
     const newCount = newOpeningsOn(ds).length;
     const dlCount = deadlineOpeningsOn(ds).length;
@@ -357,6 +378,9 @@ function renderCalendar() {
       cell.appendChild(rings);
     }
     cell.addEventListener("click", () => openDayModal(ds));
+    cell.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openDayModal(ds); }
+    });
     cal.appendChild(cell);
   }
 }
@@ -418,7 +442,8 @@ function openDayModal(ds) {
     dlBlock.classList.remove("hidden");
     dls.forEach((o) => {
       const el = document.createElement("div"); el.className = "day-job";
-      const link = o.link ? `<a class="btn btn-primary btn-sm" href="${esc(o.link)}" target="_blank" rel="noopener">投递</a>` : "";
+      const url = safeUrl(o.link);
+      const link = url ? `<a class="btn btn-primary btn-sm" href="${esc(url)}" target="_blank" rel="noopener noreferrer">投递</a>` : "";
       el.innerHTML = `<div class="day-job-main"><div class="day-job-company">${esc(o.company)}</div><div class="day-job-post">${esc(o.post)}</div></div>${link}`;
       dlList.appendChild(el);
     });
@@ -431,7 +456,8 @@ function openDayModal(ds) {
     newBlock.classList.remove("hidden");
     news.forEach((o) => {
       const el = document.createElement("div"); el.className = "day-job";
-      const link = o.link ? `<a class="btn btn-primary btn-sm" href="${esc(o.link)}" target="_blank" rel="noopener">投递</a>` : "";
+      const url = safeUrl(o.link);
+      const link = url ? `<a class="btn btn-primary btn-sm" href="${esc(url)}" target="_blank" rel="noopener noreferrer">投递</a>` : "";
       el.innerHTML = `<div class="day-job-main"><div class="day-job-company">${esc(o.company)}</div><div class="day-job-post">${esc(o.post)}</div></div>${link}`;
       newList.appendChild(el);
     });
@@ -456,7 +482,8 @@ function openDayModal(ds) {
 
 /* ================= 秋招岗位 ================= */
 function mkOpening(f = {}) {
-  return { id: f.id || uid(), company: f.company || "", post: f.post || "", sector: f.sector || "", base: f.base || "", status: f.status === "open" ? "open" : "soon", channel: f.channel || "", link: f.link || "", apply_limit: f.apply_limit || "", reason: f.reason || "", userAdded: !!f.userAdded, isNew: !!f.isNew, isDaily: !!f.isDaily, addedDate: f.addedDate || "", deadline: f.deadline || "" };
+  const sector = f.sector === "消费电子出海" ? "消费电子/出海" : (f.sector || "");
+  return { id: f.id || uid(), company: f.company || "", post: f.post || "", sector, base: f.base || "", status: f.status === "open" ? "open" : "soon", channel: f.channel || "", link: f.link || "", apply_limit: f.apply_limit || "", reason: f.reason || "", userAdded: !!f.userAdded, isNew: !!f.isNew, isDaily: !!f.isDaily, addedDate: f.addedDate || "", deadline: f.deadline || "" };
 }
 /* 远程岗位数据地址：与页面同目录的 openings.json（GitHub Pages 上可直接访问） */
 const OPENINGS_URL = "./openings.json";
@@ -562,7 +589,8 @@ function renderOpenings() {
   visible.forEach((it, i) => {
     const card = document.createElement("article"); card.className = "opening-card";
     const label = it.status === "open" ? "已开放" : "即将开放";
-    const link = it.link ? `<a class="btn btn-primary btn-sm" href="${esc(it.link)}" target="_blank" rel="noopener">投递</a>` : "";
+    const url = safeUrl(it.link);
+    const link = url ? `<a class="btn btn-primary btn-sm" href="${esc(url)}" target="_blank" rel="noopener noreferrer">投递</a>` : "";
     card.innerHTML = `
       <div class="opening-index">${i + 1}</div>
       <div class="opening-main">

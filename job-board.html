@@ -63,6 +63,7 @@
       .auth-fields { display: grid; gap: 12px; }
       .auth-fields input { width: 100%; font-family: var(--sf); font-size: 14px; color: var(--ink); background: var(--bg-elevated); border: 1px solid var(--hairline); border-radius: var(--radius-sm); padding: 10px 12px; }
       .auth-fields input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+      .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
       .auth-msg { font-size: 13px; margin-top: 4px; min-height: 18px; }
       .auth-msg.err { color: var(--red); }
       .auth-msg.ok { color: var(--green); }
@@ -394,7 +395,7 @@
           </div>
           <div class="panel-body">
             <div class="cal-toolbar">
-              <select id="monthSelect" class="cal-select"></select>
+              <select id="monthSelect" class="cal-select" aria-label="选择日历月份"></select>
             </div>
             <div class="calendar" id="calendar">
               <div class="cal-head">一</div>
@@ -449,11 +450,11 @@
         </div>
         <div class="panel-body">
           <div class="filter-grid">
-            <div class="field"><label>公司</label><select id="companyFilter"></select></div>
-            <div class="field"><label>岗位</label><select id="postFilter"></select></div>
-            <div class="field"><label>流程进展</label><select id="processStageFilter"></select></div>
-            <div class="field"><label>Base</label><select id="baseFilter"></select></div>
-            <div class="field"><label>优先级</label><select id="priorityFilter"></select></div>
+            <div class="field"><label for="companyFilter">公司</label><select id="companyFilter"></select></div>
+            <div class="field"><label for="postFilter">岗位</label><select id="postFilter"></select></div>
+            <div class="field"><label for="processStageFilter">流程进展</label><select id="processStageFilter"></select></div>
+            <div class="field"><label for="baseFilter">Base</label><select id="baseFilter"></select></div>
+            <div class="field"><label for="priorityFilter">优先级</label><select id="priorityFilter"></select></div>
           </div>
           <div class="filter-summary" id="filterSummary"></div>
         </div>
@@ -513,7 +514,7 @@
     </div>
 
     <div class="modal" id="offerModal" aria-hidden="true">
-      <div class="modal-card" role="dialog" aria-modal="true">
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="offerModalTitle">
         <div class="modal-head">
           <div><h2 id="offerModalTitle">新增投递记录</h2><p id="offerModalSub">填写投递信息，提交后写入本地数据。</p></div>
           <button type="button" class="modal-close" id="offerClose" aria-label="关闭投递记录窗口">×</button>
@@ -522,15 +523,15 @@
           <form id="offerForm">
             <input type="hidden" id="offerId" />
             <div class="form-grid">
-              <div class="form-field"><label>公司名称</label><input type="text" id="companyInput" required /></div>
-              <div class="form-field"><label>岗位名称</label><input type="text" id="postInput" required /></div>
-              <div class="form-field"><label>所属行业</label><select id="typeInput"></select></div>
-              <div class="form-field"><label>流程进展</label><select id="processStageInput" required><option>投递</option><option>测评</option><option>笔试</option><option>简历筛选</option><option>一面</option><option>二面</option><option>三面</option><option>HR面</option><option>Offer</option></select></div>
-              <div class="form-field"><label>投递日期</label><input type="date" id="sendDateInput" required /></div>
-              <div class="form-field"><label>最新进展</label><input type="text" id="latestInput" placeholder="如：待安排面试" /></div>
-              <div class="form-field"><label>Base 地址</label><input type="text" id="baseInput" required /></div>
-              <div class="form-field"><label>优先级</label><select id="priorityInput" required><option>高</option><option>中</option><option>低</option></select></div>
-              <div class="form-field full"><label>备注</label><textarea id="remarkInput" placeholder="项目亮点、内推信息或准备重点"></textarea></div>
+              <div class="form-field"><label for="companyInput">公司名称</label><input type="text" id="companyInput" required /></div>
+              <div class="form-field"><label for="postInput">岗位名称</label><input type="text" id="postInput" required /></div>
+              <div class="form-field"><label for="typeInput">所属行业</label><select id="typeInput"></select></div>
+              <div class="form-field"><label for="processStageInput">流程进展</label><select id="processStageInput" required><option>投递</option><option>测评</option><option>笔试</option><option>简历筛选</option><option>一面</option><option>二面</option><option>三面</option><option>HR面</option><option>Offer</option></select></div>
+              <div class="form-field"><label for="sendDateInput">投递日期</label><input type="date" id="sendDateInput" required /></div>
+              <div class="form-field"><label for="latestInput">最新进展</label><input type="text" id="latestInput" placeholder="如：待安排面试" /></div>
+              <div class="form-field"><label for="baseInput">Base 地址</label><input type="text" id="baseInput" required /></div>
+              <div class="form-field"><label for="priorityInput">优先级</label><select id="priorityInput" required><option>高</option><option>中</option><option>低</option></select></div>
+              <div class="form-field full"><label for="remarkInput">备注</label><textarea id="remarkInput" placeholder="项目亮点、内推信息或准备重点"></textarea></div>
             </div>
             <div class="modal-actions">
               <button type="button" class="btn btn-ghost" id="offerCancel">取消</button>
@@ -542,24 +543,24 @@
     </div>
 
     <div class="modal" id="openingModal" aria-hidden="true">
-      <div class="modal-card" role="dialog" aria-modal="true">
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="openingModalTitle">
         <div class="modal-head">
-          <div><h2>新增秋招岗位</h2><p>添加已开放/即将开放的目标岗位，保存到本地并支持增删。</p></div>
+          <div><h2 id="openingModalTitle">新增秋招岗位</h2><p>添加已开放/即将开放的目标岗位，保存到本地并支持增删。</p></div>
           <button type="button" class="modal-close" id="openingClose" aria-label="关闭新增岗位窗口">×</button>
         </div>
         <div class="modal-body">
           <form id="openingForm">
             <div class="form-grid">
-              <div class="form-field"><label>公司名称</label><input type="text" id="opCompany" required /></div>
-              <div class="form-field"><label>推荐岗位</label><input type="text" id="opPost" required /></div>
-              <div class="form-field"><label>行业 / 领域</label><input type="text" id="opSector" placeholder="如：信用卡运营 / 行业运营" /></div>
-              <div class="form-field"><label>Base 地点</label><input type="text" id="opBase" placeholder="如：深圳 / 上海" /></div>
-              <div class="form-field"><label>投递状态</label><select id="opStatus"><option value="open">已开放</option><option value="soon">即将开放</option></select></div>
-              <div class="form-field"><label>投递次数限制</label><input type="text" id="opLimit" placeholder="如：最多2个岗位 / 官网为准" /></div>
-              <div class="form-field"><label>投递截止日期（可选）</label><input type="date" id="opDeadline" /></div>
-              <div class="form-field"><label>投递渠道</label><input type="text" id="opChannel" placeholder="如：官网校招 / 内推" /></div>
-              <div class="form-field"><label>链接（可选）</label><input type="url" id="opLink" placeholder="https://" /></div>
-              <div class="form-field full"><label>匹配理由</label><textarea id="opReason" placeholder="为什么适合你（广告投放/信用卡运营/行业运营/西语/数字经济）"></textarea></div>
+              <div class="form-field"><label for="opCompany">公司名称</label><input type="text" id="opCompany" required /></div>
+              <div class="form-field"><label for="opPost">推荐岗位</label><input type="text" id="opPost" required /></div>
+              <div class="form-field"><label for="opSector">行业 / 领域</label><input type="text" id="opSector" placeholder="如：信用卡运营 / 行业运营" /></div>
+              <div class="form-field"><label for="opBase">Base 地点</label><input type="text" id="opBase" placeholder="如：深圳 / 上海" /></div>
+              <div class="form-field"><label for="opStatus">投递状态</label><select id="opStatus"><option value="open">已开放</option><option value="soon">即将开放</option></select></div>
+              <div class="form-field"><label for="opLimit">投递次数限制</label><input type="text" id="opLimit" placeholder="如：最多2个岗位 / 官网为准" /></div>
+              <div class="form-field"><label for="opDeadline">投递截止日期（可选）</label><input type="date" id="opDeadline" /></div>
+              <div class="form-field"><label for="opChannel">投递渠道</label><input type="text" id="opChannel" placeholder="如：官网校招 / 内推" /></div>
+              <div class="form-field"><label for="opLink">链接（可选）</label><input type="url" id="opLink" placeholder="https://" /></div>
+              <div class="form-field full"><label for="opReason">匹配理由</label><textarea id="opReason" placeholder="为什么适合你（广告投放/信用卡运营/行业运营/西语/数字经济）"></textarea></div>
             </div>
             <div class="modal-actions">
               <button type="button" class="btn btn-ghost" id="openingCancel">取消</button>
@@ -572,7 +573,7 @@
 
     <!-- 日期详情弹窗：点日历某天弹出 -->
     <div class="modal" id="dayModal" aria-hidden="true">
-      <div class="modal-card narrow" role="dialog" aria-modal="true">
+      <div class="modal-card narrow" role="dialog" aria-modal="true" aria-labelledby="dayModalTitle">
         <div class="modal-head">
           <div><h2 id="dayModalTitle">某月某日</h2><p id="dayModalSub">查看当天岗位动态与投递历史。</p></div>
           <div style="display:flex;align-items:center;gap:8px;">
@@ -599,7 +600,7 @@
     </div>
 
     <div class="modal" id="reviewModal" aria-hidden="true">
-      <div class="modal-card" role="dialog" aria-modal="true">
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="reviewModalTitle">
         <div class="modal-head">
           <div><h2 id="reviewModalTitle">面试复盘记录</h2><p id="reviewModalSub">记录自我介绍、问题复盘和改进点。</p></div>
           <button type="button" class="modal-close" id="reviewClose" aria-label="关闭复盘窗口">×</button>
@@ -607,11 +608,11 @@
         <div class="modal-body">
           <form id="reviewForm">
             <input type="hidden" id="reviewId" />
-            <div class="form-field full" style="margin-bottom:15px;"><label>标题</label><input type="text" id="reviewTitle" placeholder="如：某公司一面复盘" /></div>
-            <div class="form-field full" style="margin-bottom:15px;"><label>自我介绍</label><textarea id="selfIntro" placeholder="自我介绍内容，可按岗位灵活调整…"></textarea></div>
-            <div class="form-field full" style="margin-bottom:15px;"><label>面试问题</label><textarea id="interviewQues" placeholder="被问到的技术/业务/情景题及答题思路…"></textarea></div>
-            <div class="form-field full" style="margin-bottom:15px;"><label>反问问题</label><textarea id="askQues" placeholder="准备反问面试官的问题…"></textarea></div>
-            <div class="form-field full"><label>备注</label><textarea id="reviewRemark" placeholder="面试感受、改进点、后续准备…"></textarea></div>
+            <div class="form-field full" style="margin-bottom:15px;"><label for="reviewTitle">标题</label><input type="text" id="reviewTitle" placeholder="如：某公司一面复盘" /></div>
+            <div class="form-field full" style="margin-bottom:15px;"><label for="selfIntro">自我介绍</label><textarea id="selfIntro" placeholder="自我介绍内容，可按岗位灵活调整…"></textarea></div>
+            <div class="form-field full" style="margin-bottom:15px;"><label for="interviewQues">面试问题</label><textarea id="interviewQues" placeholder="被问到的技术/业务/情景题及答题思路…"></textarea></div>
+            <div class="form-field full" style="margin-bottom:15px;"><label for="askQues">反问问题</label><textarea id="askQues" placeholder="准备反问面试官的问题…"></textarea></div>
+            <div class="form-field full"><label for="reviewRemark">备注</label><textarea id="reviewRemark" placeholder="面试感受、改进点、后续准备…"></textarea></div>
             <div class="modal-actions">
               <span id="reviewSaveTip" class="save-tip hidden">已保存</span>
               <button type="button" class="btn btn-danger-quiet hidden" id="reviewDelete">删除记录</button>
@@ -624,7 +625,7 @@
     </div>
 
     <div class="modal" id="confirmModal" aria-hidden="true">
-      <div class="modal-card narrow" role="dialog" aria-modal="true">
+      <div class="modal-card narrow" role="dialog" aria-modal="true" aria-labelledby="confirmTitle">
         <div class="modal-head">
           <div><h2 id="confirmTitle">确认删除</h2><p id="confirmDesc">删除后会立即从本地移除。</p></div>
           <button type="button" class="modal-close" id="confirmClose" aria-label="关闭确认窗口">×</button>
@@ -641,7 +642,7 @@
 
     <!-- 登录 / 注册弹窗 -->
     <div class="modal" id="authModal" aria-hidden="true">
-      <div class="modal-card narrow" role="dialog" aria-modal="true">
+      <div class="modal-card narrow" role="dialog" aria-modal="true" aria-labelledby="authTitle">
         <div class="modal-head">
           <div><h2 id="authTitle">登录</h2><p id="authSub">登录后，投递记录与复盘会云端同步，跨设备可见，且只有你自己能看到。</p></div>
           <button type="button" class="modal-close" id="authClose" aria-label="关闭登录窗口">×</button>
@@ -649,10 +650,12 @@
         <div class="modal-body">
           <form id="authForm">
             <div class="auth-fields">
+              <label class="sr-only" for="authEmail">邮箱</label>
               <input type="email" id="authEmail" placeholder="邮箱" autocomplete="email" required />
+              <label class="sr-only" for="authPassword">密码</label>
               <input type="password" id="authPassword" placeholder="密码（至少 6 位）" autocomplete="current-password" required />
             </div>
-            <div class="auth-msg" id="authMsg"></div>
+            <div class="auth-msg" id="authMsg" aria-live="polite"></div>
             <div class="modal-actions">
               <button type="button" class="btn btn-ghost" id="authCancel">取消</button>
               <button type="submit" class="btn btn-primary" id="authSubmit">登录</button>
@@ -664,7 +667,7 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-    <script src="./config.js"></script>
-    <script src="./job-board.js"></script>
+    <script src="./config.js?v=20260828"></script>
+    <script src="./job-board.js?v=20260828-2"></script>
   </body>
 </html>
