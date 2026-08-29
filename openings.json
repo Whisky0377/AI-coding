@@ -1,10 +1,150 @@
 {
-  "version": "2026-08-28",
-  "updatedAt": "2026-08-28T12:37:51.397Z",
+  "version": "2026-08-29",
+  "updatedAt": "2026-08-29T07:46:14.788Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "字节跳动",
+      "post": "行业运营 / 商业化运营（巨量引擎·抖音电商）",
+      "sector": "互联网",
+      "base": "北京/上海/深圳/杭州",
+      "status": "open",
+      "channel": "字节校园招聘官网",
+      "link": "https://jobs.bytedance.com/campus",
+      "apply_limit": "2027校招全年4次机会，年内2次，单次≤2岗（招满即止）",
+      "reason": "27届8月3日已启动；你感兴趣的行业运营，广告投放+信用卡运营经历高度契合商业化运营，双非看重实习含金量。",
+      "addedDate": "2026-08-13",
+      "deadline": "2027-05-31",
+      "isDaily": true
+    },
+    {
+      "company": "字节跳动",
+      "post": "用户运营 / 增长运营",
+      "sector": "互联网",
+      "base": "北京/杭州",
+      "status": "open",
+      "channel": "字节校园招聘官网",
+      "link": "https://jobs.bytedance.com/campus",
+      "apply_limit": "同上：全年4次，年内2次，单次≤2岗",
+      "reason": "27届已开；用户增长/促活运营，广告投放的数据与转化经验直接可迁移，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "2027-05-31",
+      "isDaily": true
+    },
+    {
+      "company": "阿里巴巴",
+      "post": "运营 / 商家运营 / 用户运营",
+      "sector": "互联网",
+      "base": "杭州/北京/上海/成都",
+      "status": "open",
+      "channel": "阿里校园招聘官网（一站投递）",
+      "link": "https://talent.alibaba.com/campus/home",
+      "apply_limit": "每个业务集团1次机会，最多选2个意向",
+      "reason": "27届8月启动，本硕博均可（双非本科有机会）；淘天/本地生活运营岗多，运营方法论通用。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "阿里国际 AIDC",
+      "post": "海外运营 / 跨境招商运营（速卖通/Lazada）",
+      "sector": "跨境电商",
+      "base": "杭州/深圳",
+      "status": "open",
+      "channel": "阿里国际校园招聘",
+      "link": "https://talent.alibaba.com/campus/home",
+      "apply_limit": "每业务集团1次，最多2个意向",
+      "reason": "西语可切拉美/西语区市场，跨境运营与你产品运营实习对口，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "腾讯",
+      "post": "用户运营 / 内容运营 / 商业化运营",
+      "sector": "互联网",
+      "base": "深圳/北京/上海",
+      "status": "open",
+      "channel": "腾讯校园招聘官网",
+      "link": "https://join.qq.com/campus.html",
+      "apply_limit": "以官网为准（一般≤2个岗位）",
+      "reason": "27届秋招开放；广告/内容/用户运营方向多，广告投放经验对口广告线，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "百度",
+      "post": "用户运营 / 商业产品运营",
+      "sector": "互联网",
+      "base": "北京",
+      "status": "open",
+      "channel": "百度校园招聘官网",
+      "link": "https://talent.baidu.com/jobs/list",
+      "apply_limit": "以官网为准",
+      "reason": "27届开放；商业化/搜索广告运营与你广告投放经历强相关，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "美团",
+      "post": "用户运营 / 到店行业运营 / 商业分析",
+      "sector": "互联网",
+      "base": "北京/上海",
+      "status": "open",
+      "channel": "美团校园招聘官网",
+      "link": "https://campus.meituan.com",
+      "apply_limit": "以官网为准（惯例≤2岗）",
+      "reason": "到店/到家行业运营与你的行业运营兴趣一致，运营方法论通用，双非量大。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "京东",
+      "post": "用户运营 / 商业化运营（新星计划）",
+      "sector": "互联网",
+      "base": "北京",
+      "status": "open",
+      "channel": "京东校园招聘官网",
+      "link": "https://campus.jd.com",
+      "apply_limit": "新星计划最多2个（主投+调剂）；管培生TET仅1个",
+      "reason": "电商用户/商业化运营，广告投放经验对口京东零售商业化，双非本硕可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "拼多多 / Temu",
+      "post": "用户运营 / 类目运营 / 海外运营",
+      "sector": "跨境电商",
+      "base": "上海/深圳",
+      "status": "open",
+      "channel": "PDD 校园招聘官网",
+      "link": "https://careers.pddglobalhr.com",
+      "apply_limit": "提前批最多2个（含调剂），后续批次不影响",
+      "reason": "Temu 出海高速扩张，西语切拉美站；运营节奏快、双非友好、给薪有竞争力。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "快手",
+      "post": "商业化运营 / 用户运营（磁力引擎）",
+      "sector": "互联网",
+      "base": "北京",
+      "status": "open",
+      "channel": "快手校园招聘官网",
+      "link": "https://zhaopin.kuaishou.cn",
+      "apply_limit": "以官网为准",
+      "reason": "磁力引擎商业化投放运营，与你广告投放经历强相关，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "isDaily": true
+    },
     {
       "company": "哔哩哔哩",
       "post": "产品运营 / 内容运营 / 商业化运营",
@@ -16,8 +156,7 @@
       "apply_limit": "以官网为准（惯例≤2岗）",
       "reason": "27届8月3日启动；社区+内容+商业化运营与你广告投放/内容运营契合，双非友好。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "小米",
@@ -30,8 +169,7 @@
       "apply_limit": "以官网为准",
       "reason": "27届开放；生态链+海外市场运营，语言+运营组合有竞争力，双非量大。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "贝壳找房",
@@ -44,8 +182,7 @@
       "apply_limit": "以官网为准",
       "reason": "平台+城市运营，运营岗多、门槛相对友好，适合双非本硕补充投递。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "米哈游 miHoYo",
@@ -58,8 +195,7 @@
       "apply_limit": "以官网为准",
       "reason": "27届8月3日启动；社区/发行运营方法论通用，广告投放经验可迁移到买量发行。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "蚂蚁集团（支付宝）",
@@ -72,8 +208,7 @@
       "apply_limit": "以官网为准（惯例≤2岗）",
       "reason": "支付宝行业/商家运营与你行业运营意向一致，信用卡运营与支付场景相通，双非可投。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "连连数科 LianLian",
@@ -86,8 +221,7 @@
       "apply_limit": "一般限报1-2个岗位（以公告为准）",
       "reason": "跨境支付牌照齐全，金融+运营双背景强匹配，稳增长赛道，双非可投。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "PingPong",
@@ -100,8 +234,7 @@
       "apply_limit": "以官网为准",
       "reason": "跨境收款龙头，拉美是增长市场，西语+金融运营组合稀缺。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "Airwallex 空中云汇",
@@ -114,8 +247,7 @@
       "apply_limit": "外企一般不限次数（以招聘页为准）",
       "reason": "出海金融科技独角兽，重视语言与运营，金融类实习非常对口。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "PayPal 中国",
@@ -128,8 +260,7 @@
       "apply_limit": "外企一般不限次数（以招聘页为准）",
       "reason": "金融+数字经济双背景强匹配，西语可服务拉美商户，金融实习加分。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "度小满金融",
@@ -142,8 +273,7 @@
       "apply_limit": "参照百度系，一般≤2个岗位（以公告为准）",
       "reason": "信贷+理财运营，广告投放/效果营销经验对口，数字经济背景加分，双非可投。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "奇富科技（360数科）",
@@ -597,136 +727,6 @@
       "link": "https://campus.163.com",
       "apply_limit": "以官网为准",
       "reason": "福利待遇口碑好的大厂，游戏/电商/传媒运营岗多，双非有机会。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "字节跳动",
-      "post": "行业运营 / 商业化运营（巨量引擎·抖音电商）",
-      "sector": "互联网",
-      "base": "北京/上海/深圳/杭州",
-      "status": "open",
-      "channel": "字节校园招聘官网",
-      "link": "https://jobs.bytedance.com/campus",
-      "apply_limit": "2027校招全年4次机会，年内2次，单次≤2岗（招满即止）",
-      "reason": "27届8月3日已启动；你感兴趣的行业运营，广告投放+信用卡运营经历高度契合商业化运营，双非看重实习含金量。",
-      "addedDate": "2026-08-13",
-      "deadline": "2027-05-31"
-    },
-    {
-      "company": "字节跳动",
-      "post": "用户运营 / 增长运营",
-      "sector": "互联网",
-      "base": "北京/杭州",
-      "status": "open",
-      "channel": "字节校园招聘官网",
-      "link": "https://jobs.bytedance.com/campus",
-      "apply_limit": "同上：全年4次，年内2次，单次≤2岗",
-      "reason": "27届已开；用户增长/促活运营，广告投放的数据与转化经验直接可迁移，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "2027-05-31"
-    },
-    {
-      "company": "阿里巴巴",
-      "post": "运营 / 商家运营 / 用户运营",
-      "sector": "互联网",
-      "base": "杭州/北京/上海/成都",
-      "status": "open",
-      "channel": "阿里校园招聘官网（一站投递）",
-      "link": "https://talent.alibaba.com/campus/home",
-      "apply_limit": "每个业务集团1次机会，最多选2个意向",
-      "reason": "27届8月启动，本硕博均可（双非本科有机会）；淘天/本地生活运营岗多，运营方法论通用。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "阿里国际 AIDC",
-      "post": "海外运营 / 跨境招商运营（速卖通/Lazada）",
-      "sector": "跨境电商",
-      "base": "杭州/深圳",
-      "status": "open",
-      "channel": "阿里国际校园招聘",
-      "link": "https://talent.alibaba.com/campus/home",
-      "apply_limit": "每业务集团1次，最多2个意向",
-      "reason": "西语可切拉美/西语区市场，跨境运营与你产品运营实习对口，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "腾讯",
-      "post": "用户运营 / 内容运营 / 商业化运营",
-      "sector": "互联网",
-      "base": "深圳/北京/上海",
-      "status": "open",
-      "channel": "腾讯校园招聘官网",
-      "link": "https://join.qq.com/campus.html",
-      "apply_limit": "以官网为准（一般≤2个岗位）",
-      "reason": "27届秋招开放；广告/内容/用户运营方向多，广告投放经验对口广告线，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "百度",
-      "post": "用户运营 / 商业产品运营",
-      "sector": "互联网",
-      "base": "北京",
-      "status": "open",
-      "channel": "百度校园招聘官网",
-      "link": "https://talent.baidu.com/jobs/list",
-      "apply_limit": "以官网为准",
-      "reason": "27届开放；商业化/搜索广告运营与你广告投放经历强相关，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "美团",
-      "post": "用户运营 / 到店行业运营 / 商业分析",
-      "sector": "互联网",
-      "base": "北京/上海",
-      "status": "open",
-      "channel": "美团校园招聘官网",
-      "link": "https://campus.meituan.com",
-      "apply_limit": "以官网为准（惯例≤2岗）",
-      "reason": "到店/到家行业运营与你的行业运营兴趣一致，运营方法论通用，双非量大。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "京东",
-      "post": "用户运营 / 商业化运营（新星计划）",
-      "sector": "互联网",
-      "base": "北京",
-      "status": "open",
-      "channel": "京东校园招聘官网",
-      "link": "https://campus.jd.com",
-      "apply_limit": "新星计划最多2个（主投+调剂）；管培生TET仅1个",
-      "reason": "电商用户/商业化运营，广告投放经验对口京东零售商业化，双非本硕可投。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "拼多多 / Temu",
-      "post": "用户运营 / 类目运营 / 海外运营",
-      "sector": "跨境电商",
-      "base": "上海/深圳",
-      "status": "open",
-      "channel": "PDD 校园招聘官网",
-      "link": "https://careers.pddglobalhr.com",
-      "apply_limit": "提前批最多2个（含调剂），后续批次不影响",
-      "reason": "Temu 出海高速扩张，西语切拉美站；运营节奏快、双非友好、给薪有竞争力。",
-      "addedDate": "2026-08-13",
-      "deadline": ""
-    },
-    {
-      "company": "快手",
-      "post": "商业化运营 / 用户运营（磁力引擎）",
-      "sector": "互联网",
-      "base": "北京",
-      "status": "open",
-      "channel": "快手校园招聘官网",
-      "link": "https://zhaopin.kuaishou.cn",
-      "apply_limit": "以官网为准",
-      "reason": "磁力引擎商业化投放运营，与你广告投放经历强相关，双非可投。",
       "addedDate": "2026-08-13",
       "deadline": ""
     },
