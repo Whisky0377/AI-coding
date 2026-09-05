@@ -3,8 +3,8 @@
  * Daily openings updater (run by GitHub Actions).
  *
  * Behaviour:
- *  1) Merge candidates.json into openings.json (append-only, dedup by company+post).
- *     -> Never removes previously recommended jobs.
+ *  1) Merge candidates.json into openings.json (dedup by company+post).
+ *     Existing jobs are refreshed from the verified candidate source; history is retained.
  *  2) Pick 10 "today" jobs by daily rotation over the whole pool, mark them isDaily=true
  *     and move them to the FRONT so the newest 10 stay on top; all others kept below.
  *  3) Refresh version/updatedAt so the web page knows there is an update.
@@ -37,16 +37,20 @@ function main() {
   const current = readJson(OPENINGS, { openings: [] });
   let openings = Array.isArray(current.openings) ? current.openings : [];
 
-  // 1) merge candidates (append-only, dedup)
+  // 1) merge candidates and refresh existing records from the verified source
   const candidates = readJson(CANDIDATES, null);
   let added = 0;
   if (candidates && Array.isArray(candidates.openings)) {
-    const seen = new Set(openings.map(keyOf));
+    const existing = new Map(openings.map((o) => [keyOf(o), o]));
     for (const c of candidates.openings) {
       if (!c || !c.company || !c.post) continue;
-      if (seen.has(keyOf(c))) continue;
+      const key = keyOf(c);
+      if (existing.has(key)) {
+        Object.assign(existing.get(key), c);
+        continue;
+      }
       openings.push(c);
-      seen.add(keyOf(c));
+      existing.set(key, c);
       added++;
     }
   }
