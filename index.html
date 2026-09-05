@@ -299,8 +299,9 @@
       .panel-title { display: block; font-size: 16px; }
       .panel-title .dot { display: none; }
       .grid-top { grid-template-columns: minmax(300px, .78fr) minmax(0, 1.45fr); gap: 20px; }
-      .openings-toolbar { display: grid; grid-template-columns: minmax(0,1fr) auto auto; }
+      .openings-toolbar { display: grid; grid-template-columns: minmax(0,1fr) 128px auto auto; }
       .opening-search { min-width: 0; width: 100%; padding: 9px 12px; border: 1px solid var(--hairline); border-radius: 10px; color: var(--ink); background: var(--bg-elevated); }
+      .opening-size-filter { min-width: 0; width: 100%; padding: 9px 10px; border: 1px solid var(--hairline); border-radius: 10px; color: var(--ink-2); background: var(--bg-elevated); font-family: var(--sf); font-size: 13px; }
       .toggle-control { display: inline-flex; align-items: center; gap: 7px; color: var(--ink-3); font-size: 12px; white-space: nowrap; cursor: pointer; }
       .toggle-control input { accent-color: var(--accent); }
       .opening-card { border-left: 3px solid transparent; }
@@ -430,6 +431,7 @@
           <div class="panel-body">
             <div class="openings-toolbar">
               <input class="opening-search" id="openingSearch" type="search" placeholder="搜索公司、岗位、地点或行业" aria-label="搜索校招岗位" />
+              <select class="opening-size-filter" id="openingSizeFilter" aria-label="按公司规模筛选"><option value="">全部类型</option><option value="大厂">大厂</option><option value="中厂">中厂</option><option value="小厂">小厂</option><option value="外企">外企</option></select>
               <label class="toggle-control"><input type="checkbox" id="openOnlyToggle" /> 仅看已开放</label>
               <button type="button" class="btn btn-quiet btn-sm" id="resetOpeningsBtn">拉取最新岗位</button>
             </div>
@@ -668,6 +670,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./config.js?v=20260828"></script>
-    <script src="./job-board.js?v=20260828-2"></script>
+    <script src="./job-board.js?v=20260904-1"></script>
   </body>
 </html>
