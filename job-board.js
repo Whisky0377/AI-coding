@@ -5,7 +5,7 @@ const OFFER_KEY = "offerBoardRecords";
 const REVIEW_KEY = "interviewReview";
 const OPENING_KEY = "autumnOpenings";
 const OPENING_VER_KEY = "autumnOpeningsSeedVersion";
-const OPENING_SEED_VERSION = "2026-08-17";
+const OPENING_SEED_VERSION = "2026-09-04";
 
 /* ================= Supabase 云同步（可选，未配置则走本地模式） ================= */
 let sb = null;              // supabase client
@@ -149,6 +149,8 @@ let reviewRecords = [];
 let openingRecords = [];
 let openingQuery = "";
 let openingOpenOnly = false;
+let openingSize = "";
+let openingCloudVersion = localStorage.getItem("autumnOpeningsRemoteVersion") || "";
 
 const $ = (id) => document.getElementById(id);
 const uid = () => `${Date.now()}-${Math.random().toString(16).slice(2)}`;
@@ -481,9 +483,20 @@ function openDayModal(ds) {
 }
 
 /* ================= 秋招岗位 ================= */
+function inferCompanySize(company, explicit = "") {
+  if (["大厂", "中厂", "小厂", "外企"].includes(explicit)) return explicit;
+  const name = String(company || "");
+  const foreign = /Shopee|PayPal|宝洁|P&G|联合利华|Unilever|欧莱雅|L'Oréal|玛氏|Mars|雀巢|Nestlé|亿滋|Mondelēz|达能|Danone|雅培|Abbott|亚马逊|Amazon|微软|Microsoft|特斯拉|Tesla|博世|Bosch|西门子|Siemens|伊莱克斯|Electrolux|Sonos|卡特彼勒|Caterpillar|基恩士|KEYENCE|施耐德|Schneider/i;
+  const large = /字节|阿里|腾讯|百度|美团|京东|拼多多|快手|哔哩哔哩|小米|携程|网易|OPPO|vivo|联想|平安银行|招商银行|中信银行|中国银行|蚂蚁|华泰|海尔|复星|大疆|DJI|荣耀|HONOR|中兴|ZTE|石头|追觅|安克|科沃斯/i;
+  const small = /PLAUD|SwitchBot|影目|INMO|魔法原子|云深处|DEEP Robotics|强脑|BrainCo|瑞泊|XrayBot/i;
+  if (foreign.test(name)) return "外企";
+  if (large.test(name)) return "大厂";
+  if (small.test(name)) return "小厂";
+  return "中厂";
+}
 function mkOpening(f = {}) {
   const sector = f.sector === "消费电子出海" ? "消费电子/出海" : (f.sector || "");
-  return { id: f.id || uid(), company: f.company || "", post: f.post || "", sector, base: f.base || "", status: f.status === "open" ? "open" : "soon", channel: f.channel || "", link: f.link || "", apply_limit: f.apply_limit || "", reason: f.reason || "", userAdded: !!f.userAdded, isNew: !!f.isNew, isDaily: !!f.isDaily, addedDate: f.addedDate || "", deadline: f.deadline || "" };
+  return { id: f.id || uid(), company: f.company || "", post: f.post || "", sector, company_size: inferCompanySize(f.company, f.company_size), base: f.base || "", status: f.status === "open" ? "open" : "soon", channel: f.channel || "", link: f.link || "", apply_limit: f.apply_limit || "", reason: f.reason || "", userAdded: !!f.userAdded, isNew: !!f.isNew, isDaily: !!f.isDaily, addedDate: f.addedDate || "", deadline: f.deadline || "" };
 }
 /* 远程岗位数据地址：与页面同目录的 openings.json（GitHub Pages 上可直接访问） */
 const OPENINGS_URL = "./openings.json";
@@ -503,9 +516,8 @@ function loadOpenings() {
 /* 岗位去重键：公司+岗位 */
 function openingKey(o) { return `${String(o.company || "").trim()}|${String(o.post || "").trim()}`; }
 /*
- * 拉取远程 openings.json —— 纯追加合并，绝不覆盖已有岗位。
- * 规则：本地现有岗位（含内置推荐、每日已追加、用户手动新增）全部保留；
- *      只把远程里“本地还没有的”新岗位追加到末尾，并标记 isNew 显示“新”角标。
+ * 拉取远程 openings.json：刷新云端已核验字段，并追加云端新岗位。
+ * 本地用户手动新增的岗位与本地记录 id 保留。
  */
 async function fetchRemoteOpenings() {
   try {
@@ -522,8 +534,10 @@ async function fetchRemoteOpenings() {
       if (!r || !r.company || !r.post) return;
       const k = openingKey(r);
       if (existMap.has(k)) {
-        // 已有：同步“今日推荐”标记，其余字段保留本地
-        existMap.get(k).isDaily = dailyKeys.has(k);
+        // 已有：用云端核验结果刷新岗位字段，同时保留本地 id 与用户标记
+        const local = existMap.get(k);
+        const fresh = mkOpening({ ...local, ...r, id: local.id, userAdded: local.userAdded, isNew: local.isNew, isDaily: dailyKeys.has(k) });
+        Object.assign(local, fresh);
         return;
       }
       const rec = mkOpening({ ...r, isNew: true, isDaily: dailyKeys.has(k) });
@@ -534,6 +548,7 @@ async function fetchRemoteOpenings() {
     // 今日推荐置顶（保留其余顺序，历史全部保留）
     openingRecords.sort((a, b) => (b.isDaily ? 1 : 0) - (a.isDaily ? 1 : 0));
     const remoteVer = data.version || data.updatedAt || String(remote.length);
+    openingCloudVersion = remoteVer;
     localStorage.setItem(OPENING_REMOTE_VER_KEY, remoteVer);
     saveOpenings(); renderOpenings(); renderCalendar();
   } catch (e) {
@@ -552,7 +567,7 @@ async function resetOpenings() {
   await fetchRemoteOpenings();
 }
 /*
- * 拉取最新岗位（纯追加，不覆盖、不删除任何已有岗位）：
+ * 拉取最新岗位（不删除已有岗位）：
  *  1) 把内置 seed 里“本地还没有的”补进来（防止早期版本缺失）
  *  2) 再拉云端 openings.json 追加新岗位
  */
@@ -577,12 +592,14 @@ function renderOpenings() {
   const q = openingQuery.trim().toLocaleLowerCase("zh-CN");
   const visible = openingRecords.filter((o) => {
     if (openingOpenOnly && o.status !== "open") return false;
+    if (openingSize && o.company_size !== openingSize) return false;
     if (!q) return true;
-    return [o.company, o.post, o.sector, o.base, o.channel].some((v) => String(v || "").toLocaleLowerCase("zh-CN").includes(q));
+    return [o.company, o.post, o.sector, o.company_size, o.base, o.channel].some((v) => String(v || "").toLocaleLowerCase("zh-CN").includes(q));
   });
-  $("openingsMeta").textContent = visible.length === total
+  const cloudMeta = openingCloudVersion ? ` · 云端更新 ${String(openingCloudVersion).slice(0, 10)}` : " · 等待云端同步";
+  $("openingsMeta").textContent = (visible.length === total
     ? `共 ${total} 个目标 · 已开放 ${open} · 即将开放 ${total - open}`
-    : `找到 ${visible.length} 个岗位 · 目标池共 ${total} 个`;
+    : `找到 ${visible.length} 个岗位 · 目标池共 ${total} 个`) + cloudMeta;
   list.innerHTML = "";
   if (!visible.length) { empty.textContent = total ? "没有符合条件的岗位，试试其他关键词。" : "暂无岗位，点“新增岗位”添加，或“拉取最新岗位”。"; empty.classList.remove("hidden"); renderDashboard(); return; }
   empty.classList.add("hidden");
@@ -600,6 +617,7 @@ function renderOpenings() {
           <span class="badge ${it.status}">${label}</span>
           ${it.isDaily ? `<span class="badge daily">今日</span>` : ""}
           ${it.isNew ? `<span class="badge new">新</span>` : ""}
+          <span class="badge sector">${esc(it.company_size)}</span>
           ${it.sector ? `<span class="badge sector">${esc(it.sector)}</span>` : ""}
         </div>
         <div class="opening-meta">${it.base ? "📍 " + esc(it.base) : ""}${it.channel ? " ｜ " + esc(it.channel) : ""}</div>
@@ -798,6 +816,7 @@ function bind() {
   // 秋招
   $("openOpeningBtn").addEventListener("click", () => { $("openingForm").reset(); $("opStatus").value = "open"; openModal("openingModal"); setTimeout(() => $("opCompany").focus(), 0); });
   $("openingSearch").addEventListener("input", (e) => { openingQuery = e.target.value; renderOpenings(); });
+  $("openingSizeFilter").addEventListener("change", (e) => { openingSize = e.target.value; renderOpenings(); });
   $("openOnlyToggle").addEventListener("change", (e) => { openingOpenOnly = e.target.checked; renderOpenings(); });
   $("openingClose").addEventListener("click", () => closeModal("openingModal"));
   $("openingCancel").addEventListener("click", () => closeModal("openingModal"));
