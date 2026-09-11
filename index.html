@@ -359,6 +359,13 @@
         .board-category-tabs { width: 100%; overflow-x: auto; }
         .board-category-tab { flex: 1 0 auto; }
       }
+    
+      .interview-resource-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr)); gap:16px; margin-top:18px; }
+      .interview-resource-card { border:1px solid var(--line, #e5e1d9); border-radius:16px; padding:18px; min-width:0; overflow-wrap:anywhere; }
+      .interview-resource-card h3 { margin:0 0 10px; font-size:16px; line-height:1.6; }
+      .interview-resource-card p { font-size:14px; line-height:1.7; margin:8px 0; }
+      .interview-resource-meta { color:#747c8d; font-size:13px; line-height:1.7; }
+      #interviewPlatform { padding:8px 12px; border:1px solid #d7d4cc; border-radius:10px; background:transparent; color:inherit; font:inherit; }
     </style>
   </head>
   <body>
@@ -502,6 +509,22 @@
         </div>
       </section>
       <p class="footer-note">你的投递数据默认仅保存在当前浏览器；配置云同步后可跨设备访问。</p>
+
+      <section class="panel review-section" id="interview-resources" aria-labelledby="interviewResourcesTitle">
+        <div class="panel-head" style="flex-wrap:wrap;gap:12px">
+          <h2 class="panel-title" id="interviewResourcesTitle">秋招面试经验 · 精选阅读</h2>
+          <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
+            <label for="interviewPlatform">平台</label>
+            <select id="interviewPlatform"><option value="">全部</option><option>牛客</option><option>抖音</option></select>
+            <button type="button" class="btn btn-ghost btn-sm" id="refreshInterviewResources">刷新内容</button>
+          </div>
+        </div>
+        <div class="panel-body">
+          <p id="interviewResourceStatus" role="status">正在获取经验清单…</p>
+          <p class="interview-resource-meta">优先金融 / 产品运营 / 海外运营。往年面经仅供练习，不代表今年考题；只提供原帖链接，不转载全文。未核实的点赞数不标注“高赞”。</p>
+          <div id="interviewResourceList" class="interview-resource-grid"></div>
+        </div>
+      </section>
       </main>
     </div>
 
@@ -522,7 +545,7 @@
               <div class="form-field"><label for="sendDateInput">投递日期</label><input type="date" id="sendDateInput" required /></div>
               <div class="form-field"><label for="latestInput">最新进展</label><input type="text" id="latestInput" placeholder="如：待安排面试" /></div>
               <div class="form-field"><label for="baseInput">Base 地址</label><input type="text" id="baseInput" required /></div>
-              <div class="form-field"><label for="priorityInput">优先级</label><select id="priorityInput" required><option>高</option><option>中</option><option>低</option></select></div>
+              <div class="form-field"><label for="priorityInput">优先级</label><select id="priorityInput" required><option>高</option><option>中</option><option selected>低</option></select></div>
               <div class="form-field full"><label for="remarkInput">备注</label><textarea id="remarkInput" placeholder="项目亮点、内推信息或准备重点"></textarea></div>
             </div>
             <div class="modal-actions">
@@ -660,6 +683,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./config.js?v=20260828"></script>
-    <script src="./job-board.js?v=20260911-1"></script>
+    <script src="./job-board.js?v=20260911-2"></script>
+    <script src="./interview-resources.js?v=20260911-1"></script>
   </body>
 </html>
