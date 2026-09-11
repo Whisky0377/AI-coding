@@ -366,6 +366,11 @@
       .interview-resource-card p { font-size:14px; line-height:1.7; margin:8px 0; }
       .interview-resource-meta { color:#747c8d; font-size:13px; line-height:1.7; }
       #interviewPlatform { padding:8px 12px; border:1px solid #d7d4cc; border-radius:10px; background:transparent; color:inherit; font:inherit; }
+      .cloud-sync-error { color:#d93025; font-size:12px; font-weight:400; line-height:1.5; margin:5px 0 0; }
+      .cal-ring.amber, .legend-ring.amber { border-color:#d88616; color:#b86d00; }
+      .calendar-reminders { font-size:12px; line-height:1.6; color:#a94b22; max-height:130px; overflow:auto; margin-top:12px; }
+      .calendar-reminder-link { display:block; border:0; background:none; color:inherit; font:inherit; text-align:left; padding:4px 0; cursor:pointer; width:100%; overflow-wrap:anywhere; }
+      .calendar-reminder-link:hover { text-decoration:underline; }
     </style>
   </head>
   <body>
@@ -390,7 +395,7 @@
           </div>
         </div>
         <div class="account-bar" id="accountBar">
-          <span class="cloud-badge off" id="cloudBadge">本地模式</span>
+          <div><span class="cloud-badge off" id="cloudBadge">本地模式</span><p id="cloudSyncError" class="cloud-sync-error hidden" role="alert"></p></div>
           <span class="who" id="whoami"></span>
           <button type="button" class="btn btn-ghost btn-sm hidden" id="loginBtn">登录 / 注册</button>
           <button type="button" class="btn btn-ghost btn-sm hidden" id="logoutBtn">退出登录</button>
@@ -427,7 +432,9 @@
               <span><span class="legend-ring blue"></span>已投递</span>
               <span><span class="legend-ring green"></span>新增岗位</span>
               <span><span class="legend-ring red"></span>投递截止</span>
+              <span><span class="legend-ring amber"></span>疑似重复</span>
             </div>
+            <div id="calendarReminders" class="calendar-reminders" aria-live="polite"></div>
             <div class="application-history">
               <div class="application-history-head">
                 <h3>投递记录历史</h3>
@@ -601,6 +608,10 @@
             <h4 class="day-block-title red">🔴 投递截止</h4>
             <div id="dayDeadlineList"></div>
           </div>
+          <div id="dayDuplicateBlock" class="day-block hidden">
+            <h4 class="day-block-title">🟠 疑似重复投递</h4>
+            <div id="dayDuplicateList" style="white-space:pre-line;font-size:13px;line-height:1.8"></div>
+          </div>
           <div id="dayNewBlock" class="day-block">
             <h4 class="day-block-title green">🟢 新增岗位</h4>
             <div id="dayNewList"></div>
@@ -683,7 +694,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./config.js?v=20260828"></script>
-    <script src="./job-board.js?v=20260911-2"></script>
+    <script src="./job-board.js?v=20260911-3"></script>
     <script src="./interview-resources.js?v=20260911-1"></script>
   </body>
 </html>
