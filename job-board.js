@@ -40,19 +40,11 @@ async function cloudSave(table, localKey, arr) {
   await sb.from(table).upsert({ user_id: currentUser.id, data: arr, updated_at: new Date().toISOString() }, { onConflict: "user_id" });
 }
 
-/* 可选行业清单（下拉展示 + 新增投递时选择）。可自由扩展。 */
-const SECTORS = [
-  "互联网", "银行", "国企", "消费电子/出海", "金融科技/支付", "消费金融",
-  "人工智能", "汽车/新能源", "跨境电商", "快消/零售", "游戏", "教育",
-  "医疗健康", "地产/物业", "传媒/内容", "咨询", "制造业", "物流供应链", "其他",
-];
-/* 行业配色（用于日历标签/圆点；未列出的行业走调色板兜底） */
+/* 投递记录统一使用四类企业标签。 */
+const SECTORS = ["互联网", "国企", "外企", "其他"];
+/* 企业分类配色（用于日历标签）。 */
 const SECTOR_COLOR = {
-  互联网: "#34c759", 银行: "#ff9500", 国企: "#5e5ce6", "消费电子/出海": "#0071e3",
-  "金融科技/支付": "#00b3a4", 消费金融: "#ff2d55", 人工智能: "#af52de",
-  "汽车/新能源": "#30b0c7", 跨境电商: "#ff9f0a", "快消/零售": "#ffcc00",
-  游戏: "#bf5af2", 教育: "#5ac8fa", 医疗健康: "#32d74b", "地产/物业": "#a2845e",
-  "传媒/内容": "#ff6482", 咨询: "#64d2ff", 制造业: "#8e8e93", 物流供应链: "#ac8e68",
+  互联网: "#34c759", 国企: "#5e5ce6", 外企: "#0071e3", 其他: "#8e8e93",
 };
 const PALETTE = ["#0071e3", "#34c759", "#ff9500", "#5e5ce6", "#ff2d55", "#00b3a4", "#af52de", "#30b0c7"];
 function sectorColor(sector) {
@@ -61,10 +53,7 @@ function sectorColor(sector) {
   for (let i = 0; i < String(sector).length; i++) h = (h * 31 + String(sector).charCodeAt(i)) >>> 0;
   return PALETTE[h % PALETTE.length];
 }
-/* 三列默认展示的行业（可在页面上改，保存在本地） */
-const COLUMN_KEYS = ["col1", "col2", "col3"];
-const DEFAULT_COLUMNS = { col1: "互联网", col2: "银行", col3: "国企" };
-const COLUMN_STORAGE_KEY = "trackColumnSectors";
+const BOARD_CATEGORY_KEY = "trackBoardCategory";
 
 /*
  * 岗位种子清单（27届 · 西语本科+数字经济硕士 · 双非本硕 · 实习偏产品运营/金融/广告投放）
@@ -151,6 +140,9 @@ let openingQuery = "";
 let openingOpenOnly = false;
 let openingSize = "";
 let openingCloudVersion = localStorage.getItem("autumnOpeningsRemoteVersion") || "";
+let activeBoardCategory = SECTORS.includes(localStorage.getItem(BOARD_CATEGORY_KEY))
+  ? localStorage.getItem(BOARD_CATEGORY_KEY)
+  : "互联网";
 
 const $ = (id) => document.getElementById(id);
 const uid = () => `${Date.now()}-${Math.random().toString(16).slice(2)}`;
@@ -180,14 +172,25 @@ function renderDashboard() {
   if ($("metricInterviews")) $("metricInterviews").textContent = interviewing;
   if ($("metricRecentOffers")) $("metricRecentOffers").textContent = recentOffers.length;
   if ($("metricOpenings")) $("metricOpenings").textContent = openTargets;
-  if ($("metricOffersNote")) $("metricOffersNote").textContent = offers.length ? `覆盖 ${new Set(offers.map((o) => o.sector || "其他")).size} 个行业方向` : "开始记录第一份申请";
+  if ($("metricOffersNote")) $("metricOffersNote").textContent = offers.length ? `覆盖 ${new Set(offers.map((o) => companyCategory(o.company, o.sector))).size} 类企业` : "开始记录第一份申请";
   if ($("metricRecentNote")) $("metricRecentNote").textContent = recentOffers.length ? `最近一笔：${fmtHistoryDate(recentOffers.slice().sort((a, b) => (b.sendDate || "").localeCompare(a.sendDate || ""))[0].sendDate)}` : "还没有投递记录";
 }
 
 /* ================= Offer 数据（扁平数组，每条带 sector 行业） ================= */
-const GROUP_TO_SECTOR = { internet: "互联网", bank: "银行", stateOwned: "国企" };
+const GROUP_TO_SECTOR = { internet: "互联网", bank: "国企", stateOwned: "国企" };
+const FOREIGN_COMPANY_RE = /Amazon|亚马逊|Microsoft|微软|Tesla|特斯拉|Shopee|PayPal|P&G|宝洁|Unilever|联合利华|L'Oréal|欧莱雅|Mars|玛氏|Nestlé|雀巢|Mondelēz|亿滋|Danone|达能|Abbott|雅培|Bosch|博世|Siemens|西门子|Schneider|施耐德|Dell|戴尔|Caterpillar|卡特彼勒|KEYENCE|基恩士|Electrolux|伊莱克斯|HSBC|汇丰/i;
+const STATE_OWNED_COMPANY_RE = /中国移动|中国电信|中国联通|中国银行|工商银行|农业银行|建设银行|交通银行|邮储银行|国家开发银行|进出口银行|民生银行|中信银行|光大银行|浦发银行|一汽资本|中航|中核|中建|中铁|中交|国家电网|南方电网|国企|央企/i;
+const INTERNET_COMPANY_RE = /字节|抖音|阿里|淘宝|腾讯|百度|美团|京东|拼多多|Temu|快手|哔哩哔哩|B站|小红书|携程|Trip\.com|网易|爱奇艺|贝壳|滴滴|知乎|微博|新浪/i;
+function companyCategory(company, rawCategory = "", companySize = "") {
+  const raw = String(rawCategory || "");
+  const name = String(company || "");
+  if (raw === "外企" || companySize === "外企" || FOREIGN_COMPANY_RE.test(name)) return "外企";
+  if (raw === "国企" || raw === "银行" || STATE_OWNED_COMPANY_RE.test(name)) return "国企";
+  if (raw === "互联网" || INTERNET_COMPANY_RE.test(name)) return "互联网";
+  return "其他";
+}
 function normalizeOffer(o) {
-  const sector = o.sector || o.type || "其他";
+  const sector = companyCategory(o.company, o.sector || o.type || "其他");
   return { ...o, sector };
 }
 function loadOffers() {
@@ -207,15 +210,6 @@ function loadOffers() {
 let offerData = loadOffers();
 function saveOffers() { localStorage.setItem(OFFER_KEY, JSON.stringify(offerData)); if (cloudEnabled()) cloudSave(CLOUD_TABLE.offers, OFFER_KEY, offerData); }
 function allOffers() { return offerData.slice(); }
-
-/* 列-行业配置 */
-function loadColumns() {
-  const raw = localStorage.getItem(COLUMN_STORAGE_KEY);
-  if (!raw) return { ...DEFAULT_COLUMNS };
-  try { const p = JSON.parse(raw); return { ...DEFAULT_COLUMNS, ...(p && typeof p === "object" ? p : {}) }; } catch { return { ...DEFAULT_COLUMNS }; }
-}
-let columnSectors = loadColumns();
-function saveColumns() { localStorage.setItem(COLUMN_STORAGE_KEY, JSON.stringify(columnSectors)); }
 
 function offerMeta(o) {
   const v = String(o?.process || "");
@@ -256,9 +250,9 @@ function renderFilters() {
 }
 function matchFilters(o) { return Object.entries(offerFilters).every(([f, v]) => !v || offerFieldValue(o, f) === v); }
 /* 按行业取该行业下、且满足全局筛选的投递记录 */
-function offersBySector(sector) {
+function offersByCategory(category) {
   return offerData
-    .filter((o) => (o.sector || "其他") === sector && matchFilters(o))
+    .filter((o) => companyCategory(o.company, o.sector) === category && matchFilters(o))
     .slice()
     .sort((a, b) => {
       const mb = offerMeta(b), ma = offerMeta(a);
@@ -267,11 +261,9 @@ function offersBySector(sector) {
     });
 }
 function renderSummary() {
-  const shown = allOffers().filter(matchFilters).length;
+  const shown = allOffers().filter((o) => companyCategory(o.company, o.sector) === activeBoardCategory && matchFilters(o)).length;
   const total = allOffers().length;
-  $("filterSummary").textContent = shown === total
-    ? `共 ${total} 条投递记录，按流程日期从近到远排序。`
-    : `筛选后展示 ${shown} / ${total} 条，按流程日期从近到远排序。`;
+  $("filterSummary").textContent = `${activeBoardCategory}分类展示 ${shown} 条 · 全部投递共 ${total} 条，按流程日期从近到远排序。`;
 }
 function renderTable(id, data) {
   const tb = document.querySelector(`#${id} tbody`); tb.innerHTML = "";
@@ -293,29 +285,16 @@ function renderTable(id, data) {
     tb.appendChild(tr);
   });
 }
-const COLUMN_TABLE = { col1: "col1Table", col2: "col2Table", col3: "col3Table" };
-const COLUMN_SELECT = { col1: "col1Sector", col2: "col2Sector", col3: "col3Sector" };
-const COLUMN_DOT = { col1: "col1Dot", col2: "col2Dot", col3: "col3Dot" };
-function renderColumnSelectors() {
-  COLUMN_KEYS.forEach((key) => {
-    const sel = $(COLUMN_SELECT[key]);
-    if (!sel) return;
-    sel.innerHTML = "";
-    SECTORS.forEach((s) => {
-      const o = document.createElement("option");
-      o.value = s; o.textContent = s;
-      if (s === columnSectors[key]) o.selected = true;
-      sel.appendChild(o);
-    });
-    const dot = $(COLUMN_DOT[key]);
-    if (dot) dot.style.background = sectorColor(columnSectors[key]);
+function renderBoardCategoryTabs() {
+  document.querySelectorAll(".board-category-tab").forEach((button) => {
+    const selected = button.dataset.category === activeBoardCategory;
+    button.classList.toggle("active", selected);
+    button.setAttribute("aria-selected", String(selected));
   });
 }
 function renderTables() {
-  renderFilters(); renderSummary(); renderColumnSelectors();
-  COLUMN_KEYS.forEach((key) => {
-    renderTable(COLUMN_TABLE[key], offersBySector(columnSectors[key]));
-  });
+  renderFilters(); renderSummary(); renderBoardCategoryTabs();
+  renderTable("offerTable", offersByCategory(activeBoardCategory));
   renderApplicationHistory();
   renderDashboard();
 }
@@ -592,7 +571,7 @@ function renderOpenings() {
   const q = openingQuery.trim().toLocaleLowerCase("zh-CN");
   const visible = openingRecords.filter((o) => {
     if (openingOpenOnly && o.status !== "open") return false;
-    if (openingSize && o.company_size !== openingSize) return false;
+    if (openingSize && companyCategory(o.company, o.sector, o.company_size) !== openingSize) return false;
     if (!q) return true;
     return [o.company, o.post, o.sector, o.company_size, o.base, o.channel].some((v) => String(v || "").toLocaleLowerCase("zh-CN").includes(q));
   });
@@ -721,7 +700,7 @@ function mkOffer() {
 function applyType(sector, mode) {
   activeOfferType = SECTORS.includes(sector) ? sector : "其他"; $("typeInput").value = activeOfferType;
   $("offerModalTitle").textContent = mode === "edit" ? "修改投递记录" : "新增投递记录";
-  $("offerModalSub").textContent = mode === "edit" ? "修改投递信息，可调整所属行业。" : "填写投递信息并选择所属行业，提交后写入本地数据。";
+  $("offerModalSub").textContent = mode === "edit" ? "修改投递信息，可调整企业分类。" : "填写投递信息并选择企业分类，提交后写入本地数据。";
   $("offerSave").textContent = mode === "edit" ? "保存修改" : "新增投递记录";
 }
 function fillOffer(r) {
@@ -744,7 +723,7 @@ function trackOpeningAsOffer(opening) {
   const d = new Date();
   const pad = (n) => String(n).padStart(2, "0");
   const today = `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
-  openOfferModal(opening.sector || "其他", {
+  openOfferModal(companyCategory(opening.company, opening.sector, opening.company_size), {
     company: opening.company,
     post: opening.post,
     base: opening.base,
@@ -836,19 +815,22 @@ function bind() {
   $("reviewDelete").addEventListener("click", handleDeleteReview);
   $("reviewList").addEventListener("click", (e) => { const b = e.target.closest(".review-card"); if (b) openReviewModal(b.dataset.id || ""); });
 
-  // 列行业下拉：切换该列展示的行业
-  COLUMN_KEYS.forEach((key) => {
-    const sel = $(COLUMN_SELECT[key]);
-    if (sel) sel.addEventListener("change", (e) => { columnSectors[key] = e.target.value; saveColumns(); renderTables(); });
+  // 单栏顶部企业分类筛选。
+  $("boardCategoryTabs").addEventListener("click", (e) => {
+    const button = e.target.closest(".board-category-tab");
+    if (!button || !SECTORS.includes(button.dataset.category)) return;
+    activeBoardCategory = button.dataset.category;
+    localStorage.setItem(BOARD_CATEGORY_KEY, activeBoardCategory);
+    renderTables();
   });
 
-  // 投递：每列“新增”按钮，默认带该列当前行业
-  document.querySelectorAll(".open-offer[data-col]").forEach((b) =>
-    b.addEventListener("click", () => openOfferModal(columnSectors[b.dataset.col] || "互联网")));
+  // 新增投递默认使用当前企业分类（页首按钮同样遵循当前分类）。
+  document.querySelectorAll(".open-offer").forEach((b) =>
+    b.addEventListener("click", () => openOfferModal(activeBoardCategory)));
   $("offerClose").addEventListener("click", () => closeModal("offerModal"));
   $("offerCancel").addEventListener("click", () => { resetOfferForm(activeOfferType); closeModal("offerModal"); });
   $("heroOfferBtn").addEventListener("click", () => openOfferForDate());
-  ["col1Table", "col2Table", "col3Table"].forEach((id) => {
+  ["offerTable"].forEach((id) => {
     $(id).addEventListener("click", (e) => {
       const ed = e.target.closest(".edit-offer"); if (ed) { const r = offerById(ed.dataset.id); if (r) openOfferModal(r.sector || "其他", r); return; }
       const del = e.target.closest(".del-offer"); if (!del) return;
