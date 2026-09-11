@@ -106,7 +106,8 @@
       .btn-danger-quiet:hover { background: var(--red-soft); }
       .btn-sm { font-size: 12.5px; padding: 6px 13px; }
 
-      .grid-top { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 22px; align-items: start; margin-bottom: 22px; }
+      .grid-top { display: grid; grid-template-columns: minmax(0, 360px) minmax(0, 1fr); gap: 22px; align-items: stretch; margin-bottom: 22px; }
+      .grid-top > .panel { height: 100%; }
 
       .cal-toolbar { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 14px; }
       .cal-select { font-family: var(--sf); font-size: 14px; font-weight: 500; color: var(--ink); background: var(--panel-soft); border: 1px solid var(--hairline-soft); border-radius: var(--radius-sm); padding: 7px 12px; cursor: pointer; }
@@ -183,7 +184,12 @@
       .field select:focus, .form-field input:focus, .form-field select:focus, .form-field textarea:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
       .filter-summary { margin-top: 12px; font-size: 12.5px; color: var(--ink-4); }
 
-      .grid-tables { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; align-items: start; }
+      .grid-tables { display: block; }
+      .board-panel-head { align-items: center; flex-wrap: wrap; }
+      .board-category-tabs { display: inline-flex; align-items: center; gap: 6px; padding: 5px; border-radius: 999px; background: var(--panel-soft); }
+      .board-category-tab { border: 0; border-radius: 999px; padding: 7px 15px; color: var(--ink-3); background: transparent; cursor: pointer; font-size: 13px; font-weight: 600; transition: color .15s ease, background .15s ease, box-shadow .15s ease; }
+      .board-category-tab:hover { color: var(--ink); }
+      .board-category-tab.active { color: #fff; background: var(--accent); box-shadow: 0 4px 12px rgba(49,85,217,.22); }
       .col-head-left { display: flex; align-items: center; gap: 9px; min-width: 0; }
       .col-sector-select { font-family: var(--sf); font-size: 15px; font-weight: 600; letter-spacing: -0.02em; color: var(--ink); background: transparent; border: 0; border-radius: 8px; padding: 2px 22px 2px 4px; cursor: pointer; max-width: 150px; appearance: none; -webkit-appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%2386868b' d='M5 6L0 0h10z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 4px center; }
       .col-sector-select:hover { background-color: var(--panel-soft); }
@@ -349,6 +355,9 @@
         .opening-actions { width: 100%; flex-direction: row; padding-left: 39px; }
         .filter-grid { grid-template-columns: 1fr 1fr; }
         .panel-body { padding: 17px; }
+        .board-panel-head { align-items: stretch; }
+        .board-category-tabs { width: 100%; overflow-x: auto; }
+        .board-category-tab { flex: 1 0 auto; }
       }
     </style>
   </head>
@@ -431,7 +440,7 @@
           <div class="panel-body">
             <div class="openings-toolbar">
               <input class="opening-search" id="openingSearch" type="search" placeholder="搜索公司、岗位、地点或行业" aria-label="搜索校招岗位" />
-              <select class="opening-size-filter" id="openingSizeFilter" aria-label="按公司规模筛选"><option value="">全部类型</option><option value="大厂">大厂</option><option value="中厂">中厂</option><option value="小厂">小厂</option><option value="外企">外企</option></select>
+              <select class="opening-size-filter" id="openingSizeFilter" aria-label="按企业类型筛选"><option value="">全部企业</option><option value="互联网">互联网</option><option value="国企">国企</option><option value="外企">外企</option></select>
               <label class="toggle-control"><input type="checkbox" id="openOnlyToggle" /> 仅看已开放</label>
               <button type="button" class="btn btn-quiet btn-sm" id="resetOpeningsBtn">拉取最新岗位</button>
             </div>
@@ -444,7 +453,7 @@
         </div>
       </section>
 
-      <div class="section-heading" id="applications"><h2>投递看板</h2><p>按行业分列查看流程；筛选会同时作用于下方三列。</p></div>
+      <div class="section-heading" id="applications"><h2>投递看板</h2><p>按企业类型查看全部投递流程。</p></div>
       <section class="panel filter-panel">
         <div class="panel-head">
           <span class="panel-title"><span class="dot gray"></span>投递筛选</span>
@@ -464,36 +473,17 @@
 
       <section class="grid-tables">
         <div class="panel">
-          <div class="panel-head">
-            <span class="col-head-left"><span class="dot" id="col1Dot"></span><select id="col1Sector" class="col-sector-select" aria-label="选择第一列行业"></select></span>
-            <button type="button" class="btn btn-ghost btn-sm open-offer" data-col="col1">＋ 新增</button>
+          <div class="panel-head board-panel-head">
+            <div class="board-category-tabs" id="boardCategoryTabs" role="tablist" aria-label="投递企业分类">
+              <button type="button" class="board-category-tab active" data-category="互联网" role="tab" aria-selected="true">互联网</button>
+              <button type="button" class="board-category-tab" data-category="国企" role="tab" aria-selected="false">国企</button>
+              <button type="button" class="board-category-tab" data-category="外企" role="tab" aria-selected="false">外企</button>
+              <button type="button" class="board-category-tab" data-category="其他" role="tab" aria-selected="false">其他</button>
+            </div>
+            <button type="button" class="btn btn-ghost btn-sm open-offer">＋ 新增</button>
           </div>
           <div class="panel-body flush">
-            <table class="mini-table" id="col1Table">
-              <thead><tr><th>公司 / 岗位</th><th>进展</th><th>优先级</th></tr></thead>
-              <tbody></tbody>
-            </table>
-          </div>
-        </div>
-        <div class="panel">
-          <div class="panel-head">
-            <span class="col-head-left"><span class="dot" id="col2Dot"></span><select id="col2Sector" class="col-sector-select" aria-label="选择第二列行业"></select></span>
-            <button type="button" class="btn btn-ghost btn-sm open-offer" data-col="col2">＋ 新增</button>
-          </div>
-          <div class="panel-body flush">
-            <table class="mini-table" id="col2Table">
-              <thead><tr><th>公司 / 岗位</th><th>进展</th><th>优先级</th></tr></thead>
-              <tbody></tbody>
-            </table>
-          </div>
-        </div>
-        <div class="panel">
-          <div class="panel-head">
-            <span class="col-head-left"><span class="dot" id="col3Dot"></span><select id="col3Sector" class="col-sector-select" aria-label="选择第三列行业"></select></span>
-            <button type="button" class="btn btn-ghost btn-sm open-offer" data-col="col3">＋ 新增</button>
-          </div>
-          <div class="panel-body flush">
-            <table class="mini-table" id="col3Table">
+            <table class="mini-table" id="offerTable">
               <thead><tr><th>公司 / 岗位</th><th>进展</th><th>优先级</th></tr></thead>
               <tbody></tbody>
             </table>
@@ -527,7 +517,7 @@
             <div class="form-grid">
               <div class="form-field"><label for="companyInput">公司名称</label><input type="text" id="companyInput" required /></div>
               <div class="form-field"><label for="postInput">岗位名称</label><input type="text" id="postInput" required /></div>
-              <div class="form-field"><label for="typeInput">所属行业</label><select id="typeInput"></select></div>
+              <div class="form-field"><label for="typeInput">企业分类</label><select id="typeInput"></select></div>
               <div class="form-field"><label for="processStageInput">流程进展</label><select id="processStageInput" required><option>投递</option><option>测评</option><option>笔试</option><option>简历筛选</option><option>一面</option><option>二面</option><option>三面</option><option>HR面</option><option>Offer</option></select></div>
               <div class="form-field"><label for="sendDateInput">投递日期</label><input type="date" id="sendDateInput" required /></div>
               <div class="form-field"><label for="latestInput">最新进展</label><input type="text" id="latestInput" placeholder="如：待安排面试" /></div>
@@ -670,6 +660,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="./config.js?v=20260828"></script>
-    <script src="./job-board.js?v=20260904-1"></script>
+    <script src="./job-board.js?v=20260911-1"></script>
   </body>
 </html>
