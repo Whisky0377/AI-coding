@@ -1,21 +1,37 @@
 {
   "version": "2026-09-11",
-  "updatedAt": "2026-09-11T12:41:47.167Z",
+  "updatedAt": "2026-09-11T12:46:32.718Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "verified-research+merge",
   "openings": [
     {
-      "company": "中国移动广西公司",
-      "post": "2027校招·用户运营 / 渠道管理 / 客户服务管理",
-      "sector": "互联网",
-      "company_size": "大厂",
-      "base": "广西",
+      "company": "深圳市李森智能有限公司 LISEN",
+      "post": "2027校招·跨境电商运营 / 电商推广",
+      "sector": "消费电子/出海",
+      "company_size": "小厂",
+      "base": "深圳",
       "status": "open",
-      "channel": "中国移动广西公司2027届秋季校园招聘",
-      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
-      "apply_limit": "每人限报1个职位；建议2026年10月中旬前完成投递",
-      "reason": "9月11日发布，专业不限且本科起投；用户运营和渠道管理与产品运营实习直接匹配，金融场景客户运营经验也可迁移。",
+      "channel": "LISEN李森智能2027届校园招聘",
+      "link": "https://lisen.zhiye.com/campus",
+      "apply_limit": "2027届本科及以上、专业不限，以官网岗位为准",
+      "reason": "9月11日高校宣讲并开放网申；公司规模150-500人，主营出海3C配件。岗位涉及Amazon运营、PPC广告、国际市场分析和投放优化，与你的产品运营及广告投放经历高度匹配。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-11",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "深圳市李森智能有限公司 LISEN",
+      "post": "2027校招·产品经理（3C消费电子）",
+      "sector": "消费电子/出海",
+      "company_size": "小厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "LISEN李森智能2027届校园招聘",
+      "link": "https://lisen.zhiye.com/campus",
+      "apply_limit": "2027届本科及以上，相关专业优先，产品/项目经历加分",
+      "reason": "岗位招聘10人，覆盖用户研究、竞品分析、PRD、产品生命周期与跨团队协同；多段产品运营经验可作为转产品经理的直接证据，数字经济背景有利于数据化决策。",
       "addedDate": "2026-09-11",
       "publishedDate": "2026-09-11",
       "deadline": "",
@@ -34,6 +50,22 @@
       "reason": "9月10日发布，业务覆盖信贷、保险、租赁与海外金融，招聘专业明确包含西班牙语；数字经济硕士、金融产品运营和语言背景形成强匹配。",
       "addedDate": "2026-09-11",
       "publishedDate": "2026-09-10",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "中国移动广西公司",
+      "post": "2027校招·用户运营 / 渠道管理 / 客户服务管理",
+      "sector": "互联网",
+      "company_size": "大厂",
+      "base": "广西",
+      "status": "open",
+      "channel": "中国移动广西公司2027届秋季校园招聘",
+      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
+      "apply_limit": "每人限报1个职位；建议2026年10月中旬前完成投递",
+      "reason": "9月11日发布，专业不限且本科起投；用户运营和渠道管理与产品运营实习直接匹配，金融场景客户运营经验也可迁移。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-11",
       "deadline": "",
       "isDaily": true
     },
@@ -140,8 +172,7 @@
       "apply_limit": "以官网为准，招满即止",
       "reason": "2027全球校招已开放市场营销类，消费电子出海属性强；西语和产品运营背景适合拉美市场、用户增长与本地化岗位。",
       "addedDate": "2026-09-04",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "Airwallex 空中云汇",
@@ -154,8 +185,7 @@
       "apply_limit": "外企一般不限次数（以招聘页为准）",
       "reason": "出海金融科技独角兽，重视语言与运营，金融类实习非常对口。",
       "addedDate": "2026-08-13",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "中国移动在线营销服务中心",
