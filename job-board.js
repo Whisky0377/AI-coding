@@ -15,6 +15,21 @@ const CLOUD_TABLE = { offers: "offers", reviews: "reviews" };
 
 function cloudEnabled() { return cloudReady && !!currentUser; }
 
+const cloudFailures = new Set();
+function syncNotice(key, failed) {
+  if (failed) cloudFailures.add(key); else cloudFailures.delete(key);
+  const note = document.getElementById("cloudSyncError");
+  if (note) {
+    note.textContent = cloudFailures.size ? "云同步失败：本地记录仍保留，请检查网络或登录状态后重试。" : "";
+    note.classList.toggle("hidden", !cloudFailures.size);
+  }
+  const badge = document.getElementById("cloudBadge");
+  if (badge && cloudEnabled()) {
+    badge.textContent = cloudFailures.size ? "云同步异常" : "已连接云端";
+    badge.className = "cloud-badge " + (cloudFailures.size ? "off" : "on");
+  }
+}
+
 function initSupabase() {
   const url = window.SUPABASE_URL, key = window.SUPABASE_ANON_KEY;
   if (!url || !key || typeof window.supabase === "undefined") return false;
@@ -29,7 +44,8 @@ async function cloudLoad(table, localKey) {
     try { const p = raw ? JSON.parse(raw) : []; return Array.isArray(p) ? p : (p || []); } catch { return []; }
   }
   const { data, error } = await sb.from(table).select("data").eq("user_id", currentUser.id).maybeSingle();
-  if (error || !data) return [];
+  if (error) throw error;
+  if (!data) return [];
   return Array.isArray(data.data) ? data.data : (data.data || []);
 }
 
@@ -37,7 +53,15 @@ async function cloudLoad(table, localKey) {
 async function cloudSave(table, localKey, arr) {
   localStorage.setItem(localKey, JSON.stringify(arr));
   if (!cloudEnabled()) return;
-  await sb.from(table).upsert({ user_id: currentUser.id, data: arr, updated_at: new Date().toISOString() }, { onConflict: "user_id" });
+  try {
+    const { error } = await sb.from(table).upsert({ user_id: currentUser.id, data: arr, updated_at: new Date().toISOString() }, { onConflict: "user_id" });
+    if (error) throw error;
+    syncNotice(table, false);
+    return true;
+  } catch {
+    syncNotice(table, true);
+    return false;
+  }
 }
 
 /* 投递记录统一使用四类企业标签。 */
@@ -333,6 +357,40 @@ function deadlineOpeningsOn(ds) {
 function offersOn(ds) {
   return allOffers().filter((o) => (o.sendDate || "").slice(0, 10) === ds);
 }
+// 同公司且同岗位的多条记录仅提醒，不自动删除或阻止投递。
+function duplicateOffersOn(ds) {
+  const normalize = value => String(value || "").normalize("NFKC").replace(/\s+/g, "").toLowerCase();
+  const groups = new Map();
+  allOffers().forEach(o => {
+    const company = normalize(o.company), post = normalize(o.post);
+    if (!company || !post) return;
+    const key = JSON.stringify([company, post]);
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(o);
+  });
+  return [...groups.values()].filter(group => group.length > 1 && group.some(o => (o.sendDate || "").slice(0, 10) === ds));
+}
+function renderCalendarReminders() {
+  const list = $("calendarReminders");
+  if (!list) return;
+  list.innerHTML = "";
+  const today = new Date(); today.setHours(0, 0, 0, 0);
+  const end = new Date(today); end.setDate(end.getDate() + 7);
+  const upcoming = openingRecords.filter(o => {
+    const date = new Date((o.deadline || "").slice(0, 10) + "T00:00:00");
+    return o.status !== "closed" && date >= today && date <= end;
+  }).sort((a, b) => a.deadline.localeCompare(b.deadline));
+  const label = document.createElement("div");
+  label.textContent = upcoming.length ? "未来 7 天截止提醒（含今天）" : "未来 7 天暂无已知截止日期；未注明日期的岗位请以官网为准。";
+  list.appendChild(label);
+  upcoming.forEach(o => {
+    const button = document.createElement("button");
+    button.type = "button"; button.className = "calendar-reminder-link";
+    button.textContent = (o.deadline || "").slice(0, 10) + " · " + o.company + " · " + o.post;
+    button.addEventListener("click", () => openDayModal(o.deadline.slice(0, 10)));
+    list.appendChild(button);
+  });
+}
 function renderCalendar() {
   const cal = $("calendar");
   while (cal.children.length > 7) cal.removeChild(cal.lastChild);
@@ -351,11 +409,14 @@ function renderCalendar() {
     const newCount = newOpeningsOn(ds).length;
     const dlCount = deadlineOpeningsOn(ds).length;
     const offerCount = offersOn(ds).length;
-    if (newCount || dlCount || offerCount) {
+    const duplicateCount = duplicateOffersOn(ds).length;
+    cell.setAttribute("aria-label", ds + "，投递 " + offerCount + " 条，截止 " + dlCount + " 个，疑似重复 " + duplicateCount + " 组，查看详情");
+    if (newCount || dlCount || offerCount || duplicateCount) {
       const rings = document.createElement("div"); rings.className = "cal-rings";
       if (offerCount) { const b = document.createElement("span"); b.className = "cal-ring blue"; b.textContent = offerCount; b.title = `${offerCount} 条投递记录`; rings.appendChild(b); }
       if (dlCount) { const r = document.createElement("span"); r.className = "cal-ring red"; r.textContent = dlCount; r.title = `${dlCount} 个岗位今日截止`; rings.appendChild(r); }
       if (newCount) { const g = document.createElement("span"); g.className = "cal-ring green"; g.textContent = newCount; g.title = `${newCount} 个新增岗位`; rings.appendChild(g); }
+      if (duplicateCount) { const b = document.createElement("span"); b.className = "cal-ring amber"; b.textContent = "!"; b.title = duplicateCount + " 组疑似重复投递，点击日期查看"; rings.appendChild(b); }
       cell.appendChild(rings);
     }
     cell.addEventListener("click", () => openDayModal(ds));
@@ -364,6 +425,7 @@ function renderCalendar() {
     });
     cal.appendChild(cell);
   }
+  renderCalendarReminders();
 }
 
 /* ================= 投递记录历史 ================= */
@@ -415,6 +477,9 @@ function openDayModal(ds) {
   const dls = deadlineOpeningsOn(ds);
   const news = newOpeningsOn(ds);
   const dayOffers = offersOn(ds);
+  const duplicates = duplicateOffersOn(ds);
+  $("dayDuplicateBlock").classList.toggle("hidden", !duplicates.length);
+  $("dayDuplicateList").textContent = duplicates.map(group => group[0].company + " · " + group[0].post + "：已有 " + group.length + " 条记录（" + group.map(o => o.sendDate || "日期未填").join("、") + "）。请核对是否为同一次申请；不同批次投递可保留。").join("\n");
 
   // 红：投递截止
   const dlBlock = $("dayDeadlineBlock"), dlList = $("dayDeadlineList");
@@ -870,7 +935,7 @@ function updateAccountBar() {
     return;
   }
   if (currentUser) {
-    badge.textContent = "已云端同步"; badge.className = "cloud-badge on";
+    badge.textContent = cloudFailures.size ? "云同步异常" : "已连接云端"; badge.className = "cloud-badge " + (cloudFailures.size ? "off" : "on");
     who.textContent = currentUser.email || "";
     loginBtn.classList.add("hidden"); logoutBtn.classList.remove("hidden");
   } else {
@@ -925,6 +990,7 @@ async function handleLogout() {
  * 若云端为空而本地有数据 → 视为首次登录，把本地数据迁移上云。 */
 async function syncPullAll() {
   if (!cloudEnabled()) return;
+  try {
   const [cOffers, cRev] = await Promise.all([
     cloudLoad(CLOUD_TABLE.offers, OFFER_KEY),
     cloudLoad(CLOUD_TABLE.reviews, REVIEW_KEY),
@@ -945,6 +1011,11 @@ async function syncPullAll() {
     localStorage.setItem(REVIEW_KEY, JSON.stringify(reviewRecords));
   }
   renderTables(); renderCalendar(); renderReviews(); renderApplicationHistory();
+  syncNotice("pull", false);
+  } catch {
+    // 读取失败不能当作空库，否则可能覆盖本地记录或错误上传。
+    syncNotice("pull", true);
+  }
 }
 
 async function setupAuth() {
@@ -980,10 +1051,11 @@ reviewRecords = loadReviews();
 renderReviews();
 openingRecords = loadOpenings();
 renderOpenings();
+renderCalendar();
 resetOfferForm();
 bind();
 /* 打开页面后自动补齐岗位（追加式，不覆盖/不删除已有）：
  * 先用内置 seed 补齐（file:// 直接打开也能生效），再尝试拉云端 openings.json。 */
 pullLatestOpenings();
 /* 初始化登录 / 云同步（未配置 Supabase 时自动退回本地模式） */
-setupAuth();
+setupAuth().catch(() => syncNotice("pull", true));
