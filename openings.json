@@ -1,10 +1,40 @@
 {
-  "version": "2026-09-10",
-  "updatedAt": "2026-09-10T12:50:58.879Z",
+  "version": "2026-09-11",
+  "updatedAt": "2026-09-11T05:44:53.717Z",
   "grad_year": "2027",
   "dailyCount": 10,
-  "source": "verified-research+merge",
+  "source": "rotate",
   "openings": [
+    {
+      "company": "中国移动在线营销服务中心",
+      "post": "线上营销运营 / 数智运营（2027校招）",
+      "sector": "人工智能",
+      "company_size": "大厂",
+      "base": "北京",
+      "status": "open",
+      "channel": "中国移动在线营销服务中心2027届秋季校招",
+      "link": "https://jobs.tiangong.edu.cn/correcruit/content/id/55924.html",
+      "apply_limit": "本科及以上，以官方具体岗位要求为准",
+      "reason": "9月8日发布，业务聚焦线上营销、用户触点运营与数智化服务，金融产品运营和用户增长经验可直接迁移；电子商务、新媒体、统计及数据相关能力加分。",
+      "addedDate": "2026-09-09",
+      "deadline": "",
+      "isDaily": true
+    },
+    {
+      "company": "小红书",
+      "post": "RPT产品培训生（商业产品）",
+      "sector": "互联网",
+      "company_size": "大厂",
+      "base": "北京/上海",
+      "status": "open",
+      "channel": "小红书2027届校园招聘",
+      "link": "https://job.xiaohongshu.com/campus",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "9月8日岗位更新，商业产品方向与广告投放、商业化运营和数据复盘经历高度匹配；建议突出从用户需求到产品迭代的闭环项目。",
+      "addedDate": "2026-09-09",
+      "deadline": "",
+      "isDaily": true
+    },
     {
       "company": "青岛乾程科技股份有限公司",
       "post": "2027全球校招·海外营销 / 国际市场（西班牙语）",
@@ -136,8 +166,7 @@
       "apply_limit": "每人最多申请5个岗位，平行志愿",
       "reason": "官方明确招收西班牙语，且作为全球化经营人才储备；你的西语本科学历与金融类产品运营经历形成直接组合优势。",
       "addedDate": "2026-09-04",
-      "deadline": "2026-10-09",
-      "isDaily": true
+      "deadline": "2026-10-09"
     },
     {
       "company": "Dell Technologies 戴尔科技",
@@ -151,8 +180,7 @@
       "apply_limit": "以官网为准，招满即止",
       "reason": "9月4日发布，岗位兼顾客户需求洞察、销售运营和国际业务；西语及金融产品运营经历适合服务跨境或西语区企业客户。",
       "addedDate": "2026-09-05",
-      "deadline": "",
-      "isDaily": true
+      "deadline": ""
     },
     {
       "company": "亚马逊 Amazon",
@@ -1264,34 +1292,6 @@
       "apply_limit": "以官网为准",
       "reason": "9月4日校招公告更新；你的金融产品运营实习与数字经济背景适合运营支持、业务分析和数字金融方向。",
       "addedDate": "2026-09-05",
-      "deadline": ""
-    },
-    {
-      "company": "中国移动在线营销服务中心",
-      "post": "线上营销运营 / 数智运营（2027校招）",
-      "sector": "人工智能",
-      "company_size": "大厂",
-      "base": "北京",
-      "status": "open",
-      "channel": "中国移动在线营销服务中心2027届秋季校招",
-      "link": "https://jobs.tiangong.edu.cn/correcruit/content/id/55924.html",
-      "apply_limit": "本科及以上，以官方具体岗位要求为准",
-      "reason": "9月8日发布，业务聚焦线上营销、用户触点运营与数智化服务，金融产品运营和用户增长经验可直接迁移；电子商务、新媒体、统计及数据相关能力加分。",
-      "addedDate": "2026-09-09",
-      "deadline": ""
-    },
-    {
-      "company": "小红书",
-      "post": "RPT产品培训生（商业产品）",
-      "sector": "互联网",
-      "company_size": "大厂",
-      "base": "北京/上海",
-      "status": "open",
-      "channel": "小红书2027届校园招聘",
-      "link": "https://job.xiaohongshu.com/campus",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "9月8日岗位更新，商业产品方向与广告投放、商业化运营和数据复盘经历高度匹配；建议突出从用户需求到产品迭代的闭环项目。",
-      "addedDate": "2026-09-09",
       "deadline": ""
     }
   ]
