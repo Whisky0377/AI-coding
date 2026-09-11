@@ -706,7 +706,7 @@ function applyType(sector, mode) {
 function fillOffer(r) {
   $("offerId").value = r?.id || ""; $("companyInput").value = r?.company || ""; $("postInput").value = r?.post || "";
   $("latestInput").value = r?.latest || ""; $("sendDateInput").value = r?.sendDate || ""; $("baseInput").value = r?.base || "";
-  $("priorityInput").value = r?.priority || "高"; $("remarkInput").value = r?.remark || "";
+  $("priorityInput").value = r?.priority || "低"; $("remarkInput").value = r?.remark || "";
   const m = String(r?.process || "").match(/^(\d{4}-\d{2}-\d{2})\s*(.*)$/);
   $("processStageInput").value = m?.[2] || "投递";
 }
@@ -716,7 +716,7 @@ function openOfferForDate(ds) {
   const pad = (n) => String(n).padStart(2, "0");
   const date = ds || `${now.getFullYear()}-${pad(now.getMonth() + 1)}-${pad(now.getDate())}`;
   if ($("dayModal").classList.contains("open")) closeModal("dayModal");
-  openOfferModal("互联网", { process: `${date} 投递`, sendDate: date, priority: "高" });
+  openOfferModal("互联网", { process: `${date} 投递`, sendDate: date, priority: "低" });
 }
 function trackOpeningAsOffer(opening) {
   if (!opening) return;
@@ -729,11 +729,11 @@ function trackOpeningAsOffer(opening) {
     base: opening.base,
     process: `${today} 投递`,
     sendDate: today,
-    priority: "高",
+    priority: "低",
     remark: opening.link ? `投递链接：${opening.link}` : "",
   });
 }
-function resetOfferForm(type = activeOfferType) { $("offerForm").reset(); $("offerId").value = ""; $("priorityInput").value = "高"; activeOfferId = ""; applyType(type, "create"); }
+function resetOfferForm(type = activeOfferType) { $("offerForm").reset(); $("offerId").value = ""; $("priorityInput").value = "低"; activeOfferId = ""; applyType(type, "create"); }
 function offerById(id) { return allOffers().find((o) => o.id === id) || null; }
 function saveOffer(e) {
   e.preventDefault();
