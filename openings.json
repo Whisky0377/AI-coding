@@ -1,9 +1,9 @@
 {
-  "version": "2026-09-12",
-  "updatedAt": "2026-09-12T05:33:00.923Z",
+  "version": "2026-09-13",
+  "updatedAt": "2026-09-13T00:26:22.272Z",
   "grad_year": "2027",
   "dailyCount": 10,
-  "source": "rotate",
+  "source": "partial-announcement-review+link-audit",
   "openings": [
     {
       "company": "微软 Microsoft",
@@ -18,10 +18,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
       "isDaily": true
     },
@@ -38,10 +38,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
       "isDaily": true
     },
@@ -58,12 +58,15 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
-      "isDaily": true
+      "isDaily": true,
+      "source_url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html",
+      "announcementCheckedAt": "2026-09-13T00:26:22.272Z",
+      "verificationNote": "已复核9月11日2027校招总公告，非技术方向含运营/产品；未逐一确认原记录细分岗位JD。"
     },
     {
       "company": "网易",
@@ -78,10 +81,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
       "isDaily": true
     },
@@ -94,17 +97,22 @@
       "status": "open",
       "channel": "中国银行2027全球校园招聘",
       "link": "https://campus.chinahr.com/pages/2027-boc",
-      "apply_limit": "每人最多申请5个岗位，平行志愿",
+      "apply_limit": "最多5岗、平行志愿；北京/上海/广东/深圳等境内一级或直属分行可报1-2岗，其他一级机构1岗",
       "reason": "岗位负责集团数据运营、分析与应用，数字经济硕士和金融产品运营经历高度贴合；建议突出指标体系、用户洞察和业务转化。",
       "addedDate": "2026-09-04",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
-      "isDaily": true
+      "isDaily": true,
+      "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
+      "publishedDate": "2026-09-03",
+      "lastVerifiedAt": "2026-09-13T00:26:22.272Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已核验官方2027校招公告、岗位方向、报名入口和截止日期；具体专业资格仍以所选机构要求为准。"
     },
     {
       "company": "中国银行远程银行中心",
@@ -115,17 +123,22 @@
       "status": "open",
       "channel": "中国银行2027全球校园招聘",
       "link": "https://campus.chinahr.com/pages/2027-boc",
-      "apply_limit": "每人最多申请5个岗位，平行志愿",
+      "apply_limit": "最多5岗、平行志愿；北京/上海/广东/深圳等境内一级或直属分行可报1-2岗，其他一级机构1岗",
       "reason": "负责线上客服渠道建设、运营和运营支持，与你的金融类产品运营背景最直接，属于稳妥主投岗位。",
       "addedDate": "2026-09-04",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
-      "isDaily": true
+      "isDaily": true,
+      "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
+      "publishedDate": "2026-09-03",
+      "lastVerifiedAt": "2026-09-13T00:26:22.272Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已核验官方2027校招公告、岗位方向、报名入口和截止日期；具体专业资格仍以所选机构要求为准。"
     },
     {
       "company": "中国银行信用卡中心",
@@ -136,17 +149,22 @@
       "status": "open",
       "channel": "中国银行2027全球校园招聘",
       "link": "https://campus.chinahr.com/pages/2027-boc",
-      "apply_limit": "每人最多申请5个岗位，平行志愿",
+      "apply_limit": "最多5岗、平行志愿；北京/上海/广东/深圳等境内一级或直属分行可报1-2岗，其他一级机构1岗",
       "reason": "官方岗位覆盖信用卡产品研发、品牌营销和中后台运营，可直接复用你的信用卡/金融产品运营项目证据。",
       "addedDate": "2026-09-04",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
-      "isDaily": true
+      "isDaily": true,
+      "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
+      "publishedDate": "2026-09-03",
+      "lastVerifiedAt": "2026-09-13T00:26:22.272Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已核验官方2027校招公告、岗位方向、报名入口和截止日期；具体专业资格仍以所选机构要求为准。"
     },
     {
       "company": "Caterpillar 卡特彼勒",
@@ -162,10 +180,10 @@
       "addedDate": "2026-09-04",
       "deadline": "2026-10-30",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 403,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
       "isDaily": true
     },
@@ -182,10 +200,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
       "isDaily": true
     },
@@ -202,10 +220,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
       "isDaily": true
     },
@@ -224,10 +242,10 @@
       "publishedDate": "2026-09-11",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -245,10 +263,10 @@
       "publishedDate": "2026-09-11",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -266,10 +284,10 @@
       "publishedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -287,10 +305,10 @@
       "publishedDate": "2026-09-11",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -308,11 +326,15 @@
       "publishedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
-      }
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
+      "lastVerifiedAt": "2026-09-13T00:26:22.272Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "复核2027校招方向及官网入口；具体岗位资格以官网为准"
     },
     {
       "company": "金蝶软件",
@@ -329,10 +351,10 @@
       "publishedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -349,10 +371,10 @@
       "addedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -369,10 +391,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -384,16 +406,21 @@
       "status": "open",
       "channel": "中国银行2027全球校园招聘",
       "link": "https://campus.chinahr.com/pages/2027-boc",
-      "apply_limit": "每人最多申请5个岗位，平行志愿",
+      "apply_limit": "最多5岗、平行志愿；北京/上海/广东/深圳等境内一级或直属分行可报1-2岗，其他一级机构1岗",
       "reason": "官方明确招收西班牙语，且作为全球化经营人才储备；你的西语本科学历与金融类产品运营经历形成直接组合优势。",
       "addedDate": "2026-09-04",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
-      }
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
+      "publishedDate": "2026-09-03",
+      "lastVerifiedAt": "2026-09-13T00:26:22.272Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已核验官方2027校招公告、岗位方向、报名入口和截止日期；具体专业资格仍以所选机构要求为准。"
     },
     {
       "company": "XTransfer",
@@ -408,10 +435,10 @@
       "addedDate": "2026-08-15",
       "deadline": "2026-09-30",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -428,10 +455,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -447,10 +474,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -467,10 +494,10 @@
       "addedDate": "2026-09-09",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -487,11 +514,14 @@
       "addedDate": "2026-09-09",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
-      }
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "source_url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html",
+      "announcementCheckedAt": "2026-09-13T00:26:22.272Z",
+      "verificationNote": "已复核9月11日2027校招总公告，非技术方向含运营/产品；未逐一确认原记录细分岗位JD。"
     },
     {
       "company": "石犀科技&众云网",
@@ -507,10 +537,10 @@
       "addedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": null,
+        "error": "TimeoutError",
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -527,10 +557,10 @@
       "addedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": null,
+        "error": "TimeoutError",
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -547,10 +577,10 @@
       "addedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -567,10 +597,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -587,10 +617,10 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -606,10 +636,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -625,10 +655,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
-        "httpStatus": null,
-        "error": "TimeoutError",
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -644,10 +674,10 @@
       "deadline": "2026-11-13",
       "reason": "27届已全面启动，含Future Leaders管培+市场销售，运营/市场方向对口，双非可投，网申截止11/13明确。",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -663,10 +693,10 @@
       "deadline": "",
       "reason": "27届蓝极星项目已开，手机出海海外市场运营需要语言能力，西语可切海外市场，双非量大。",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -682,10 +712,10 @@
       "deadline": "",
       "reason": "27届7/21启动，运营/市场/产品类年薪20-28万+房补餐补，福利极好；社区/发行运营方法论通用，广告投放经验可迁移。",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -701,10 +731,10 @@
       "addedDate": "2026-08-14",
       "deadline": "2026-11-06",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -720,10 +750,10 @@
       "addedDate": "2026-08-15",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -739,10 +769,10 @@
       "addedDate": "2026-08-16",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -758,10 +788,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -777,10 +807,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -796,10 +826,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -815,10 +845,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -834,10 +864,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -853,10 +883,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -872,10 +902,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 403,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -891,10 +921,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -910,10 +940,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -929,10 +959,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -948,10 +978,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -967,10 +997,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -986,10 +1016,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1005,10 +1035,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1024,10 +1054,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1043,10 +1073,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1062,10 +1092,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1101,10 +1131,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1120,10 +1150,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1139,10 +1169,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1158,10 +1188,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1177,10 +1207,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1196,10 +1226,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1215,10 +1245,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1234,10 +1264,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1253,10 +1283,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1272,10 +1302,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1291,10 +1321,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
-        "httpStatus": null,
-        "error": "TimeoutError",
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1310,10 +1340,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1329,10 +1359,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1348,10 +1378,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1367,10 +1397,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1386,10 +1416,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1405,10 +1435,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1424,10 +1454,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1443,10 +1473,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1462,10 +1492,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 429,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1481,10 +1511,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1500,10 +1530,10 @@
       "addedDate": "2026-08-13",
       "deadline": "2027-05-31",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1519,10 +1549,10 @@
       "addedDate": "2026-08-13",
       "deadline": "2027-05-31",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1538,10 +1568,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1557,10 +1587,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1576,10 +1606,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1595,10 +1625,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1614,10 +1644,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1633,10 +1663,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1652,10 +1682,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1671,10 +1701,10 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1691,10 +1721,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1711,10 +1741,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1731,10 +1761,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1751,10 +1781,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1771,10 +1801,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1791,10 +1821,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1811,10 +1841,10 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1831,10 +1861,10 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1851,10 +1881,10 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1871,10 +1901,10 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1891,10 +1921,10 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1911,10 +1941,10 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1931,10 +1961,10 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": null,
         "error": "TypeError",
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1951,10 +1981,10 @@
       "addedDate": "2026-09-05",
       "deadline": "2026-10-08",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": null,
         "error": "TypeError",
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1971,10 +2001,10 @@
       "addedDate": "2026-09-05",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": null,
         "error": "TypeError",
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     },
     {
@@ -1991,11 +2021,72 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "checkedAt": "2026-09-13T00:26:22.272Z",
         "httpStatus": 200,
         "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     }
-  ]
+  ],
+  "verification": {
+    "attemptedAt": "2026-09-13T00:26:22.272Z",
+    "status": "partial",
+    "scope": "全池102条记录、90个非空去重入口已做HTTP检查；重点复核中国银行4条与泡泡玛特1条对应校招公告，小红书总公告。尚未完成102条具体岗位JD及专业资格的全量验证，不将HTTP成功算作岗位开放。",
+    "windowStart": "2026-09-11T00:02:02.415Z",
+    "previousSuccessfulVersion": "2026-09-11",
+    "newCount": 0,
+    "confirmedStatusChanges": 0,
+    "confirmedDeadlineChanges": 0,
+    "linkFailures": [
+      {
+        "url": "https://careers.pypl.com",
+        "status": 429,
+        "title": "Just a moment...",
+        "has2027": false
+      },
+      {
+        "url": "https://www.nestle.com.cn/zhcn/jobs",
+        "status": 403,
+        "title": "Verifying your browser…",
+        "has2027": true
+      },
+      {
+        "url": "https://job.icbc.com.cn/pc/index.html#/main/home",
+        "error": "TypeError"
+      },
+      {
+        "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+        "status": 403,
+        "title": "Just a moment...",
+        "has2027": true
+      },
+      {
+        "url": "https://career.abchina.com.cn/",
+        "error": "TypeError"
+      },
+      {
+        "url": "https://www.ruijie.com.cn/campus-recruiting/",
+        "error": "TypeError"
+      },
+      {
+        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+        "error": "TimeoutError"
+      }
+    ],
+    "pendingLeads": [
+      {
+        "company": "中国移动四川公司",
+        "source": "https://career.hebut.edu.cn/home/correcruit/content/id/80488.html",
+        "publishedAt": "2026-09-11",
+        "reason": "2027媒体运营等岗位已见公告，但具体专业要求和二维码投递入口未完整核实；要求2027-06-30前获毕业及学位证明，暂不作为已验证可投岗位新增。"
+      }
+    ],
+    "lastContentCheckSources": [
+      "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
+      "https://job.hust.edu.cn/zpinfo1/2432092.htm",
+      "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html"
+    ],
+    "note": "PayPal搜索读取可见招聘主页，但直接访问受限；未确认其2027中国运营校招岗位。普渡为8月27日旧公告且细分运营专业资格未核实，不计近48小时新增。"
+  },
+  "dailyRecommendationNote": "保留10条既有高匹配推荐，非今日新增；今日未完成全部细分岗位资格复核。"
 }
