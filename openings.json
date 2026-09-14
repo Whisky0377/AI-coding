@@ -1,10 +1,210 @@
 {
-  "version": "2026-09-13",
-  "updatedAt": "2026-09-13T05:52:19.600Z",
+  "version": "2026-09-14",
+  "updatedAt": "2026-09-14T05:59:03.305Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "联合利华 Unilever",
+      "post": "UFLP 管培生（市场/客户发展）",
+      "sector": "快消/零售",
+      "base": "上海",
+      "status": "open",
+      "channel": "联合利华校园招聘官网",
+      "link": "https://careers.unilever.com",
+      "apply_limit": "以官网为准",
+      "reason": "UFLP 全球轮岗管培，年薪高、成长快；市场/渠道运营方向，双非有机会，英语好加分。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "欧莱雅 L'Oréal",
+      "post": "管培生 / 电商运营 / 市场营销",
+      "sector": "快消/零售",
+      "base": "上海",
+      "status": "open",
+      "channel": "欧莱雅校园招聘官网",
+      "link": "https://careers.loreal.com",
+      "apply_limit": "以官网为准",
+      "reason": "美妆龙头，电商/数字营销运营与你广告投放高度对口，福利与培养体系优秀。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "玛氏 Mars",
+      "post": "MLDP 管培生（市场/销售）",
+      "sector": "快消/零售",
+      "base": "上海",
+      "status": "open",
+      "channel": "玛氏校园招聘官网",
+      "link": "https://www.mars.com/careers",
+      "apply_limit": "以官网为准",
+      "reason": "顶级雇主品牌，管培生年薪高，市场运营方向，工作氛围与福利口碑极好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "雀巢 Nestlé",
+      "post": "管培生 / 市场运营",
+      "sector": "快消/零售",
+      "base": "上海/北京",
+      "status": "open",
+      "channel": "雀巢校园招聘官网",
+      "link": "https://www.nestle.com.cn/zhcn/jobs",
+      "apply_limit": "以官网为准",
+      "reason": "全球食品饮料龙头，市场/渠道运营岗，稳定福利好，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 403,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "亿滋 Mondelēz",
+      "post": "管培生（市场/销售/供应链）",
+      "sector": "快消/零售",
+      "base": "上海/苏州",
+      "status": "open",
+      "channel": "亿滋校园招聘官网",
+      "link": "https://www.mondelezinternational.com/careers",
+      "apply_limit": "以官网为准",
+      "reason": "奥利奥/趣多多母公司，管培生福利好，市场运营方向，对双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "达能 Danone",
+      "post": "管培生 / 市场与电商",
+      "sector": "快消/零售",
+      "base": "上海",
+      "status": "open",
+      "channel": "达能校园招聘官网",
+      "link": "https://careers.danone.com",
+      "apply_limit": "以官网为准",
+      "reason": "食品饮料外企，电商/市场运营，福利与工作生活平衡口碑好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "雅培 Abbott",
+      "post": "管培生 / 市场运营",
+      "sector": "快消/零售",
+      "base": "上海",
+      "status": "open",
+      "channel": "雅培校园招聘官网",
+      "link": "https://www.abbott.com.cn/careers.html",
+      "apply_limit": "以官网为准",
+      "reason": "27届外企秋招已开，医疗健康消费品，市场运营方向，外企福利与晋升好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "奇富科技（360数科）",
+      "post": "用户运营 / 增长运营",
+      "sector": "金融科技/支付",
+      "base": "上海",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://www.360shuke.com",
+      "apply_limit": "以官网为准",
+      "reason": "信贷科技，用户增长+效果投放运营，广告投放与金融实习双对口，学历要求相对友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "招商银行信用卡中心（招银网络科技）",
+      "post": "用户运营 / 权益运营 / 数字化营销",
+      "sector": "消费金融",
+      "base": "深圳/上海",
+      "status": "open",
+      "channel": "招银网络科技校园招聘",
+      "link": "https://career.cmbchina.com",
+      "apply_limit": "银行系一般每人限报1-2个岗位（以公告为准）",
+      "reason": "27届8月已启动；信用卡产品运营经历最对口，掌上生活App用户/权益运营，广告投放加分。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "中信银行信用卡中心",
+      "post": "渠道运营 / 效果投放 / 用户增长",
+      "sector": "消费金融",
+      "base": "深圳",
+      "status": "open",
+      "channel": "信用卡中心招聘官网",
+      "link": "https://creditcard.ecitic.com/zhaopin/",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "岗位直接要求信息流投放(抖音/朋友圈)+数据分析+活动策划，几乎踩中你全部经历。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
     {
       "company": "Shopee（东南亚电商）",
       "post": "跨境运营 / 招商运营（GLP管培）",
@@ -22,8 +222,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "联想 Lenovo",
@@ -42,8 +241,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "vivo",
@@ -62,8 +260,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "网易游戏（互娱）",
@@ -82,8 +279,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "平安银行（信用卡中心 / 汽车消费金融中心）",
@@ -102,8 +298,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "OPPO",
@@ -122,8 +317,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "淘宝闪购（阿里巴巴）",
@@ -142,8 +336,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "石头科技 Roborock",
@@ -162,8 +355,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "科沃斯 Ecovacs",
@@ -182,8 +374,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "宝洁 P&G",
@@ -202,8 +393,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "微软 Microsoft",
@@ -823,196 +1013,6 @@
       "link": "https://www.amazon.jobs/en/teams/internships-for-students",
       "apply_limit": "以官网为准",
       "reason": "全球科技巨头，运营/项目管理方向，英语好+数据运营对口，薪酬福利行业顶尖。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "联合利华 Unilever",
-      "post": "UFLP 管培生（市场/客户发展）",
-      "sector": "快消/零售",
-      "base": "上海",
-      "status": "open",
-      "channel": "联合利华校园招聘官网",
-      "link": "https://careers.unilever.com",
-      "apply_limit": "以官网为准",
-      "reason": "UFLP 全球轮岗管培，年薪高、成长快；市场/渠道运营方向，双非有机会，英语好加分。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "欧莱雅 L'Oréal",
-      "post": "管培生 / 电商运营 / 市场营销",
-      "sector": "快消/零售",
-      "base": "上海",
-      "status": "open",
-      "channel": "欧莱雅校园招聘官网",
-      "link": "https://careers.loreal.com",
-      "apply_limit": "以官网为准",
-      "reason": "美妆龙头，电商/数字营销运营与你广告投放高度对口，福利与培养体系优秀。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "玛氏 Mars",
-      "post": "MLDP 管培生（市场/销售）",
-      "sector": "快消/零售",
-      "base": "上海",
-      "status": "open",
-      "channel": "玛氏校园招聘官网",
-      "link": "https://www.mars.com/careers",
-      "apply_limit": "以官网为准",
-      "reason": "顶级雇主品牌，管培生年薪高，市场运营方向，工作氛围与福利口碑极好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "雀巢 Nestlé",
-      "post": "管培生 / 市场运营",
-      "sector": "快消/零售",
-      "base": "上海/北京",
-      "status": "open",
-      "channel": "雀巢校园招聘官网",
-      "link": "https://www.nestle.com.cn/zhcn/jobs",
-      "apply_limit": "以官网为准",
-      "reason": "全球食品饮料龙头，市场/渠道运营岗，稳定福利好，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 403,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "亿滋 Mondelēz",
-      "post": "管培生（市场/销售/供应链）",
-      "sector": "快消/零售",
-      "base": "上海/苏州",
-      "status": "open",
-      "channel": "亿滋校园招聘官网",
-      "link": "https://www.mondelezinternational.com/careers",
-      "apply_limit": "以官网为准",
-      "reason": "奥利奥/趣多多母公司，管培生福利好，市场运营方向，对双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "达能 Danone",
-      "post": "管培生 / 市场与电商",
-      "sector": "快消/零售",
-      "base": "上海",
-      "status": "open",
-      "channel": "达能校园招聘官网",
-      "link": "https://careers.danone.com",
-      "apply_limit": "以官网为准",
-      "reason": "食品饮料外企，电商/市场运营，福利与工作生活平衡口碑好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "雅培 Abbott",
-      "post": "管培生 / 市场运营",
-      "sector": "快消/零售",
-      "base": "上海",
-      "status": "open",
-      "channel": "雅培校园招聘官网",
-      "link": "https://www.abbott.com.cn/careers.html",
-      "apply_limit": "以官网为准",
-      "reason": "27届外企秋招已开，医疗健康消费品，市场运营方向，外企福利与晋升好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "奇富科技（360数科）",
-      "post": "用户运营 / 增长运营",
-      "sector": "金融科技/支付",
-      "base": "上海",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://www.360shuke.com",
-      "apply_limit": "以官网为准",
-      "reason": "信贷科技，用户增长+效果投放运营，广告投放与金融实习双对口，学历要求相对友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "招商银行信用卡中心（招银网络科技）",
-      "post": "用户运营 / 权益运营 / 数字化营销",
-      "sector": "消费金融",
-      "base": "深圳/上海",
-      "status": "open",
-      "channel": "招银网络科技校园招聘",
-      "link": "https://career.cmbchina.com",
-      "apply_limit": "银行系一般每人限报1-2个岗位（以公告为准）",
-      "reason": "27届8月已启动；信用卡产品运营经历最对口，掌上生活App用户/权益运营，广告投放加分。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "中信银行信用卡中心",
-      "post": "渠道运营 / 效果投放 / 用户增长",
-      "sector": "消费金融",
-      "base": "深圳",
-      "status": "open",
-      "channel": "信用卡中心招聘官网",
-      "link": "https://creditcard.ecitic.com/zhaopin/",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "岗位直接要求信息流投放(抖音/朋友圈)+数据分析+活动策划，几乎踩中你全部经历。",
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
