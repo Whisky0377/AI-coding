@@ -1,10 +1,29 @@
 {
   "version": "2026-09-15",
-  "updatedAt": "2026-09-15T05:59:59.098Z",
+  "updatedAt": "2026-09-15T13:31:59.015Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "海天味业",
+      "post": "2027校招·营销管理类（电商运营 / 海外营销）",
+      "sector": "快消/零售",
+      "company_size": "大厂",
+      "base": "全国/海外（以岗位为准）",
+      "status": "open",
+      "channel": "海天味业2027全球校园招聘",
+      "link": "https://haday.hotjob.cn/",
+      "source_url": "https://career.nankai.edu.cn/correcruit/content/id/118731.html",
+      "apply_limit": "本科及以上、专业不限；毕业时间2026年8月至2027年8月；投递次数以官网为准",
+      "reason": "9月14日高校公告明确开放电商运营与海外营销方向。产品运营经历可迁移至用户和渠道运营，西语可用于海外市场；属于消费品方向补充选择，海外岗需接受外派。",
+      "addedDate": "2026-09-15",
+      "publishedDate": "2026-09-14",
+      "deadline": "",
+      "lastVerifiedAt": "2026-09-15T13:31:56.171Z",
+      "verificationNote": "已核验高校发布的公司简章、届别、方向和官网入口；官网为动态页面，未核验各子岗位当前名额。",
+      "isDaily": true
+    },
     {
       "company": "招联消费金融",
       "post": "用户运营 / 活动运营 / 投放运营",
@@ -204,7 +223,7 @@
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       },
-      "isDaily": true
+      "isDaily": false
     },
     {
       "company": "联合利华 Unilever",
@@ -2027,5 +2046,13 @@
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     }
-  ]
+  ],
+  "verification": {
+    "attemptedAt": "2026-09-15T13:31:59.015Z",
+    "status": "partial",
+    "newCount": 1,
+    "scope": "本次新增核验海天9月14日招聘简章；未完成历史102条岗位的全量复核，不以日期自动刷新作为已核验凭据。",
+    "confirmedStatusChanges": 0,
+    "confirmedDeadlineChanges": 0
+  }
 }
