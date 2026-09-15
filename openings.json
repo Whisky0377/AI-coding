@@ -1,10 +1,211 @@
 {
-  "version": "2026-09-14",
-  "updatedAt": "2026-09-14T05:59:03.305Z",
+  "version": "2026-09-15",
+  "updatedAt": "2026-09-15T05:59:59.098Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "招联消费金融",
+      "post": "用户运营 / 活动运营 / 投放运营",
+      "sector": "消费金融",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "招联金融校园招聘官网",
+      "link": "https://mucfc.hotjob.cn",
+      "apply_limit": "通常限报1-2个岗位（以公告为准）",
+      "reason": "持牌消金龙头，用户运营+效果投放，金融类实习与广告投放双匹配，本科可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "马上消费金融",
+      "post": "用户运营 / 增长运营",
+      "sector": "消费金融",
+      "base": "重庆/北京",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://www.msxf.com/joinus",
+      "apply_limit": "通常限报1个岗位（以公告为准）",
+      "reason": "头部消金，用户生命周期运营，金融实习+数据运营对口，非一线城市竞争相对小，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "海尔消费金融",
+      "post": "用户运营 / 数据运营",
+      "sector": "消费金融",
+      "base": "青岛/上海",
+      "status": "open",
+      "channel": "海尔消金校园招聘",
+      "link": "https://haiercf.zhiye.com",
+      "apply_limit": "以官网为准（部分岗位偏硕博）",
+      "reason": "持牌产融结合消金，运营+数据方向，金融实习对口；注意部分岗位要求硕博。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "乐信 分期乐",
+      "post": "用户运营 / 权益运营",
+      "sector": "消费金融",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "乐信招聘官网",
+      "link": "https://www.lexin.com/join",
+      "apply_limit": "以官网为准",
+      "reason": "分期消费平台，用户/权益运营与信用卡运营高度相通，年轻团队对双非相对友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "哈银消费金融",
+      "post": "运营 / 数据分析",
+      "sector": "消费金融",
+      "base": "哈尔滨/北京",
+      "status": "soon",
+      "channel": "校招官网 / 公众号",
+      "link": "",
+      "apply_limit": "以公告为准（本科可投）",
+      "reason": "金融运营方向可关注；历史链接误指向招联消费金融，已移除。尚未核实哈银2027校招入口、岗位及专业要求，请勿按已确认可投处理。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-12T04:06:03.946Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅入口可达性，未确认岗位开放状态"
+      },
+      "verificationStatus": "pending",
+      "isDaily": true
+    },
+    {
+      "company": "京东科技 / 京东金融",
+      "post": "用户运营 / 商业化运营",
+      "sector": "消费金融",
+      "base": "北京",
+      "status": "open",
+      "channel": "京东金融校招入口",
+      "link": "https://qifu.jd.com",
+      "apply_limit": "随京东校招（新星2个/管培1个）",
+      "reason": "白条等消费金融业务，用户运营+营销，信用卡运营经历对口，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "拓竹科技 Bambu Lab",
+      "post": "海外运营 / 拉美市场运营",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "校招官网 / 公众号",
+      "link": "https://bambulab.zhiye.com",
+      "apply_limit": "中小企业一般不限次数（以招聘页为准）",
+      "reason": "CES常客3D打印独角兽，西语切拉美电商运营，产品运营实习对口，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "安克创新 Anker",
+      "post": "海外品牌运营管培生 / 用户运营",
+      "sector": "消费电子/出海",
+      "base": "深圳/长沙",
+      "status": "soon",
+      "channel": "校招官网",
+      "link": "https://anker.zhiye.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "出海标杆，多语种区域运营，广告投放+产品运营背景匹配。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "SHEIN",
+      "post": "海外运营管培生（西语区）/ 内容运营",
+      "sector": "跨境电商",
+      "base": "广州",
+      "status": "open",
+      "channel": "官网校招",
+      "link": "https://careers.shein.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "西语区拉美重点市场，内容/用户运营实习直接可用，双非本硕大量在招。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "Temu（拼多多海外）",
+      "post": "招商运营 / 海外运营",
+      "sector": "跨境电商",
+      "base": "上海/广州",
+      "status": "open",
+      "channel": "Temu 招聘官网",
+      "link": "https://www.temu.com/careers",
+      "apply_limit": "以官网为准",
+      "reason": "出海高增长，西语切拉美站，招商/运营岗多、双非友好、给薪高。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
     {
       "company": "联合利华 Unilever",
       "post": "UFLP 管培生（市场/客户发展）",
@@ -22,8 +223,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "欧莱雅 L'Oréal",
@@ -42,8 +242,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "玛氏 Mars",
@@ -62,8 +261,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "雀巢 Nestlé",
@@ -82,8 +280,7 @@
         "httpStatus": 403,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "亿滋 Mondelēz",
@@ -102,8 +299,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "达能 Danone",
@@ -122,8 +318,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "雅培 Abbott",
@@ -142,8 +337,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "奇富科技（360数科）",
@@ -162,8 +356,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "招商银行信用卡中心（招银网络科技）",
@@ -182,8 +375,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "中信银行信用卡中心",
@@ -202,8 +394,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "Shopee（东南亚电商）",
@@ -1013,197 +1204,6 @@
       "link": "https://www.amazon.jobs/en/teams/internships-for-students",
       "apply_limit": "以官网为准",
       "reason": "全球科技巨头，运营/项目管理方向，英语好+数据运营对口，薪酬福利行业顶尖。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "招联消费金融",
-      "post": "用户运营 / 活动运营 / 投放运营",
-      "sector": "消费金融",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "招联金融校园招聘官网",
-      "link": "https://mucfc.hotjob.cn",
-      "apply_limit": "通常限报1-2个岗位（以公告为准）",
-      "reason": "持牌消金龙头，用户运营+效果投放，金融类实习与广告投放双匹配，本科可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "马上消费金融",
-      "post": "用户运营 / 增长运营",
-      "sector": "消费金融",
-      "base": "重庆/北京",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://www.msxf.com/joinus",
-      "apply_limit": "通常限报1个岗位（以公告为准）",
-      "reason": "头部消金，用户生命周期运营，金融实习+数据运营对口，非一线城市竞争相对小，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "海尔消费金融",
-      "post": "用户运营 / 数据运营",
-      "sector": "消费金融",
-      "base": "青岛/上海",
-      "status": "open",
-      "channel": "海尔消金校园招聘",
-      "link": "https://haiercf.zhiye.com",
-      "apply_limit": "以官网为准（部分岗位偏硕博）",
-      "reason": "持牌产融结合消金，运营+数据方向，金融实习对口；注意部分岗位要求硕博。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "乐信 分期乐",
-      "post": "用户运营 / 权益运营",
-      "sector": "消费金融",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "乐信招聘官网",
-      "link": "https://www.lexin.com/join",
-      "apply_limit": "以官网为准",
-      "reason": "分期消费平台，用户/权益运营与信用卡运营高度相通，年轻团队对双非相对友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "哈银消费金融",
-      "post": "运营 / 数据分析",
-      "sector": "消费金融",
-      "base": "哈尔滨/北京",
-      "status": "soon",
-      "channel": "校招官网 / 公众号",
-      "link": "",
-      "apply_limit": "以公告为准（本科可投）",
-      "reason": "金融运营方向可关注；历史链接误指向招联消费金融，已移除。尚未核实哈银2027校招入口、岗位及专业要求，请勿按已确认可投处理。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-12T04:06:03.946Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅入口可达性，未确认岗位开放状态"
-      },
-      "verificationStatus": "pending"
-    },
-    {
-      "company": "京东科技 / 京东金融",
-      "post": "用户运营 / 商业化运营",
-      "sector": "消费金融",
-      "base": "北京",
-      "status": "open",
-      "channel": "京东金融校招入口",
-      "link": "https://qifu.jd.com",
-      "apply_limit": "随京东校招（新星2个/管培1个）",
-      "reason": "白条等消费金融业务，用户运营+营销，信用卡运营经历对口，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "拓竹科技 Bambu Lab",
-      "post": "海外运营 / 拉美市场运营",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "校招官网 / 公众号",
-      "link": "https://bambulab.zhiye.com",
-      "apply_limit": "中小企业一般不限次数（以招聘页为准）",
-      "reason": "CES常客3D打印独角兽，西语切拉美电商运营，产品运营实习对口，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "安克创新 Anker",
-      "post": "海外品牌运营管培生 / 用户运营",
-      "sector": "消费电子/出海",
-      "base": "深圳/长沙",
-      "status": "soon",
-      "channel": "校招官网",
-      "link": "https://anker.zhiye.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "出海标杆，多语种区域运营，广告投放+产品运营背景匹配。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "SHEIN",
-      "post": "海外运营管培生（西语区）/ 内容运营",
-      "sector": "跨境电商",
-      "base": "广州",
-      "status": "open",
-      "channel": "官网校招",
-      "link": "https://careers.shein.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "西语区拉美重点市场，内容/用户运营实习直接可用，双非本硕大量在招。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "Temu（拼多多海外）",
-      "post": "招商运营 / 海外运营",
-      "sector": "跨境电商",
-      "base": "上海/广州",
-      "status": "open",
-      "channel": "Temu 招聘官网",
-      "link": "https://www.temu.com/careers",
-      "apply_limit": "以官网为准",
-      "reason": "出海高增长，西语切拉美站，招商/运营岗多、双非友好、给薪高。",
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
