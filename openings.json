@@ -1,6 +1,6 @@
 {
   "version": "2026-09-16",
-  "updatedAt": "2026-09-16T06:14:40Z",
+  "updatedAt": "2026-09-16T06:29:09Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "verified-candidates+curated",
@@ -716,14 +716,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -732,7 +732,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "海尔消费金融",
@@ -747,14 +748,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -763,7 +764,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "乐信 分期乐",
@@ -841,14 +843,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -857,7 +859,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "拓竹科技 Bambu Lab",
@@ -872,14 +875,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -888,7 +891,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "安克创新 Anker",
@@ -903,14 +907,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "大厂",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -918,7 +922,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "SHEIN",
@@ -1550,14 +1555,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -1566,7 +1571,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "宝洁 P&G",
@@ -2281,14 +2287,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -2297,7 +2303,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "传音控股 Transsion",
@@ -2374,14 +2381,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -2390,7 +2397,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "帆软软件",
@@ -2746,14 +2754,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -2762,7 +2770,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "字节跳动",
@@ -2899,14 +2908,14 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -2915,7 +2924,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     },
     {
       "company": "百度",
@@ -3234,13 +3244,13 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-16T06:29:09Z",
         "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "error": "content_not_found",
+        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
       },
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
         "checkedAt": "2026-09-16T06:14:40Z",
         "missingFields": [
@@ -3248,7 +3258,8 @@
           "deadline"
         ],
         "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+      },
+      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
     }
   ],
   "newlyAdded": 2,
@@ -3297,6 +3308,72 @@
       {
         "url": "https://www.ruijie.com.cn/campus-recruiting/",
         "error": "TypeError"
+      },
+      {
+        "url": "https://join.qq.com/campus.html",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://www.msxf.com/joinus",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://duxiaoman.zhiye.com",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://bambulab.zhiye.com",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://anker.zhiye.com",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://insta360.zhiye.com",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://haiercf.zhiye.com",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://tuya.zhiye.com",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://ecovacs.zhiye.com",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://qifu.jd.com",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
+      },
+      {
+        "url": "https://swhygh.zhiye.com/campus",
+        "status": 200,
+        "error": "content_not_found",
+        "checkedAt": "2026-09-16T06:29:09Z"
       }
     ],
     "pendingLeads": [
@@ -3324,7 +3401,7 @@
       "https://career.hebut.edu.cn/correcruit/content/id/80601.html",
       "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html"
     ],
-    "note": "未发现可确认关闭或延期公告。缺失公司分档及发布日期不凭空补写。10条推荐为公告核验级别，不保证剩余名额。",
+    "note": "未发现可确认关闭或延期公告。缺失公司分档及发布日期不凭空补写。10条推荐为公告核验级别，不保证剩余名额。 补查发现11个HTTP200入口实际为404或Not Found，已标注入口待修复，未擅自将岗位标关闭。",
     "recentWindowStart": "2026-09-14T00:00:00+08:00",
     "previousContentUpdateAt": "2026-09-15T13:31:56.180Z",
     "backfillCount": 0,
@@ -3403,6 +3480,15 @@
         "url": "https://app.mokahr.com/su/slqfrb",
         "note": "GET重定向循环，不以HEAD 200认定可用"
       }
-    ]
+    ],
+    "followUpCheckedAt": "2026-09-16T06:29:09Z",
+    "previousPublicationVerified": {
+      "commit": "b44602902202e77515449b034acb0b4e8d8eac7d",
+      "checkedAt": "2026-09-16T06:29:09Z",
+      "version": "2026-09-16",
+      "total": 105,
+      "newCount": 2,
+      "interviewResources": 8
+    }
   }
 }
