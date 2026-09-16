@@ -1,10 +1,220 @@
 {
-  "version": "2026-09-15",
-  "updatedAt": "2026-09-15T13:31:59.015Z",
+  "version": "2026-09-16",
+  "updatedAt": "2026-09-16T05:50:33.910Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "海尔智家",
+      "post": "海外市场营销（西语市场）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "青岛/海外",
+      "status": "open",
+      "channel": "海尔2027校园招聘",
+      "link": "https://maker.haier.net/client/campus/activityindex.html",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "全球家电业务覆盖欧洲和拉美，西语与跨文化沟通是明显优势；产品运营经历可转化为用户研究、渠道及市场项目能力。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "海尔智家",
+      "post": "AI数据产品经理",
+      "sector": "人工智能",
+      "company_size": "大厂",
+      "base": "青岛",
+      "status": "open",
+      "channel": "海尔2027校园招聘",
+      "link": "https://maker.haier.net/client/campus/activityindex.html",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "数字经济硕士与产品运营经历可支撑数据需求、指标分析和跨团队推动；简历需强化数据工具与AI产品实践。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "安克创新 Anker",
+      "post": "2027全球校招·产品与体验类",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳/长沙",
+      "status": "open",
+      "channel": "安克创新2027全球校园招聘",
+      "link": "https://career.anker.com.cn/universities/recruitment/new/",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "适合从产品运营转产品体验、用户研究或产品策划方向；突出金融产品运营中的需求拆解、数据复盘和跨部门协作。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "KEYENCE 基恩士",
+      "post": "销售工程师（2027秋季校园招聘）",
+      "sector": "人工智能",
+      "company_size": "外企",
+      "base": "上海/全国",
+      "status": "open",
+      "channel": "KEYENCE中国校园招聘",
+      "link": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
+      "apply_limit": "以官网为准",
+      "reason": "专业限制相对宽，重视需求洞察、沟通和数据化销售；适合把产品运营能力迁移到高客单价B2B科技解决方案岗位。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "厦门中达集团",
+      "post": "达狮管培生·抖音内容运营",
+      "sector": "快消/零售",
+      "company_size": "中厂",
+      "base": "厦门",
+      "status": "open",
+      "channel": "中达集团2027届校园招聘",
+      "link": "https://career.scnu.edu.cn/detail/online?id=3296126",
+      "apply_limit": "专业不限，招满即止",
+      "reason": "9月4日新发布，岗位面向本科及以上且专业不限；产品运营和广告投放经历可直接迁移到抖音内容策划、流量复盘与品牌增长。",
+      "addedDate": "2026-09-05",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "慧策（掌上先机）",
+      "post": "业务运营管培生",
+      "sector": "跨境电商",
+      "company_size": "中厂",
+      "base": "北京/天津/上海/杭州/广州",
+      "status": "open",
+      "channel": "慧策2027校园招聘官网",
+      "link": "https://huicecom.zhiye.com/Campus",
+      "apply_limit": "本科及以上、专业不限，招满即止",
+      "reason": "9月4日校招信息更新；公司做零售SaaS、ERP和业财一体化，数字经济硕士与金融产品运营经历适合B端业务运营和客户成功方向。",
+      "addedDate": "2026-09-05",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "中国电信北京公司",
+      "post": "产品经理（数字化运营/经营分析）",
+      "sector": "人工智能",
+      "company_size": "大厂",
+      "base": "北京",
+      "status": "open",
+      "channel": "中国电信2027年度秋季校园招聘",
+      "link": "https://wejob.chinatelecom.com.cn/wt/TELE/web/index",
+      "apply_limit": "硕士研究生及以上，以官网为准",
+      "reason": "岗位涉及市场调研、存量经营、需求分析、产品设计及数据治理；数字经济硕士和产品运营经历匹配，建议强调经营分析与流程优化。",
+      "addedDate": "2026-09-05",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "中国电信北京公司",
+      "post": "产品运营经理（云网融合）",
+      "sector": "人工智能",
+      "company_size": "大厂",
+      "base": "北京",
+      "status": "open",
+      "channel": "中国电信2027年度秋季校园招聘",
+      "link": "https://wejob.chinatelecom.com.cn/wt/TELE/web/index",
+      "apply_limit": "本科及以上，以官网为准",
+      "reason": "负责产品交付、SOP优化、业务监控及产品改进，和产品运营的跨团队推进能力相符；需补充云网基础知识后再投。",
+      "addedDate": "2026-09-05",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "中国民生银行",
+      "post": "2027届管培生 / 运营支持类",
+      "sector": "消费金融",
+      "company_size": "大厂",
+      "base": "武汉/全国分行",
+      "status": "open",
+      "channel": "中国民生银行2027届校园招聘",
+      "link": "https://career.cmbc.com.cn/",
+      "apply_limit": "各机构岗位可分别申请，以官网为准",
+      "reason": "9月4日新一批分行校招发布；你的金融产品运营经历对零售金融、客户运营和运营支持岗位有直接说服力。",
+      "addedDate": "2026-09-05",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "锐捷网络",
+      "post": "2027校招·产品类 / 市场类",
+      "sector": "人工智能",
+      "company_size": "中厂",
+      "base": "福州/北京/成都/武汉/南京/苏州",
+      "status": "open",
+      "channel": "锐捷网络2027届秋季校园招聘",
+      "link": "https://www.ruijie.com.cn/campus-recruiting/",
+      "apply_limit": "以官网具体岗位为准",
+      "reason": "9月4日更新岗位，产品与市场序列覆盖数字化转型业务；适合产品运营转B端产品、市场项目或解决方案运营。",
+      "addedDate": "2026-09-05",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-13T00:26:22.272Z",
+        "httpStatus": null,
+        "error": "TypeError",
+        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
+      },
+      "isDaily": true
+    },
     {
       "company": "海天味业",
       "post": "2027校招·营销管理类（电商运营 / 海外营销）",
@@ -21,8 +231,7 @@
       "publishedDate": "2026-09-14",
       "deadline": "",
       "lastVerifiedAt": "2026-09-15T13:31:56.171Z",
-      "verificationNote": "已核验高校发布的公司简章、届别、方向和官网入口；官网为动态页面，未核验各子岗位当前名额。",
-      "isDaily": true
+      "verificationNote": "已核验高校发布的公司简章、届别、方向和官网入口；官网为动态页面，未核验各子岗位当前名额。"
     },
     {
       "company": "招联消费金融",
@@ -41,8 +250,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "马上消费金融",
@@ -61,8 +269,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "海尔消费金融",
@@ -81,8 +288,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "乐信 分期乐",
@@ -101,8 +307,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "哈银消费金融",
@@ -122,8 +327,7 @@
         "error": null,
         "note": "仅入口可达性，未确认岗位开放状态"
       },
-      "verificationStatus": "pending",
-      "isDaily": true
+      "verificationStatus": "pending"
     },
     {
       "company": "京东科技 / 京东金融",
@@ -142,8 +346,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "拓竹科技 Bambu Lab",
@@ -162,8 +365,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "安克创新 Anker",
@@ -182,8 +384,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "SHEIN",
@@ -202,8 +403,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "Temu（拼多多海外）",
@@ -222,8 +422,7 @@
         "httpStatus": 200,
         "error": null,
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      },
-      "isDaily": false
+      }
     },
     {
       "company": "联合利华 Unilever",
@@ -1787,206 +1986,6 @@
       }
     },
     {
-      "company": "海尔智家",
-      "post": "海外市场营销（西语市场）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "青岛/海外",
-      "status": "open",
-      "channel": "海尔2027校园招聘",
-      "link": "https://maker.haier.net/client/campus/activityindex.html",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "全球家电业务覆盖欧洲和拉美，西语与跨文化沟通是明显优势；产品运营经历可转化为用户研究、渠道及市场项目能力。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "海尔智家",
-      "post": "AI数据产品经理",
-      "sector": "人工智能",
-      "company_size": "大厂",
-      "base": "青岛",
-      "status": "open",
-      "channel": "海尔2027校园招聘",
-      "link": "https://maker.haier.net/client/campus/activityindex.html",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "数字经济硕士与产品运营经历可支撑数据需求、指标分析和跨团队推动；简历需强化数据工具与AI产品实践。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "安克创新 Anker",
-      "post": "2027全球校招·产品与体验类",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳/长沙",
-      "status": "open",
-      "channel": "安克创新2027全球校园招聘",
-      "link": "https://career.anker.com.cn/universities/recruitment/new/",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "适合从产品运营转产品体验、用户研究或产品策划方向；突出金融产品运营中的需求拆解、数据复盘和跨部门协作。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "KEYENCE 基恩士",
-      "post": "销售工程师（2027秋季校园招聘）",
-      "sector": "人工智能",
-      "company_size": "外企",
-      "base": "上海/全国",
-      "status": "open",
-      "channel": "KEYENCE中国校园招聘",
-      "link": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
-      "apply_limit": "以官网为准",
-      "reason": "专业限制相对宽，重视需求洞察、沟通和数据化销售；适合把产品运营能力迁移到高客单价B2B科技解决方案岗位。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "厦门中达集团",
-      "post": "达狮管培生·抖音内容运营",
-      "sector": "快消/零售",
-      "company_size": "中厂",
-      "base": "厦门",
-      "status": "open",
-      "channel": "中达集团2027届校园招聘",
-      "link": "https://career.scnu.edu.cn/detail/online?id=3296126",
-      "apply_limit": "专业不限，招满即止",
-      "reason": "9月4日新发布，岗位面向本科及以上且专业不限；产品运营和广告投放经历可直接迁移到抖音内容策划、流量复盘与品牌增长。",
-      "addedDate": "2026-09-05",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "慧策（掌上先机）",
-      "post": "业务运营管培生",
-      "sector": "跨境电商",
-      "company_size": "中厂",
-      "base": "北京/天津/上海/杭州/广州",
-      "status": "open",
-      "channel": "慧策2027校园招聘官网",
-      "link": "https://huicecom.zhiye.com/Campus",
-      "apply_limit": "本科及以上、专业不限，招满即止",
-      "reason": "9月4日校招信息更新；公司做零售SaaS、ERP和业财一体化，数字经济硕士与金融产品运营经历适合B端业务运营和客户成功方向。",
-      "addedDate": "2026-09-05",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "中国电信北京公司",
-      "post": "产品经理（数字化运营/经营分析）",
-      "sector": "人工智能",
-      "company_size": "大厂",
-      "base": "北京",
-      "status": "open",
-      "channel": "中国电信2027年度秋季校园招聘",
-      "link": "https://wejob.chinatelecom.com.cn/wt/TELE/web/index",
-      "apply_limit": "硕士研究生及以上，以官网为准",
-      "reason": "岗位涉及市场调研、存量经营、需求分析、产品设计及数据治理；数字经济硕士和产品运营经历匹配，建议强调经营分析与流程优化。",
-      "addedDate": "2026-09-05",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "中国电信北京公司",
-      "post": "产品运营经理（云网融合）",
-      "sector": "人工智能",
-      "company_size": "大厂",
-      "base": "北京",
-      "status": "open",
-      "channel": "中国电信2027年度秋季校园招聘",
-      "link": "https://wejob.chinatelecom.com.cn/wt/TELE/web/index",
-      "apply_limit": "本科及以上，以官网为准",
-      "reason": "负责产品交付、SOP优化、业务监控及产品改进，和产品运营的跨团队推进能力相符；需补充云网基础知识后再投。",
-      "addedDate": "2026-09-05",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "中国民生银行",
-      "post": "2027届管培生 / 运营支持类",
-      "sector": "消费金融",
-      "company_size": "大厂",
-      "base": "武汉/全国分行",
-      "status": "open",
-      "channel": "中国民生银行2027届校园招聘",
-      "link": "https://career.cmbc.com.cn/",
-      "apply_limit": "各机构岗位可分别申请，以官网为准",
-      "reason": "9月4日新一批分行校招发布；你的金融产品运营经历对零售金融、客户运营和运营支持岗位有直接说服力。",
-      "addedDate": "2026-09-05",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
-      "company": "锐捷网络",
-      "post": "2027校招·产品类 / 市场类",
-      "sector": "人工智能",
-      "company_size": "中厂",
-      "base": "福州/北京/成都/武汉/南京/苏州",
-      "status": "open",
-      "channel": "锐捷网络2027届秋季校园招聘",
-      "link": "https://www.ruijie.com.cn/campus-recruiting/",
-      "apply_limit": "以官网具体岗位为准",
-      "reason": "9月4日更新岗位，产品与市场序列覆盖数字化转型业务；适合产品运营转B端产品、市场项目或解决方案运营。",
-      "addedDate": "2026-09-05",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-13T00:26:22.272Z",
-        "httpStatus": null,
-        "error": "TypeError",
-        "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
-      }
-    },
-    {
       "company": "中国工商银行",
       "post": "星辰管培生 / 数字化运营类",
       "sector": "金融科技/支付",
@@ -2046,13 +2045,5 @@
         "note": "仅HTTP入口检查，不等于岗位已开放；动态内容需另核验"
       }
     }
-  ],
-  "verification": {
-    "attemptedAt": "2026-09-15T13:31:59.015Z",
-    "status": "partial",
-    "newCount": 1,
-    "scope": "本次新增核验海天9月14日招聘简章；未完成历史102条岗位的全量复核，不以日期自动刷新作为已核验凭据。",
-    "confirmedStatusChanges": 0,
-    "confirmedDeadlineChanges": 0
-  }
+  ]
 }
