@@ -1,7 +1,121 @@
 {
-  "note": "候选池：网页会 fetch 并追加合并，历史推荐保留；云端每日从中轮播10条置顶",
+  "note": "完整历史候选池；仅isDaily=true为本次选出的10条公告核验级推荐。入口检查、公告核验与逐岗资格核验分别记录；日期更新不表示全池细分岗位已实时确认。",
   "grad_year": "2027",
   "openings": [
+    {
+      "company": "xTool（深圳市创客工场科技有限公司）",
+      "post": "2027校招·海外用户运营",
+      "company_size": "中厂",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
+      "link": "https://xtool.jobs.feishu.cn/420214",
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
+      "publishedDate": "2026-09-16",
+      "publicationDateType": "university_announcement",
+      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
+      "addedDate": "2026-09-17",
+      "deadline": "",
+      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
+      "apply_limit": "本科及以上、专业不限，语言类优先；英语流利，能直接与海外用户沟通；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
+      "reason": "涉及海外社群、UGC、用户活动、用户需求及活跃数据复盘，产品运营实习可迁移；西语有跨文化沟通优势，但该岗必须具备流利英语，不等同于西语专岗。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
+      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
+      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "校招入口返回加入xTool页面；具体岗位以9月16日企业在高校发布的简章为依据。"
+      },
+      "isDaily": true,
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      }
+    },
+    {
+      "company": "xTool（深圳市创客工场科技有限公司）",
+      "post": "2027校招·产品营销",
+      "company_size": "中厂",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
+      "link": "https://xtool.jobs.feishu.cn/420214",
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
+      "publishedDate": "2026-09-16",
+      "publicationDateType": "university_announcement",
+      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
+      "addedDate": "2026-09-17",
+      "deadline": "",
+      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
+      "apply_limit": "本科及以上，商科/语言/市场营销等相关专业优先；英语流利，可作工作语言（必须）；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
+      "reason": "负责新品营销、卖点提炼、内容及广告脚本、表现复盘与跨团队落地，与你的广告素材优化及产品运营经历对应；需准备英文内容案例，不假定已有硬件营销经验。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
+      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
+      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "校招入口返回加入xTool页面；具体岗位以9月16日企业在高校发布的简章为依据。"
+      },
+      "isDaily": true,
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      }
+    },
+    {
+      "company": "xTool（深圳市创客工场科技有限公司）",
+      "post": "2027校招·独立站运营",
+      "company_size": "中厂",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
+      "link": "https://xtool.jobs.feishu.cn/420214",
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
+      "publishedDate": "2026-09-16",
+      "publicationDateType": "university_announcement",
+      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
+      "addedDate": "2026-09-17",
+      "deadline": "",
+      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
+      "apply_limit": "本科及以上，商科/市场营销/电子商务等优先；Excel及数据分析基础，英语满足日常工作；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
+      "reason": "涉及独立站活动配置、流量承接、转化率及用户购物链路优化；数字经济和金融产品运营经历适合展示指标分析、活动执行与转化复盘。电商经历为优先项，非已确认的个人经历。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
+      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
+      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "校招入口返回加入xTool页面；具体岗位以9月16日企业在高校发布的简章为依据。"
+      },
+      "isDaily": true,
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      }
+    },
     {
       "company": "慧策（掌上先机）",
       "post": "2027校招·产品运营",
@@ -17,23 +131,26 @@
       "addedDate": "2026-09-16",
       "publishedDate": "2026-09-15",
       "deadline": "",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
       "verificationStatus": "announcement_verified",
-      "verificationNote": "已核验高校9月15日2027校招公告、岗位名称及学历要求，并读取公告图片核对官方网申地址；官网动态页面未逐岗登录核验。公告日期不代表首次开岗日。",
+      "verificationNote": "复查9月15日及9月17日高校公告，产品运营和客户成功管培生均有列出，本科及以上、公告不限专业。9月17日为重复发布，不视为新增/重新开放，不改原公告日期；官网动态细分JD未登录核验。",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://huicecom.zhiye.com/Campus",
         "error": null,
-        "note": "官网可访问，具体岗位依据高校发布简章。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "latestAnnouncementDate": "2026-09-17",
+      "latestAnnouncementSource": "https://career.hebut.edu.cn/home/correcruit/content/id/80704.html"
     },
     {
       "company": "慧策（掌上先机）",
@@ -50,23 +167,26 @@
       "addedDate": "2026-09-16",
       "publishedDate": "2026-09-15",
       "deadline": "",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
       "verificationStatus": "announcement_verified",
-      "verificationNote": "已核验高校9月15日2027校招公告、岗位名称及学历要求，并读取公告图片核对官方网申地址；官网动态页面未逐岗登录核验。公告日期不代表首次开岗日。",
+      "verificationNote": "复查9月15日及9月17日高校公告，产品运营和客户成功管培生均有列出，本科及以上、公告不限专业。9月17日为重复发布，不视为新增/重新开放，不改原公告日期；官网动态细分JD未登录核验。",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://huicecom.zhiye.com/Campus",
         "error": null,
-        "note": "官网可访问，具体岗位依据高校发布简章。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "latestAnnouncementDate": "2026-09-17",
+      "latestAnnouncementSource": "https://career.hebut.edu.cn/home/correcruit/content/id/80704.html"
     },
     {
       "company": "海天味业",
@@ -86,19 +206,21 @@
       "lastVerifiedAt": "2026-09-16T06:14:40Z",
       "verificationNote": "复核9月14日高校简章中的2027届、电商运营/海外营销及专业不限要求；官网子岗位名额未登录确认。",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://haday.hotjob.cn/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "verificationStatus": "announcement_verified",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "字节跳动",
@@ -113,22 +235,24 @@
       "addedDate": "2026-08-13",
       "deadline": "2027-05-31",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://jobs.bytedance.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "字节跳动",
@@ -143,22 +267,24 @@
       "addedDate": "2026-08-13",
       "deadline": "2027-05-31",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://jobs.bytedance.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "阿里巴巴",
@@ -173,23 +299,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://talent.alibaba.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "阿里国际 AIDC",
@@ -204,23 +332,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://talent.alibaba.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "腾讯",
@@ -229,30 +359,33 @@
       "base": "深圳/北京/上海",
       "status": "open",
       "channel": "腾讯校园招聘官网",
-      "link": "https://join.qq.com/campus.html",
+      "link": "https://join.qq.com/",
       "apply_limit": "以官网为准（一般≤2个岗位）",
       "reason": "27届秋招开放；广告/内容/用户运营方向多，广告投放经验对口广告线，双非可投。",
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
-        "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "error": null,
+        "note": "已从官方页面或高校招聘公告确认新入口并打开；原链接为软404。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_application_link",
+      "verificationStatus": "application_entry_verified_pending_job",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
+      "isDaily": false,
+      "previousApplicationLink": "https://join.qq.com/campus.html",
+      "applicationLinkSource": "https://hr.tencent.com/faqdetail.html"
     },
     {
       "company": "百度",
@@ -267,23 +400,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://talent.baidu.com/jobs/list",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "美团",
@@ -298,23 +433,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://zhaopin.meituan.com/web/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "京东",
@@ -329,23 +466,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://campus.jd.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "拼多多 / Temu",
@@ -360,23 +499,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.pddglobalhr.com/campus/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "快手",
@@ -391,23 +532,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://zhaopin.kuaishou.cn/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "哔哩哔哩",
@@ -422,23 +565,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://jobs.bilibili.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "小米",
@@ -453,23 +598,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://hr.xiaomi.com/website/campus.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "贝壳找房",
@@ -484,23 +631,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://job.ke.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "米哈游 miHoYo",
@@ -515,23 +664,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://campus.mihoyo.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "蚂蚁集团（支付宝）",
@@ -546,23 +697,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://talent.antgroup.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "连连数科 LianLian",
@@ -577,23 +730,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.lianlianpay.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "PingPong",
@@ -608,23 +763,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.pingpongx.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "Airwallex 空中云汇",
@@ -639,23 +796,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.airwallex.com/cn/careers",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "PayPal 中国",
@@ -670,23 +829,26 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 403,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "finalUrl": "https://careers.pypl.com/",
+        "error": "http_error",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false,
+      "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
     },
     {
       "company": "度小满金融",
@@ -701,24 +863,26 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://duxiaoman.zhiye.com/404?errorpath=%2f",
         "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "isDaily": false
     },
     {
       "company": "奇富科技（360数科）",
@@ -733,23 +897,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.360shuke.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "招商银行信用卡中心（招银网络科技）",
@@ -764,23 +930,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://career.cmbchina.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "中信银行信用卡中心",
@@ -795,23 +963,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://creditcard.ecitic.com/zhaopin/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "招联消费金融",
@@ -826,23 +996,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://mucfc.hotjob.cn/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "马上消费金融",
@@ -857,24 +1029,26 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.msxf.com/joinus",
         "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "isDaily": false
     },
     {
       "company": "海尔消费金融",
@@ -889,24 +1063,26 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://haiercf.zhiye.com/404?errorpath=%2f",
         "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "isDaily": false
     },
     {
       "company": "乐信 分期乐",
@@ -921,23 +1097,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.lexin.com/join",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "哈银消费金融",
@@ -961,15 +1139,16 @@
       "company_size": "",
       "publishedDate": "",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline",
           "link"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "京东科技 / 京东金融",
@@ -984,24 +1163,26 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.jd.com/error2.aspx?from=shopdomain",
         "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "isDaily": false
     },
     {
       "company": "拓竹科技 Bambu Lab",
@@ -1010,30 +1191,33 @@
       "base": "深圳",
       "status": "soon",
       "channel": "校招官网 / 公众号",
-      "link": "https://bambulab.zhiye.com",
+      "link": "https://bambulab.jobs.feishu.cn/campus",
       "apply_limit": "中小企业一般不限次数（以招聘页为准）",
       "reason": "CES常客3D打印独角兽，西语切拉美电商运营，产品运营实习对口，双非友好。",
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
-        "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "error": null,
+        "note": "已从官方页面或高校招聘公告确认新入口并打开；原链接为软404。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_application_link",
+      "verificationStatus": "application_entry_verified_pending_job",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
+      "isDaily": false,
+      "previousApplicationLink": "https://bambulab.zhiye.com",
+      "applicationLinkSource": "https://bambulab.cn/zh-cn/join-us"
     },
     {
       "company": "安克创新 Anker",
@@ -1042,29 +1226,32 @@
       "base": "深圳/长沙",
       "status": "soon",
       "channel": "校招官网",
-      "link": "https://anker.zhiye.com",
+      "link": "https://career.anker.com.cn/universities/recruitment/",
       "apply_limit": "一般限报1-2个岗位（以公告为准）",
       "reason": "出海标杆，多语种区域运营，广告投放+产品运营背景匹配。",
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
-        "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "error": null,
+        "note": "已从官方页面或高校招聘公告确认新入口并打开；原链接为软404。"
       },
       "company_size": "大厂",
       "publishedDate": "",
-      "verificationStatus": "pending_application_link",
+      "verificationStatus": "application_entry_verified_pending_job",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
+      "isDaily": false,
+      "previousApplicationLink": "https://anker.zhiye.com",
+      "applicationLinkSource": "https://career.anker.com.cn/universities/recruitment/"
     },
     {
       "company": "SHEIN",
@@ -1079,23 +1266,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.shein.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "Temu（拼多多海外）",
@@ -1110,23 +1299,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.temu.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "Insta360 影石",
@@ -1135,30 +1326,33 @@
       "base": "深圳",
       "status": "open",
       "channel": "校招官网",
-      "link": "https://insta360.zhiye.com",
+      "link": "https://arashivision.jobs.feishu.cn/campus/position/list",
       "apply_limit": "一般不限次数（以招聘页为准）",
       "reason": "CES常胜军，内容+社媒运营，西语覆盖西语区社媒，广告投放经验对口。",
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
-        "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "error": null,
+        "note": "已从官方页面或高校招聘公告确认新入口并打开；原链接为软404。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_application_link",
+      "verificationStatus": "application_entry_verified_pending_job",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
+      "isDaily": false,
+      "previousApplicationLink": "https://insta360.zhiye.com",
+      "applicationLinkSource": "https://www.guet.edu.cn/gra/2026/0724/c6076a158376/page.htm"
     },
     {
       "company": "传音控股 Transsion",
@@ -1173,23 +1367,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://transsion.zhiye.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "大疆 DJI",
@@ -1204,23 +1400,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.dji.com/zh-CN/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "涂鸦智能 Tuya",
@@ -1235,24 +1433,26 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://tuya.zhiye.com/404?errorpath=%2f",
         "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "isDaily": false
     },
     {
       "company": "帆软软件",
@@ -1267,23 +1467,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.fanruan.com/solutions/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "Shopee（东南亚电商）",
@@ -1298,23 +1500,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.shopee.cn/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "科大讯飞 iFLYTEK",
@@ -1329,23 +1533,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://iflytek.zhiye.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "石头科技 Roborock",
@@ -1360,23 +1566,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://roborock.zhiye.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "科沃斯 Ecovacs",
@@ -1391,24 +1599,26 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://ecovacs.zhiye.com/404?errorpath=%2f",
         "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "isDaily": false
     },
     {
       "company": "宝洁 P&G",
@@ -1423,23 +1633,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.pgcareers.com/global/en",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "联合利华 Unilever",
@@ -1454,23 +1666,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.unilever.com/en",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "欧莱雅 L'Oréal",
@@ -1485,23 +1699,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.loreal.com/en_US/content",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "玛氏 Mars",
@@ -1516,23 +1732,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.mars.com/global/en",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "雀巢 Nestlé",
@@ -1547,23 +1765,26 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 403,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "finalUrl": "https://www.nestle.com.cn/zhcn/jobs",
+        "error": "http_error",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false,
+      "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
     },
     {
       "company": "亿滋 Mondelēz",
@@ -1578,23 +1799,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.mondelezinternational.com/careers/index.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "达能 Danone",
@@ -1609,23 +1832,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.danone.com/en-global/home.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "雅培 Abbott",
@@ -1640,23 +1865,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.abbott.com.cn/careers.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "亚马逊 Amazon",
@@ -1671,23 +1898,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.amazon.jobs/content/en/career-programs/university/internships-for-students",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "微软 Microsoft",
@@ -1702,23 +1931,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.microsoft.com/v2/global/en/students",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "特斯拉 Tesla",
@@ -1733,23 +1964,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.tesla.cn/careers",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "小红书",
@@ -1764,10 +1997,11 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://job.xiaohongshu.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "source_url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html",
       "announcementCheckedAt": "2026-09-16T06:14:40Z",
@@ -1776,13 +2010,14 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "网易",
@@ -1797,23 +2032,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://campus.163.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "携程 Trip.com",
@@ -1828,23 +2065,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.trip.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "爱奇艺",
@@ -1859,23 +2098,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.iqiyi.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "Shopee（东南亚电商）",
@@ -1890,23 +2131,25 @@
       "addedDate": "2026-08-13",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.shopee.cn/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "平安银行（信用卡中心 / 汽车消费金融中心）",
@@ -1921,22 +2164,24 @@
       "addedDate": "2026-08-14",
       "deadline": "2026-11-06",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://campus.pingan.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "XTransfer",
@@ -1951,22 +2196,24 @@
       "addedDate": "2026-08-15",
       "deadline": "2026-09-30",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://xtransfer.zhiye.com/Campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "OPPO",
@@ -1981,22 +2228,24 @@
       "addedDate": "2026-08-15",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "大厂",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "淘宝闪购（阿里巴巴）",
@@ -2011,23 +2260,25 @@
       "addedDate": "2026-08-16",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://talent.ele.me/campus/home",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "联想 Lenovo",
@@ -2042,22 +2293,24 @@
       "deadline": "2026-11-13",
       "reason": "27届已全面启动，含Future Leaders管培+市场销售，运营/市场方向对口，双非可投，网申截止11/13明确。",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://talent.lenovo.com.cn/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "vivo",
@@ -2072,23 +2325,25 @@
       "deadline": "",
       "reason": "27届蓝极星项目已开，手机出海海外市场运营需要语言能力，西语可切海外市场，双非量大。",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://vivo.zhiye.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "网易游戏（互娱）",
@@ -2103,23 +2358,25 @@
       "deadline": "",
       "reason": "27届7/21启动，运营/市场/产品类年薪20-28万+房补餐补，福利极好；社区/发行运营方法论通用，广告投放经验可迁移。",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://campus.game.163.com/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "company_size": "",
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "中国银行",
@@ -2135,21 +2392,22 @@
       "addedDate": "2026-09-04",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://campus.chinahr.com/pages/2027-boc/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
       "publishedDate": "2026-09-03",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
       "verificationStatus": "announcement_verified",
-      "verificationNote": "已复核官方2027校招公告、岗位方向、10月9日24点截止和投递入口；未登录核验细分专业要求及剩余名额。",
+      "verificationNote": "已复查中国银行2027官方公告、岗位方向及10月9日24时截止安排，未见变化；具体机构专业要求和剩余名额以官方岗位JD为准。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       }
     },
     {
@@ -2166,21 +2424,23 @@
       "addedDate": "2026-09-04",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://campus.chinahr.com/pages/2027-boc/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
       "publishedDate": "2026-09-03",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
       "verificationStatus": "announcement_verified",
-      "verificationNote": "已复核官方2027校招公告、岗位方向、10月9日24点截止和投递入口；未登录核验细分专业要求及剩余名额。",
+      "verificationNote": "已复查中国银行2027官方公告、岗位方向及10月9日24时截止安排，未见变化；具体机构专业要求和剩余名额以官方岗位JD为准。",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "中国银行远程银行中心",
@@ -2196,21 +2456,22 @@
       "addedDate": "2026-09-04",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://campus.chinahr.com/pages/2027-boc/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
       "publishedDate": "2026-09-03",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
       "verificationStatus": "announcement_verified",
-      "verificationNote": "已复核官方2027校招公告、岗位方向、10月9日24点截止和投递入口；未登录核验细分专业要求及剩余名额。",
+      "verificationNote": "已复查中国银行2027官方公告、岗位方向及10月9日24时截止安排，未见变化；具体机构专业要求和剩余名额以官方岗位JD为准。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       }
     },
     {
@@ -2227,21 +2488,22 @@
       "addedDate": "2026-09-04",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://campus.chinahr.com/pages/2027-boc/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
       "publishedDate": "2026-09-03",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
       "verificationStatus": "announcement_verified",
-      "verificationNote": "已复核官方2027校招公告、岗位方向、10月9日24点截止和投递入口；未登录核验细分专业要求及剩余名额。",
+      "verificationNote": "已复查中国银行2027官方公告、岗位方向及10月9日24时截止安排，未见变化；具体机构专业要求和剩余名额以官方岗位JD为准。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       }
     },
     {
@@ -2258,20 +2520,23 @@
       "addedDate": "2026-09-04",
       "deadline": "2026-10-30",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 403,
-        "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "finalUrl": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+        "error": "http_error",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false,
+      "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
     },
     {
       "company": "OPPO",
@@ -2287,21 +2552,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "OPPO",
@@ -2317,21 +2584,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "OPPO",
@@ -2347,21 +2616,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "OPPO",
@@ -2377,21 +2648,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "OPPO",
@@ -2407,21 +2680,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "海尔智家",
@@ -2437,21 +2712,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://maker.haier.net/client/campus/activityindex.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "海尔智家",
@@ -2467,21 +2744,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://maker.haier.net/client/campus/activityindex.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "安克创新 Anker",
@@ -2497,21 +2776,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://career.anker.com.cn/universities/recruitment/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "安克创新 Anker",
@@ -2527,21 +2808,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://career.anker.com.cn/universities/recruitment/new/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "KEYENCE 基恩士",
@@ -2557,21 +2840,23 @@
       "addedDate": "2026-09-04",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "厦门中达集团",
@@ -2587,21 +2872,23 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://career.scnu.edu.cn/detail/online?id=3296126",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "慧策（掌上先机）",
@@ -2617,10 +2904,11 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://huicecom.zhiye.com/Campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
@@ -2628,13 +2916,14 @@
       "announcementCheckedAt": "2026-09-16T06:14:40Z",
       "verificationNote": "9月15日公告列有运营管培生，但分类与原业务运营管培生不完全一致；保留历史，不认定为同一岗位。",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "中国电信北京公司",
@@ -2650,21 +2939,23 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://wejob.chinatelecom.com.cn/wt/TELE/web/index",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "中国电信北京公司",
@@ -2680,21 +2971,23 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://wejob.chinatelecom.com.cn/wt/TELE/web/index",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "中国民生银行",
@@ -2710,21 +3003,23 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://career.cmbc.com.cn/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "锐捷网络",
@@ -2740,21 +3035,24 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": null,
+        "finalUrl": "https://www.ruijie.com.cn/campus-recruiting/",
         "error": "TypeError",
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false,
+      "verificationNote": "本次入口复查失败（TypeError），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
     },
     {
       "company": "Dell Technologies 戴尔科技",
@@ -2770,21 +3068,23 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://enterpriseplatform.dell.com/hcmUI/CandidateExperience/en/sites/careers",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "中国工商银行",
@@ -2800,20 +3100,23 @@
       "addedDate": "2026-09-05",
       "deadline": "2026-10-08",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": null,
+        "finalUrl": "https://job.icbc.com.cn/pc/index.html#/main/home",
         "error": "TypeError",
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false,
+      "verificationNote": "本次入口复查失败（TypeError），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
     },
     {
       "company": "中国农业银行",
@@ -2829,20 +3132,23 @@
       "addedDate": "2026-09-05",
       "deadline": "2026-10-09",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": null,
+        "finalUrl": "https://career.abchina.com.cn/",
         "error": "TypeError",
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
-      "verificationStatus": "pending_content_review",
+      "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false,
+      "verificationNote": "本次入口复查失败（TypeError），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
     },
     {
       "company": "申万宏源证券",
@@ -2858,22 +3164,24 @@
       "addedDate": "2026-09-05",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:29:09Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://swhygh.zhiye.com/404?errorpath=%2fcampus",
         "error": "content_not_found",
-        "note": "实际读取返回404 / Not Found / 页面不存在，HTTP 200不能说明入口有效；仅判定入口异常，不认定岗位关闭。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "2026-09-16复查投递入口内容失效，需找回官方入口并复核具体岗位；保留历史状态，不作为今日有效推荐。"
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "isDaily": false
     },
     {
       "company": "中国移动在线营销服务中心",
@@ -2889,21 +3197,23 @@
       "addedDate": "2026-09-09",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://jobs.tiangong.edu.cn/correcruit/content/id/55924.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "小红书",
@@ -2919,10 +3229,11 @@
       "addedDate": "2026-09-09",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://job.xiaohongshu.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "source_url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html",
       "announcementCheckedAt": "2026-09-16T06:14:40Z",
@@ -2930,13 +3241,14 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "青岛乾程科技股份有限公司",
@@ -2952,21 +3264,23 @@
       "addedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "石犀科技&众云网",
@@ -2982,10 +3296,11 @@
       "addedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "2026-09-09",
       "verificationStatus": "announcement_verified",
@@ -2993,15 +3308,15 @@
       "deadlineNote": "2026年11月，具体日期未公布",
       "officialApplyUrl": "https://ouryun.zhiye.com/",
       "applicationEmail": "hr@ouryun.com.cn",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationNote": "已读取高校2027招聘简章与岗位详情；网申至11月，无具体日。官网根地址显示Not Found，保留可读公告入口，可按公告邮箱投递。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       }
     },
     {
@@ -3018,10 +3333,11 @@
       "addedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "2026-09-09",
       "verificationStatus": "announcement_verified",
@@ -3029,15 +3345,15 @@
       "deadlineNote": "2026年11月，具体日期未公布",
       "officialApplyUrl": "https://ouryun.zhiye.com/",
       "applicationEmail": "hr@ouryun.com.cn",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationNote": "已读取高校2027招聘简章与岗位详情；网申至11月，无具体日。官网根地址显示Not Found，保留可读公告入口，可按公告邮箱投递。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       }
     },
     {
@@ -3054,21 +3370,23 @@
       "addedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "中国移动广西公司",
@@ -3085,19 +3403,21 @@
       "publishedDate": "2026-09-11",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "一汽资本控股有限公司",
@@ -3114,19 +3434,21 @@
       "publishedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://faw-zhaopin.hotjob.cn/",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "泡泡玛特 POP MART",
@@ -3143,22 +3465,23 @@
       "publishedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://popmart.zhiye.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
       "lastVerifiedAt": "2026-09-16T06:14:40Z",
       "verificationStatus": "announcement_verified",
       "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
-      "isDaily": true,
+      "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       }
     },
     {
@@ -3176,19 +3499,21 @@
       "publishedDate": "2026-09-10",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
-      }
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": false
     },
     {
       "company": "深圳市李森智能有限公司 LISEN",
@@ -3205,23 +3530,24 @@
       "publishedDate": "2026-09-06",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://lisen.zhiye.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "verificationStatus": "announcement_verified",
       "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
       "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
       "lastVerifiedAt": "2026-09-16T06:14:40Z",
       "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
-      "isDaily": true,
+      "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       }
     },
     {
@@ -3239,61 +3565,115 @@
       "publishedDate": "2026-09-06",
       "deadline": "",
       "linkCheck": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "httpStatus": 200,
+        "finalUrl": "https://lisen.zhiye.com/campus",
         "error": null,
-        "note": "仅HTTP入口检查，不代表具体岗位开放；未经内容核实时不改写原状态及截止日期。"
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
       },
       "verificationStatus": "announcement_verified",
       "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
       "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
       "lastVerifiedAt": "2026-09-16T06:14:40Z",
       "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
-      "isDaily": true,
+      "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-16T06:14:40Z",
+        "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "未知信息留空；空截止日期不代表长期开放。"
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       }
     }
   ],
-  "version": "2026-09-16",
-  "updatedAt": "2026-09-16T06:29:09Z",
+  "version": "2026-09-17",
+  "updatedAt": "2026-09-17T09:42:29Z",
   "verification": {
-    "attemptedAt": "2026-09-16T06:14:40Z",
+    "attemptedAt": "2026-09-17T09:42:29Z",
     "status": "partial",
-    "scope": "全池103条完成字段审计和96个唯一链接HTTP检查；复核部分高匹配公告及岗位详情，新增2条。未完成全部历史细分JD、专业资格和实时名额核验，日期更新不代表全池已验证。",
-    "windowStart": "2026-09-11T00:02:02.415Z",
-    "previousSuccessfulVersion": "2026-09-11",
-    "newCount": 2,
+    "scope": "全池108条完成字段审计；对更新前105条岗位的98个唯一岗位/来源链接作响应及软404检查，另核对4个替换入口和xTool新校招入口。部分岗位完成公告内容复核；未完成全池细分JD与剩余名额核验。",
+    "previousContentUpdateAt": "2026-09-16T06:29:09Z",
+    "previousPublicationVerified": {
+      "commit": "279f9c184b8bfd4ab92c7889bb4062c07ae1455a",
+      "version": "2026-09-16",
+      "total": 105,
+      "newCount": 2,
+      "interviewResources": 8
+    },
+    "recentWindowStart": "2026-09-15T09:42:29.000Z",
+    "windowStart": "2026-09-16T06:29:09Z",
+    "newCount": 3,
+    "backfillCount": 0,
     "confirmedStatusChanges": 0,
     "confirmedDeadlineChanges": 0,
+    "checkedLinkCount": 98,
+    "additionalApplicationEntriesChecked": 5,
+    "missingLinkCount": 1,
+    "missingCompanySizeCount": 62,
+    "missingPublishedDateCount": 90,
     "linkFailures": [
+      {
+        "url": "https://www.msxf.com/joinus",
+        "status": 200,
+        "finalUrl": "https://www.msxf.com/joinus",
+        "title": "404",
+        "error": "content_not_found"
+      },
+      {
+        "url": "https://duxiaoman.zhiye.com",
+        "status": 200,
+        "finalUrl": "https://duxiaoman.zhiye.com/404?errorpath=%2f",
+        "title": "Not Found",
+        "error": "content_not_found"
+      },
+      {
+        "url": "https://qifu.jd.com",
+        "status": 200,
+        "finalUrl": "https://www.jd.com/error2.aspx?from=shopdomain",
+        "title": "您所访问的页面不存在",
+        "error": "content_not_found"
+      },
+      {
+        "url": "https://haiercf.zhiye.com",
+        "status": 200,
+        "finalUrl": "https://haiercf.zhiye.com/404?errorpath=%2f",
+        "title": "Not Found",
+        "error": "content_not_found"
+      },
       {
         "url": "https://careers.pypl.com",
         "status": 403,
         "finalUrl": "https://careers.pypl.com/",
         "title": "Just a moment...",
-        "has2027": false,
-        "length": 5407
+        "error": "http_error"
+      },
+      {
+        "url": "https://tuya.zhiye.com",
+        "status": 200,
+        "finalUrl": "https://tuya.zhiye.com/404?errorpath=%2f",
+        "title": "Not Found",
+        "error": "content_not_found"
+      },
+      {
+        "url": "https://ecovacs.zhiye.com",
+        "status": 200,
+        "finalUrl": "https://ecovacs.zhiye.com/404?errorpath=%2f",
+        "title": "Not Found",
+        "error": "content_not_found"
       },
       {
         "url": "https://www.nestle.com.cn/zhcn/jobs",
         "status": 403,
         "finalUrl": "https://www.nestle.com.cn/zhcn/jobs",
         "title": "Verifying your browser…",
-        "has2027": true,
-        "length": 40610
+        "error": "http_error"
       },
       {
         "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
         "status": 403,
         "finalUrl": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
         "title": "Just a moment...",
-        "has2027": true,
-        "length": 6059
+        "error": "http_error"
       },
       {
         "url": "https://job.icbc.com.cn/pc/index.html#/main/home",
@@ -3304,122 +3684,56 @@
         "error": "TypeError"
       },
       {
+        "url": "https://swhygh.zhiye.com/campus",
+        "status": 200,
+        "finalUrl": "https://swhygh.zhiye.com/404?errorpath=%2fcampus",
+        "title": "Not Found",
+        "error": "content_not_found"
+      },
+      {
         "url": "https://www.ruijie.com.cn/campus-recruiting/",
         "error": "TypeError"
       },
       {
-        "url": "https://join.qq.com/campus.html",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://www.msxf.com/joinus",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://duxiaoman.zhiye.com",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://bambulab.zhiye.com",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://anker.zhiye.com",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://insta360.zhiye.com",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://haiercf.zhiye.com",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://tuya.zhiye.com",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://ecovacs.zhiye.com",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://qifu.jd.com",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
-      },
-      {
-        "url": "https://swhygh.zhiye.com/campus",
-        "status": 200,
-        "error": "content_not_found",
-        "checkedAt": "2026-09-16T06:29:09Z"
+        "url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
+        "error": "TimeoutError"
       }
     ],
-    "pendingLeads": [
+    "applicationLinkRepairs": [
       {
-        "company": "中国移动四川公司",
-        "source": "https://career.hebut.edu.cn/home/correcruit/content/id/80488.html",
-        "publishedAt": "2026-09-11",
-        "reason": "2027媒体运营等岗位已见公告，但具体专业要求和二维码投递入口未完整核实；要求2027-06-30前获毕业及学位证明，暂不作为已验证可投岗位新增。"
+        "old": "https://join.qq.com/campus.html",
+        "link": "https://join.qq.com/",
+        "source": "https://hr.tencent.com/faqdetail.html",
+        "checkedAt": "2026-09-17T09:42:29Z"
       },
       {
-        "company": "信也科技",
-        "post": "产品运营管培生",
-        "source": "https://job.hust.edu.cn/extxjh/81788179515503.do",
-        "publishedAt": "2026-09-02",
-        "officialApplyUrl": "https://app.mokahr.com/su/slqfrb",
-        "reason": "已核验2027公告、毕业窗口及最多3岗；9月14日为宣讲日。官方短链GET重定向循环，暂不新增可投岗位。"
-      }
-    ],
-    "lastContentCheckSources": [
-      "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
-      "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-      "https://job.hust.edu.cn/zpinfo1/2432092.htm",
-      "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
-      "https://career.nankai.edu.cn/correcruit/content/id/118731.html",
-      "https://career.hebut.edu.cn/correcruit/content/id/80601.html",
-      "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html"
-    ],
-    "note": "未发现可确认关闭或延期公告。缺失公司分档及发布日期不凭空补写。10条推荐为公告核验级别，不保证剩余名额。 补查发现11个HTTP200入口实际为404或Not Found，已标注入口待修复，未擅自将岗位标关闭。",
-    "recentWindowStart": "2026-09-14T00:00:00+08:00",
-    "previousContentUpdateAt": "2026-09-15T13:31:56.180Z",
-    "backfillCount": 0,
-    "deadlineClarifications": [
+        "old": "https://anker.zhiye.com",
+        "link": "https://career.anker.com.cn/universities/recruitment/",
+        "source": "https://career.anker.com.cn/universities/recruitment/",
+        "checkedAt": "2026-09-17T09:42:29Z"
+      },
       {
-        "company": "石犀科技&众云网",
-        "note": "两条岗位补充网申至11月，无具体日，非延期"
-      }
-    ],
-    "publicationDateCorrections": [
+        "old": "https://insta360.zhiye.com",
+        "link": "https://arashivision.jobs.feishu.cn/campus/position/list",
+        "source": "https://www.guet.edu.cn/gra/2026/0724/c6076a158376/page.htm",
+        "checkedAt": "2026-09-17T09:42:29Z"
+      },
       {
-        "company": "深圳市李森智能有限公司 LISEN",
-        "from": "2026-09-11",
-        "to": "2026-09-06",
-        "note": "两条岗位旧记录误用宣讲时间；非新开"
+        "old": "https://bambulab.zhiye.com",
+        "link": "https://bambulab.jobs.feishu.cn/campus",
+        "source": "https://bambulab.cn/zh-cn/join-us",
+        "checkedAt": "2026-09-17T09:42:29Z"
       }
     ],
-    "checkedLinkCount": 96,
-    "missingLinkCount": 1,
     "contentVerifiedThisRun": [
+      {
+        "company": "慧策（掌上先机）",
+        "post": "2027校招·产品运营"
+      },
+      {
+        "company": "慧策（掌上先机）",
+        "post": "2027校招·客户成功管培生"
+      },
       {
         "company": "中国银行",
         "post": "小语种专项计划（西班牙语）"
@@ -3445,48 +3759,83 @@
         "post": "2027校招·综合管培生（业务运营 / 市场传播）"
       },
       {
-        "company": "泡泡玛特 POP MART",
-        "post": "2027校招·零售运营与支持 / 客户体验（含海外）"
+        "company": "xTool（深圳市创客工场科技有限公司）",
+        "post": "2027校招·海外用户运营"
       },
       {
-        "company": "深圳市李森智能有限公司 LISEN",
-        "post": "2027校招·跨境电商运营 / 电商推广"
+        "company": "xTool（深圳市创客工场科技有限公司）",
+        "post": "2027校招·产品营销"
       },
       {
-        "company": "深圳市李森智能有限公司 LISEN",
-        "post": "2027校招·产品经理（3C消费电子）"
-      },
-      {
-        "company": "海天味业",
-        "post": "2027校招·营销管理类（电商运营 / 海外营销）"
-      },
-      {
-        "company": "慧策（掌上先机）",
-        "post": "2027校招·产品运营"
-      },
-      {
-        "company": "慧策（掌上先机）",
-        "post": "2027校招·客户成功管培生"
+        "company": "xTool（深圳市创客工场科技有限公司）",
+        "post": "2027校招·独立站运营"
       }
     ],
-    "additionalApplicationFailures": [
+    "lastContentCheckSources": [
+      "https://job.hust.edu.cn/zpinfo1/2436703.htm",
+      "https://career.hebut.edu.cn/correcruit/content/id/80601.html",
+      "https://career.hebut.edu.cn/home/correcruit/content/id/80704.html",
+      "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
+      "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+      "https://job.hust.edu.cn/zpinfo1/2432092.htm"
+    ],
+    "repeatedAnnouncements": [
       {
-        "url": "https://ouryun.zhiye.com/",
-        "note": "页面显示Not Found；高校公告有邮箱备选"
-      },
-      {
-        "url": "https://app.mokahr.com/su/slqfrb",
-        "note": "GET重定向循环，不以HEAD 200认定可用"
+        "company": "慧策（掌上先机）",
+        "date": "2026-09-17",
+        "source": "https://career.hebut.edu.cn/home/correcruit/content/id/80704.html",
+        "note": "相同岗位重复发布，不计新增或重新开放"
       }
     ],
-    "followUpCheckedAt": "2026-09-16T06:29:09Z",
-    "previousPublicationVerified": {
-      "commit": "b44602902202e77515449b034acb0b4e8d8eac7d",
-      "checkedAt": "2026-09-16T06:29:09Z",
-      "version": "2026-09-16",
-      "total": 105,
-      "newCount": 2,
-      "interviewResources": 8
-    }
+    "pendingLeads": [
+      {
+        "company": "中国移动四川公司",
+        "source": "https://career.hebut.edu.cn/home/correcruit/content/id/80488.html",
+        "publishedAt": "2026-09-11",
+        "reason": "2027媒体运营等岗位已见公告，但具体专业要求和二维码投递入口未完整核实；要求2027-06-30前获毕业及学位证明，暂不作为已验证可投岗位新增。"
+      },
+      {
+        "company": "信也科技",
+        "post": "产品运营管培生",
+        "source": "https://job.hust.edu.cn/extxjh/81788179515503.do",
+        "publishedAt": "2026-09-02",
+        "officialApplyUrl": "https://app.mokahr.com/su/slqfrb",
+        "reason": "已核验2027公告、毕业窗口及最多3岗；9月14日为宣讲日。官方短链GET重定向循环，暂不新增可投岗位。"
+      },
+      {
+        "company": "高途",
+        "post": "2027内容运营/策略运营",
+        "source": "https://career.scnu.edu.cn/detail/online?id=3082753",
+        "publishedAt": "2026-09-16",
+        "officialApplyUrl": "https://app.mokahr.com/campus-recruitment/bjhl/102145",
+        "reason": "官网提供的校招链接GET未成功，不新增；细分岗位要求需核验。"
+      },
+      {
+        "company": "携程",
+        "post": "AI机器人运营（客服智能化方向）（2027届秋招）(MJ036681)",
+        "reason": "第三方线索，尚未获得官方细分JD和可核验发布日期，不新增。"
+      },
+      {
+        "company": "北芯生命",
+        "post": "商业分析师",
+        "source": "https://job.hust.edu.cn/zpinfo1/2435034.htm",
+        "publishedAt": "2026-09-15",
+        "reason": "公告专业含经济学，尚未核对细分JD、地点与适配，不凑数。"
+      },
+      {
+        "company": "启源芯动力",
+        "post": "产品运营/海外营销支持",
+        "source": "https://job.tju.edu.cn/recruitment/content/type/2/id/6402.html",
+        "reason": "9月17日15:25为宣讲会时间，不冒充岗位发布日期；需进一步核对发布日及具体资格。"
+      }
+    ],
+    "excludedLeads": [
+      {
+        "company": "拓璞数控",
+        "source": "https://job.hust.edu.cn/zpinfo1/2435735.htm",
+        "reason": "琢璞计划公告明确面向985/211，不符合候选人双非背景。"
+      }
+    ],
+    "note": "无可确认的关闭、重新开放或截止变化，不把失效链接当关闭。10条推荐基于现有公告及适配判断，不保证录取、专业最终审核或实时剩余名额。原有source=rotate仅代表工作流轮播，不视为成功内容核验。信也官方短链本次仍GET失败，下次继续重试。"
   }
 }
