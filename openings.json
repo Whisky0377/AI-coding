@@ -1,221 +1,10 @@
 {
-  "version": "2026-09-18",
-  "updatedAt": "2026-09-18T05:43:50.233Z",
+  "version": "2026-09-19",
+  "updatedAt": "2026-09-19T05:39:32.357Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
-    {
-      "company": "泡泡玛特 POP MART",
-      "post": "2027校招·零售运营与支持 / 客户体验（含海外）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "北京/上海/杭州/东莞/海外",
-      "status": "open",
-      "channel": "泡泡玛特2027秋季校园招聘",
-      "link": "https://popmart.zhiye.com/campus",
-      "apply_limit": "面向2026年9月至2027年8月毕业生，以具体岗位要求为准",
-      "reason": "9月10日发布，覆盖零售运营、客户体验和海外岗位；产品运营经历适配用户体验与门店/渠道运营，西语可用于海外市场沟通。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://popmart.zhiye.com/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
-    },
-    {
-      "company": "金蝶软件",
-      "post": "2027校招·客户经营 / 市场推广 / 产品经理管培生",
-      "sector": "人工智能",
-      "company_size": "中厂",
-      "base": "深圳/上海/南京/北京/长沙/厦门/其他城市及海外",
-      "status": "open",
-      "channel": "金蝶2027届校园招聘",
-      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-      "apply_limit": "面向2026年10月1日至2027年9月30日毕业生，以网申具体岗位为准",
-      "reason": "9月10日发布，企业AI与管理软件场景同时开放客户经营、市场推广及产品经理管培生；数字经济和产品运营经历适合B端产品与客户运营。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
-    },
-    {
-      "company": "深圳市李森智能有限公司 LISEN",
-      "post": "2027校招·跨境电商运营 / 电商推广",
-      "sector": "消费电子/出海",
-      "company_size": "小厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "LISEN李森智能2027届校园招聘",
-      "link": "https://lisen.zhiye.com/campus",
-      "apply_limit": "2027届本科及以上、专业不限，以官网岗位为准",
-      "reason": "9月11日高校宣讲并开放网申；公司规模150-500人，主营出海3C配件。岗位涉及Amazon运营、PPC广告、国际市场分析和投放优化，与你的产品运营及广告投放经历高度匹配。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-06",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://lisen.zhiye.com/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "verificationStatus": "announcement_verified",
-      "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
-      "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
-    },
-    {
-      "company": "深圳市李森智能有限公司 LISEN",
-      "post": "2027校招·产品经理（3C消费电子）",
-      "sector": "消费电子/出海",
-      "company_size": "小厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "LISEN李森智能2027届校园招聘",
-      "link": "https://lisen.zhiye.com/campus",
-      "apply_limit": "2027届本科及以上，相关专业优先，产品/项目经历加分",
-      "reason": "岗位招聘10人，覆盖用户研究、竞品分析、PRD、产品生命周期与跨团队协同；多段产品运营经验可作为转产品经理的直接证据，数字经济背景有利于数据化决策。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-06",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://lisen.zhiye.com/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "verificationStatus": "announcement_verified",
-      "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
-      "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
-    },
-    {
-      "company": "xTool（深圳市创客工场科技有限公司）",
-      "post": "2027校招·海外用户运营",
-      "company_size": "中厂",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "open",
-      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
-      "link": "https://xtool.jobs.feishu.cn/420214",
-      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
-      "publishedDate": "2026-09-16",
-      "publicationDateType": "university_announcement",
-      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
-      "addedDate": "2026-09-17",
-      "deadline": "",
-      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
-      "apply_limit": "本科及以上、专业不限，语言类优先；英语流利，能直接与海外用户沟通；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
-      "reason": "涉及海外社群、UGC、用户活动、用户需求及活跃数据复盘，产品运营实习可迁移；西语有跨文化沟通优势，但该岗必须具备流利英语，不等同于西语专岗。",
-      "lastVerifiedAt": "2026-09-17T09:42:29Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
-      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
-      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "校招入口返回加入xTool页面；具体岗位以9月16日企业在高校发布的简章为依据。"
-      },
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
-    },
-    {
-      "company": "xTool（深圳市创客工场科技有限公司）",
-      "post": "2027校招·产品营销",
-      "company_size": "中厂",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "open",
-      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
-      "link": "https://xtool.jobs.feishu.cn/420214",
-      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
-      "publishedDate": "2026-09-16",
-      "publicationDateType": "university_announcement",
-      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
-      "addedDate": "2026-09-17",
-      "deadline": "",
-      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
-      "apply_limit": "本科及以上，商科/语言/市场营销等相关专业优先；英语流利，可作工作语言（必须）；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
-      "reason": "负责新品营销、卖点提炼、内容及广告脚本、表现复盘与跨团队落地，与你的广告素材优化及产品运营经历对应；需准备英文内容案例，不假定已有硬件营销经验。",
-      "lastVerifiedAt": "2026-09-17T09:42:29Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
-      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
-      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "校招入口返回加入xTool页面；具体岗位以9月16日企业在高校发布的简章为依据。"
-      },
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
-    },
     {
       "company": "xTool（深圳市创客工场科技有限公司）",
       "post": "2027校招·独立站运营",
@@ -387,7 +176,8 @@
         "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
+      },
+      "isDaily": true
     },
     {
       "company": "中国银行信用卡中心",
@@ -418,7 +208,8 @@
         "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
+      },
+      "isDaily": true
     },
     {
       "company": "石犀科技&众云网",
@@ -454,7 +245,8 @@
           "deadline"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
+      },
+      "isDaily": true
     },
     {
       "company": "石犀科技&众云网",
@@ -490,7 +282,8 @@
           "deadline"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
+      },
+      "isDaily": true
     },
     {
       "company": "海天味业",
@@ -523,7 +316,8 @@
           "deadline"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
+      },
+      "isDaily": true
     },
     {
       "company": "字节跳动",
@@ -552,6 +346,212 @@
         "missingFields": [
           "company_size",
           "publishedDate"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "泡泡玛特 POP MART",
+      "post": "2027校招·零售运营与支持 / 客户体验（含海外）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "北京/上海/杭州/东莞/海外",
+      "status": "open",
+      "channel": "泡泡玛特2027秋季校园招聘",
+      "link": "https://popmart.zhiye.com/campus",
+      "apply_limit": "面向2026年9月至2027年8月毕业生，以具体岗位要求为准",
+      "reason": "9月10日发布，覆盖零售运营、客户体验和海外岗位；产品运营经历适配用户体验与门店/渠道运营，西语可用于海外市场沟通。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://popmart.zhiye.com/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
+      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      }
+    },
+    {
+      "company": "金蝶软件",
+      "post": "2027校招·客户经营 / 市场推广 / 产品经理管培生",
+      "sector": "人工智能",
+      "company_size": "中厂",
+      "base": "深圳/上海/南京/北京/长沙/厦门/其他城市及海外",
+      "status": "open",
+      "channel": "金蝶2027届校园招聘",
+      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+      "apply_limit": "面向2026年10月1日至2027年9月30日毕业生，以网申具体岗位为准",
+      "reason": "9月10日发布，企业AI与管理软件场景同时开放客户经营、市场推广及产品经理管培生；数字经济和产品运营经历适合B端产品与客户运营。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      }
+    },
+    {
+      "company": "深圳市李森智能有限公司 LISEN",
+      "post": "2027校招·跨境电商运营 / 电商推广",
+      "sector": "消费电子/出海",
+      "company_size": "小厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "LISEN李森智能2027届校园招聘",
+      "link": "https://lisen.zhiye.com/campus",
+      "apply_limit": "2027届本科及以上、专业不限，以官网岗位为准",
+      "reason": "9月11日高校宣讲并开放网申；公司规模150-500人，主营出海3C配件。岗位涉及Amazon运营、PPC广告、国际市场分析和投放优化，与你的产品运营及广告投放经历高度匹配。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-06",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://lisen.zhiye.com/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "verificationStatus": "announcement_verified",
+      "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
+      "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
+      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      }
+    },
+    {
+      "company": "深圳市李森智能有限公司 LISEN",
+      "post": "2027校招·产品经理（3C消费电子）",
+      "sector": "消费电子/出海",
+      "company_size": "小厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "LISEN李森智能2027届校园招聘",
+      "link": "https://lisen.zhiye.com/campus",
+      "apply_limit": "2027届本科及以上，相关专业优先，产品/项目经历加分",
+      "reason": "岗位招聘10人，覆盖用户研究、竞品分析、PRD、产品生命周期与跨团队协同；多段产品运营经验可作为转产品经理的直接证据，数字经济背景有利于数据化决策。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-06",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://lisen.zhiye.com/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "verificationStatus": "announcement_verified",
+      "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
+      "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
+      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      }
+    },
+    {
+      "company": "xTool（深圳市创客工场科技有限公司）",
+      "post": "2027校招·海外用户运营",
+      "company_size": "中厂",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
+      "link": "https://xtool.jobs.feishu.cn/420214",
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
+      "publishedDate": "2026-09-16",
+      "publicationDateType": "university_announcement",
+      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
+      "addedDate": "2026-09-17",
+      "deadline": "",
+      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
+      "apply_limit": "本科及以上、专业不限，语言类优先；英语流利，能直接与海外用户沟通；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
+      "reason": "涉及海外社群、UGC、用户活动、用户需求及活跃数据复盘，产品运营实习可迁移；西语有跨文化沟通优势，但该岗必须具备流利英语，不等同于西语专岗。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
+      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
+      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "校招入口返回加入xTool页面；具体岗位以9月16日企业在高校发布的简章为依据。"
+      },
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      }
+    },
+    {
+      "company": "xTool（深圳市创客工场科技有限公司）",
+      "post": "2027校招·产品营销",
+      "company_size": "中厂",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
+      "link": "https://xtool.jobs.feishu.cn/420214",
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
+      "publishedDate": "2026-09-16",
+      "publicationDateType": "university_announcement",
+      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
+      "addedDate": "2026-09-17",
+      "deadline": "",
+      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
+      "apply_limit": "本科及以上，商科/语言/市场营销等相关专业优先；英语流利，可作工作语言（必须）；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
+      "reason": "负责新品营销、卖点提炼、内容及广告脚本、表现复盘与跨团队落地，与你的广告素材优化及产品运营经历对应；需准备英文内容案例，不假定已有硬件营销经验。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
+      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
+      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "校招入口返回加入xTool页面；具体岗位以9月16日企业在高校发布的简章为依据。"
+      },
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "deadline"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       }
