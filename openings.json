@@ -1,10 +1,343 @@
 {
-  "version": "2026-09-22",
-  "updatedAt": "2026-09-22T05:58:30.896Z",
+  "version": "2026-09-23",
+  "updatedAt": "2026-09-23T05:44:48.715Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "SHEIN",
+      "post": "海外运营管培生（西语区）/ 内容运营",
+      "sector": "跨境电商",
+      "base": "广州",
+      "status": "open",
+      "channel": "官网校招",
+      "link": "https://careers.shein.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "西语区拉美重点市场，内容/用户运营实习直接可用，双非本硕大量在招。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://careers.shein.com/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "Temu（拼多多海外）",
+      "post": "招商运营 / 海外运营",
+      "sector": "跨境电商",
+      "base": "上海/广州",
+      "status": "open",
+      "channel": "Temu 招聘官网",
+      "link": "https://www.temu.com/careers",
+      "apply_limit": "以官网为准",
+      "reason": "出海高增长，西语切拉美站，招商/运营岗多、双非友好、给薪高。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.temu.com/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "Insta360 影石",
+      "post": "海外内容运营 / 社媒运营",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "校招官网",
+      "link": "https://arashivision.jobs.feishu.cn/campus/position/list",
+      "apply_limit": "一般不限次数（以招聘页为准）",
+      "reason": "CES常胜军，内容+社媒运营，西语覆盖西语区社媒，广告投放经验对口。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "error": null,
+        "note": "已从官方页面或高校招聘公告确认新入口并打开；原链接为软404。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "application_entry_verified_pending_job",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
+      "previousApplicationLink": "https://insta360.zhiye.com",
+      "applicationLinkSource": "https://www.guet.edu.cn/gra/2026/0724/c6076a158376/page.htm",
+      "isDaily": true
+    },
+    {
+      "company": "传音控股 Transsion",
+      "post": "新兴市场用户运营 / 运营管培",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "校招官网",
+      "link": "https://transsion.zhiye.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "非洲+拉美布局，小语种运营人才紧缺，数字经济背景加分，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://transsion.zhiye.com/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "大疆 DJI",
+      "post": "海外市场运营 / 品牌运营",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://we.dji.com",
+      "apply_limit": "以官网为准",
+      "reason": "全球品牌，区域市场运营岗，语言+运营组合有竞争力。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://careers.dji.com/zh-CN/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "涂鸦智能 Tuya",
+      "post": "海外生态运营 / 客户运营",
+      "sector": "人工智能",
+      "base": "杭州",
+      "status": "soon",
+      "channel": "校招官网",
+      "link": "https://tuya.zhiye.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "WAIC活跃IoT平台，全球客户运营，数字经济背景契合，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://tuya.zhiye.com/404?errorpath=%2f",
+        "error": "content_not_found",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_application_link",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "isDaily": true
+    },
+    {
+      "company": "帆软软件",
+      "post": "客户交付与运营 / 市场运营",
+      "sector": "互联网",
+      "base": "南京/无锡/成都/杭州",
+      "status": "open",
+      "channel": "帆软校园招聘",
+      "link": "https://www.fanruan.com/campus",
+      "apply_limit": "以官网为准",
+      "reason": "27届8月提前批已开，客户交付与运营岗，运营方法论通用，双非友好、需求量大。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.fanruan.com/solutions/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "Shopee（东南亚电商）",
+      "post": "跨境运营 / 招商运营（LDP管培）",
+      "sector": "跨境电商",
+      "base": "深圳/上海",
+      "status": "open",
+      "channel": "Shopee 校园招聘",
+      "link": "https://careers.shopee.com",
+      "apply_limit": "以官网为准",
+      "reason": "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://careers.shopee.cn/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "科大讯飞 iFLYTEK",
+      "post": "海外产品运营 / 生态运营",
+      "sector": "人工智能",
+      "base": "合肥/北京",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://campus.iflytek.com",
+      "apply_limit": "以官网为准",
+      "reason": "WAIC/AI展常客，翻译与国际化业务，语言背景天然贴合，双非量大。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://iflytek.zhiye.com/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "石头科技 Roborock",
+      "post": "海外市场运营 / 电商运营",
+      "sector": "消费电子/出海",
+      "base": "北京",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://roborock.zhiye.com",
+      "apply_limit": "以官网为准",
+      "reason": "AWE/CES明星企业，欧洲+拉美扩张，西语区运营需求上升。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://roborock.zhiye.com/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
+      },
+      "isDaily": true
+    },
     {
       "company": "招商银行信用卡中心（招银网络科技）",
       "post": "用户运营 / 权益运营 / 数字化营销",
@@ -35,8 +368,7 @@
           "deadline"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "中信银行信用卡中心",
@@ -68,8 +400,7 @@
           "deadline"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "招联消费金融",
@@ -101,8 +432,7 @@
           "deadline"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "马上消费金融",
@@ -135,8 +465,7 @@
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": true
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
     },
     {
       "company": "海尔消费金融",
@@ -169,8 +498,7 @@
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": true
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
     },
     {
       "company": "乐信 分期乐",
@@ -202,8 +530,7 @@
           "deadline"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "哈银消费金融",
@@ -235,8 +562,7 @@
           "link"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "京东科技 / 京东金融",
@@ -269,8 +595,7 @@
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
       },
-      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": true
+      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
     },
     {
       "company": "拓竹科技 Bambu Lab",
@@ -304,8 +629,7 @@
       },
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "previousApplicationLink": "https://bambulab.zhiye.com",
-      "applicationLinkSource": "https://bambulab.cn/zh-cn/join-us",
-      "isDaily": true
+      "applicationLinkSource": "https://bambulab.cn/zh-cn/join-us"
     },
     {
       "company": "安克创新 Anker",
@@ -338,8 +662,7 @@
       },
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "previousApplicationLink": "https://anker.zhiye.com",
-      "applicationLinkSource": "https://career.anker.com.cn/universities/recruitment/",
-      "isDaily": true
+      "applicationLinkSource": "https://career.anker.com.cn/universities/recruitment/"
     },
     {
       "company": "小米",
@@ -1520,329 +1843,6 @@
       "fieldAudit": {
         "checkedAt": "2026-09-17T09:42:29Z",
         "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
-    },
-    {
-      "company": "SHEIN",
-      "post": "海外运营管培生（西语区）/ 内容运营",
-      "sector": "跨境电商",
-      "base": "广州",
-      "status": "open",
-      "channel": "官网校招",
-      "link": "https://careers.shein.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "西语区拉美重点市场，内容/用户运营实习直接可用，双非本硕大量在招。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://careers.shein.com/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
-    },
-    {
-      "company": "Temu（拼多多海外）",
-      "post": "招商运营 / 海外运营",
-      "sector": "跨境电商",
-      "base": "上海/广州",
-      "status": "open",
-      "channel": "Temu 招聘官网",
-      "link": "https://www.temu.com/careers",
-      "apply_limit": "以官网为准",
-      "reason": "出海高增长，西语切拉美站，招商/运营岗多、双非友好、给薪高。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://www.temu.com/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
-    },
-    {
-      "company": "Insta360 影石",
-      "post": "海外内容运营 / 社媒运营",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "open",
-      "channel": "校招官网",
-      "link": "https://arashivision.jobs.feishu.cn/campus/position/list",
-      "apply_limit": "一般不限次数（以招聘页为准）",
-      "reason": "CES常胜军，内容+社媒运营，西语覆盖西语区社媒，广告投放经验对口。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "error": null,
-        "note": "已从官方页面或高校招聘公告确认新入口并打开；原链接为软404。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "application_entry_verified_pending_job",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
-      "previousApplicationLink": "https://insta360.zhiye.com",
-      "applicationLinkSource": "https://www.guet.edu.cn/gra/2026/0724/c6076a158376/page.htm"
-    },
-    {
-      "company": "传音控股 Transsion",
-      "post": "新兴市场用户运营 / 运营管培",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "校招官网",
-      "link": "https://transsion.zhiye.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "非洲+拉美布局，小语种运营人才紧缺，数字经济背景加分，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://transsion.zhiye.com/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
-    },
-    {
-      "company": "大疆 DJI",
-      "post": "海外市场运营 / 品牌运营",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://we.dji.com",
-      "apply_limit": "以官网为准",
-      "reason": "全球品牌，区域市场运营岗，语言+运营组合有竞争力。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://careers.dji.com/zh-CN/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
-    },
-    {
-      "company": "涂鸦智能 Tuya",
-      "post": "海外生态运营 / 客户运营",
-      "sector": "人工智能",
-      "base": "杭州",
-      "status": "soon",
-      "channel": "校招官网",
-      "link": "https://tuya.zhiye.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "WAIC活跃IoT平台，全球客户运营，数字经济背景契合，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://tuya.zhiye.com/404?errorpath=%2f",
-        "error": "content_not_found",
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_application_link",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      },
-      "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。"
-    },
-    {
-      "company": "帆软软件",
-      "post": "客户交付与运营 / 市场运营",
-      "sector": "互联网",
-      "base": "南京/无锡/成都/杭州",
-      "status": "open",
-      "channel": "帆软校园招聘",
-      "link": "https://www.fanruan.com/campus",
-      "apply_limit": "以官网为准",
-      "reason": "27届8月提前批已开，客户交付与运营岗，运营方法论通用，双非友好、需求量大。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://www.fanruan.com/solutions/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
-    },
-    {
-      "company": "Shopee（东南亚电商）",
-      "post": "跨境运营 / 招商运营（LDP管培）",
-      "sector": "跨境电商",
-      "base": "深圳/上海",
-      "status": "open",
-      "channel": "Shopee 校园招聘",
-      "link": "https://careers.shopee.com",
-      "apply_limit": "以官网为准",
-      "reason": "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://careers.shopee.cn/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
-    },
-    {
-      "company": "科大讯飞 iFLYTEK",
-      "post": "海外产品运营 / 生态运营",
-      "sector": "人工智能",
-      "base": "合肥/北京",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://campus.iflytek.com",
-      "apply_limit": "以官网为准",
-      "reason": "WAIC/AI展常客，翻译与国际化业务，语言背景天然贴合，双非量大。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://iflytek.zhiye.com/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
-      }
-    },
-    {
-      "company": "石头科技 Roborock",
-      "post": "海外市场运营 / 电商运营",
-      "sector": "消费电子/出海",
-      "base": "北京",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://roborock.zhiye.com",
-      "apply_limit": "以官网为准",
-      "reason": "AWE/CES明星企业，欧洲+拉美扩张，西语区运营需求上升。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://roborock.zhiye.com/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
           "deadline"
         ],
         "note": "仅字段完整性审计。缺失信息不虚构；截止日期为空不代表长期开放。"
