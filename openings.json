@@ -1,10 +1,398 @@
 {
-  "version": "2026-09-23",
-  "updatedAt": "2026-09-23T15:46:57Z",
+  "version": "2026-09-24",
+  "updatedAt": "2026-09-24T05:59:27.546Z",
   "grad_year": "2027",
   "dailyCount": 10,
-  "source": "verified-partial",
+  "source": "rotate",
   "openings": [
+    {
+      "company": "XTransfer",
+      "post": "跨境支付运营 / 客户运营（外贸B2B收付款）",
+      "sector": "金融科技/支付",
+      "base": "上海/深圳",
+      "status": "open",
+      "channel": "XTransfer 校园招聘官网（北森）",
+      "link": "https://xtransfer.zhiye.com/Campus",
+      "apply_limit": "以官网为准（网申/内推 6月15日-9月30日）",
+      "reason": "27届秋招网申进行中；跨境B2B收付款平台，外贸客户覆盖拉美/西语区市场，西语+金融/支付实习双背景高度对口，广告投放与用户运营经验可迁移到获客与商户运营，双非友好。",
+      "addedDate": "2026-08-15",
+      "deadline": "2026-09-30",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://xtransfer.zhiye.com/Campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate"
+        ],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "linkAttempt": {
+        "url": "https://xtransfer.zhiye.com/Campus",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "海外运营 / 用户运营（销售服务类）",
+      "sector": "消费电子出海",
+      "base": "深圳/东莞/西安/海外",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘官网",
+      "link": "https://careers.oppo.com/university/oppo/campus",
+      "apply_limit": "每人最多申请2个岗位（以官网为准），招满即止",
+      "reason": "27届全球校招进行中；OPPO在拉美/西语区有成熟出海业务，海外/用户运营岗与西语语言+运营背景强匹配，广告投放与信用卡产品运营经验可迁移到市场与用户增长。",
+      "addedDate": "2026-08-15",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "大厂",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "淘宝闪购（阿里巴巴）",
+      "post": "用户运营 / AI产品运营 / 商品运营",
+      "sector": "互联网",
+      "base": "上海/杭州/北京",
+      "status": "open",
+      "channel": "淘宝闪购2027届校招官网（一站投递）",
+      "link": "https://talent.ele.me/campus/home?lang=zh",
+      "apply_limit": "阿里系每业务集团1次机会，最多投3个意向（以官网为准）",
+      "reason": "饿了么升级为淘宝闪购后大量新增HC，27届8月已开放；用户运营/商品运营/AI产品运营与你产品运营+广告投放经历直接对口，属阿里独立业务线（与集团一站不同入口），双非可投。",
+      "addedDate": "2026-08-16",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://talent.ele.me/campus/home",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "linkAttempt": {
+        "url": "https://talent.ele.me/campus/home?lang=zh",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "联想 Lenovo",
+      "post": "市场与销售 / 管培生 Future Leaders",
+      "sector": "互联网",
+      "base": "北京/深圳/上海",
+      "status": "open",
+      "channel": "联想校园招聘官网",
+      "link": "https://talent.lenovo.com.cn",
+      "apply_limit": "网申8/5-11/13，岗位招满即止（以官网为准）",
+      "addedDate": "2026-08-17",
+      "deadline": "2026-11-13",
+      "reason": "27届已全面启动，含Future Leaders管培+市场销售，运营/市场方向对口，双非可投，网申截止11/13明确。",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://talent.lenovo.com.cn/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate"
+        ],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "linkAttempt": {
+        "url": "https://talent.lenovo.com.cn",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "vivo",
+      "post": "用户运营 / 市场运营（蓝极星）",
+      "sector": "消费电子/出海",
+      "base": "深圳/东莞",
+      "status": "open",
+      "channel": "vivo校园招聘官网",
+      "link": "https://vivo.zhiye.com",
+      "apply_limit": "以官网为准",
+      "addedDate": "2026-08-17",
+      "deadline": "",
+      "reason": "27届蓝极星项目已开，手机出海海外市场运营需要语言能力，西语可切海外市场，双非量大。",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://vivo.zhiye.com/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "linkAttempt": {
+        "url": "https://vivo.zhiye.com",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "网易游戏（互娱）",
+      "post": "游戏运营 / 市场 / 用户运营",
+      "sector": "游戏",
+      "base": "广州/杭州/上海",
+      "status": "open",
+      "channel": "网易游戏校园招聘官网",
+      "link": "https://game.campus.163.com",
+      "apply_limit": "以官网为准",
+      "addedDate": "2026-08-17",
+      "deadline": "",
+      "reason": "27届7/21启动，运营/市场/产品类年薪20-28万+房补餐补，福利极好；社区/发行运营方法论通用，广告投放经验可迁移。",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://campus.game.163.com/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "linkAttempt": {
+        "url": "https://game.campus.163.com",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "中国银行数字资产运营中心",
+      "post": "数据分析岗位",
+      "sector": "金融科技/支付",
+      "company_size": "大厂",
+      "base": "北京",
+      "status": "open",
+      "channel": "中国银行2027全球校园招聘",
+      "link": "https://campus.chinahr.com/pages/2027-boc",
+      "apply_limit": "最多5岗、平行志愿；北京/上海/广东/深圳等境内一级或直属分行可报1-2岗，其他一级机构1岗",
+      "reason": "岗位负责集团数据运营、分析与应用，数字经济硕士和金融产品运营经历高度贴合；建议突出指标体系、用户洞察和业务转化。",
+      "addedDate": "2026-09-04",
+      "deadline": "2026-10-09",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://campus.chinahr.com/pages/2027-boc/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
+      "publishedDate": "2026-09-03",
+      "lastVerifiedAt": "2026-09-23T15:46:57Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "本次重新读取2027招聘公告，岗位方向和要求仍列示；动态子岗位资格、剩余名额及最终专业审核未确认。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "linkAttempt": {
+        "url": "https://campus.chinahr.com/pages/2027-boc",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "Caterpillar 卡特彼勒",
+      "post": "数据分析工程师（Caterpillar Digital）",
+      "sector": "人工智能",
+      "company_size": "外企",
+      "base": "上海",
+      "status": "open",
+      "channel": "Caterpillar Careers 2027校园招聘",
+      "link": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "参与业务数据分析、仪表盘与数字化产品协作；数字经济背景可投，但需在简历中明确SQL、Python或BI工具能力。",
+      "addedDate": "2026-09-04",
+      "deadline": "2026-10-30",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 403,
+        "finalUrl": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+        "error": "http_error",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_application_link",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [
+          "publishedDate"
+        ],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "linkAttempt": {
+        "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "产品营销经理（海外-小语种）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "岗位明确偏好西葡等小语种，包含产品营销策划、广告投放和用户互动；与你的西语、广告投放及产品运营经历强匹配。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "社媒运营经理（海外-小语种）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "官方明确西葡小语种优先，工作涵盖海外社媒内容、UGC/KOL和趋势分析，是你的语言优势与运营经历最自然的结合点。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
+        "status": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "error": null,
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "仅入口响应检查，不代表具体岗位有效。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
+        "status": 200,
+        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "error": null,
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "isDaily": true
+    },
     {
       "company": "xTool（深圳市创客工场科技有限公司）",
       "post": "2027校招·海外用户运营",
@@ -41,7 +429,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": true,
       "linkAttempt": {
         "url": "https://xtool.jobs.feishu.cn/420214",
         "error": "TimeoutError",
@@ -85,7 +472,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": true,
       "linkAttempt": {
         "url": "https://xtool.jobs.feishu.cn/420214",
         "error": "TimeoutError",
@@ -129,7 +515,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": true,
       "linkAttempt": {
         "url": "https://xtool.jobs.feishu.cn/420214",
         "error": "TimeoutError",
@@ -171,7 +556,6 @@
       },
       "latestAnnouncementDate": "2026-09-17",
       "latestAnnouncementSource": "https://career.hebut.edu.cn/home/correcruit/content/id/80704.html",
-      "isDaily": true,
       "linkAttempt": {
         "url": "https://huicecom.zhiye.com/Campus",
         "error": "TypeError",
@@ -213,7 +597,6 @@
       },
       "latestAnnouncementDate": "2026-09-17",
       "latestAnnouncementSource": "https://career.hebut.edu.cn/home/correcruit/content/id/80704.html",
-      "isDaily": true,
       "linkAttempt": {
         "url": "https://huicecom.zhiye.com/Campus",
         "error": "TypeError",
@@ -251,7 +634,6 @@
         "missingFields": [],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": true,
       "linkAttempt": {
         "url": "https://campus.chinahr.com/pages/2027-boc",
         "error": "TypeError",
@@ -289,7 +671,6 @@
         "missingFields": [],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": true,
       "linkAttempt": {
         "url": "https://campus.chinahr.com/pages/2027-boc",
         "error": "TypeError",
@@ -327,7 +708,6 @@
         "missingFields": [],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": true,
       "linkAttempt": {
         "url": "https://campus.chinahr.com/pages/2027-boc",
         "error": "TypeError",
@@ -357,7 +737,6 @@
       "additionType": "recent_new",
       "addedDate": "2026-09-23",
       "lastVerifiedAt": "2026-09-23T15:46:57Z",
-      "isDaily": true,
       "linkCheck": {
         "checkedAt": "2026-09-23T15:46:57Z",
         "httpStatus": 200,
@@ -396,7 +775,6 @@
       "additionType": "historical_backfill",
       "addedDate": "2026-09-23",
       "lastVerifiedAt": "2026-09-23T15:46:57Z",
-      "isDaily": true,
       "linkCheck": {
         "checkedAt": "2026-09-23T15:46:57Z",
         "httpStatus": 200,
@@ -442,7 +820,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://haday.hotjob.cn/",
         "error": "TypeError",
@@ -480,7 +857,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://jobs.bytedance.com/campus",
         "error": "TypeError",
@@ -518,7 +894,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://jobs.bytedance.com/campus",
         "error": "TypeError",
@@ -557,7 +932,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://talent.alibaba.com/campus/home",
         "error": "TypeError",
@@ -596,7 +970,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://talent.alibaba.com/campus/home",
         "error": "TypeError",
@@ -637,7 +1010,6 @@
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "previousApplicationLink": "https://join.qq.com/campus.html",
       "applicationLinkSource": "https://hr.tencent.com/faqdetail.html",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://join.qq.com/",
         "error": "TypeError",
@@ -676,7 +1048,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://talent.baidu.com/jobs/list",
         "error": "TypeError",
@@ -715,7 +1086,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://campus.meituan.com",
         "error": "TypeError",
@@ -754,7 +1124,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://campus.jd.com",
         "error": "TypeError",
@@ -793,7 +1162,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.pddglobalhr.com",
         "error": "TimeoutError",
@@ -832,7 +1200,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://zhaopin.kuaishou.cn",
         "error": "TypeError",
@@ -871,7 +1238,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://jobs.bilibili.com/campus",
         "error": "TypeError",
@@ -910,7 +1276,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://job.xiaomi.com/campus",
         "error": "TypeError",
@@ -949,7 +1314,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://job.ke.com/campus",
         "error": "TypeError",
@@ -988,7 +1352,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://campus.mihoyo.com",
         "error": "TypeError",
@@ -1027,7 +1390,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://talent.antgroup.com/campus",
         "error": "TypeError",
@@ -1066,7 +1428,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.lianlianpay.com",
         "error": "TypeError",
@@ -1105,7 +1466,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.pingpongx.com",
         "error": "TypeError",
@@ -1144,7 +1504,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.airwallex.com/cn/careers",
         "error": "TypeError",
@@ -1184,7 +1543,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.pypl.com",
         "error": "TypeError",
@@ -1222,7 +1580,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "修复历史失效智联入口，已GET核验新2027校招页面。历史合并岗位名称未逐岗匹配，不据总公告宣称该合并岗位已验证。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://duxiaoman.zhiye.com",
         "error": "TypeError",
@@ -1264,7 +1621,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.360shuke.com",
         "status": 200,
@@ -1308,7 +1664,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://career.cmbchina.com",
         "status": 200,
@@ -1352,7 +1707,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://creditcard.ecitic.com/zhaopin/",
         "status": 200,
@@ -1396,7 +1750,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://mucfc.hotjob.cn",
         "status": 200,
@@ -1439,7 +1792,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.msxf.com/joinus",
         "status": 200,
@@ -1482,7 +1834,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://haiercf.zhiye.com",
         "error": "TimeoutError",
@@ -1521,7 +1872,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.lexin.com/join",
         "error": "TypeError",
@@ -1559,8 +1909,7 @@
           "link"
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false
+      }
     },
     {
       "company": "京东科技 / 京东金融",
@@ -1594,7 +1943,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://qifu.jd.com",
         "error": "TypeError",
@@ -1635,7 +1983,6 @@
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "previousApplicationLink": "https://bambulab.zhiye.com",
       "applicationLinkSource": "https://bambulab.cn/zh-cn/join-us",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://bambulab.jobs.feishu.cn/campus",
         "error": "TypeError",
@@ -1675,7 +2022,6 @@
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "previousApplicationLink": "https://anker.zhiye.com",
       "applicationLinkSource": "https://career.anker.com.cn/universities/recruitment/",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://career.anker.com.cn/universities/recruitment/",
         "error": "TypeError",
@@ -1714,7 +2060,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.shein.com",
         "error": "TypeError",
@@ -1753,7 +2098,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.temu.com/careers",
         "error": "TypeError",
@@ -1794,7 +2138,6 @@
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "previousApplicationLink": "https://insta360.zhiye.com",
       "applicationLinkSource": "https://www.guet.edu.cn/gra/2026/0724/c6076a158376/page.htm",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://arashivision.jobs.feishu.cn/campus/position/list",
         "error": "TypeError",
@@ -1833,7 +2176,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://transsion.zhiye.com",
         "error": "TypeError",
@@ -1872,7 +2214,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://we.dji.com",
         "error": "TypeError",
@@ -1912,7 +2253,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://tuya.zhiye.com",
         "error": "TypeError",
@@ -1951,7 +2291,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.fanruan.com/campus",
         "error": "TypeError",
@@ -1990,7 +2329,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.shopee.com",
         "error": "TypeError",
@@ -2029,7 +2367,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://campus.iflytek.com",
         "error": "TypeError",
@@ -2068,7 +2405,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://roborock.zhiye.com",
         "error": "TypeError",
@@ -2108,7 +2444,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://ecovacs.zhiye.com",
         "error": "TypeError",
@@ -2147,7 +2482,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.pgcareers.com",
         "error": "TypeError",
@@ -2186,7 +2520,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.unilever.com",
         "error": "TypeError",
@@ -2225,7 +2558,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.loreal.com",
         "error": "TypeError",
@@ -2264,7 +2596,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.mars.com/careers",
         "error": "TypeError",
@@ -2304,7 +2635,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.nestle.com.cn/zhcn/jobs",
         "error": "TypeError",
@@ -2343,7 +2673,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.mondelezinternational.com/careers",
         "error": "TypeError",
@@ -2382,7 +2711,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.danone.com",
         "error": "TypeError",
@@ -2421,7 +2749,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.abbott.com.cn/careers.html",
         "error": "TypeError",
@@ -2460,7 +2787,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.amazon.jobs/en/teams/internships-for-students",
         "error": "TypeError",
@@ -2499,7 +2825,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.microsoft.com/students",
         "error": "TypeError",
@@ -2538,7 +2863,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.tesla.cn/careers",
         "error": "TypeError",
@@ -2579,7 +2903,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://job.xiaohongshu.com",
         "error": "TypeError",
@@ -2618,7 +2941,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://campus.163.com",
         "error": "TypeError",
@@ -2657,7 +2979,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.trip.com/campus",
         "error": "TypeError",
@@ -2696,7 +3017,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.iqiyi.com",
         "error": "TypeError",
@@ -2735,7 +3055,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.shopee.com",
         "error": "TypeError",
@@ -2773,398 +3092,9 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://campus.pingan.com/",
         "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "XTransfer",
-      "post": "跨境支付运营 / 客户运营（外贸B2B收付款）",
-      "sector": "金融科技/支付",
-      "base": "上海/深圳",
-      "status": "open",
-      "channel": "XTransfer 校园招聘官网（北森）",
-      "link": "https://xtransfer.zhiye.com/Campus",
-      "apply_limit": "以官网为准（网申/内推 6月15日-9月30日）",
-      "reason": "27届秋招网申进行中；跨境B2B收付款平台，外贸客户覆盖拉美/西语区市场，西语+金融/支付实习双背景高度对口，广告投放与用户运营经验可迁移到获客与商户运营，双非友好。",
-      "addedDate": "2026-08-15",
-      "deadline": "2026-09-30",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://xtransfer.zhiye.com/Campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate"
-        ],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://xtransfer.zhiye.com/Campus",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "OPPO",
-      "post": "海外运营 / 用户运营（销售服务类）",
-      "sector": "消费电子出海",
-      "base": "深圳/东莞/西安/海外",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘官网",
-      "link": "https://careers.oppo.com/university/oppo/campus",
-      "apply_limit": "每人最多申请2个岗位（以官网为准），招满即止",
-      "reason": "27届全球校招进行中；OPPO在拉美/西语区有成熟出海业务，海外/用户运营岗与西语语言+运营背景强匹配，广告投放与信用卡产品运营经验可迁移到市场与用户增长。",
-      "addedDate": "2026-08-15",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://careers.oppo.com/university/oppo/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "大厂",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "淘宝闪购（阿里巴巴）",
-      "post": "用户运营 / AI产品运营 / 商品运营",
-      "sector": "互联网",
-      "base": "上海/杭州/北京",
-      "status": "open",
-      "channel": "淘宝闪购2027届校招官网（一站投递）",
-      "link": "https://talent.ele.me/campus/home?lang=zh",
-      "apply_limit": "阿里系每业务集团1次机会，最多投3个意向（以官网为准）",
-      "reason": "饿了么升级为淘宝闪购后大量新增HC，27届8月已开放；用户运营/商品运营/AI产品运营与你产品运营+广告投放经历直接对口，属阿里独立业务线（与集团一站不同入口），双非可投。",
-      "addedDate": "2026-08-16",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://talent.ele.me/campus/home",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://talent.ele.me/campus/home?lang=zh",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "联想 Lenovo",
-      "post": "市场与销售 / 管培生 Future Leaders",
-      "sector": "互联网",
-      "base": "北京/深圳/上海",
-      "status": "open",
-      "channel": "联想校园招聘官网",
-      "link": "https://talent.lenovo.com.cn",
-      "apply_limit": "网申8/5-11/13，岗位招满即止（以官网为准）",
-      "addedDate": "2026-08-17",
-      "deadline": "2026-11-13",
-      "reason": "27届已全面启动，含Future Leaders管培+市场销售，运营/市场方向对口，双非可投，网申截止11/13明确。",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://talent.lenovo.com.cn/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate"
-        ],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://talent.lenovo.com.cn",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "vivo",
-      "post": "用户运营 / 市场运营（蓝极星）",
-      "sector": "消费电子/出海",
-      "base": "深圳/东莞",
-      "status": "open",
-      "channel": "vivo校园招聘官网",
-      "link": "https://vivo.zhiye.com",
-      "apply_limit": "以官网为准",
-      "addedDate": "2026-08-17",
-      "deadline": "",
-      "reason": "27届蓝极星项目已开，手机出海海外市场运营需要语言能力，西语可切海外市场，双非量大。",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://vivo.zhiye.com/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://vivo.zhiye.com",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "网易游戏（互娱）",
-      "post": "游戏运营 / 市场 / 用户运营",
-      "sector": "游戏",
-      "base": "广州/杭州/上海",
-      "status": "open",
-      "channel": "网易游戏校园招聘官网",
-      "link": "https://game.campus.163.com",
-      "apply_limit": "以官网为准",
-      "addedDate": "2026-08-17",
-      "deadline": "",
-      "reason": "27届7/21启动，运营/市场/产品类年薪20-28万+房补餐补，福利极好；社区/发行运营方法论通用，广告投放经验可迁移。",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://campus.game.163.com/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://game.campus.163.com",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "中国银行数字资产运营中心",
-      "post": "数据分析岗位",
-      "sector": "金融科技/支付",
-      "company_size": "大厂",
-      "base": "北京",
-      "status": "open",
-      "channel": "中国银行2027全球校园招聘",
-      "link": "https://campus.chinahr.com/pages/2027-boc",
-      "apply_limit": "最多5岗、平行志愿；北京/上海/广东/深圳等境内一级或直属分行可报1-2岗，其他一级机构1岗",
-      "reason": "岗位负责集团数据运营、分析与应用，数字经济硕士和金融产品运营经历高度贴合；建议突出指标体系、用户洞察和业务转化。",
-      "addedDate": "2026-09-04",
-      "deadline": "2026-10-09",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://campus.chinahr.com/pages/2027-boc/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
-      "publishedDate": "2026-09-03",
-      "lastVerifiedAt": "2026-09-23T15:46:57Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "本次重新读取2027招聘公告，岗位方向和要求仍列示；动态子岗位资格、剩余名额及最终专业审核未确认。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://campus.chinahr.com/pages/2027-boc",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "Caterpillar 卡特彼勒",
-      "post": "数据分析工程师（Caterpillar Digital）",
-      "sector": "人工智能",
-      "company_size": "外企",
-      "base": "上海",
-      "status": "open",
-      "channel": "Caterpillar Careers 2027校园招聘",
-      "link": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "参与业务数据分析、仪表盘与数字化产品协作；数字经济背景可投，但需在简历中明确SQL、Python或BI工具能力。",
-      "addedDate": "2026-09-04",
-      "deadline": "2026-10-30",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 403,
-        "finalUrl": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-        "error": "http_error",
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_application_link",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [
-          "publishedDate"
-        ],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "OPPO",
-      "post": "产品营销经理（海外-小语种）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "岗位明确偏好西葡等小语种，包含产品营销策划、广告投放和用户互动；与你的西语、广告投放及产品运营经历强匹配。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      }
-    },
-    {
-      "company": "OPPO",
-      "post": "社媒运营经理（海外-小语种）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "官方明确西葡小语种优先，工作涵盖海外社媒内容、UGC/KOL和趋势分析，是你的语言优势与运营经历最自然的结合点。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
-        "status": 200,
-        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "error": null,
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "仅入口响应检查，不代表具体岗位有效。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
-      },
-      "isDaily": false,
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
-        "status": 200,
-        "finalUrl": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "error": null,
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       }
@@ -3201,7 +3131,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
         "status": 200,
@@ -3244,7 +3173,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
         "status": 200,
@@ -3287,7 +3215,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
         "status": 200,
@@ -3330,7 +3257,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://maker.haier.net/client/campus/activityindex.html",
         "status": 200,
@@ -3373,7 +3299,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://maker.haier.net/client/campus/activityindex.html",
         "status": 200,
@@ -3414,7 +3339,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://career.anker.com.cn/universities/recruitment/",
         "error": "TypeError",
@@ -3452,7 +3376,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://career.anker.com.cn/universities/recruitment/new/",
         "error": "TypeError",
@@ -3492,7 +3415,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
         "status": 200,
@@ -3533,7 +3455,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://career.scnu.edu.cn/detail/online?id=3296126",
         "error": "TimeoutError",
@@ -3574,7 +3495,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://huicecom.zhiye.com/Campus",
         "error": "TypeError",
@@ -3613,7 +3533,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://wejob.chinatelecom.com.cn/wt/TELE/web/index",
         "error": "TypeError",
@@ -3651,7 +3570,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://wejob.chinatelecom.com.cn/wt/TELE/web/index",
         "error": "TypeError",
@@ -3691,7 +3609,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://career.cmbc.com.cn/",
         "status": 200,
@@ -3733,7 +3650,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（TypeError），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://www.ruijie.com.cn/campus-recruiting/",
         "error": "TypeError",
@@ -3771,7 +3687,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://jobs.dell.com/students",
         "error": "TypeError",
@@ -3809,7 +3724,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（TypeError），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://job.icbc.com.cn/pc/index.html#/main/home",
         "error": "TypeError",
@@ -3847,7 +3761,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（TypeError），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://career.abchina.com.cn/",
         "error": "TypeError",
@@ -3886,7 +3799,6 @@
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
       "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://swhygh.zhiye.com/campus",
         "error": "TypeError",
@@ -3924,7 +3836,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://jobs.tiangong.edu.cn/correcruit/content/id/55924.html",
         "error": "TypeError",
@@ -3967,7 +3878,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://job.xiaohongshu.com/campus",
         "status": 200,
@@ -4010,7 +3920,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
         "status": 200,
@@ -4056,7 +3965,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
         "error": "TimeoutError",
@@ -4099,7 +4007,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
         "error": "TimeoutError",
@@ -4137,7 +4044,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
         "status": 483,
@@ -4179,7 +4085,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
         "status": 200,
@@ -4219,7 +4124,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "http://zhaopin.faw.com.cn",
         "error": "TimeoutError",
@@ -4259,7 +4163,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://popmart.zhiye.com/campus",
         "error": "TimeoutError",
@@ -4298,7 +4201,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
         "status": 200,
@@ -4342,7 +4244,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://lisen.zhiye.com/campus",
         "error": "TypeError",
@@ -4383,7 +4284,6 @@
         ],
         "note": "仅字段审计；未知不猜测，截止为空不代表长期开放。"
       },
-      "isDaily": false,
       "linkAttempt": {
         "url": "https://lisen.zhiye.com/campus",
         "error": "TypeError",
@@ -4391,452 +4291,5 @@
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       }
     }
-  ],
-  "verification": {
-    "attemptedAt": "2026-09-23T15:46:57Z",
-    "status": "partial",
-    "previousContentUpdateAt": "2026-09-17T09:42:29Z",
-    "recentWindowStart": "2026-09-21T15:46:57.000Z",
-    "windowStart": "2026-09-17T09:42:29Z",
-    "newCount": 2,
-    "recentNewCount": 1,
-    "backfillCount": 1,
-    "confirmedStatusChanges": 0,
-    "confirmedDeadlineChanges": 0,
-    "applicationLinkRepairs": [
-      {
-        "company": "度小满金融",
-        "old": "https://duxiaoman.zhiye.com",
-        "link": "https://campus.duxiaoman.com/051736",
-        "source": "https://career.nankai.edu.cn/correcruit/content/id/116782.html",
-        "checkedAt": "2026-09-23T15:46:57Z"
-      }
-    ],
-    "scope": "110条字段审计；原池99个唯一岗位/来源链接尝试GET，另复查新岗位及替换入口。批量网络连接大量失败，网页阅读和curl仅恢复部分访问；未完成全池JD和剩余名额核验。",
-    "checkedLinkCount": 99,
-    "linkFailures": [
-      {
-        "url": "https://huicecom.zhiye.com/Campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://campus.jd.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://campus.meituan.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://talent.baidu.com/jobs/list",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://join.qq.com/",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://talent.alibaba.com/campus/home",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://jobs.bytedance.com/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://career.nankai.edu.cn/correcruit/content/id/118731.html",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://haday.hotjob.cn/",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://career.hebut.edu.cn/correcruit/content/id/80601.html",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://xtool.jobs.feishu.cn/420214",
-        "error": "TimeoutError"
-      },
-      {
-        "url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
-        "error": "TimeoutError"
-      },
-      {
-        "url": "https://zhaopin.kuaishou.cn",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://jobs.bilibili.com/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://job.xiaomi.com/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.airwallex.com/cn/careers",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.pingpongx.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.lianlianpay.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://talent.antgroup.com/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://campus.mihoyo.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://job.ke.com/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.pypl.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.pddglobalhr.com",
-        "error": "TimeoutError"
-      },
-      {
-        "url": "https://bambulab.jobs.feishu.cn/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://qifu.jd.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.lexin.com/join",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.msxf.com/joinus",
-        "status": 200,
-        "finalUrl": "https://www.msxf.com/joinus",
-        "title": "404",
-        "error": "content_not_found"
-      },
-      {
-        "url": "https://careers.shein.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://career.anker.com.cn/universities/recruitment/",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://haiercf.zhiye.com",
-        "error": "TimeoutError"
-      },
-      {
-        "url": "https://www.temu.com/careers",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://arashivision.jobs.feishu.cn/campus/position/list",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://transsion.zhiye.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://we.dji.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://tuya.zhiye.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://campus.iflytek.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.shopee.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://roborock.zhiye.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.fanruan.com/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.pgcareers.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://ecovacs.zhiye.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.unilever.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.loreal.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.mars.com/careers",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.nestle.com.cn/zhcn/jobs",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.mondelezinternational.com/careers",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.danone.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.tesla.cn/careers",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.microsoft.com/students",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.amazon.jobs/en/teams/internships-for-students",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.abbott.com.cn/careers.html",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://campus.163.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://job.xiaohongshu.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.trip.com/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.iqiyi.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://campus.pingan.com/",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://xtransfer.zhiye.com/Campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.oppo.com/university/oppo/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://game.campus.163.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://vivo.zhiye.com",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://talent.lenovo.com.cn",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://talent.ele.me/campus/home?lang=zh",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://campus.chinahr.com/pages/2027-boc",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://career.anker.com.cn/universities/recruitment/new/",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://www.ruijie.com.cn/campus-recruiting/",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://wejob.chinatelecom.com.cn/wt/TELE/web/index",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://jobs.dell.com/students",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://career.scnu.edu.cn/detail/online?id=3296126",
-        "error": "TimeoutError"
-      },
-      {
-        "url": "https://job.icbc.com.cn/pc/index.html#/main/home",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://career.abchina.com.cn/",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://swhygh.zhiye.com/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://jobs.tiangong.edu.cn/correcruit/content/id/55924.html",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
-        "status": 483,
-        "finalUrl": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
-        "title": "访问出错 - 403",
-        "error": "http_error"
-      },
-      {
-        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-        "error": "TimeoutError"
-      },
-      {
-        "url": "http://zhaopin.faw.com.cn",
-        "error": "TimeoutError"
-      },
-      {
-        "url": "https://popmart.zhiye.com/campus",
-        "error": "TimeoutError"
-      },
-      {
-        "url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
-        "error": "TimeoutError"
-      },
-      {
-        "url": "https://lisen.zhiye.com/campus",
-        "error": "TypeError"
-      },
-      {
-        "url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
-        "error": "TypeError"
-      }
-    ],
-    "contentVerifiedThisRun": [
-      {
-        "company": "慧策（掌上先机）",
-        "post": "2027校招·产品运营"
-      },
-      {
-        "company": "慧策（掌上先机）",
-        "post": "2027校招·客户成功管培生"
-      },
-      {
-        "company": "中国银行",
-        "post": "小语种专项计划（西班牙语）"
-      },
-      {
-        "company": "中国银行数字资产运营中心",
-        "post": "数据分析岗位"
-      },
-      {
-        "company": "中国银行远程银行中心",
-        "post": "线上运营业务"
-      },
-      {
-        "company": "中国银行信用卡中心",
-        "post": "金融综合（产品研发/品牌营销/运营）"
-      },
-      {
-        "company": "慧策（掌上先机）",
-        "post": "业务运营管培生"
-      },
-      {
-        "company": "麒麟软件有限公司",
-        "post": "2027校招·运营专员"
-      },
-      {
-        "company": "中邮消费金融有限公司",
-        "post": "2027校招·金融经济类（客户运营方向）"
-      }
-    ],
-    "missingCompanySizeCount": 64,
-    "missingPublishedDateCount": 90,
-    "missingLinkCount": 1,
-    "pendingLeads": [
-      {
-        "company": "中国移动四川公司",
-        "source": "https://career.hebut.edu.cn/home/correcruit/content/id/80488.html",
-        "publishedAt": "2026-09-11",
-        "reason": "2027媒体运营等岗位已见公告，但具体专业要求和二维码投递入口未完整核实；要求2027-06-30前获毕业及学位证明，暂不作为已验证可投岗位新增。"
-      },
-      {
-        "company": "信也科技",
-        "post": "产品运营管培生",
-        "source": "https://job.hust.edu.cn/extxjh/81788179515503.do",
-        "publishedAt": "2026-09-02",
-        "officialApplyUrl": "https://app.mokahr.com/su/slqfrb",
-        "reason": "已核验2027公告、毕业窗口及最多3岗；9月14日为宣讲日。官方短链GET重定向循环，暂不新增可投岗位。"
-      },
-      {
-        "company": "高途",
-        "post": "2027内容运营/策略运营",
-        "source": "https://career.scnu.edu.cn/detail/online?id=3082753",
-        "publishedAt": "2026-09-16",
-        "officialApplyUrl": "https://app.mokahr.com/campus-recruitment/bjhl/102145",
-        "reason": "官网提供的校招链接GET未成功，不新增；细分岗位要求需核验。"
-      },
-      {
-        "company": "携程",
-        "post": "AI机器人运营（客服智能化方向）（2027届秋招）(MJ036681)",
-        "reason": "第三方线索，尚未获得官方细分JD和可核验发布日期，不新增。"
-      },
-      {
-        "company": "北芯生命",
-        "post": "商业分析师",
-        "source": "https://job.hust.edu.cn/zpinfo1/2435034.htm",
-        "publishedAt": "2026-09-15",
-        "reason": "公告专业含经济学，尚未核对细分JD、地点与适配，不凑数。"
-      },
-      {
-        "company": "启源芯动力",
-        "post": "产品运营/海外营销支持",
-        "source": "https://job.tju.edu.cn/recruitment/content/type/2/id/6402.html",
-        "reason": "9月17日15:25为宣讲会时间，不冒充岗位发布日期；需进一步核对发布日及具体资格。"
-      }
-    ],
-    "note": "本次为9月22日计划在9月23日实际执行。未确认关闭、重开或截止变更；不把连接错误当停招。旧记录未经复核字段保留旧核验日期。10条推荐不等于10条当日新开；xTool3条沿用历史公告核验。"
-  }
+  ]
 }
