@@ -1,10 +1,433 @@
 {
   "version": "2026-09-27",
-  "updatedAt": "2026-09-27T02:53:45Z",
+  "updatedAt": "2026-09-27T06:27:20.750Z",
   "grad_year": "2027",
   "dailyCount": 10,
-  "source": "partial-link-audit",
+  "source": "rotate",
   "openings": [
+    {
+      "company": "青岛乾程科技股份有限公司",
+      "post": "2027全球校招·海外营销 / 国际市场（西班牙语）",
+      "sector": "消费电子/出海",
+      "company_size": "中厂",
+      "base": "青岛/海外",
+      "status": "open",
+      "channel": "青岛乾程科技2027届全球校园招聘",
+      "link": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+      "apply_limit": "以招聘公告及网申系统为准，招满即止",
+      "reason": "9月10日发布，海外营销岗位明确接受西班牙语等小语种；语言优势叠加产品运营经历，可重点投国际市场、海外客户与营销运营方向。",
+      "addedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+        "status": 200,
+        "finalUrl": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+        "title": "跳转提示",
+        "error": null,
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "仅入口响应检查，不代表具体岗位有效。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+        "status": 200,
+        "finalUrl": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+        "title": "跳转提示",
+        "error": null,
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
+    {
+      "company": "石犀科技&众云网",
+      "post": "2027校招·产品经理（数据安全 / AI）",
+      "sector": "人工智能",
+      "company_size": "小厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "石犀科技&众云网2027届秋季校园招聘",
+      "link": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+      "apply_limit": "网申/内推：即日起至11月（具体日未公布）；可按公告邮箱hr@ouryun.com.cn投递",
+      "reason": "9月9日发布、招聘5人；数字经济硕士与多段产品运营经历适合切入B端产品经理，建议突出需求分析、数据复盘和跨团队推进。",
+      "addedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "publishedDate": "2026-09-09",
+      "verificationStatus": "announcement_verified",
+      "source_url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+      "deadlineNote": "2026年11月，具体日期未公布",
+      "officialApplyUrl": "https://ouryun.zhiye.com/",
+      "applicationEmail": "hr@ouryun.com.cn",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+        "error": "TimeoutError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
+    {
+      "company": "石犀科技&众云网",
+      "post": "2027校招·综合管培生（业务运营 / 市场传播）",
+      "sector": "人工智能",
+      "company_size": "小厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "石犀科技&众云网2027届秋季校园招聘",
+      "link": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+      "apply_limit": "网申/内推：即日起至11月（具体日未公布）；可按公告邮箱hr@ouryun.com.cn投递",
+      "reason": "9月9日发布、招聘5人，方向含业务运营和市场传播；与你的产品运营、金融场景及内容传播经验直接匹配，小团队更看重落地能力。",
+      "addedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "publishedDate": "2026-09-09",
+      "verificationStatus": "announcement_verified",
+      "source_url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+      "deadlineNote": "2026年11月，具体日期未公布",
+      "officialApplyUrl": "https://ouryun.zhiye.com/",
+      "applicationEmail": "hr@ouryun.com.cn",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+        "error": "TimeoutError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
+    {
+      "company": "四达时代集团 StarTimes",
+      "post": "2027校招·海外管理培训生（运营 / 市场 / 内容运营）",
+      "sector": "消费电子/出海",
+      "company_size": "中厂",
+      "base": "非洲海外机构",
+      "status": "open",
+      "channel": "四达时代集团2027届校园招聘",
+      "link": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
+      "apply_limit": "以官方公告为准，海外岗位需接受外派",
+      "reason": "9月10日发布，培养方向覆盖销售、运营、市场和内容运营；西语专业具备跨文化沟通优势，产品运营经历可迁移到海外用户与业务运营。",
+      "addedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
+        "status": 483,
+        "finalUrl": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
+        "title": "访问出错 - 403",
+        "error": "http_error",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
+    {
+      "company": "中国移动广西公司",
+      "post": "2027校招·用户运营 / 渠道管理 / 客户服务管理",
+      "sector": "互联网",
+      "company_size": "大厂",
+      "base": "广西",
+      "status": "open",
+      "channel": "中国移动广西公司2027届秋季校园招聘",
+      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
+      "apply_limit": "每人限报1个职位；建议2026年10月中旬前完成投递",
+      "reason": "9月11日发布，专业不限且本科起投；用户运营和渠道管理与产品运营实习直接匹配，金融场景客户运营经验也可迁移。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-11",
+      "deadline": "",
+      "linkCheck": {
+        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
+        "status": 200,
+        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
+        "title": "中国移动广西公司2027届秋季校园招聘火热报名中！-中国移动通信集团广西有限公司",
+        "error": null,
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "仅入口响应检查，不代表具体岗位有效。"
+      },
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
+        "status": 200,
+        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
+        "title": "中国移动广西公司2027届秋季校园招聘火热报名中！-中国移动通信集团广西有限公司",
+        "error": null,
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
+    {
+      "company": "一汽资本控股有限公司",
+      "post": "2027校招·业务运营 / 海外人才专项",
+      "sector": "金融科技/支付",
+      "company_size": "中厂",
+      "base": "吉林/山东/广东/四川",
+      "status": "open",
+      "channel": "一汽资本2027校园招聘",
+      "link": "http://zhaopin.faw.com.cn",
+      "apply_limit": "硕士研究生；海外人才专项需参加语言测试，以官网岗位为准",
+      "reason": "9月10日发布，业务覆盖信贷、保险、租赁与海外金融，招聘专业明确包含西班牙语；数字经济硕士、金融产品运营和语言背景形成强匹配。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://faw-zhaopin.hotjob.cn/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "http://zhaopin.faw.com.cn",
+        "error": "TimeoutError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
+    {
+      "company": "泡泡玛特 POP MART",
+      "post": "2027校招·零售运营与支持 / 客户体验（含海外）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "北京/上海/杭州/东莞/海外",
+      "status": "open",
+      "channel": "泡泡玛特2027秋季校园招聘",
+      "link": "https://popmart.zhiye.com/campus",
+      "apply_limit": "面向2026年9月至2027年8月毕业生，以具体岗位要求为准",
+      "reason": "9月10日发布，覆盖零售运营、客户体验和海外岗位；产品运营经历适配用户体验与门店/渠道运营，西语可用于海外市场沟通。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://popmart.zhiye.com/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
+      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "https://popmart.zhiye.com/campus",
+        "error": "TimeoutError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
+    {
+      "company": "金蝶软件",
+      "post": "2027校招·客户经营 / 市场推广 / 产品经理管培生",
+      "sector": "人工智能",
+      "company_size": "中厂",
+      "base": "深圳/上海/南京/北京/长沙/厦门/其他城市及海外",
+      "status": "open",
+      "channel": "金蝶2027届校园招聘",
+      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+      "apply_limit": "面向2026年10月1日至2027年9月30日毕业生，以网申具体岗位为准",
+      "reason": "9月10日发布，企业AI与管理软件场景同时开放客户经营、市场推广及产品经理管培生；数字经济和产品运营经历适合B端产品与客户运营。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+        "status": 200,
+        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+        "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
+        "error": null,
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "仅入口响应检查，不代表具体岗位有效。"
+      },
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+        "status": 200,
+        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+        "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
+        "error": null,
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
+    {
+      "company": "深圳市李森智能有限公司 LISEN",
+      "post": "2027校招·跨境电商运营 / 电商推广",
+      "sector": "消费电子/出海",
+      "company_size": "小厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "LISEN李森智能2027届校园招聘",
+      "link": "https://lisen.zhiye.com/campus",
+      "apply_limit": "2027届本科及以上、专业不限，以官网岗位为准",
+      "reason": "9月11日高校宣讲并开放网申；公司规模150-500人，主营出海3C配件。岗位涉及Amazon运营、PPC广告、国际市场分析和投放优化，与你的产品运营及广告投放经历高度匹配。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-06",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://lisen.zhiye.com/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "verificationStatus": "announcement_verified",
+      "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
+      "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
+      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "https://lisen.zhiye.com/campus",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
+    {
+      "company": "深圳市李森智能有限公司 LISEN",
+      "post": "2027校招·产品经理（3C消费电子）",
+      "sector": "消费电子/出海",
+      "company_size": "小厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "LISEN李森智能2027届校园招聘",
+      "link": "https://lisen.zhiye.com/campus",
+      "apply_limit": "2027届本科及以上，相关专业优先，产品/项目经历加分",
+      "reason": "岗位招聘10人，覆盖用户研究、竞品分析、PRD、产品生命周期与跨团队协同；多段产品运营经验可作为转产品经理的直接证据，数字经济背景有利于数据化决策。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-06",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://lisen.zhiye.com/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "verificationStatus": "announcement_verified",
+      "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
+      "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
+      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-27T02:53:45Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计，不代表招聘内容核验。"
+      },
+      "linkAttempt": {
+        "url": "https://lisen.zhiye.com/campus",
+        "error": "TypeError",
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
+      },
+      "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
+      "isDaily": true
+    },
     {
       "company": "xTool（深圳市创客工场科技有限公司）",
       "post": "2027校招·海外用户运营",
@@ -47,7 +470,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -92,7 +514,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -137,7 +558,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -180,7 +600,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -223,7 +642,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -262,7 +680,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -301,7 +718,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -340,7 +756,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -378,7 +793,6 @@
         ],
         "note": "字段完整性审计，不代表招聘内容核验。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -417,7 +831,6 @@
         ],
         "note": "字段完整性审计，不代表招聘内容核验。"
       },
-      "isDaily": true,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -458,7 +871,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -497,7 +909,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -536,7 +947,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -576,7 +986,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -616,7 +1025,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -658,7 +1066,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -698,7 +1105,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -738,7 +1144,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -778,7 +1183,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -818,7 +1222,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -858,7 +1261,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -898,7 +1300,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -938,7 +1339,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -978,7 +1378,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1018,7 +1417,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1058,7 +1456,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1098,7 +1495,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1138,7 +1534,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1178,7 +1573,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1219,7 +1613,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1259,7 +1652,6 @@
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
       "applicationEntrySource": "https://career.nankai.edu.cn/correcruit/content/id/116782.html",
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1304,7 +1696,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1349,7 +1740,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1394,7 +1784,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1439,7 +1828,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1483,7 +1871,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1524,7 +1911,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1564,7 +1950,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1597,8 +1982,7 @@
           "link"
         ],
         "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "isDaily": false
+      }
     },
     {
       "company": "京东科技 / 京东金融",
@@ -1638,7 +2022,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1680,7 +2063,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1721,7 +2103,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1761,7 +2142,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1801,7 +2181,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1843,7 +2222,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1883,7 +2261,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1923,7 +2300,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -1964,7 +2340,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2004,7 +2379,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
       "verificationNote": "2026-09-27入口复查：正文标题为智慧校园解决方案，非招聘页面。未确认关闭，保留历史状态，待寻找官方有效入口。"
     },
@@ -2045,7 +2419,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2085,7 +2458,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2125,7 +2497,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2166,7 +2537,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2206,7 +2576,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2246,7 +2615,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2286,7 +2654,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2326,7 +2693,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2367,7 +2733,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2407,7 +2772,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2447,7 +2811,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2487,7 +2850,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2527,7 +2889,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2567,7 +2928,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2607,7 +2967,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2649,7 +3008,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2689,7 +3047,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2729,7 +3086,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2769,7 +3125,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2809,7 +3164,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2848,7 +3202,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2887,7 +3240,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2926,7 +3278,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -2966,7 +3317,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z",
       "verificationNote": "2026-09-27入口复查：页面标题为Index of Template Application，无法核实招聘信息。未确认关闭，保留历史状态，待寻找官方有效入口。"
     },
@@ -3006,7 +3356,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3046,7 +3395,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3086,7 +3434,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3125,7 +3472,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3164,7 +3510,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3203,7 +3548,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3247,7 +3591,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3291,7 +3634,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3335,7 +3677,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3379,7 +3720,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3423,7 +3763,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3467,7 +3806,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3506,7 +3844,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3545,7 +3882,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3589,7 +3925,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3628,7 +3963,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3671,7 +4005,6 @@
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
       "lastVerifiedAt": "2026-09-23T15:46:57Z",
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3710,7 +4043,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3749,7 +4081,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3793,7 +4124,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3833,7 +4163,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3872,7 +4201,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3911,7 +4239,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3950,7 +4277,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -3990,7 +4316,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -4029,7 +4354,6 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     },
     {
@@ -4076,548 +4400,7 @@
         "checkedAt": "2026-09-23T15:46:57Z",
         "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
       },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "青岛乾程科技股份有限公司",
-      "post": "2027全球校招·海外营销 / 国际市场（西班牙语）",
-      "sector": "消费电子/出海",
-      "company_size": "中厂",
-      "base": "青岛/海外",
-      "status": "open",
-      "channel": "青岛乾程科技2027届全球校园招聘",
-      "link": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-      "apply_limit": "以招聘公告及网申系统为准，招满即止",
-      "reason": "9月10日发布，海外营销岗位明确接受西班牙语等小语种；语言优势叠加产品运营经历，可重点投国际市场、海外客户与营销运营方向。",
-      "addedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-        "status": 200,
-        "finalUrl": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-        "title": "跳转提示",
-        "error": null,
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "仅入口响应检查，不代表具体岗位有效。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-        "status": 200,
-        "finalUrl": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-        "title": "跳转提示",
-        "error": null,
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "石犀科技&众云网",
-      "post": "2027校招·产品经理（数据安全 / AI）",
-      "sector": "人工智能",
-      "company_size": "小厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "石犀科技&众云网2027届秋季校园招聘",
-      "link": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-      "apply_limit": "网申/内推：即日起至11月（具体日未公布）；可按公告邮箱hr@ouryun.com.cn投递",
-      "reason": "9月9日发布、招聘5人；数字经济硕士与多段产品运营经历适合切入B端产品经理，建议突出需求分析、数据复盘和跨团队推进。",
-      "addedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "publishedDate": "2026-09-09",
-      "verificationStatus": "announcement_verified",
-      "source_url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-      "deadlineNote": "2026年11月，具体日期未公布",
-      "officialApplyUrl": "https://ouryun.zhiye.com/",
-      "applicationEmail": "hr@ouryun.com.cn",
-      "lastVerifiedAt": "2026-09-17T09:42:29Z",
-      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-        "error": "TimeoutError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "石犀科技&众云网",
-      "post": "2027校招·综合管培生（业务运营 / 市场传播）",
-      "sector": "人工智能",
-      "company_size": "小厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "石犀科技&众云网2027届秋季校园招聘",
-      "link": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-      "apply_limit": "网申/内推：即日起至11月（具体日未公布）；可按公告邮箱hr@ouryun.com.cn投递",
-      "reason": "9月9日发布、招聘5人，方向含业务运营和市场传播；与你的产品运营、金融场景及内容传播经验直接匹配，小团队更看重落地能力。",
-      "addedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "publishedDate": "2026-09-09",
-      "verificationStatus": "announcement_verified",
-      "source_url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-      "deadlineNote": "2026年11月，具体日期未公布",
-      "officialApplyUrl": "https://ouryun.zhiye.com/",
-      "applicationEmail": "hr@ouryun.com.cn",
-      "lastVerifiedAt": "2026-09-17T09:42:29Z",
-      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-        "error": "TimeoutError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "四达时代集团 StarTimes",
-      "post": "2027校招·海外管理培训生（运营 / 市场 / 内容运营）",
-      "sector": "消费电子/出海",
-      "company_size": "中厂",
-      "base": "非洲海外机构",
-      "status": "open",
-      "channel": "四达时代集团2027届校园招聘",
-      "link": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
-      "apply_limit": "以官方公告为准，海外岗位需接受外派",
-      "reason": "9月10日发布，培养方向覆盖销售、运营、市场和内容运营；西语专业具备跨文化沟通优势，产品运营经历可迁移到海外用户与业务运营。",
-      "addedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
-        "status": 483,
-        "finalUrl": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
-        "title": "访问出错 - 403",
-        "error": "http_error",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "中国移动广西公司",
-      "post": "2027校招·用户运营 / 渠道管理 / 客户服务管理",
-      "sector": "互联网",
-      "company_size": "大厂",
-      "base": "广西",
-      "status": "open",
-      "channel": "中国移动广西公司2027届秋季校园招聘",
-      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
-      "apply_limit": "每人限报1个职位；建议2026年10月中旬前完成投递",
-      "reason": "9月11日发布，专业不限且本科起投；用户运营和渠道管理与产品运营实习直接匹配，金融场景客户运营经验也可迁移。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-11",
-      "deadline": "",
-      "linkCheck": {
-        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
-        "status": 200,
-        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
-        "title": "中国移动广西公司2027届秋季校园招聘火热报名中！-中国移动通信集团广西有限公司",
-        "error": null,
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "仅入口响应检查，不代表具体岗位有效。"
-      },
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
-        "status": 200,
-        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
-        "title": "中国移动广西公司2027届秋季校园招聘火热报名中！-中国移动通信集团广西有限公司",
-        "error": null,
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "一汽资本控股有限公司",
-      "post": "2027校招·业务运营 / 海外人才专项",
-      "sector": "金融科技/支付",
-      "company_size": "中厂",
-      "base": "吉林/山东/广东/四川",
-      "status": "open",
-      "channel": "一汽资本2027校园招聘",
-      "link": "http://zhaopin.faw.com.cn",
-      "apply_limit": "硕士研究生；海外人才专项需参加语言测试，以官网岗位为准",
-      "reason": "9月10日发布，业务覆盖信贷、保险、租赁与海外金融，招聘专业明确包含西班牙语；数字经济硕士、金融产品运营和语言背景形成强匹配。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://faw-zhaopin.hotjob.cn/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "http://zhaopin.faw.com.cn",
-        "error": "TimeoutError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "泡泡玛特 POP MART",
-      "post": "2027校招·零售运营与支持 / 客户体验（含海外）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "北京/上海/杭州/东莞/海外",
-      "status": "open",
-      "channel": "泡泡玛特2027秋季校园招聘",
-      "link": "https://popmart.zhiye.com/campus",
-      "apply_limit": "面向2026年9月至2027年8月毕业生，以具体岗位要求为准",
-      "reason": "9月10日发布，覆盖零售运营、客户体验和海外岗位；产品运营经历适配用户体验与门店/渠道运营，西语可用于海外市场沟通。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://popmart.zhiye.com/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "https://popmart.zhiye.com/campus",
-        "error": "TimeoutError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "金蝶软件",
-      "post": "2027校招·客户经营 / 市场推广 / 产品经理管培生",
-      "sector": "人工智能",
-      "company_size": "中厂",
-      "base": "深圳/上海/南京/北京/长沙/厦门/其他城市及海外",
-      "status": "open",
-      "channel": "金蝶2027届校园招聘",
-      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-      "apply_limit": "面向2026年10月1日至2027年9月30日毕业生，以网申具体岗位为准",
-      "reason": "9月10日发布，企业AI与管理软件场景同时开放客户经营、市场推广及产品经理管培生；数字经济和产品运营经历适合B端产品与客户运营。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-        "status": 200,
-        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-        "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
-        "error": null,
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "仅入口响应检查，不代表具体岗位有效。"
-      },
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-        "status": 200,
-        "finalUrl": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-        "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
-        "error": null,
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "深圳市李森智能有限公司 LISEN",
-      "post": "2027校招·跨境电商运营 / 电商推广",
-      "sector": "消费电子/出海",
-      "company_size": "小厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "LISEN李森智能2027届校园招聘",
-      "link": "https://lisen.zhiye.com/campus",
-      "apply_limit": "2027届本科及以上、专业不限，以官网岗位为准",
-      "reason": "9月11日高校宣讲并开放网申；公司规模150-500人，主营出海3C配件。岗位涉及Amazon运营、PPC广告、国际市场分析和投放优化，与你的产品运营及广告投放经历高度匹配。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-06",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://lisen.zhiye.com/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "verificationStatus": "announcement_verified",
-      "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
-      "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "https://lisen.zhiye.com/campus",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
-      "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
-    },
-    {
-      "company": "深圳市李森智能有限公司 LISEN",
-      "post": "2027校招·产品经理（3C消费电子）",
-      "sector": "消费电子/出海",
-      "company_size": "小厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "LISEN李森智能2027届校园招聘",
-      "link": "https://lisen.zhiye.com/campus",
-      "apply_limit": "2027届本科及以上，相关专业优先，产品/项目经历加分",
-      "reason": "岗位招聘10人，覆盖用户研究、竞品分析、PRD、产品生命周期与跨团队协同；多段产品运营经验可作为转产品经理的直接证据，数字经济背景有利于数据化决策。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-06",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://lisen.zhiye.com/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "verificationStatus": "announcement_verified",
-      "source_url": "https://gykyjy.gzasc.edu.cn/detail/career?id=714915",
-      "publicationSource": "https://career.nankai.edu.cn/correcruit/content/id/117929.html",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationNote": "已读取高校招聘详情、2027届毕业窗口及岗位要求。原发布日期误用宣讲时间，改为可核验的9月6日公告日期；非新开。官网名额未登录核验。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-27T02:53:45Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计，不代表招聘内容核验。"
-      },
-      "linkAttempt": {
-        "url": "https://lisen.zhiye.com/campus",
-        "error": "TypeError",
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "入口GET检查，不代表JD或开放状态核验；连接失败可能由当前访问环境导致。"
-      },
-      "isDaily": false,
       "lastLinkAttemptAt": "2026-09-27T02:53:45Z"
     }
-  ],
-  "verification": {
-    "attemptedAt": "2026-09-27T02:53:45Z",
-    "status": "partial",
-    "previousContentUpdateAt": "2026-09-23T15:46:57Z",
-    "lastSuccessfulPublicationCommit": "0332c8c9ac9c1162cf1ead253a948cd5330f3a52",
-    "windowStart": "2026-09-23T15:46:57Z",
-    "recentWindowStart": "2026-09-25T02:53:45.000Z",
-    "newCount": 0,
-    "backfillCount": 0,
-    "confirmedStatusChanges": 0,
-    "confirmedDeadlineChanges": 0,
-    "scope": "110条字段审计；尝试请求原池全部岗位及来源入口和11条经验链接，仅入口检查，不是全池JD核验。批量部分输出截断，不据此统计全部有效/失效数量。",
-    "attemptedUniqueJobLinks": 103,
-    "linkFailures": [
-      {
-        "url": "https://www.fanruan.com/campus",
-        "error": "正文标题为智慧校园解决方案，非招聘页面",
-        "checkedAt": "2026-09-27T02:53:45Z"
-      },
-      {
-        "url": "https://talent.ele.me/campus/home?lang=zh",
-        "error": "页面标题为Index of Template Application，无法核实招聘信息",
-        "checkedAt": "2026-09-27T02:53:45Z"
-      },
-      {
-        "url": "https://ecovacs.zhiye.com",
-        "error": "Not Found",
-        "checkedAt": "2026-09-27T02:53:45Z"
-      },
-      {
-        "url": "https://swhygh.zhiye.com/campus",
-        "error": "Not Found",
-        "checkedAt": "2026-09-27T02:53:45Z"
-      },
-      {
-        "url": "https://qifu.jd.com",
-        "error": "页面不存在",
-        "checkedAt": "2026-09-27T02:53:45Z"
-      },
-      {
-        "url": "https://tuya.zhiye.com",
-        "error": "Not Found",
-        "checkedAt": "2026-09-27T02:53:45Z"
-      },
-      {
-        "url": "https://www.nestle.com.cn/zhcn/jobs",
-        "error": "浏览器验证页",
-        "checkedAt": "2026-09-27T02:53:45Z"
-      },
-      {
-        "url": "https://www.ruijie.com.cn/campus-recruiting/",
-        "error": "请求失败",
-        "checkedAt": "2026-09-27T02:53:45Z"
-      },
-      {
-        "url": "https://careers.pypl.com",
-        "error": "请求失败",
-        "checkedAt": "2026-09-27T02:53:45Z"
-      }
-    ],
-    "pendingLeads": [
-      {
-        "company": "中国移动四川公司",
-        "source": "https://career.hebut.edu.cn/home/correcruit/content/id/80488.html",
-        "publishedAt": "2026-09-11",
-        "reason": "2027媒体运营等岗位已见公告，但具体专业要求和二维码投递入口未完整核实；要求2027-06-30前获毕业及学位证明，暂不作为已验证可投岗位新增。"
-      },
-      {
-        "company": "信也科技",
-        "post": "产品运营管培生",
-        "source": "https://job.hust.edu.cn/extxjh/81788179515503.do",
-        "publishedAt": "2026-09-02",
-        "officialApplyUrl": "https://app.mokahr.com/su/slqfrb",
-        "reason": "已核验2027公告、毕业窗口及最多3岗；9月14日为宣讲日。官方短链GET重定向循环，暂不新增可投岗位。"
-      },
-      {
-        "company": "高途",
-        "post": "2027内容运营/策略运营",
-        "source": "https://career.scnu.edu.cn/detail/online?id=3082753",
-        "publishedAt": "2026-09-16",
-        "officialApplyUrl": "https://app.mokahr.com/campus-recruitment/bjhl/102145",
-        "reason": "官网提供的校招链接GET未成功，不新增；细分岗位要求需核验。"
-      },
-      {
-        "company": "携程",
-        "post": "AI机器人运营（客服智能化方向）（2027届秋招）(MJ036681)",
-        "reason": "第三方线索，尚未获得官方细分JD和可核验发布日期，不新增。"
-      },
-      {
-        "company": "北芯生命",
-        "post": "商业分析师",
-        "source": "https://job.hust.edu.cn/zpinfo1/2435034.htm",
-        "publishedAt": "2026-09-15",
-        "reason": "公告专业含经济学，尚未核对细分JD、地点与适配，不凑数。"
-      },
-      {
-        "company": "启源芯动力",
-        "post": "产品运营/海外营销支持",
-        "source": "https://job.tju.edu.cn/recruitment/content/type/2/id/6402.html",
-        "reason": "9月17日15:25为宣讲会时间，不冒充岗位发布日期；需进一步核对发布日及具体资格。"
-      },
-      {
-        "company": "北银金融科技",
-        "post": "2027应届生-产品运营岗",
-        "source": "https://offerseek.ai/jobs/campus",
-        "reason": "第三方线索，未确认官方JD、发布日期和投递入口，未新增。"
-      },
-      {
-        "company": "思谋科技",
-        "source": "https://job.hust.edu.cn/zpinfo1/2447453.htm",
-        "reason": "已读9月24日2027公告，AI产品具体资格及入口未验证，公告强调工程和AI实证，不降低匹配门槛新增。"
-      }
-    ],
-    "contentVerifiedThisRun": [],
-    "dailyRecommendationsVerifiedThisRun": 0,
-    "note": "跨日恢复后以9月27日记录实际执行。岗位今日无新增，仅表示本轮未核验到合格新增，不表示市场无新岗位。沿用10条既有推荐及原内容核验日期；今日10条重新核验尚未完成，不称全量完成。"
-  }
+  ]
 }
