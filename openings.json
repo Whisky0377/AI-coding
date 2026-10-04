@@ -1,10 +1,412 @@
 {
-  "version": "2026-10-03",
-  "updatedAt": "2026-10-03T06:17:32.111Z",
+  "version": "2026-10-04",
+  "updatedAt": "2026-10-04T06:42:20.759Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "亿滋 Mondelēz",
+      "post": "管培生（市场/销售/供应链）",
+      "sector": "快消/零售",
+      "base": "上海/苏州",
+      "status": "open",
+      "channel": "亿滋校园招聘官网",
+      "link": "https://www.mondelezinternational.com/careers",
+      "apply_limit": "以官网为准",
+      "reason": "奥利奥/趣多多母公司，管培生福利好，市场运营方向，对双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.mondelezinternational.com/careers",
+        "title": "Tasty Jobs and Careers at Mondelēz International | Mondelēz International, Inc.",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "达能 Danone",
+      "post": "管培生 / 市场与电商",
+      "sector": "快消/零售",
+      "base": "上海",
+      "status": "open",
+      "channel": "达能校园招聘官网",
+      "link": "https://careers.danone.com",
+      "apply_limit": "以官网为准",
+      "reason": "食品饮料外企，电商/市场运营，福利与工作生活平衡口碑好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://careers.danone.com/en-global/home.html",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.danone.com",
+        "error": "request_failed",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "雅培 Abbott",
+      "post": "管培生 / 市场运营",
+      "sector": "快消/零售",
+      "base": "上海",
+      "status": "open",
+      "channel": "雅培校园招聘官网",
+      "link": "https://www.abbott.com.cn/careers.html",
+      "apply_limit": "以官网为准",
+      "reason": "27届外企秋招已开，医疗健康消费品，市场运营方向，外企福利与晋升好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.abbott.com.cn/careers.html",
+        "title": "职业发展 | 雅培中国",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "亚马逊 Amazon",
+      "post": "运营管培 / 客户体验运营",
+      "sector": "人工智能",
+      "base": "北京/上海/深圳",
+      "status": "open",
+      "channel": "Amazon Student Programs",
+      "link": "https://www.amazon.jobs/en/teams/internships-for-students",
+      "apply_limit": "以官网为准",
+      "reason": "全球科技巨头，运营/项目管理方向，英语好+数据运营对口，薪酬福利行业顶尖。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.amazon.jobs/en/teams/internships-for-students",
+        "title": "Internships for Students",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "微软 Microsoft",
+      "post": "MACH 运营 / 商业项目管培",
+      "sector": "人工智能",
+      "base": "北京/上海/苏州",
+      "status": "open",
+      "channel": "Microsoft Students",
+      "link": "https://careers.microsoft.com/students",
+      "apply_limit": "以官网为准",
+      "reason": "顶级科技外企，商业运营/项目方向，工作生活平衡与晋升口碑极好，双非有机会。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.microsoft.com/students",
+        "title": "Early in profession | Microsoft Careers",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "特斯拉 Tesla",
+      "post": "运营管培 / 市场运营",
+      "sector": "汽车/新能源",
+      "base": "上海",
+      "status": "open",
+      "channel": "特斯拉招聘官网",
+      "link": "https://www.tesla.cn/careers",
+      "apply_limit": "以官网为准",
+      "reason": "新能源标杆，运营/市场方向，成长快、平台强，英语与数据能力加分。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.tesla.cn/careers",
+        "title": "工作机会 | 特斯拉中国",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "小红书",
+      "post": "社区运营 / 商业化运营 / 用户运营",
+      "sector": "互联网",
+      "base": "上海/北京",
+      "status": "open",
+      "channel": "小红书校园招聘官网",
+      "link": "https://job.xiaohongshu.com",
+      "apply_limit": "以官网为准",
+      "reason": "内容社区高增长，社区/商业化运营与你广告投放+内容运营高度契合，福利好、氛围年轻。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "source_url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html",
+      "announcementCheckedAt": "2026-09-16T06:14:40Z",
+      "verificationNote": "已复核2027校招总公告；原记录细分岗位名称、专业资格及名额尚未逐一核验。",
+      "company_size": "大厂",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://job.xiaohongshu.com",
+        "title": "小红书",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "网易",
+      "post": "用户运营 / 产品运营",
+      "sector": "互联网",
+      "base": "杭州/广州/北京",
+      "status": "open",
+      "channel": "网易校园招聘官网",
+      "link": "https://campus.163.com",
+      "apply_limit": "以官网为准",
+      "reason": "福利待遇口碑好的大厂，游戏/电商/传媒运营岗多，双非有机会。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://campus.163.com",
+        "title": "网易校园招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "携程 Trip.com",
+      "post": "用户运营 / 海外市场运营",
+      "sector": "互联网",
+      "base": "上海",
+      "status": "open",
+      "channel": "携程校园招聘官网",
+      "link": "https://careers.trip.com/campus",
+      "apply_limit": "以官网为准",
+      "reason": "在线旅游龙头，海外运营需要语言能力，西语可切拉美市场，福利与晋升好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://careers.trip.com/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.trip.com/campus",
+        "error": "request_failed",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "爱奇艺",
+      "post": "内容运营 / 会员运营",
+      "sector": "互联网",
+      "base": "北京",
+      "status": "open",
+      "channel": "爱奇艺校园招聘官网",
+      "link": "https://careers.iqiyi.com",
+      "apply_limit": "以官网为准",
+      "reason": "长视频平台，会员/内容运营，运营方法论通用，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.iqiyi.com",
+        "title": "爱奇艺招聘-热门职位",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "帆软软件",
       "post": "客户交付与运营 / 市场运营",
@@ -45,8 +447,7 @@
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
       "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "verificationNote": "2026-09-27入口复查：正文标题为智慧校园解决方案，非招聘页面。未确认关闭，保留历史状态，待寻找官方有效入口。",
-      "isDaily": true
+      "verificationNote": "2026-09-27入口复查：正文标题为智慧校园解决方案，非招聘页面。未确认关闭，保留历史状态，待寻找官方有效入口。"
     },
     {
       "company": "Shopee（东南亚电商）",
@@ -85,8 +486,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "科大讯飞 iFLYTEK",
@@ -125,8 +525,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "石头科技 Roborock",
@@ -165,8 +564,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "科沃斯 Ecovacs",
@@ -208,8 +606,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "宝洁 P&G",
@@ -248,8 +645,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "联合利华 Unilever",
@@ -288,8 +684,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "欧莱雅 L'Oréal",
@@ -328,8 +723,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "玛氏 Mars",
@@ -368,8 +762,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "雀巢 Nestlé",
@@ -411,8 +804,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "哈银消费金融",
@@ -2419,398 +2811,6 @@
       "linkAttempt": {
         "url": "https://www.pingpongx.com",
         "title": "跨境收款_外贸收款-PingPong全球跨境收付解决方案",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "亿滋 Mondelēz",
-      "post": "管培生（市场/销售/供应链）",
-      "sector": "快消/零售",
-      "base": "上海/苏州",
-      "status": "open",
-      "channel": "亿滋校园招聘官网",
-      "link": "https://www.mondelezinternational.com/careers",
-      "apply_limit": "以官网为准",
-      "reason": "奥利奥/趣多多母公司，管培生福利好，市场运营方向，对双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.mondelezinternational.com/careers",
-        "title": "Tasty Jobs and Careers at Mondelēz International | Mondelēz International, Inc.",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "达能 Danone",
-      "post": "管培生 / 市场与电商",
-      "sector": "快消/零售",
-      "base": "上海",
-      "status": "open",
-      "channel": "达能校园招聘官网",
-      "link": "https://careers.danone.com",
-      "apply_limit": "以官网为准",
-      "reason": "食品饮料外企，电商/市场运营，福利与工作生活平衡口碑好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://careers.danone.com/en-global/home.html",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.danone.com",
-        "error": "request_failed",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "雅培 Abbott",
-      "post": "管培生 / 市场运营",
-      "sector": "快消/零售",
-      "base": "上海",
-      "status": "open",
-      "channel": "雅培校园招聘官网",
-      "link": "https://www.abbott.com.cn/careers.html",
-      "apply_limit": "以官网为准",
-      "reason": "27届外企秋招已开，医疗健康消费品，市场运营方向，外企福利与晋升好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.abbott.com.cn/careers.html",
-        "title": "职业发展 | 雅培中国",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "亚马逊 Amazon",
-      "post": "运营管培 / 客户体验运营",
-      "sector": "人工智能",
-      "base": "北京/上海/深圳",
-      "status": "open",
-      "channel": "Amazon Student Programs",
-      "link": "https://www.amazon.jobs/en/teams/internships-for-students",
-      "apply_limit": "以官网为准",
-      "reason": "全球科技巨头，运营/项目管理方向，英语好+数据运营对口，薪酬福利行业顶尖。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.amazon.jobs/en/teams/internships-for-students",
-        "title": "Internships for Students",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "微软 Microsoft",
-      "post": "MACH 运营 / 商业项目管培",
-      "sector": "人工智能",
-      "base": "北京/上海/苏州",
-      "status": "open",
-      "channel": "Microsoft Students",
-      "link": "https://careers.microsoft.com/students",
-      "apply_limit": "以官网为准",
-      "reason": "顶级科技外企，商业运营/项目方向，工作生活平衡与晋升口碑极好，双非有机会。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.microsoft.com/students",
-        "title": "Early in profession | Microsoft Careers",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "特斯拉 Tesla",
-      "post": "运营管培 / 市场运营",
-      "sector": "汽车/新能源",
-      "base": "上海",
-      "status": "open",
-      "channel": "特斯拉招聘官网",
-      "link": "https://www.tesla.cn/careers",
-      "apply_limit": "以官网为准",
-      "reason": "新能源标杆，运营/市场方向，成长快、平台强，英语与数据能力加分。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.tesla.cn/careers",
-        "title": "工作机会 | 特斯拉中国",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "小红书",
-      "post": "社区运营 / 商业化运营 / 用户运营",
-      "sector": "互联网",
-      "base": "上海/北京",
-      "status": "open",
-      "channel": "小红书校园招聘官网",
-      "link": "https://job.xiaohongshu.com",
-      "apply_limit": "以官网为准",
-      "reason": "内容社区高增长，社区/商业化运营与你广告投放+内容运营高度契合，福利好、氛围年轻。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "source_url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html",
-      "announcementCheckedAt": "2026-09-16T06:14:40Z",
-      "verificationNote": "已复核2027校招总公告；原记录细分岗位名称、专业资格及名额尚未逐一核验。",
-      "company_size": "大厂",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://job.xiaohongshu.com",
-        "title": "小红书",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "网易",
-      "post": "用户运营 / 产品运营",
-      "sector": "互联网",
-      "base": "杭州/广州/北京",
-      "status": "open",
-      "channel": "网易校园招聘官网",
-      "link": "https://campus.163.com",
-      "apply_limit": "以官网为准",
-      "reason": "福利待遇口碑好的大厂，游戏/电商/传媒运营岗多，双非有机会。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://campus.163.com",
-        "title": "网易校园招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "携程 Trip.com",
-      "post": "用户运营 / 海外市场运营",
-      "sector": "互联网",
-      "base": "上海",
-      "status": "open",
-      "channel": "携程校园招聘官网",
-      "link": "https://careers.trip.com/campus",
-      "apply_limit": "以官网为准",
-      "reason": "在线旅游龙头，海外运营需要语言能力，西语可切拉美市场，福利与晋升好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://careers.trip.com/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.trip.com/campus",
-        "error": "request_failed",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "爱奇艺",
-      "post": "内容运营 / 会员运营",
-      "sector": "互联网",
-      "base": "北京",
-      "status": "open",
-      "channel": "爱奇艺校园招聘官网",
-      "link": "https://careers.iqiyi.com",
-      "apply_limit": "以官网为准",
-      "reason": "长视频平台，会员/内容运营，运营方法论通用，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.iqiyi.com",
-        "title": "爱奇艺招聘-热门职位",
         "status": 200,
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
