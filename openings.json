@@ -1,10 +1,412 @@
 {
-  "version": "2026-10-04",
-  "updatedAt": "2026-10-04T06:42:20.759Z",
+  "version": "2026-10-05",
+  "updatedAt": "2026-10-05T06:45:59.921Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "Shopee（东南亚电商）",
+      "post": "跨境运营 / 招商运营（GLP管培）",
+      "sector": "跨境电商",
+      "base": "深圳/上海",
+      "status": "open",
+      "channel": "Shopee 校园招聘官网",
+      "link": "https://careers.shopee.com",
+      "apply_limit": "以官网为准",
+      "reason": "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.shopee.com",
+        "title": "Create Impact That Lasts | Shopee Careers",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "平安银行（信用卡中心 / 汽车消费金融中心）",
+      "post": "信用卡中心培训生 / 运营培训生",
+      "sector": "消费金融",
+      "base": "上海/深圳/全国",
+      "status": "open",
+      "channel": "中国平安校园招聘官网（PAB营地计划）",
+      "link": "https://campus.pingan.com/",
+      "apply_limit": "网申2026-08-10至11-06，一般每人限投1-2个岗位（以官网为准）",
+      "reason": "27届8月10日已启动网申；信用卡中心+汽车消费金融中心培训生做卡中心运营/风控/客户经营轮岗，与你信用卡产品运营、广告投放/效果营销经历高度对口，双非本硕友好、年薪17万+。",
+      "addedDate": "2026-08-14",
+      "deadline": "2026-11-06",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://campus.pingan.com/",
+        "title": "中国平安校园招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "XTransfer",
+      "post": "跨境支付运营 / 客户运营（外贸B2B收付款）",
+      "sector": "金融科技/支付",
+      "base": "上海/深圳",
+      "status": "open",
+      "channel": "XTransfer 校园招聘官网（北森）",
+      "link": "https://xtransfer.zhiye.com/Campus",
+      "apply_limit": "以官网为准（网申/内推 6月15日-9月30日）",
+      "reason": "27届秋招网申进行中；跨境B2B收付款平台，外贸客户覆盖拉美/西语区市场，西语+金融/支付实习双背景高度对口，广告投放与用户运营经验可迁移到获客与商户运营，双非友好。",
+      "addedDate": "2026-08-15",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://xtransfer.zhiye.com/Campus",
+        "title": "XTransfer",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "previousDeadline": "2026-09-30",
+      "deadlineNote": "历史记录为2026-09-30，但无可追溯发布依据，本次未核实；清空未经证实日期，保留previousDeadline供复查，不代表延期或关闭。",
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "海外运营 / 用户运营（销售服务类）",
+      "sector": "消费电子出海",
+      "base": "深圳/东莞/西安/海外",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘官网",
+      "link": "https://careers.oppo.com/university/oppo/campus",
+      "apply_limit": "每人最多申请2个岗位（以官网为准），招满即止",
+      "reason": "27届全球校招进行中；OPPO在拉美/西语区有成熟出海业务，海外/用户运营岗与西语语言+运营背景强匹配，广告投放与信用卡产品运营经验可迁移到市场与用户增长。",
+      "addedDate": "2026-08-15",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "大厂",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "淘宝闪购（阿里巴巴）",
+      "post": "用户运营 / AI产品运营 / 商品运营",
+      "sector": "互联网",
+      "base": "上海/杭州/北京",
+      "status": "open",
+      "channel": "淘宝闪购2027届校招官网（一站投递）",
+      "link": "https://talent.ele.me/campus/home?lang=zh",
+      "apply_limit": "阿里系每业务集团1次机会，最多投3个意向（以官网为准）",
+      "reason": "饿了么升级为淘宝闪购后大量新增HC，27届8月已开放；用户运营/商品运营/AI产品运营与你产品运营+广告投放经历直接对口，属阿里独立业务线（与集团一站不同入口），双非可投。",
+      "addedDate": "2026-08-16",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://talent.ele.me/campus/home",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://talent.ele.me/campus/home?lang=zh",
+        "title": "Index of Template Application",
+        "status": 200,
+        "error": "error_or_challenge",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "verificationNote": "2026-09-27入口复查：页面标题为Index of Template Application，无法核实招聘信息。未确认关闭，保留历史状态，待寻找官方有效入口。",
+      "isDaily": true
+    },
+    {
+      "company": "联想 Lenovo",
+      "post": "市场与销售 / 管培生 Future Leaders",
+      "sector": "互联网",
+      "base": "北京/深圳/上海",
+      "status": "open",
+      "channel": "联想校园招聘官网",
+      "link": "https://talent.lenovo.com.cn",
+      "apply_limit": "网申8/5-11/13，岗位招满即止（以官网为准）",
+      "addedDate": "2026-08-17",
+      "deadline": "2026-11-13",
+      "reason": "27届已全面启动，含Future Leaders管培+市场销售，运营/市场方向对口，双非可投，网申截止11/13明确。",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://talent.lenovo.com.cn",
+        "title": "联想校园招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "vivo",
+      "post": "用户运营 / 市场运营（蓝极星）",
+      "sector": "消费电子/出海",
+      "base": "深圳/东莞",
+      "status": "open",
+      "channel": "vivo校园招聘官网",
+      "link": "https://vivo.zhiye.com",
+      "apply_limit": "以官网为准",
+      "addedDate": "2026-08-17",
+      "deadline": "",
+      "reason": "27届蓝极星项目已开，手机出海海外市场运营需要语言能力，西语可切海外市场，双非量大。",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://vivo.zhiye.com",
+        "title": "vivo员工招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "网易游戏（互娱）",
+      "post": "游戏运营 / 市场 / 用户运营",
+      "sector": "游戏",
+      "base": "广州/杭州/上海",
+      "status": "open",
+      "channel": "网易游戏校园招聘官网",
+      "link": "https://game.campus.163.com",
+      "apply_limit": "以官网为准",
+      "addedDate": "2026-08-17",
+      "deadline": "",
+      "reason": "27届7/21启动，运营/市场/产品类年薪20-28万+房补餐补，福利极好；社区/发行运营方法论通用，广告投放经验可迁移。",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://game.campus.163.com",
+        "title": "网易互娱校招官网",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "中国银行数字资产运营中心",
+      "post": "数据分析岗位",
+      "sector": "金融科技/支付",
+      "company_size": "大厂",
+      "base": "北京",
+      "status": "open",
+      "channel": "中国银行2027全球校园招聘",
+      "link": "https://campus.chinahr.com/pages/2027-boc",
+      "apply_limit": "最多5岗、平行志愿；北京/上海/广东/深圳等境内一级或直属分行可报1-2岗，其他一级机构1岗",
+      "reason": "岗位负责集团数据运营、分析与应用，数字经济硕士和金融产品运营经历高度贴合；建议突出指标体系、用户洞察和业务转化。",
+      "addedDate": "2026-09-04",
+      "deadline": "2026-10-09",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
+      "publishedDate": "2026-09-03",
+      "lastVerifiedAt": "2026-09-30T06:42:18Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "本次重新读取官方或高校2027招聘公告，核对岗位方向、要求及投递入口；动态细分JD、剩余名额及专业最终审核未登录确认。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://campus.chinahr.com/pages/2027-boc",
+        "title": "",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "Caterpillar 卡特彼勒",
+      "post": "数据分析工程师（Caterpillar Digital）",
+      "sector": "人工智能",
+      "company_size": "外企",
+      "base": "上海",
+      "status": "open",
+      "channel": "Caterpillar Careers 2027校园招聘",
+      "link": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "参与业务数据分析、仪表盘与数字化产品协作；数字经济背景可投，但需在简历中明确SQL、Python或BI工具能力。",
+      "addedDate": "2026-09-04",
+      "deadline": "2026-10-30",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 403,
+        "finalUrl": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+        "error": "http_error",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_application_link",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "linkAttempt": {
+        "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+        "title": "Just a moment...",
+        "status": 403,
+        "error": "error_or_challenge",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "亿滋 Mondelēz",
       "post": "管培生（市场/销售/供应链）",
@@ -42,8 +444,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "达能 Danone",
@@ -82,8 +483,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "雅培 Abbott",
@@ -122,8 +522,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "亚马逊 Amazon",
@@ -162,8 +561,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "微软 Microsoft",
@@ -202,8 +600,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "特斯拉 Tesla",
@@ -242,8 +639,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "小红书",
@@ -284,8 +680,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "网易",
@@ -324,8 +719,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "携程 Trip.com",
@@ -364,8 +758,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "爱奇艺",
@@ -404,8 +797,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "帆软软件",
@@ -2813,398 +3205,6 @@
         "title": "跨境收款_外贸收款-PingPong全球跨境收付解决方案",
         "status": 200,
         "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "Shopee（东南亚电商）",
-      "post": "跨境运营 / 招商运营（GLP管培）",
-      "sector": "跨境电商",
-      "base": "深圳/上海",
-      "status": "open",
-      "channel": "Shopee 校园招聘官网",
-      "link": "https://careers.shopee.com",
-      "apply_limit": "以官网为准",
-      "reason": "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.shopee.com",
-        "title": "Create Impact That Lasts | Shopee Careers",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "平安银行（信用卡中心 / 汽车消费金融中心）",
-      "post": "信用卡中心培训生 / 运营培训生",
-      "sector": "消费金融",
-      "base": "上海/深圳/全国",
-      "status": "open",
-      "channel": "中国平安校园招聘官网（PAB营地计划）",
-      "link": "https://campus.pingan.com/",
-      "apply_limit": "网申2026-08-10至11-06，一般每人限投1-2个岗位（以官网为准）",
-      "reason": "27届8月10日已启动网申；信用卡中心+汽车消费金融中心培训生做卡中心运营/风控/客户经营轮岗，与你信用卡产品运营、广告投放/效果营销经历高度对口，双非本硕友好、年薪17万+。",
-      "addedDate": "2026-08-14",
-      "deadline": "2026-11-06",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://campus.pingan.com/",
-        "title": "中国平安校园招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "XTransfer",
-      "post": "跨境支付运营 / 客户运营（外贸B2B收付款）",
-      "sector": "金融科技/支付",
-      "base": "上海/深圳",
-      "status": "open",
-      "channel": "XTransfer 校园招聘官网（北森）",
-      "link": "https://xtransfer.zhiye.com/Campus",
-      "apply_limit": "以官网为准（网申/内推 6月15日-9月30日）",
-      "reason": "27届秋招网申进行中；跨境B2B收付款平台，外贸客户覆盖拉美/西语区市场，西语+金融/支付实习双背景高度对口，广告投放与用户运营经验可迁移到获客与商户运营，双非友好。",
-      "addedDate": "2026-08-15",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://xtransfer.zhiye.com/Campus",
-        "title": "XTransfer",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "previousDeadline": "2026-09-30",
-      "deadlineNote": "历史记录为2026-09-30，但无可追溯发布依据，本次未核实；清空未经证实日期，保留previousDeadline供复查，不代表延期或关闭。"
-    },
-    {
-      "company": "OPPO",
-      "post": "海外运营 / 用户运营（销售服务类）",
-      "sector": "消费电子出海",
-      "base": "深圳/东莞/西安/海外",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘官网",
-      "link": "https://careers.oppo.com/university/oppo/campus",
-      "apply_limit": "每人最多申请2个岗位（以官网为准），招满即止",
-      "reason": "27届全球校招进行中；OPPO在拉美/西语区有成熟出海业务，海外/用户运营岗与西语语言+运营背景强匹配，广告投放与信用卡产品运营经验可迁移到市场与用户增长。",
-      "addedDate": "2026-08-15",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "大厂",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "淘宝闪购（阿里巴巴）",
-      "post": "用户运营 / AI产品运营 / 商品运营",
-      "sector": "互联网",
-      "base": "上海/杭州/北京",
-      "status": "open",
-      "channel": "淘宝闪购2027届校招官网（一站投递）",
-      "link": "https://talent.ele.me/campus/home?lang=zh",
-      "apply_limit": "阿里系每业务集团1次机会，最多投3个意向（以官网为准）",
-      "reason": "饿了么升级为淘宝闪购后大量新增HC，27届8月已开放；用户运营/商品运营/AI产品运营与你产品运营+广告投放经历直接对口，属阿里独立业务线（与集团一站不同入口），双非可投。",
-      "addedDate": "2026-08-16",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://talent.ele.me/campus/home",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://talent.ele.me/campus/home?lang=zh",
-        "title": "Index of Template Application",
-        "status": 200,
-        "error": "error_or_challenge",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "verificationNote": "2026-09-27入口复查：页面标题为Index of Template Application，无法核实招聘信息。未确认关闭，保留历史状态，待寻找官方有效入口。"
-    },
-    {
-      "company": "联想 Lenovo",
-      "post": "市场与销售 / 管培生 Future Leaders",
-      "sector": "互联网",
-      "base": "北京/深圳/上海",
-      "status": "open",
-      "channel": "联想校园招聘官网",
-      "link": "https://talent.lenovo.com.cn",
-      "apply_limit": "网申8/5-11/13，岗位招满即止（以官网为准）",
-      "addedDate": "2026-08-17",
-      "deadline": "2026-11-13",
-      "reason": "27届已全面启动，含Future Leaders管培+市场销售，运营/市场方向对口，双非可投，网申截止11/13明确。",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://talent.lenovo.com.cn",
-        "title": "联想校园招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "vivo",
-      "post": "用户运营 / 市场运营（蓝极星）",
-      "sector": "消费电子/出海",
-      "base": "深圳/东莞",
-      "status": "open",
-      "channel": "vivo校园招聘官网",
-      "link": "https://vivo.zhiye.com",
-      "apply_limit": "以官网为准",
-      "addedDate": "2026-08-17",
-      "deadline": "",
-      "reason": "27届蓝极星项目已开，手机出海海外市场运营需要语言能力，西语可切海外市场，双非量大。",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://vivo.zhiye.com",
-        "title": "vivo员工招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "网易游戏（互娱）",
-      "post": "游戏运营 / 市场 / 用户运营",
-      "sector": "游戏",
-      "base": "广州/杭州/上海",
-      "status": "open",
-      "channel": "网易游戏校园招聘官网",
-      "link": "https://game.campus.163.com",
-      "apply_limit": "以官网为准",
-      "addedDate": "2026-08-17",
-      "deadline": "",
-      "reason": "27届7/21启动，运营/市场/产品类年薪20-28万+房补餐补，福利极好；社区/发行运营方法论通用，广告投放经验可迁移。",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://game.campus.163.com",
-        "title": "网易互娱校招官网",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "中国银行数字资产运营中心",
-      "post": "数据分析岗位",
-      "sector": "金融科技/支付",
-      "company_size": "大厂",
-      "base": "北京",
-      "status": "open",
-      "channel": "中国银行2027全球校园招聘",
-      "link": "https://campus.chinahr.com/pages/2027-boc",
-      "apply_limit": "最多5岗、平行志愿；北京/上海/广东/深圳等境内一级或直属分行可报1-2岗，其他一级机构1岗",
-      "reason": "岗位负责集团数据运营、分析与应用，数字经济硕士和金融产品运营经历高度贴合；建议突出指标体系、用户洞察和业务转化。",
-      "addedDate": "2026-09-04",
-      "deadline": "2026-10-09",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "source_url": "https://www.bankofchina.com/aboutboc/bi4/202609/t20260903_25689311.html",
-      "publishedDate": "2026-09-03",
-      "lastVerifiedAt": "2026-09-30T06:42:18Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "本次重新读取官方或高校2027招聘公告，核对岗位方向、要求及投递入口；动态细分JD、剩余名额及专业最终审核未登录确认。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://campus.chinahr.com/pages/2027-boc",
-        "title": "",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "Caterpillar 卡特彼勒",
-      "post": "数据分析工程师（Caterpillar Digital）",
-      "sector": "人工智能",
-      "company_size": "外企",
-      "base": "上海",
-      "status": "open",
-      "channel": "Caterpillar Careers 2027校园招聘",
-      "link": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "参与业务数据分析、仪表盘与数字化产品协作；数字经济背景可投，但需在简历中明确SQL、Python或BI工具能力。",
-      "addedDate": "2026-09-04",
-      "deadline": "2026-10-30",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 403,
-        "finalUrl": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-        "error": "http_error",
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_application_link",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "linkAttempt": {
-        "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-        "title": "Just a moment...",
-        "status": 403,
-        "error": "error_or_challenge",
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
