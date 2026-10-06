@@ -1,10 +1,400 @@
 {
-  "version": "2026-10-05",
-  "updatedAt": "2026-10-05T06:45:59.921Z",
+  "version": "2026-10-06",
+  "updatedAt": "2026-10-06T07:24:18.318Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "OPPO",
+      "post": "产品营销经理（海外-小语种）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "岗位明确偏好西葡等小语种，包含产品营销策划、广告投放和用户互动；与你的西语、广告投放及产品运营经历强匹配。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "社媒运营经理（海外-小语种）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "官方明确西葡小语种优先，工作涵盖海外社媒内容、UGC/KOL和趋势分析，是你的语言优势与运营经历最自然的结合点。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "媒介经理（海外-小语种）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "岗位包含海外媒介投放、数据归因和跨区域协作，并明确西葡小语种优先；广告投放实习可直接形成面试案例。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "市场管理培训生-海外（跨境电商运营）",
+      "sector": "跨境电商",
+      "company_size": "大厂",
+      "base": "东莞/海外",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "岗位覆盖海外本地化、跨境电商和零售体验，明确西语优先并接受全球派遣；建议作为高匹配主投岗位。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "互联网产品运营",
+      "sector": "互联网",
+      "company_size": "大厂",
+      "base": "深圳/成都",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "面向软件商店、游戏中心和广告业务，要求用户洞察、数据分析及互联网实习；与你的产品运营经历直接对口。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "海尔智家",
+      "post": "海外市场营销（西语市场）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "青岛/海外",
+      "status": "open",
+      "channel": "海尔2027校园招聘",
+      "link": "https://maker.haier.net/client/campus/activityindex.html",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "全球家电业务覆盖欧洲和拉美，西语与跨文化沟通是明显优势；产品运营经历可转化为用户研究、渠道及市场项目能力。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://maker.haier.net/client/campus/activityindex.html",
+        "title": "海尔招聘-海尔官方招聘网站",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "海尔智家",
+      "post": "AI数据产品经理",
+      "sector": "人工智能",
+      "company_size": "大厂",
+      "base": "青岛",
+      "status": "open",
+      "channel": "海尔2027校园招聘",
+      "link": "https://maker.haier.net/client/campus/activityindex.html",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "数字经济硕士与产品运营经历可支撑数据需求、指标分析和跨团队推动；简历需强化数据工具与AI产品实践。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://maker.haier.net/client/campus/activityindex.html",
+        "title": "海尔招聘-海尔官方招聘网站",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "安克创新 Anker",
+      "post": "2027全球校招·海外市场营销类",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳/长沙/海外",
+      "status": "open",
+      "channel": "安克创新2027全球校园招聘",
+      "link": "https://career.anker.com.cn/universities/recruitment/",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "2027全球校招已开放市场营销类，消费电子出海属性强；西语和产品运营背景适合拉美市场、用户增长与本地化岗位。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://career.anker.com.cn/universities/recruitment/",
+        "title": "安克创新校园招聘 | 安克招聘网",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "安克创新 Anker",
+      "post": "2027全球校招·产品与体验类",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳/长沙",
+      "status": "open",
+      "channel": "安克创新2027全球校园招聘",
+      "link": "https://career.anker.com.cn/universities/recruitment/new/",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "适合从产品运营转产品体验、用户研究或产品策划方向；突出金融产品运营中的需求拆解、数据复盘和跨部门协作。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://career.anker.com.cn/universities/recruitment/new/",
+        "title": "安克创新校园招聘 | Anker Careers",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "KEYENCE 基恩士",
+      "post": "销售工程师（2027秋季校园招聘）",
+      "sector": "人工智能",
+      "company_size": "外企",
+      "base": "上海/全国",
+      "status": "open",
+      "channel": "KEYENCE中国校园招聘",
+      "link": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
+      "apply_limit": "以官网为准",
+      "reason": "专业限制相对宽，重视需求洞察、沟通和数据化销售；适合把产品运营能力迁移到高客单价B2B科技解决方案岗位。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
+        "title": "招聘岗位 | KEYENCE CHINA RECRUITING 基恩士（中国）有限公司 全新招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "Shopee（东南亚电商）",
       "post": "跨境运营 / 招商运营（GLP管培）",
@@ -42,8 +432,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "平安银行（信用卡中心 / 汽车消费金融中心）",
@@ -81,8 +470,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "XTransfer",
@@ -123,8 +511,7 @@
       },
       "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
       "previousDeadline": "2026-09-30",
-      "deadlineNote": "历史记录为2026-09-30，但无可追溯发布依据，本次未核实；清空未经证实日期，保留previousDeadline供复查，不代表延期或关闭。",
-      "isDaily": true
+      "deadlineNote": "历史记录为2026-09-30，但无可追溯发布依据，本次未核实；清空未经证实日期，保留previousDeadline供复查，不代表延期或关闭。"
     },
     {
       "company": "OPPO",
@@ -162,8 +549,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "淘宝闪购（阿里巴巴）",
@@ -205,8 +591,7 @@
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
       "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "verificationNote": "2026-09-27入口复查：页面标题为Index of Template Application，无法核实招聘信息。未确认关闭，保留历史状态，待寻找官方有效入口。",
-      "isDaily": true
+      "verificationNote": "2026-09-27入口复查：页面标题为Index of Template Application，无法核实招聘信息。未确认关闭，保留历史状态，待寻找官方有效入口。"
     },
     {
       "company": "联想 Lenovo",
@@ -244,8 +629,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "vivo",
@@ -284,8 +668,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "网易游戏（互娱）",
@@ -324,8 +707,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国银行数字资产运营中心",
@@ -363,8 +745,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Caterpillar 卡特彼勒",
@@ -404,8 +785,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "亿滋 Mondelēz",
@@ -3203,386 +3583,6 @@
       "linkAttempt": {
         "url": "https://www.pingpongx.com",
         "title": "跨境收款_外贸收款-PingPong全球跨境收付解决方案",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "OPPO",
-      "post": "产品营销经理（海外-小语种）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "岗位明确偏好西葡等小语种，包含产品营销策划、广告投放和用户互动；与你的西语、广告投放及产品运营经历强匹配。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "OPPO",
-      "post": "社媒运营经理（海外-小语种）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "官方明确西葡小语种优先，工作涵盖海外社媒内容、UGC/KOL和趋势分析，是你的语言优势与运营经历最自然的结合点。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "OPPO",
-      "post": "媒介经理（海外-小语种）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "岗位包含海外媒介投放、数据归因和跨区域协作，并明确西葡小语种优先；广告投放实习可直接形成面试案例。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "OPPO",
-      "post": "市场管理培训生-海外（跨境电商运营）",
-      "sector": "跨境电商",
-      "company_size": "大厂",
-      "base": "东莞/海外",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "岗位覆盖海外本地化、跨境电商和零售体验，明确西语优先并接受全球派遣；建议作为高匹配主投岗位。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "OPPO",
-      "post": "互联网产品运营",
-      "sector": "互联网",
-      "company_size": "大厂",
-      "base": "深圳/成都",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "面向软件商店、游戏中心和广告业务，要求用户洞察、数据分析及互联网实习；与你的产品运营经历直接对口。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "海尔智家",
-      "post": "海外市场营销（西语市场）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "青岛/海外",
-      "status": "open",
-      "channel": "海尔2027校园招聘",
-      "link": "https://maker.haier.net/client/campus/activityindex.html",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "全球家电业务覆盖欧洲和拉美，西语与跨文化沟通是明显优势；产品运营经历可转化为用户研究、渠道及市场项目能力。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://maker.haier.net/client/campus/activityindex.html",
-        "title": "海尔招聘-海尔官方招聘网站",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "海尔智家",
-      "post": "AI数据产品经理",
-      "sector": "人工智能",
-      "company_size": "大厂",
-      "base": "青岛",
-      "status": "open",
-      "channel": "海尔2027校园招聘",
-      "link": "https://maker.haier.net/client/campus/activityindex.html",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "数字经济硕士与产品运营经历可支撑数据需求、指标分析和跨团队推动；简历需强化数据工具与AI产品实践。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://maker.haier.net/client/campus/activityindex.html",
-        "title": "海尔招聘-海尔官方招聘网站",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "安克创新 Anker",
-      "post": "2027全球校招·海外市场营销类",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳/长沙/海外",
-      "status": "open",
-      "channel": "安克创新2027全球校园招聘",
-      "link": "https://career.anker.com.cn/universities/recruitment/",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "2027全球校招已开放市场营销类，消费电子出海属性强；西语和产品运营背景适合拉美市场、用户增长与本地化岗位。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://career.anker.com.cn/universities/recruitment/",
-        "title": "安克创新校园招聘 | 安克招聘网",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "安克创新 Anker",
-      "post": "2027全球校招·产品与体验类",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳/长沙",
-      "status": "open",
-      "channel": "安克创新2027全球校园招聘",
-      "link": "https://career.anker.com.cn/universities/recruitment/new/",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "适合从产品运营转产品体验、用户研究或产品策划方向；突出金融产品运营中的需求拆解、数据复盘和跨部门协作。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://career.anker.com.cn/universities/recruitment/new/",
-        "title": "安克创新校园招聘 | Anker Careers",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "KEYENCE 基恩士",
-      "post": "销售工程师（2027秋季校园招聘）",
-      "sector": "人工智能",
-      "company_size": "外企",
-      "base": "上海/全国",
-      "status": "open",
-      "channel": "KEYENCE中国校园招聘",
-      "link": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
-      "apply_limit": "以官网为准",
-      "reason": "专业限制相对宽，重视需求洞察、沟通和数据化销售；适合把产品运营能力迁移到高客单价B2B科技解决方案岗位。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
-        "title": "招聘岗位 | KEYENCE CHINA RECRUITING 基恩士（中国）有限公司 全新招聘",
         "status": 200,
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
