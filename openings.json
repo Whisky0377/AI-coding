@@ -1,10 +1,416 @@
 {
-  "version": "2026-10-07",
-  "updatedAt": "2026-10-07T07:03:20.473Z",
+  "version": "2026-10-08",
+  "updatedAt": "2026-10-08T07:12:01.188Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "中国移动在线营销服务中心",
+      "post": "线上营销运营 / 数智运营（2027校招）",
+      "sector": "人工智能",
+      "company_size": "大厂",
+      "base": "北京",
+      "status": "open",
+      "channel": "中国移动在线营销服务中心2027届秋季校招",
+      "link": "https://jobs.tiangong.edu.cn/correcruit/content/id/55924.html",
+      "apply_limit": "本科及以上，以官方具体岗位要求为准",
+      "reason": "9月8日发布，业务聚焦线上营销、用户触点运营与数智化服务，金融产品运营和用户增长经验可直接迁移；电子商务、新媒体、统计及数据相关能力加分。",
+      "addedDate": "2026-09-09",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://jobs.tiangong.edu.cn/correcruit/content/id/55924.html",
+        "title": "中国移动在线营销服务中心 2027届秋季校招暨“金种子计划”招聘-中国移动通信有限公司在线营销服务中心",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "小红书",
+      "post": "RPT产品培训生（商业产品）",
+      "sector": "互联网",
+      "company_size": "大厂",
+      "base": "北京/上海",
+      "status": "open",
+      "channel": "小红书2027届校园招聘",
+      "link": "https://job.xiaohongshu.com/campus",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "9月8日岗位更新，商业产品方向与广告投放、商业化运营和数据复盘经历高度匹配；建议突出从用户需求到产品迭代的闭环项目。",
+      "addedDate": "2026-09-09",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "source_url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html",
+      "announcementCheckedAt": "2026-09-16T06:14:40Z",
+      "verificationNote": "已复核2027校招总公告；原记录细分岗位名称、专业资格及名额尚未逐一核验。",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://job.xiaohongshu.com/campus",
+        "title": "小红书",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "青岛乾程科技股份有限公司",
+      "post": "2027全球校招·海外营销 / 国际市场（西班牙语）",
+      "sector": "消费电子/出海",
+      "company_size": "中厂",
+      "base": "青岛/海外",
+      "status": "open",
+      "channel": "青岛乾程科技2027届全球校园招聘",
+      "link": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+      "apply_limit": "以招聘公告及网申系统为准，招满即止",
+      "reason": "9月10日发布，海外营销岗位明确接受西班牙语等小语种；语言优势叠加产品运营经历，可重点投国际市场、海外客户与营销运营方向。",
+      "addedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+        "status": 200,
+        "finalUrl": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+        "title": "跳转提示",
+        "error": null,
+        "checkedAt": "2026-09-23T15:46:57Z",
+        "note": "仅入口响应检查，不代表具体岗位有效。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+        "title": "跳转提示",
+        "status": 200,
+        "error": "error_or_challenge",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "石犀科技&众云网",
+      "post": "2027校招·产品经理（数据安全 / AI）",
+      "sector": "人工智能",
+      "company_size": "小厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "石犀科技&众云网2027届秋季校园招聘",
+      "link": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+      "apply_limit": "网申/内推：即日起至11月（具体日未公布）；可按公告邮箱hr@ouryun.com.cn投递",
+      "reason": "9月9日发布、招聘5人；数字经济硕士与多段产品运营经历适合切入B端产品经理，建议突出需求分析、数据复盘和跨团队推进。",
+      "addedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "2026-09-09",
+      "verificationStatus": "announcement_verified",
+      "source_url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+      "deadlineNote": "2026年11月，具体日期未公布",
+      "officialApplyUrl": "https://ouryun.zhiye.com/",
+      "applicationEmail": "hr@ouryun.com.cn",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+        "title": "在线招聘详情",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "石犀科技&众云网",
+      "post": "2027校招·综合管培生（业务运营 / 市场传播）",
+      "sector": "人工智能",
+      "company_size": "小厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "石犀科技&众云网2027届秋季校园招聘",
+      "link": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+      "apply_limit": "网申/内推：即日起至11月（具体日未公布）；可按公告邮箱hr@ouryun.com.cn投递",
+      "reason": "9月9日发布、招聘5人，方向含业务运营和市场传播；与你的产品运营、金融场景及内容传播经验直接匹配，小团队更看重落地能力。",
+      "addedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "2026-09-09",
+      "verificationStatus": "announcement_verified",
+      "source_url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+      "deadlineNote": "2026年11月，具体日期未公布",
+      "officialApplyUrl": "https://ouryun.zhiye.com/",
+      "applicationEmail": "hr@ouryun.com.cn",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
+        "title": "在线招聘详情",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "四达时代集团 StarTimes",
+      "post": "2027校招·海外管理培训生（运营 / 市场 / 内容运营）",
+      "sector": "消费电子/出海",
+      "company_size": "中厂",
+      "base": "非洲海外机构",
+      "status": "open",
+      "channel": "四达时代集团2027届校园招聘",
+      "link": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
+      "apply_limit": "以官方公告为准，海外岗位需接受外派",
+      "reason": "9月10日发布，培养方向覆盖销售、运营、市场和内容运营；西语专业具备跨文化沟通优势，产品运营经历可迁移到海外用户与业务运营。",
+      "addedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
+        "title": "四达时代集团2027届校园招聘-招聘公告-华北电力大学就业指导中心",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "中国移动广西公司",
+      "post": "2027校招·用户运营 / 渠道管理 / 客户服务管理",
+      "sector": "互联网",
+      "company_size": "大厂",
+      "base": "广西",
+      "status": "open",
+      "channel": "中国移动广西公司2027届秋季校园招聘",
+      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
+      "apply_limit": "每人限报1个职位；建议2026年10月中旬前完成投递",
+      "reason": "9月11日发布，专业不限且本科起投；用户运营和渠道管理与产品运营实习直接匹配，金融场景客户运营经验也可迁移。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-11",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
+        "title": "中国移动广西公司2027届秋季校园招聘火热报名中！-中国移动通信集团广西有限公司",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "一汽资本控股有限公司",
+      "post": "2027校招·业务运营 / 海外人才专项",
+      "sector": "金融科技/支付",
+      "company_size": "中厂",
+      "base": "吉林/山东/广东/四川",
+      "status": "open",
+      "channel": "一汽资本2027校园招聘",
+      "link": "http://zhaopin.faw.com.cn",
+      "apply_limit": "硕士研究生；海外人才专项需参加语言测试，以官网岗位为准",
+      "reason": "9月10日发布，业务覆盖信贷、保险、租赁与海外金融，招聘专业明确包含西班牙语；数字经济硕士、金融产品运营和语言背景形成强匹配。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "http://zhaopin.faw.com.cn",
+        "title": "中国一汽招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "泡泡玛特 POP MART",
+      "post": "2027校招·零售运营与支持 / 客户体验（含海外）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "北京/上海/杭州/东莞/海外",
+      "status": "open",
+      "channel": "泡泡玛特2027秋季校园招聘",
+      "link": "https://popmart.zhiye.com/campus",
+      "apply_limit": "面向2026年9月至2027年8月毕业生，以具体岗位要求为准",
+      "reason": "9月10日发布，覆盖零售运营、客户体验和海外岗位；产品运营经历适配用户体验与门店/渠道运营，西语可用于海外市场沟通。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
+      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://popmart.zhiye.com/campus",
+        "title": "泡泡玛特招聘官网",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "金蝶软件",
+      "post": "2027校招·客户经营 / 市场推广 / 产品经理管培生",
+      "sector": "人工智能",
+      "company_size": "中厂",
+      "base": "深圳/上海/南京/北京/长沙/厦门/其他城市及海外",
+      "status": "open",
+      "channel": "金蝶2027届校园招聘",
+      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+      "apply_limit": "面向2026年10月1日至2027年9月30日毕业生，以网申具体岗位为准",
+      "reason": "9月10日发布，企业AI与管理软件场景同时开放客户经营、市场推广及产品经理管培生；数字经济和产品运营经历适合B端产品与客户运营。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+        "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "厦门中达集团",
       "post": "达狮管培生·抖音内容运营",
@@ -41,8 +447,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "慧策（掌上先机）",
@@ -84,8 +489,7 @@
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
       "lastVerifiedAt": "2026-09-23T15:46:57Z",
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国电信北京公司",
@@ -123,8 +527,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国电信北京公司",
@@ -162,8 +565,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国民生银行",
@@ -201,8 +603,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "锐捷网络",
@@ -241,8 +642,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Dell Technologies 戴尔科技",
@@ -280,8 +680,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国工商银行",
@@ -319,8 +718,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国农业银行",
@@ -358,8 +756,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "申万宏源证券",
@@ -400,8 +797,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "OPPO",
@@ -3971,402 +4367,6 @@
       "linkAttempt": {
         "url": "https://www.pingpongx.com",
         "title": "跨境收款_外贸收款-PingPong全球跨境收付解决方案",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "中国移动在线营销服务中心",
-      "post": "线上营销运营 / 数智运营（2027校招）",
-      "sector": "人工智能",
-      "company_size": "大厂",
-      "base": "北京",
-      "status": "open",
-      "channel": "中国移动在线营销服务中心2027届秋季校招",
-      "link": "https://jobs.tiangong.edu.cn/correcruit/content/id/55924.html",
-      "apply_limit": "本科及以上，以官方具体岗位要求为准",
-      "reason": "9月8日发布，业务聚焦线上营销、用户触点运营与数智化服务，金融产品运营和用户增长经验可直接迁移；电子商务、新媒体、统计及数据相关能力加分。",
-      "addedDate": "2026-09-09",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://jobs.tiangong.edu.cn/correcruit/content/id/55924.html",
-        "title": "中国移动在线营销服务中心 2027届秋季校招暨“金种子计划”招聘-中国移动通信有限公司在线营销服务中心",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "小红书",
-      "post": "RPT产品培训生（商业产品）",
-      "sector": "互联网",
-      "company_size": "大厂",
-      "base": "北京/上海",
-      "status": "open",
-      "channel": "小红书2027届校园招聘",
-      "link": "https://job.xiaohongshu.com/campus",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "9月8日岗位更新，商业产品方向与广告投放、商业化运营和数据复盘经历高度匹配；建议突出从用户需求到产品迭代的闭环项目。",
-      "addedDate": "2026-09-09",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "source_url": "https://jobs.tiangong.edu.cn/correcruit/content/id/56051.html",
-      "announcementCheckedAt": "2026-09-16T06:14:40Z",
-      "verificationNote": "已复核2027校招总公告；原记录细分岗位名称、专业资格及名额尚未逐一核验。",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://job.xiaohongshu.com/campus",
-        "title": "小红书",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "青岛乾程科技股份有限公司",
-      "post": "2027全球校招·海外营销 / 国际市场（西班牙语）",
-      "sector": "消费电子/出海",
-      "company_size": "中厂",
-      "base": "青岛/海外",
-      "status": "open",
-      "channel": "青岛乾程科技2027届全球校园招聘",
-      "link": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-      "apply_limit": "以招聘公告及网申系统为准，招满即止",
-      "reason": "9月10日发布，海外营销岗位明确接受西班牙语等小语种；语言优势叠加产品运营经历，可重点投国际市场、海外客户与营销运营方向。",
-      "addedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-        "status": 200,
-        "finalUrl": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-        "title": "跳转提示",
-        "error": null,
-        "checkedAt": "2026-09-23T15:46:57Z",
-        "note": "仅入口响应检查，不代表具体岗位有效。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-        "title": "跳转提示",
-        "status": 200,
-        "error": "error_or_challenge",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "石犀科技&众云网",
-      "post": "2027校招·产品经理（数据安全 / AI）",
-      "sector": "人工智能",
-      "company_size": "小厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "石犀科技&众云网2027届秋季校园招聘",
-      "link": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-      "apply_limit": "网申/内推：即日起至11月（具体日未公布）；可按公告邮箱hr@ouryun.com.cn投递",
-      "reason": "9月9日发布、招聘5人；数字经济硕士与多段产品运营经历适合切入B端产品经理，建议突出需求分析、数据复盘和跨团队推进。",
-      "addedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "2026-09-09",
-      "verificationStatus": "announcement_verified",
-      "source_url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-      "deadlineNote": "2026年11月，具体日期未公布",
-      "officialApplyUrl": "https://ouryun.zhiye.com/",
-      "applicationEmail": "hr@ouryun.com.cn",
-      "lastVerifiedAt": "2026-09-17T09:42:29Z",
-      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-        "title": "在线招聘详情",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "石犀科技&众云网",
-      "post": "2027校招·综合管培生（业务运营 / 市场传播）",
-      "sector": "人工智能",
-      "company_size": "小厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "石犀科技&众云网2027届秋季校园招聘",
-      "link": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-      "apply_limit": "网申/内推：即日起至11月（具体日未公布）；可按公告邮箱hr@ouryun.com.cn投递",
-      "reason": "9月9日发布、招聘5人，方向含业务运营和市场传播；与你的产品运营、金融场景及内容传播经验直接匹配，小团队更看重落地能力。",
-      "addedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "2026-09-09",
-      "verificationStatus": "announcement_verified",
-      "source_url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-      "deadlineNote": "2026年11月，具体日期未公布",
-      "officialApplyUrl": "https://ouryun.zhiye.com/",
-      "applicationEmail": "hr@ouryun.com.cn",
-      "lastVerifiedAt": "2026-09-17T09:42:29Z",
-      "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
-        "title": "在线招聘详情",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "四达时代集团 StarTimes",
-      "post": "2027校招·海外管理培训生（运营 / 市场 / 内容运营）",
-      "sector": "消费电子/出海",
-      "company_size": "中厂",
-      "base": "非洲海外机构",
-      "status": "open",
-      "channel": "四达时代集团2027届校园招聘",
-      "link": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
-      "apply_limit": "以官方公告为准，海外岗位需接受外派",
-      "reason": "9月10日发布，培养方向覆盖销售、运营、市场和内容运营；西语专业具备跨文化沟通优势，产品运营经历可迁移到海外用户与业务运营。",
-      "addedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://job.ncepu.edu.cn/zpgg/3d65bd4f813544738a2d7bec06892f47.htm",
-        "title": "四达时代集团2027届校园招聘-招聘公告-华北电力大学就业指导中心",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "中国移动广西公司",
-      "post": "2027校招·用户运营 / 渠道管理 / 客户服务管理",
-      "sector": "互联网",
-      "company_size": "大厂",
-      "base": "广西",
-      "status": "open",
-      "channel": "中国移动广西公司2027届秋季校园招聘",
-      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
-      "apply_limit": "每人限报1个职位；建议2026年10月中旬前完成投递",
-      "reason": "9月11日发布，专业不限且本科起投；用户运营和渠道管理与产品运营实习直接匹配，金融场景客户运营经验也可迁移。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-11",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80446.html",
-        "title": "中国移动广西公司2027届秋季校园招聘火热报名中！-中国移动通信集团广西有限公司",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "一汽资本控股有限公司",
-      "post": "2027校招·业务运营 / 海外人才专项",
-      "sector": "金融科技/支付",
-      "company_size": "中厂",
-      "base": "吉林/山东/广东/四川",
-      "status": "open",
-      "channel": "一汽资本2027校园招聘",
-      "link": "http://zhaopin.faw.com.cn",
-      "apply_limit": "硕士研究生；海外人才专项需参加语言测试，以官网岗位为准",
-      "reason": "9月10日发布，业务覆盖信贷、保险、租赁与海外金融，招聘专业明确包含西班牙语；数字经济硕士、金融产品运营和语言背景形成强匹配。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "http://zhaopin.faw.com.cn",
-        "title": "中国一汽招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "泡泡玛特 POP MART",
-      "post": "2027校招·零售运营与支持 / 客户体验（含海外）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "北京/上海/杭州/东莞/海外",
-      "status": "open",
-      "channel": "泡泡玛特2027秋季校园招聘",
-      "link": "https://popmart.zhiye.com/campus",
-      "apply_limit": "面向2026年9月至2027年8月毕业生，以具体岗位要求为准",
-      "reason": "9月10日发布，覆盖零售运营、客户体验和海外岗位；产品运营经历适配用户体验与门店/渠道运营，西语可用于海外市场沟通。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://popmart.zhiye.com/campus",
-        "title": "泡泡玛特招聘官网",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "金蝶软件",
-      "post": "2027校招·客户经营 / 市场推广 / 产品经理管培生",
-      "sector": "人工智能",
-      "company_size": "中厂",
-      "base": "深圳/上海/南京/北京/长沙/厦门/其他城市及海外",
-      "status": "open",
-      "channel": "金蝶2027届校园招聘",
-      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-      "apply_limit": "面向2026年10月1日至2027年9月30日毕业生，以网申具体岗位为准",
-      "reason": "9月10日发布，企业AI与管理软件场景同时开放客户经营、市场推广及产品经理管培生；数字经济和产品运营经历适合B端产品与客户运营。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-        "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
         "status": 200,
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
