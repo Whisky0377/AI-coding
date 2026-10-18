@@ -1,10 +1,433 @@
 {
-  "version": "2026-10-17",
-  "updatedAt": "2026-10-17T05:26:48.806Z",
+  "version": "2026-10-18",
+  "updatedAt": "2026-10-18T05:38:38.275Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "xTool（深圳市创客工场科技有限公司）",
+      "post": "2027校招·海外用户运营",
+      "company_size": "中厂",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
+      "link": "https://xtool.jobs.feishu.cn/420214",
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
+      "publishedDate": "2026-09-16",
+      "publicationDateType": "university_announcement",
+      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
+      "addedDate": "2026-09-17",
+      "deadline": "",
+      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
+      "apply_limit": "本科及以上、专业不限，语言类优先；英语流利，能直接与海外用户沟通；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
+      "reason": "涉及海外社群、UGC、用户活动、用户需求及活跃数据复盘，产品运营实习可迁移；西语有跨文化沟通优势，但该岗必须具备流利英语，不等同于西语专岗。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
+      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
+      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://xtool.jobs.feishu.cn/420214",
+        "title": "加入xTool",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "xTool（深圳市创客工场科技有限公司）",
+      "post": "2027校招·产品营销",
+      "company_size": "中厂",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
+      "link": "https://xtool.jobs.feishu.cn/420214",
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
+      "publishedDate": "2026-09-16",
+      "publicationDateType": "university_announcement",
+      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
+      "addedDate": "2026-09-17",
+      "deadline": "",
+      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
+      "apply_limit": "本科及以上，商科/语言/市场营销等相关专业优先；英语流利，可作工作语言（必须）；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
+      "reason": "负责新品营销、卖点提炼、内容及广告脚本、表现复盘与跨团队落地，与你的广告素材优化及产品运营经历对应；需准备英文内容案例，不假定已有硬件营销经验。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
+      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
+      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://xtool.jobs.feishu.cn/420214",
+        "title": "加入xTool",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "xTool（深圳市创客工场科技有限公司）",
+      "post": "2027校招·独立站运营",
+      "company_size": "中厂",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "open",
+      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
+      "link": "https://xtool.jobs.feishu.cn/420214",
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
+      "publishedDate": "2026-09-16",
+      "publicationDateType": "university_announcement",
+      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
+      "addedDate": "2026-09-17",
+      "deadline": "",
+      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
+      "apply_limit": "本科及以上，商科/市场营销/电子商务等优先；Excel及数据分析基础，英语满足日常工作；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
+      "reason": "涉及独立站活动配置、流量承接、转化率及用户购物链路优化；数字经济和金融产品运营经历适合展示指标分析、活动执行与转化复盘。电商经历为优先项，非已确认的个人经历。",
+      "lastVerifiedAt": "2026-09-17T09:42:29Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
+      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
+      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://xtool.jobs.feishu.cn/420214",
+        "title": "加入xTool",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "字节跳动",
+      "post": "行业运营 / 商业化运营（巨量引擎·抖音电商）",
+      "sector": "互联网",
+      "base": "北京/上海/深圳/杭州",
+      "status": "open",
+      "channel": "字节校园招聘官网",
+      "link": "https://jobs.bytedance.com/campus",
+      "apply_limit": "2027校招全年4次机会，年内2次，单次≤2岗（招满即止）",
+      "reason": "27届8月3日已启动；你感兴趣的行业运营，广告投放+信用卡运营经历高度契合商业化运营，双非看重实习含金量。",
+      "addedDate": "2026-08-13",
+      "deadline": "2027-05-31",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://jobs.bytedance.com/campus",
+        "title": "字节跳动校园招聘官网｜字节跳动校招",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "字节跳动",
+      "post": "用户运营 / 增长运营",
+      "sector": "互联网",
+      "base": "北京/杭州",
+      "status": "open",
+      "channel": "字节校园招聘官网",
+      "link": "https://jobs.bytedance.com/campus",
+      "apply_limit": "同上：全年4次，年内2次，单次≤2岗",
+      "reason": "27届已开；用户增长/促活运营，广告投放的数据与转化经验直接可迁移，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "2027-05-31",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://jobs.bytedance.com/campus",
+        "title": "字节跳动校园招聘官网｜字节跳动校招",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "阿里巴巴",
+      "post": "运营 / 商家运营 / 用户运营",
+      "sector": "互联网",
+      "base": "杭州/北京/上海/成都",
+      "status": "open",
+      "channel": "阿里校园招聘官网（一站投递）",
+      "link": "https://talent.alibaba.com/campus/home",
+      "apply_limit": "每个业务集团1次机会，最多选2个意向",
+      "reason": "27届8月启动，本硕博均可（双非本科有机会）；淘天/本地生活运营岗多，运营方法论通用。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://talent.alibaba.com/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://talent.alibaba.com/campus/home",
+        "title": "Index of Template Application",
+        "status": 200,
+        "error": "error_or_challenge",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "阿里国际 AIDC",
+      "post": "海外运营 / 跨境招商运营（速卖通/Lazada）",
+      "sector": "跨境电商",
+      "base": "杭州/深圳",
+      "status": "open",
+      "channel": "阿里国际校园招聘",
+      "link": "https://talent.alibaba.com/campus/home",
+      "apply_limit": "每业务集团1次，最多2个意向",
+      "reason": "西语可切拉美/西语区市场，跨境运营与你产品运营实习对口，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://talent.alibaba.com/",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://talent.alibaba.com/campus/home",
+        "title": "Index of Template Application",
+        "status": 200,
+        "error": "error_or_challenge",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "腾讯",
+      "post": "用户运营 / 内容运营 / 商业化运营",
+      "sector": "互联网",
+      "base": "深圳/北京/上海",
+      "status": "open",
+      "channel": "腾讯校园招聘官网",
+      "link": "https://join.qq.com/",
+      "apply_limit": "以官网为准（一般≤2个岗位）",
+      "reason": "27届秋招开放；广告/内容/用户运营方向多，广告投放经验对口广告线，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "application_entry_verified_pending_job",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
+      "previousApplicationLink": "https://join.qq.com/campus.html",
+      "applicationLinkSource": "https://hr.tencent.com/faqdetail.html",
+      "linkAttempt": {
+        "url": "https://join.qq.com/",
+        "title": "首页 | 腾讯校招",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "百度",
+      "post": "用户运营 / 商业产品运营",
+      "sector": "互联网",
+      "base": "北京",
+      "status": "open",
+      "channel": "百度校园招聘官网",
+      "link": "https://talent.baidu.com/jobs/list",
+      "apply_limit": "以官网为准",
+      "reason": "27届开放；商业化/搜索广告运营与你广告投放经历强相关，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://talent.baidu.com/jobs/list",
+        "title": "百度校园招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "美团",
+      "post": "用户运营 / 到店行业运营 / 商业分析",
+      "sector": "互联网",
+      "base": "北京/上海",
+      "status": "open",
+      "channel": "美团校园招聘官网",
+      "link": "https://campus.meituan.com",
+      "apply_limit": "以官网为准（惯例≤2岗）",
+      "reason": "到店/到家行业运营与你的行业运营兴趣一致，运营方法论通用，双非量大。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://campus.meituan.com",
+        "title": "美团招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "慧策（掌上先机）",
       "post": "2027校招·产品运营",
@@ -45,8 +468,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "慧策（掌上先机）",
@@ -88,8 +510,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "海天味业",
@@ -129,8 +550,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国银行",
@@ -168,8 +588,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国银行远程银行中心",
@@ -207,8 +626,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国银行信用卡中心",
@@ -246,8 +664,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "深圳市李森智能有限公司 LISEN",
@@ -288,8 +705,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "深圳市李森智能有限公司 LISEN",
@@ -330,8 +746,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "麒麟软件有限公司",
@@ -376,8 +791,7 @@
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "中邮消费金融有限公司",
@@ -423,8 +837,7 @@
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "Airwallex 空中云汇",
@@ -3564,419 +3977,6 @@
       "linkAttempt": {
         "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
         "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "xTool（深圳市创客工场科技有限公司）",
-      "post": "2027校招·海外用户运营",
-      "company_size": "中厂",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "open",
-      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
-      "link": "https://xtool.jobs.feishu.cn/420214",
-      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
-      "publishedDate": "2026-09-16",
-      "publicationDateType": "university_announcement",
-      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
-      "addedDate": "2026-09-17",
-      "deadline": "",
-      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
-      "apply_limit": "本科及以上、专业不限，语言类优先；英语流利，能直接与海外用户沟通；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
-      "reason": "涉及海外社群、UGC、用户活动、用户需求及活跃数据复盘，产品运营实习可迁移；西语有跨文化沟通优势，但该岗必须具备流利英语，不等同于西语专岗。",
-      "lastVerifiedAt": "2026-09-17T09:42:29Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
-      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
-      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://xtool.jobs.feishu.cn/420214",
-        "title": "加入xTool",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "xTool（深圳市创客工场科技有限公司）",
-      "post": "2027校招·产品营销",
-      "company_size": "中厂",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "open",
-      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
-      "link": "https://xtool.jobs.feishu.cn/420214",
-      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
-      "publishedDate": "2026-09-16",
-      "publicationDateType": "university_announcement",
-      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
-      "addedDate": "2026-09-17",
-      "deadline": "",
-      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
-      "apply_limit": "本科及以上，商科/语言/市场营销等相关专业优先；英语流利，可作工作语言（必须）；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
-      "reason": "负责新品营销、卖点提炼、内容及广告脚本、表现复盘与跨团队落地，与你的广告素材优化及产品运营经历对应；需准备英文内容案例，不假定已有硬件营销经验。",
-      "lastVerifiedAt": "2026-09-17T09:42:29Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
-      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
-      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://xtool.jobs.feishu.cn/420214",
-        "title": "加入xTool",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "xTool（深圳市创客工场科技有限公司）",
-      "post": "2027校招·独立站运营",
-      "company_size": "中厂",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "open",
-      "channel": "xTool2027届秋招｜华中科技大学9月16日招聘简章",
-      "link": "https://xtool.jobs.feishu.cn/420214",
-      "source_url": "https://job.hust.edu.cn/zpinfo1/2436703.htm",
-      "publishedDate": "2026-09-16",
-      "publicationDateType": "university_announcement",
-      "publicationNote": "这是高校招聘简章发布日期，不声称该具体岗位首次上线日。",
-      "addedDate": "2026-09-17",
-      "deadline": "",
-      "deadlineNote": "公告未注明截止日期，请以官网名额及岗位状态为准。",
-      "apply_limit": "本科及以上，商科/市场营销/电子商务等优先；Excel及数据分析基础，英语满足日常工作；公告提示针对性选择，投递后无法更改，未给明确投递数量上限。",
-      "reason": "涉及独立站活动配置、流量承接、转化率及用户购物链路优化；数字经济和金融产品运营经历适合展示指标分析、活动执行与转化复盘。电商经历为优先项，非已确认的个人经历。",
-      "lastVerifiedAt": "2026-09-17T09:42:29Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "已读取2027校招公告及完整岗位职责/任职要求；已打开公告官网并确认校园招聘入口。细分职位为动态页面，未登录提交或核验剩余名额；英语要求需本人自查。",
-      "companySizeNote": "中厂为本看板分档，非官方公司类型；高校企业简介披露4000+员工。",
-      "companySizeSource": "https://career.cuhk.edu.cn/en/job/view/id/468158",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://xtool.jobs.feishu.cn/420214",
-        "title": "加入xTool",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "字节跳动",
-      "post": "行业运营 / 商业化运营（巨量引擎·抖音电商）",
-      "sector": "互联网",
-      "base": "北京/上海/深圳/杭州",
-      "status": "open",
-      "channel": "字节校园招聘官网",
-      "link": "https://jobs.bytedance.com/campus",
-      "apply_limit": "2027校招全年4次机会，年内2次，单次≤2岗（招满即止）",
-      "reason": "27届8月3日已启动；你感兴趣的行业运营，广告投放+信用卡运营经历高度契合商业化运营，双非看重实习含金量。",
-      "addedDate": "2026-08-13",
-      "deadline": "2027-05-31",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://jobs.bytedance.com/campus",
-        "title": "字节跳动校园招聘官网｜字节跳动校招",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "字节跳动",
-      "post": "用户运营 / 增长运营",
-      "sector": "互联网",
-      "base": "北京/杭州",
-      "status": "open",
-      "channel": "字节校园招聘官网",
-      "link": "https://jobs.bytedance.com/campus",
-      "apply_limit": "同上：全年4次，年内2次，单次≤2岗",
-      "reason": "27届已开；用户增长/促活运营，广告投放的数据与转化经验直接可迁移，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "2027-05-31",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://jobs.bytedance.com/campus",
-        "title": "字节跳动校园招聘官网｜字节跳动校招",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "阿里巴巴",
-      "post": "运营 / 商家运营 / 用户运营",
-      "sector": "互联网",
-      "base": "杭州/北京/上海/成都",
-      "status": "open",
-      "channel": "阿里校园招聘官网（一站投递）",
-      "link": "https://talent.alibaba.com/campus/home",
-      "apply_limit": "每个业务集团1次机会，最多选2个意向",
-      "reason": "27届8月启动，本硕博均可（双非本科有机会）；淘天/本地生活运营岗多，运营方法论通用。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://talent.alibaba.com/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://talent.alibaba.com/campus/home",
-        "title": "Index of Template Application",
-        "status": 200,
-        "error": "error_or_challenge",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "阿里国际 AIDC",
-      "post": "海外运营 / 跨境招商运营（速卖通/Lazada）",
-      "sector": "跨境电商",
-      "base": "杭州/深圳",
-      "status": "open",
-      "channel": "阿里国际校园招聘",
-      "link": "https://talent.alibaba.com/campus/home",
-      "apply_limit": "每业务集团1次，最多2个意向",
-      "reason": "西语可切拉美/西语区市场，跨境运营与你产品运营实习对口，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://talent.alibaba.com/",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://talent.alibaba.com/campus/home",
-        "title": "Index of Template Application",
-        "status": 200,
-        "error": "error_or_challenge",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "腾讯",
-      "post": "用户运营 / 内容运营 / 商业化运营",
-      "sector": "互联网",
-      "base": "深圳/北京/上海",
-      "status": "open",
-      "channel": "腾讯校园招聘官网",
-      "link": "https://join.qq.com/",
-      "apply_limit": "以官网为准（一般≤2个岗位）",
-      "reason": "27届秋招开放；广告/内容/用户运营方向多，广告投放经验对口广告线，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "application_entry_verified_pending_job",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
-      "previousApplicationLink": "https://join.qq.com/campus.html",
-      "applicationLinkSource": "https://hr.tencent.com/faqdetail.html",
-      "linkAttempt": {
-        "url": "https://join.qq.com/",
-        "title": "首页 | 腾讯校招",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "百度",
-      "post": "用户运营 / 商业产品运营",
-      "sector": "互联网",
-      "base": "北京",
-      "status": "open",
-      "channel": "百度校园招聘官网",
-      "link": "https://talent.baidu.com/jobs/list",
-      "apply_limit": "以官网为准",
-      "reason": "27届开放；商业化/搜索广告运营与你广告投放经历强相关，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://talent.baidu.com/jobs/list",
-        "title": "百度校园招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "美团",
-      "post": "用户运营 / 到店行业运营 / 商业分析",
-      "sector": "互联网",
-      "base": "北京/上海",
-      "status": "open",
-      "channel": "美团校园招聘官网",
-      "link": "https://campus.meituan.com",
-      "apply_limit": "以官网为准（惯例≤2岗）",
-      "reason": "到店/到家行业运营与你的行业运营兴趣一致，运营方法论通用，双非量大。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://campus.meituan.com",
-        "title": "美团招聘",
         "status": 200,
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
