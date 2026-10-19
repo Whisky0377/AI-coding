@@ -1,10 +1,410 @@
 {
-  "version": "2026-10-18",
-  "updatedAt": "2026-10-18T05:38:38.275Z",
+  "version": "2026-10-19",
+  "updatedAt": "2026-10-19T05:56:15.397Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "京东",
+      "post": "用户运营 / 商业化运营（新星计划）",
+      "sector": "互联网",
+      "base": "北京",
+      "status": "open",
+      "channel": "京东校园招聘官网",
+      "link": "https://campus.jd.com",
+      "apply_limit": "新星计划最多2个（主投+调剂）；管培生TET仅1个",
+      "reason": "电商用户/商业化运营，广告投放经验对口京东零售商业化，双非本硕可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://campus.jd.com",
+        "title": "京东校招",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "拼多多 / Temu",
+      "post": "用户运营 / 类目运营 / 海外运营",
+      "sector": "跨境电商",
+      "base": "上海/深圳",
+      "status": "open",
+      "channel": "PDD 校园招聘官网",
+      "link": "https://careers.pddglobalhr.com",
+      "apply_limit": "提前批最多2个（含调剂），后续批次不影响",
+      "reason": "Temu 出海高速扩张，西语切拉美站；运营节奏快、双非友好、给薪有竞争力。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.pddglobalhr.com",
+        "title": "拼多多集团-PDD校园招聘官网",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "快手",
+      "post": "商业化运营 / 用户运营（磁力引擎）",
+      "sector": "互联网",
+      "base": "北京",
+      "status": "open",
+      "channel": "快手校园招聘官网",
+      "link": "https://zhaopin.kuaishou.cn",
+      "apply_limit": "以官网为准",
+      "reason": "磁力引擎商业化投放运营，与你广告投放经历强相关，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://zhaopin.kuaishou.cn",
+        "title": "快手招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "哔哩哔哩",
+      "post": "产品运营 / 内容运营 / 商业化运营",
+      "sector": "互联网",
+      "base": "上海/北京/深圳",
+      "status": "open",
+      "channel": "B站校园招聘官网",
+      "link": "https://jobs.bilibili.com/campus",
+      "apply_limit": "以官网为准（惯例≤2岗）",
+      "reason": "27届8月3日启动；社区+内容+商业化运营与你广告投放/内容运营契合，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://jobs.bilibili.com/campus",
+        "title": "哔哩哔哩-招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "小米",
+      "post": "用户运营 / 新零售运营 / 海外运营",
+      "sector": "消费电子/出海",
+      "base": "北京/武汉",
+      "status": "open",
+      "channel": "小米校园招聘官网",
+      "link": "https://job.xiaomi.com/campus",
+      "apply_limit": "以官网为准",
+      "reason": "27届开放；生态链+海外市场运营，语言+运营组合有竞争力，双非量大。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://job.xiaomi.com/campus",
+        "title": "校园招聘 | 小米招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "贝壳找房",
+      "post": "用户运营 / 城市运营",
+      "sector": "互联网",
+      "base": "北京/成都",
+      "status": "open",
+      "channel": "贝壳校园招聘官网",
+      "link": "https://job.ke.com/campus",
+      "apply_limit": "以官网为准",
+      "reason": "平台+城市运营，运营岗多、门槛相对友好，适合双非本硕补充投递。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://job.ke.com/campus",
+        "title": "简历完善",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "米哈游 miHoYo",
+      "post": "用户运营 / 发行运营 / 社区运营",
+      "sector": "游戏",
+      "base": "上海",
+      "status": "open",
+      "channel": "米哈游校园招聘官网",
+      "link": "https://campus.mihoyo.com",
+      "apply_limit": "以官网为准",
+      "reason": "27届8月3日启动；社区/发行运营方法论通用，广告投放经验可迁移到买量发行。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://campus.mihoyo.com",
+        "title": "米哈游校园招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "蚂蚁集团（支付宝）",
+      "post": "行业运营 / 商家运营 / 用户运营",
+      "sector": "金融科技/支付",
+      "base": "杭州/上海",
+      "status": "open",
+      "channel": "蚂蚁校园招聘官网",
+      "link": "https://talent.antgroup.com/campus",
+      "apply_limit": "以官网为准（惯例≤2岗）",
+      "reason": "支付宝行业/商家运营与你行业运营意向一致，信用卡运营与支付场景相通，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://talent.antgroup.com/campus",
+        "title": "",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "连连数科 LianLian",
+      "post": "跨境支付运营 / 商户运营",
+      "sector": "金融科技/支付",
+      "base": "杭州/上海",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://www.lianlianpay.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "跨境支付牌照齐全，金融+运营双背景强匹配，稳增长赛道，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.lianlianpay.com",
+        "title": "连网（杭州）信息技术有限公司",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "PingPong",
+      "post": "海外市场运营 / 跨境金融运营",
+      "sector": "金融科技/支付",
+      "base": "杭州",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://www.pingpongx.com",
+      "apply_limit": "以官网为准",
+      "reason": "跨境收款龙头，拉美是增长市场，西语+金融运营组合稀缺。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "仅字段审计，未知留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.pingpongx.com",
+        "title": "跨境收款_外贸收款-PingPong全球跨境收付解决方案",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "xTool（深圳市创客工场科技有限公司）",
       "post": "2027校招·海外用户运营",
@@ -48,8 +448,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "xTool（深圳市创客工场科技有限公司）",
@@ -94,8 +493,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "xTool（深圳市创客工场科技有限公司）",
@@ -140,8 +538,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "字节跳动",
@@ -179,8 +576,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "字节跳动",
@@ -218,8 +614,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "阿里巴巴",
@@ -260,8 +655,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "阿里国际 AIDC",
@@ -302,8 +696,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "腾讯",
@@ -345,8 +738,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "百度",
@@ -385,8 +777,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "美团",
@@ -425,8 +816,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "慧策（掌上先机）",
@@ -3977,396 +4367,6 @@
       "linkAttempt": {
         "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
         "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "京东",
-      "post": "用户运营 / 商业化运营（新星计划）",
-      "sector": "互联网",
-      "base": "北京",
-      "status": "open",
-      "channel": "京东校园招聘官网",
-      "link": "https://campus.jd.com",
-      "apply_limit": "新星计划最多2个（主投+调剂）；管培生TET仅1个",
-      "reason": "电商用户/商业化运营，广告投放经验对口京东零售商业化，双非本硕可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://campus.jd.com",
-        "title": "京东校招",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "拼多多 / Temu",
-      "post": "用户运营 / 类目运营 / 海外运营",
-      "sector": "跨境电商",
-      "base": "上海/深圳",
-      "status": "open",
-      "channel": "PDD 校园招聘官网",
-      "link": "https://careers.pddglobalhr.com",
-      "apply_limit": "提前批最多2个（含调剂），后续批次不影响",
-      "reason": "Temu 出海高速扩张，西语切拉美站；运营节奏快、双非友好、给薪有竞争力。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.pddglobalhr.com",
-        "title": "拼多多集团-PDD校园招聘官网",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "快手",
-      "post": "商业化运营 / 用户运营（磁力引擎）",
-      "sector": "互联网",
-      "base": "北京",
-      "status": "open",
-      "channel": "快手校园招聘官网",
-      "link": "https://zhaopin.kuaishou.cn",
-      "apply_limit": "以官网为准",
-      "reason": "磁力引擎商业化投放运营，与你广告投放经历强相关，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://zhaopin.kuaishou.cn",
-        "title": "快手招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "哔哩哔哩",
-      "post": "产品运营 / 内容运营 / 商业化运营",
-      "sector": "互联网",
-      "base": "上海/北京/深圳",
-      "status": "open",
-      "channel": "B站校园招聘官网",
-      "link": "https://jobs.bilibili.com/campus",
-      "apply_limit": "以官网为准（惯例≤2岗）",
-      "reason": "27届8月3日启动；社区+内容+商业化运营与你广告投放/内容运营契合，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://jobs.bilibili.com/campus",
-        "title": "哔哩哔哩-招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "小米",
-      "post": "用户运营 / 新零售运营 / 海外运营",
-      "sector": "消费电子/出海",
-      "base": "北京/武汉",
-      "status": "open",
-      "channel": "小米校园招聘官网",
-      "link": "https://job.xiaomi.com/campus",
-      "apply_limit": "以官网为准",
-      "reason": "27届开放；生态链+海外市场运营，语言+运营组合有竞争力，双非量大。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://job.xiaomi.com/campus",
-        "title": "校园招聘 | 小米招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "贝壳找房",
-      "post": "用户运营 / 城市运营",
-      "sector": "互联网",
-      "base": "北京/成都",
-      "status": "open",
-      "channel": "贝壳校园招聘官网",
-      "link": "https://job.ke.com/campus",
-      "apply_limit": "以官网为准",
-      "reason": "平台+城市运营，运营岗多、门槛相对友好，适合双非本硕补充投递。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://job.ke.com/campus",
-        "title": "简历完善",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "米哈游 miHoYo",
-      "post": "用户运营 / 发行运营 / 社区运营",
-      "sector": "游戏",
-      "base": "上海",
-      "status": "open",
-      "channel": "米哈游校园招聘官网",
-      "link": "https://campus.mihoyo.com",
-      "apply_limit": "以官网为准",
-      "reason": "27届8月3日启动；社区/发行运营方法论通用，广告投放经验可迁移到买量发行。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://campus.mihoyo.com",
-        "title": "米哈游校园招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "蚂蚁集团（支付宝）",
-      "post": "行业运营 / 商家运营 / 用户运营",
-      "sector": "金融科技/支付",
-      "base": "杭州/上海",
-      "status": "open",
-      "channel": "蚂蚁校园招聘官网",
-      "link": "https://talent.antgroup.com/campus",
-      "apply_limit": "以官网为准（惯例≤2岗）",
-      "reason": "支付宝行业/商家运营与你行业运营意向一致，信用卡运营与支付场景相通，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://talent.antgroup.com/campus",
-        "title": "",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "连连数科 LianLian",
-      "post": "跨境支付运营 / 商户运营",
-      "sector": "金融科技/支付",
-      "base": "杭州/上海",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://www.lianlianpay.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "跨境支付牌照齐全，金融+运营双背景强匹配，稳增长赛道，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.lianlianpay.com",
-        "title": "连网（杭州）信息技术有限公司",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "PingPong",
-      "post": "海外市场运营 / 跨境金融运营",
-      "sector": "金融科技/支付",
-      "base": "杭州",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://www.pingpongx.com",
-      "apply_limit": "以官网为准",
-      "reason": "跨境收款龙头，拉美是增长市场，西语+金融运营组合稀缺。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "仅字段审计，未知留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.pingpongx.com",
-        "title": "跨境收款_外贸收款-PingPong全球跨境收付解决方案",
         "status": 200,
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
