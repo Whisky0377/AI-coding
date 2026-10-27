@@ -1,5 +1,5 @@
 {
-  "note": "完整历史候选池，保留110条；10条当日推荐经过官方JD或公告层复查。入口检查不等于全池招聘有效，不保证剩余名额。",
+  "note": "完整历史候选池；仅isDaily=true为10条当日推荐。内容核验与入口检查分别记录，不将自动轮播日期视为内容更新。",
   "grad_year": "2027",
   "openings": [
     {
@@ -32,11 +32,11 @@
       },
       "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://xtool.jobs.feishu.cn/420214",
@@ -78,11 +78,11 @@
       },
       "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://xtool.jobs.feishu.cn/420214",
@@ -124,11 +124,11 @@
       },
       "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://xtool.jobs.feishu.cn/420214",
@@ -165,11 +165,11 @@
       },
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "latestAnnouncementDate": "2026-09-29",
       "latestAnnouncementSource": "https://career.hebut.edu.cn/home/correcruit/content/id/81467.html",
@@ -206,13 +206,13 @@
         "httpStatus": 200,
         "note": "仅入口响应及标题检查，未登录或提交。"
       },
-      "isDaily": true,
+      "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "latestAnnouncementDate": "2026-09-29",
       "latestAnnouncementSource": "https://career.hebut.edu.cn/home/correcruit/content/id/81467.html",
@@ -250,11 +250,11 @@
       },
       "verificationStatus": "announcement_verified",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": true,
       "linkAttempt": {
@@ -288,12 +288,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -327,12 +327,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -368,13 +368,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -410,13 +410,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -450,13 +450,13 @@
       "publishedDate": "",
       "verificationStatus": "application_entry_verified_pending_job",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "isDaily": false,
@@ -493,13 +493,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -533,13 +533,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -573,13 +573,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -613,13 +613,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -653,13 +653,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -693,13 +693,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -733,13 +733,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -773,13 +773,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -813,13 +813,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -853,13 +853,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -893,13 +893,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -933,13 +933,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -973,13 +973,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1015,13 +1015,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "verificationNote": "2026-09-27入口复查：请求失败。未确认关闭，保留历史状态，待寻找官方有效入口。",
@@ -1056,13 +1056,13 @@
       "publishedDate": "",
       "verificationStatus": "application_entry_verified_pending_job",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "修复历史失效智联入口，已GET核验新2027校招页面。历史合并岗位名称未逐岗匹配，不据总公告宣称该合并岗位已验证。",
       "isDaily": false,
@@ -1098,13 +1098,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1138,13 +1138,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1178,13 +1178,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1218,13 +1218,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1260,13 +1260,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
       "isDaily": false,
@@ -1303,13 +1303,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "本次入口复查失败（content_not_found），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
       "isDaily": false,
@@ -1344,13 +1344,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1385,14 +1385,14 @@
       "company_size": "",
       "publishedDate": "",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline",
           "link"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false
     },
@@ -1419,13 +1419,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "2026-09-27入口复查：页面不存在。未确认关闭，保留历史状态，待寻找官方有效入口。",
       "isDaily": false,
@@ -1460,13 +1460,13 @@
       "publishedDate": "",
       "verificationStatus": "application_entry_verified_pending_job",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "isDaily": false,
@@ -1503,12 +1503,12 @@
       "publishedDate": "",
       "verificationStatus": "application_entry_verified_pending_job",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "isDaily": false,
@@ -1545,13 +1545,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1585,13 +1585,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1625,13 +1625,13 @@
       "publishedDate": "",
       "verificationStatus": "application_entry_verified_pending_job",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "已修复官方校招入口；历史记录中的细分岗位名称、资格和实时名额仍待逐岗复核。不是重新开放。",
       "isDaily": false,
@@ -1668,13 +1668,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1708,13 +1708,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1750,13 +1750,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "2026-09-27入口复查：Not Found。未确认关闭，保留历史状态，待寻找官方有效入口。",
       "isDaily": false,
@@ -1793,13 +1793,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1834,13 +1834,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1874,13 +1874,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1914,13 +1914,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -1956,13 +1956,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "2026-09-27入口复查：Not Found。未确认关闭，保留历史状态，待寻找官方有效入口。",
       "isDaily": false,
@@ -1997,13 +1997,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2039,13 +2039,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2077,13 +2077,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2117,13 +2117,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2159,13 +2159,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "verificationNote": "2026-09-27入口复查：浏览器验证页。未确认关闭，保留历史状态，待寻找官方有效入口。",
@@ -2200,13 +2200,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2242,13 +2242,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2280,13 +2280,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2320,13 +2320,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2360,13 +2360,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2400,13 +2400,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2443,12 +2443,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2482,13 +2482,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2524,13 +2524,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2562,13 +2562,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2602,13 +2602,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2642,12 +2642,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2681,13 +2681,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2723,12 +2723,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2764,13 +2764,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2805,12 +2805,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2844,13 +2844,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2884,13 +2884,13 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -2928,9 +2928,9 @@
       "verificationNote": "本次重新读取官方或高校2027招聘公告，核对岗位方向、要求及投递入口；动态细分JD、剩余名额及专业最终审核未登录确认。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://campus.chinahr.com/pages/2027-boc",
@@ -2966,9 +2966,9 @@
       "verificationStatus": "announcement_verified",
       "verificationNote": "本次重新读取官方或高校2027招聘公告，核对岗位方向、要求及投递入口；动态细分JD、剩余名额及专业最终审核未登录确认。",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3006,9 +3006,9 @@
       "verificationNote": "本次重新读取官方或高校2027招聘公告，核对岗位方向、要求及投递入口；动态细分JD、剩余名额及专业最终审核未登录确认。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://campus.chinahr.com/pages/2027-boc",
@@ -3045,9 +3045,9 @@
       "verificationNote": "本次重新读取官方或高校2027招聘公告，核对岗位方向、要求及投递入口；动态细分JD、剩余名额及专业最终审核未登录确认。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://campus.chinahr.com/pages/2027-boc",
@@ -3082,11 +3082,11 @@
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
@@ -3121,12 +3121,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3160,12 +3160,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3199,12 +3199,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3238,12 +3238,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3277,12 +3277,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3316,12 +3316,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3355,12 +3355,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3394,12 +3394,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3433,12 +3433,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3472,12 +3472,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3511,12 +3511,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3553,12 +3553,12 @@
       "announcementCheckedAt": "2026-09-16T06:14:40Z",
       "verificationNote": "本次重新读取2027招聘公告，岗位方向和要求仍列示；动态子岗位资格、剩余名额及最终专业审核未确认。",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3593,12 +3593,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3632,12 +3632,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3671,12 +3671,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3712,12 +3712,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "verificationNote": "2026-09-27入口复查：请求失败。未确认关闭，保留历史状态，待寻找官方有效入口。",
@@ -3752,12 +3752,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3789,11 +3789,11 @@
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "verificationNote": "本次入口复查失败（TypeError），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
@@ -3828,11 +3828,11 @@
       "publishedDate": "",
       "verificationStatus": "pending_application_link",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "verificationNote": "本次入口复查失败（TypeError），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
@@ -3869,12 +3869,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "verificationNote": "2026-09-27入口复查：Not Found。未确认关闭，保留历史状态，待寻找官方有效入口。",
       "isDaily": false,
@@ -3909,12 +3909,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3951,12 +3951,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -3994,12 +3994,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -4040,11 +4040,11 @@
       "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
       "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
@@ -4084,11 +4084,11 @@
       "verificationNote": "已复查高校2027公告、跨专业说明、岗位方向及网申至11月（未给具体日）。原网申站此前为Not Found；公告明确提供邮箱hr@ouryun.com.cn作为备选，页面链接保留高校公告。",
       "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://tjut.bysjy.com.cn/detail/online?id=3599149",
@@ -4121,12 +4121,12 @@
       "publishedDate": "",
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "publishedDate",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -4160,11 +4160,11 @@
       },
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -4198,11 +4198,11 @@
       },
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -4240,11 +4240,11 @@
       "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
       "isDaily": false,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://popmart.zhiye.com/campus",
@@ -4277,11 +4277,11 @@
       },
       "verificationStatus": "pending_content_review",
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "isDaily": false,
       "linkAttempt": {
@@ -4320,11 +4320,11 @@
       "verificationNote": "本次重新读取官方或高校2027招聘公告，核对岗位方向、要求及投递入口；动态细分JD、剩余名额及专业最终审核未登录确认。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://lisen.zhiye.com/campus",
@@ -4362,11 +4362,11 @@
       "verificationNote": "本次重新读取官方或高校2027招聘公告，核对岗位方向、要求及投递入口；动态细分JD、剩余名额及专业最终审核未登录确认。",
       "isDaily": true,
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "linkAttempt": {
         "url": "https://lisen.zhiye.com/campus",
@@ -4407,12 +4407,12 @@
         "note": "仅入口响应及标题检查，未登录或提交。"
       },
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size",
           "deadline"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
       "linkAttempt": {
@@ -4455,11 +4455,11 @@
         "note": "仅入口响应及标题检查，未登录或提交。"
       },
       "fieldAudit": {
-        "checkedAt": "2026-09-30T06:42:18Z",
+        "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
           "company_size"
         ],
-        "note": "仅字段审计，未知留空。"
+        "note": "字段完整性审计；未知信息留空。"
       },
       "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
       "linkAttempt": {
@@ -4470,186 +4470,65 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       }
+    },
+    {
+      "company": "海信集团",
+      "post": "2027校招·电商运营（渠道运营方向）",
+      "company_size": "大厂",
+      "companySizeNote": "大厂为看板分类，依据为大型家电集团及全国校招规模，非官方分类。",
+      "sector": "消费电子/家电",
+      "base": "山东省·青岛市",
+      "status": "open",
+      "channel": "海信集团校园招聘官网",
+      "link": "https://jobs.hisense.com/campus/jobs?shareId=03d8e987-268b-402a-bcca-92af59b118b1&shareSource=2",
+      "source_url": "https://jobs.hisense.com/campus/jobs?shareId=03d8e987-268b-402a-bcca-92af59b118b1&shareSource=2",
+      "publishedDate": "2026-10-26",
+      "publicationDateType": "official_job_posting",
+      "deadline": "",
+      "deadlineNote": "官方页面未见明确截止日期；以官网当前岗位状态为准。",
+      "apply_limit": "国内普通高等院校2027年毕业或教育部承认的海外高校2026/2027年毕业；本科及以上。电子商务、市场营销、国际营销优先，非绝对限制。",
+      "reason": "涵盖电商运营、销售数据分析、促销策划、SEO/SEM与跨部门协同，与你的广告投放、产品运营与数据复盘经历直接匹配；西语可作为跨境或国际营销背景补充，但该岗位未将西语列为硬性要求。",
+      "addedDate": "2026-10-27",
+      "lastVerifiedAt": "2026-10-27T08:51:38.601Z",
+      "verificationStatus": "official_jd_verified",
+      "verificationNote": "已读取官方校园招聘页面显示的岗位编号J44639、发布日期、职责、学历、毕业届别、专业偏好与工作地点；页面为动态招聘系统，未登录提交，不保证实时HC。",
+      "linkCheck": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "httpStatus": 200,
+        "note": "官网招聘页面内容可检索到该岗位；未登录提交。"
+      },
+      "isDaily": true,
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "additionType": "recent_new"
     }
   ],
-  "version": "2026-09-30",
-  "updatedAt": "2026-09-30T06:42:18Z",
+  "version": "2026-10-27",
+  "updatedAt": "2026-10-27T08:51:38.601Z",
   "verification": {
-    "attemptedAt": "2026-09-30T06:42:18Z",
+    "attemptedAt": "2026-10-27T08:51:38.601Z",
     "status": "partial",
-    "previousContentUpdateAt": "2026-09-23T15:46:57Z",
-    "previousPublicationVerified": {
-      "commit": "ed34a4472c68360c5f7b71f01d7c23843d3d5e9c",
-      "version": "2026-09-27",
-      "total": 110,
-      "interviewResources": 11
-    },
-    "recentWindowStart": "2026-09-28T06:42:18.000Z",
-    "windowStart": "2026-09-23T15:46:57Z",
-    "newCount": 0,
+    "previousContentUpdateAt": "2026-09-30T06:42:18Z",
+    "recentWindowStart": "2026-10-25T08:51:38.601Z",
+    "windowStart": "2026-09-30T06:42:18Z",
+    "newCount": 1,
+    "recentNewCount": 1,
     "backfillCount": 0,
     "confirmedStatusChanges": 0,
     "confirmedDeadlineChanges": 0,
-    "deadlineDataCorrections": [
-      {
-        "company": "XTransfer",
-        "old": "2026-09-30",
-        "value": "",
-        "reason": "原日期无可追溯依据，移至previousDeadline保留，不是招聘方变更"
-      }
-    ],
-    "checkedLinkCount": 103,
-    "linkFailures": [
-      {
-        "url": "https://talent.alibaba.com/campus/home",
-        "title": "Index of Template Application",
-        "status": 200,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://www.msxf.com/joinus",
-        "title": "404",
-        "status": 200,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://haiercf.zhiye.com",
-        "title": "Not Found",
-        "status": 200,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://qifu.jd.com",
-        "title": "您所访问的页面不存在",
-        "status": 200,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://tuya.zhiye.com",
-        "title": "Not Found",
-        "status": 200,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://ecovacs.zhiye.com",
-        "title": "Not Found",
-        "status": 200,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://www.fanruan.com/campus",
-        "title": "智慧校园_数字校园_校园门户 - 帆软智慧校园建设解决方案",
-        "status": 200,
-        "error": "not_recruitment"
-      },
-      {
-        "url": "https://www.nestle.com.cn/zhcn/jobs",
-        "title": "Verifying your browser…",
-        "status": 403,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://talent.ele.me/campus/home?lang=zh",
-        "title": "Index of Template Application",
-        "status": 200,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://careers.pypl.com",
-        "title": "Attention Required! | Cloudflare",
-        "status": 403,
-        "error": "http_error"
-      },
-      {
-        "url": "https://swhygh.zhiye.com/campus",
-        "title": "Not Found",
-        "status": 200,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
-        "title": "跳转提示",
-        "status": 200,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-        "title": "Just a moment...",
-        "status": 403,
-        "error": "error_or_challenge"
-      },
-      {
-        "url": "https://www.ruijie.com.cn/campus-recruiting/",
-        "error": "request_failed"
-      },
-      {
-        "url": "https://careers.unilever.com",
-        "error": "request_failed"
-      },
-      {
-        "url": "https://careers.danone.com",
-        "error": "request_failed"
-      },
-      {
-        "url": "https://careers.trip.com/campus",
-        "error": "request_failed"
-      },
-      {
-        "url": "https://jobs.dell.com/students",
-        "error": "request_failed"
-      }
-    ],
-    "scope": "110条字段审计；103个唯一岗位/来源入口GET检查；11条岗位完成公告或官方JD层复查，其中10条当日推荐；非全池细分JD及实时名额核验。",
+    "scope": "检索近48小时公开职位；对海信官方校招页面完成细分JD阅读。未完成全池逐条JD与实时名额核验。",
     "contentVerifiedThisRun": [
       {
-        "company": "慧策（掌上先机）",
-        "post": "2027校招·产品运营"
-      },
-      {
-        "company": "慧策（掌上先机）",
-        "post": "2027校招·客户成功管培生"
-      },
-      {
-        "company": "海天味业",
-        "post": "2027校招·营销管理类（电商运营 / 海外营销）"
-      },
-      {
-        "company": "中国银行",
-        "post": "小语种专项计划（西班牙语）"
-      },
-      {
-        "company": "中国银行数字资产运营中心",
-        "post": "数据分析岗位"
-      },
-      {
-        "company": "中国银行远程银行中心",
-        "post": "线上运营业务"
-      },
-      {
-        "company": "中国银行信用卡中心",
-        "post": "金融综合（产品研发/品牌营销/运营）"
-      },
-      {
-        "company": "深圳市李森智能有限公司 LISEN",
-        "post": "2027校招·跨境电商运营 / 电商推广"
-      },
-      {
-        "company": "深圳市李森智能有限公司 LISEN",
-        "post": "2027校招·产品经理（3C消费电子）"
-      },
-      {
-        "company": "麒麟软件有限公司",
-        "post": "2027校招·运营专员"
-      },
-      {
-        "company": "中邮消费金融有限公司",
-        "post": "2027校招·金融经济类（客户运营方向）"
+        "company": "海信集团",
+        "post": "2027校招·电商运营（渠道运营方向）"
       }
     ],
-    "dailyRecommendationsVerifiedThisRun": 10,
-    "missingCompanySizeCount": 64,
-    "missingPublishedDateCount": 90,
-    "missingLinkCount": 1,
+    "dailyRecommendationsVerifiedThisRun": 1,
     "pendingLeads": [
       {
         "company": "中国移动四川公司",
@@ -4707,9 +4586,15 @@
         "post": "2027 Product Operations（Free Fire）",
         "source": "https://www.shixiseng.com/intern/inn_d6ept2lmbgts?pcm=pc_SearchList",
         "reason": "第三方显示刷新时间，未对应到官方2027细分JD；不计新发，不入库。"
+      },
+      {
+        "company": "字节跳动 Pangle",
+        "post": "国际商业化产品运营",
+        "source": "https://bytedance.jobs.feishu.cn/campus/position/7667845384858618117/detail",
+        "reason": "官方职位页可见2027届和职责，但公开检索仅显示5天前抓取，未取得可核验的首次发布日期，不将其误计为近48小时新增；职位池已有字节运营方向，待下轮核验是否需要细分更新。"
       }
     ],
-    "note": "岗位今日无新增。公告重复发布不算新开。入口异常不等于停招；全池细分JD未完成。本次10条推荐均重读公告，专业最终认定及名额以官网为准。"
+    "note": "本次实际执行日期为2026-10-27。岗位新增仅1条海信官方新发布岗位；其余线索未同时满足届别、开放状态、可投入口与发布时间证据。未确认关闭或截止变化。"
   },
   "verificationHistory": [
     {
@@ -5275,6 +5160,243 @@
       "contentVerifiedThisRun": [],
       "dailyRecommendationsVerifiedThisRun": 0,
       "note": "跨日恢复后以9月27日记录实际执行。岗位今日无新增，仅表示本轮未核验到合格新增，不表示市场无新岗位。沿用10条既有推荐及原内容核验日期；今日10条重新核验尚未完成，不称全量完成。"
+    },
+    {
+      "attemptedAt": "2026-09-30T06:42:18Z",
+      "status": "partial",
+      "previousContentUpdateAt": "2026-09-23T15:46:57Z",
+      "previousPublicationVerified": {
+        "commit": "ed34a4472c68360c5f7b71f01d7c23843d3d5e9c",
+        "version": "2026-09-27",
+        "total": 110,
+        "interviewResources": 11
+      },
+      "recentWindowStart": "2026-09-28T06:42:18.000Z",
+      "windowStart": "2026-09-23T15:46:57Z",
+      "newCount": 0,
+      "backfillCount": 0,
+      "confirmedStatusChanges": 0,
+      "confirmedDeadlineChanges": 0,
+      "deadlineDataCorrections": [
+        {
+          "company": "XTransfer",
+          "old": "2026-09-30",
+          "value": "",
+          "reason": "原日期无可追溯依据，移至previousDeadline保留，不是招聘方变更"
+        }
+      ],
+      "checkedLinkCount": 103,
+      "linkFailures": [
+        {
+          "url": "https://talent.alibaba.com/campus/home",
+          "title": "Index of Template Application",
+          "status": 200,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://www.msxf.com/joinus",
+          "title": "404",
+          "status": 200,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://haiercf.zhiye.com",
+          "title": "Not Found",
+          "status": 200,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://qifu.jd.com",
+          "title": "您所访问的页面不存在",
+          "status": 200,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://tuya.zhiye.com",
+          "title": "Not Found",
+          "status": 200,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://ecovacs.zhiye.com",
+          "title": "Not Found",
+          "status": 200,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://www.fanruan.com/campus",
+          "title": "智慧校园_数字校园_校园门户 - 帆软智慧校园建设解决方案",
+          "status": 200,
+          "error": "not_recruitment"
+        },
+        {
+          "url": "https://www.nestle.com.cn/zhcn/jobs",
+          "title": "Verifying your browser…",
+          "status": 403,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://talent.ele.me/campus/home?lang=zh",
+          "title": "Index of Template Application",
+          "status": 200,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://careers.pypl.com",
+          "title": "Attention Required! | Cloudflare",
+          "status": 403,
+          "error": "http_error"
+        },
+        {
+          "url": "https://swhygh.zhiye.com/campus",
+          "title": "Not Found",
+          "status": 200,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://job.tiangong.edu.cn/correcruit/content/id/55987.html",
+          "title": "跳转提示",
+          "status": 200,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+          "title": "Just a moment...",
+          "status": 403,
+          "error": "error_or_challenge"
+        },
+        {
+          "url": "https://www.ruijie.com.cn/campus-recruiting/",
+          "error": "request_failed"
+        },
+        {
+          "url": "https://careers.unilever.com",
+          "error": "request_failed"
+        },
+        {
+          "url": "https://careers.danone.com",
+          "error": "request_failed"
+        },
+        {
+          "url": "https://careers.trip.com/campus",
+          "error": "request_failed"
+        },
+        {
+          "url": "https://jobs.dell.com/students",
+          "error": "request_failed"
+        }
+      ],
+      "scope": "110条字段审计；103个唯一岗位/来源入口GET检查；11条岗位完成公告或官方JD层复查，其中10条当日推荐；非全池细分JD及实时名额核验。",
+      "contentVerifiedThisRun": [
+        {
+          "company": "慧策（掌上先机）",
+          "post": "2027校招·产品运营"
+        },
+        {
+          "company": "慧策（掌上先机）",
+          "post": "2027校招·客户成功管培生"
+        },
+        {
+          "company": "海天味业",
+          "post": "2027校招·营销管理类（电商运营 / 海外营销）"
+        },
+        {
+          "company": "中国银行",
+          "post": "小语种专项计划（西班牙语）"
+        },
+        {
+          "company": "中国银行数字资产运营中心",
+          "post": "数据分析岗位"
+        },
+        {
+          "company": "中国银行远程银行中心",
+          "post": "线上运营业务"
+        },
+        {
+          "company": "中国银行信用卡中心",
+          "post": "金融综合（产品研发/品牌营销/运营）"
+        },
+        {
+          "company": "深圳市李森智能有限公司 LISEN",
+          "post": "2027校招·跨境电商运营 / 电商推广"
+        },
+        {
+          "company": "深圳市李森智能有限公司 LISEN",
+          "post": "2027校招·产品经理（3C消费电子）"
+        },
+        {
+          "company": "麒麟软件有限公司",
+          "post": "2027校招·运营专员"
+        },
+        {
+          "company": "中邮消费金融有限公司",
+          "post": "2027校招·金融经济类（客户运营方向）"
+        }
+      ],
+      "dailyRecommendationsVerifiedThisRun": 10,
+      "missingCompanySizeCount": 64,
+      "missingPublishedDateCount": 90,
+      "missingLinkCount": 1,
+      "pendingLeads": [
+        {
+          "company": "中国移动四川公司",
+          "source": "https://career.hebut.edu.cn/home/correcruit/content/id/80488.html",
+          "publishedAt": "2026-09-11",
+          "reason": "2027媒体运营等岗位已见公告，但具体专业要求和二维码投递入口未完整核实；要求2027-06-30前获毕业及学位证明，暂不作为已验证可投岗位新增。"
+        },
+        {
+          "company": "信也科技",
+          "post": "产品运营管培生",
+          "source": "https://job.hust.edu.cn/extxjh/81788179515503.do",
+          "publishedAt": "2026-09-02",
+          "officialApplyUrl": "https://app.mokahr.com/su/slqfrb",
+          "reason": "已核验2027公告、毕业窗口及最多3岗；9月14日为宣讲日。官方短链GET重定向循环，暂不新增可投岗位。"
+        },
+        {
+          "company": "高途",
+          "post": "2027内容运营/策略运营",
+          "source": "https://career.scnu.edu.cn/detail/online?id=3082753",
+          "publishedAt": "2026-09-16",
+          "officialApplyUrl": "https://app.mokahr.com/campus-recruitment/bjhl/102145",
+          "reason": "官网提供的校招链接GET未成功，不新增；细分岗位要求需核验。"
+        },
+        {
+          "company": "携程",
+          "post": "AI机器人运营（客服智能化方向）（2027届秋招）(MJ036681)",
+          "reason": "第三方线索，尚未获得官方细分JD和可核验发布日期，不新增。"
+        },
+        {
+          "company": "北芯生命",
+          "post": "商业分析师",
+          "source": "https://job.hust.edu.cn/zpinfo1/2435034.htm",
+          "publishedAt": "2026-09-15",
+          "reason": "公告专业含经济学，尚未核对细分JD、地点与适配，不凑数。"
+        },
+        {
+          "company": "启源芯动力",
+          "post": "产品运营/海外营销支持",
+          "source": "https://job.tju.edu.cn/recruitment/content/type/2/id/6402.html",
+          "reason": "9月17日15:25为宣讲会时间，不冒充岗位发布日期；需进一步核对发布日及具体资格。"
+        },
+        {
+          "company": "北银金融科技",
+          "post": "2027应届生-产品运营岗",
+          "source": "https://offerseek.ai/jobs/campus",
+          "reason": "第三方线索，未确认官方JD、发布日期和投递入口，未新增。"
+        },
+        {
+          "company": "思谋科技",
+          "source": "https://job.hust.edu.cn/zpinfo1/2447453.htm",
+          "reason": "已读9月24日2027公告，AI产品具体资格及入口未验证，公告强调工程和AI实证，不降低匹配门槛新增。"
+        },
+        {
+          "company": "Garena",
+          "post": "2027 Product Operations（Free Fire）",
+          "source": "https://www.shixiseng.com/intern/inn_d6ept2lmbgts?pcm=pc_SearchList",
+          "reason": "第三方显示刷新时间，未对应到官方2027细分JD；不计新发，不入库。"
+        }
+      ],
+      "note": "岗位今日无新增。公告重复发布不算新开。入口异常不等于停招；全池细分JD未完成。本次10条推荐均重读公告，专业最终认定及名额以官网为准。"
     }
   ]
 }
