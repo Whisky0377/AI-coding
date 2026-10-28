@@ -1,10 +1,400 @@
 {
-  "version": "2026-10-27",
-  "updatedAt": "2026-10-27T08:51:38.601Z",
+  "version": "2026-10-28",
+  "updatedAt": "2026-10-28T06:45:04.984Z",
   "grad_year": "2027",
   "dailyCount": 10,
-  "source": "verified-partial",
+  "source": "rotate",
   "openings": [
+    {
+      "company": "OPPO",
+      "post": "产品营销经理（海外-小语种）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "岗位明确偏好西葡等小语种，包含产品营销策划、广告投放和用户互动；与你的西语、广告投放及产品运营经历强匹配。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "社媒运营经理（海外-小语种）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "官方明确西葡小语种优先，工作涵盖海外社媒内容、UGC/KOL和趋势分析，是你的语言优势与运营经历最自然的结合点。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "媒介经理（海外-小语种）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "岗位包含海外媒介投放、数据归因和跨区域协作，并明确西葡小语种优先；广告投放实习可直接形成面试案例。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "市场管理培训生-海外（跨境电商运营）",
+      "sector": "跨境电商",
+      "company_size": "大厂",
+      "base": "东莞/海外",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "岗位覆盖海外本地化、跨境电商和零售体验，明确西语优先并接受全球派遣；建议作为高匹配主投岗位。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "OPPO",
+      "post": "互联网产品运营",
+      "sector": "互联网",
+      "company_size": "大厂",
+      "base": "深圳/成都",
+      "status": "open",
+      "channel": "OPPO 2027届校园招聘",
+      "link": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
+      "apply_limit": "每人最多申请2个岗位（以官网为准）",
+      "reason": "面向软件商店、游戏中心和广告业务，要求用户洞察、数据分析及互联网实习；与你的产品运营经历直接对口。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
+        "title": "OPPO招聘 - 加入我们 join us",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "海尔智家",
+      "post": "海外市场营销（西语市场）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "青岛/海外",
+      "status": "open",
+      "channel": "海尔2027校园招聘",
+      "link": "https://maker.haier.net/client/campus/activityindex.html",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "全球家电业务覆盖欧洲和拉美，西语与跨文化沟通是明显优势；产品运营经历可转化为用户研究、渠道及市场项目能力。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://maker.haier.net/client/campus/activityindex.html",
+        "title": "海尔招聘-海尔官方招聘网站",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "海尔智家",
+      "post": "AI数据产品经理",
+      "sector": "人工智能",
+      "company_size": "大厂",
+      "base": "青岛",
+      "status": "open",
+      "channel": "海尔2027校园招聘",
+      "link": "https://maker.haier.net/client/campus/activityindex.html",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "数字经济硕士与产品运营经历可支撑数据需求、指标分析和跨团队推动；简历需强化数据工具与AI产品实践。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://maker.haier.net/client/campus/activityindex.html",
+        "title": "海尔招聘-海尔官方招聘网站",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "安克创新 Anker",
+      "post": "2027全球校招·海外市场营销类",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳/长沙/海外",
+      "status": "open",
+      "channel": "安克创新2027全球校园招聘",
+      "link": "https://career.anker.com.cn/universities/recruitment/",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "2027全球校招已开放市场营销类，消费电子出海属性强；西语和产品运营背景适合拉美市场、用户增长与本地化岗位。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://career.anker.com.cn/universities/recruitment/",
+        "title": "安克创新校园招聘 | 安克招聘网",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "安克创新 Anker",
+      "post": "2027全球校招·产品与体验类",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "深圳/长沙",
+      "status": "open",
+      "channel": "安克创新2027全球校园招聘",
+      "link": "https://career.anker.com.cn/universities/recruitment/new/",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "适合从产品运营转产品体验、用户研究或产品策划方向；突出金融产品运营中的需求拆解、数据复盘和跨部门协作。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://career.anker.com.cn/universities/recruitment/new/",
+        "title": "安克创新校园招聘 | Anker Careers",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "KEYENCE 基恩士",
+      "post": "销售工程师（2027秋季校园招聘）",
+      "sector": "人工智能",
+      "company_size": "外企",
+      "base": "上海/全国",
+      "status": "open",
+      "channel": "KEYENCE中国校园招聘",
+      "link": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
+      "apply_limit": "以官网为准",
+      "reason": "专业限制相对宽，重视需求洞察、沟通和数据化销售；适合把产品运营能力迁移到高客单价B2B科技解决方案岗位。",
+      "addedDate": "2026-09-04",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
+        "title": "招聘岗位 | KEYENCE CHINA RECRUITING 基恩士（中国）有限公司 全新招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "慧策（掌上先机）",
       "post": "2027校招·产品运营",
@@ -45,8 +435,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "海天味业",
@@ -86,8 +475,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国银行",
@@ -125,8 +513,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国银行远程银行中心",
@@ -164,8 +551,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国银行信用卡中心",
@@ -203,8 +589,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "深圳市李森智能有限公司 LISEN",
@@ -245,8 +630,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "深圳市李森智能有限公司 LISEN",
@@ -287,8 +671,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "麒麟软件有限公司",
@@ -333,8 +716,7 @@
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "中邮消费金融有限公司",
@@ -380,8 +762,7 @@
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "海信集团",
@@ -409,7 +790,6 @@
         "httpStatus": 200,
         "note": "官网招聘页面内容可检索到该岗位；未登录提交。"
       },
-      "isDaily": true,
       "fieldAudit": {
         "checkedAt": "2026-10-27T08:51:38.601Z",
         "missingFields": [
@@ -462,8 +842,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "xTool（深圳市创客工场科技有限公司）",
@@ -508,8 +887,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "xTool（深圳市创客工场科技有限公司）",
@@ -554,8 +932,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "慧策（掌上先机）",
@@ -597,8 +974,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "字节跳动",
@@ -636,8 +1012,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "字节跳动",
@@ -675,8 +1050,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "阿里巴巴",
@@ -717,8 +1091,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "阿里国际 AIDC",
@@ -759,8 +1132,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "腾讯",
@@ -802,8 +1174,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "百度",
@@ -842,8 +1213,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "美团",
@@ -882,8 +1252,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "京东",
@@ -922,8 +1291,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "拼多多 / Temu",
@@ -962,8 +1330,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "快手",
@@ -1002,8 +1369,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "哔哩哔哩",
@@ -1042,8 +1408,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "小米",
@@ -1082,8 +1447,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "贝壳找房",
@@ -1122,8 +1486,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "米哈游 miHoYo",
@@ -1162,8 +1525,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "蚂蚁集团（支付宝）",
@@ -1202,8 +1564,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "连连数科 LianLian",
@@ -1242,8 +1603,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "PingPong",
@@ -1282,8 +1642,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Airwallex 空中云汇",
@@ -1322,8 +1681,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "PayPal 中国",
@@ -1365,8 +1723,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "度小满金融",
@@ -1407,8 +1764,7 @@
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
       "applicationEntrySource": "https://career.nankai.edu.cn/correcruit/content/id/116782.html",
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "奇富科技（360数科）",
@@ -1447,8 +1803,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "招商银行信用卡中心（招银网络科技）",
@@ -1487,8 +1842,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中信银行信用卡中心",
@@ -1527,8 +1881,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "招联消费金融",
@@ -1567,8 +1920,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "马上消费金融",
@@ -1610,8 +1962,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "海尔消费金融",
@@ -1653,8 +2004,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "乐信 分期乐",
@@ -1693,8 +2043,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "哈银消费金融",
@@ -1726,8 +2075,7 @@
           "link"
         ],
         "note": "字段完整性审计；未知信息留空。"
-      },
-      "isDaily": false
+      }
     },
     {
       "company": "京东科技 / 京东金融",
@@ -1769,8 +2117,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "拓竹科技 Bambu Lab",
@@ -1812,8 +2159,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "安克创新 Anker",
@@ -1854,8 +2200,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "SHEIN",
@@ -1894,8 +2239,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Temu（拼多多海外）",
@@ -1934,8 +2278,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Insta360 影石",
@@ -1977,8 +2320,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "传音控股 Transsion",
@@ -2017,8 +2359,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "大疆 DJI",
@@ -2057,8 +2398,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "涂鸦智能 Tuya",
@@ -2100,8 +2440,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "帆软软件",
@@ -2143,8 +2482,7 @@
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
       "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "verificationNote": "2026-09-27入口复查：正文标题为智慧校园解决方案，非招聘页面。未确认关闭，保留历史状态，待寻找官方有效入口。",
-      "isDaily": false
+      "verificationNote": "2026-09-27入口复查：正文标题为智慧校园解决方案，非招聘页面。未确认关闭，保留历史状态，待寻找官方有效入口。"
     },
     {
       "company": "Shopee（东南亚电商）",
@@ -2183,8 +2521,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "科大讯飞 iFLYTEK",
@@ -2223,8 +2560,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "石头科技 Roborock",
@@ -2263,8 +2599,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "科沃斯 Ecovacs",
@@ -2306,8 +2641,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "宝洁 P&G",
@@ -2346,8 +2680,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "联合利华 Unilever",
@@ -2386,8 +2719,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "欧莱雅 L'Oréal",
@@ -2426,8 +2758,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "玛氏 Mars",
@@ -2466,8 +2797,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "雀巢 Nestlé",
@@ -2509,8 +2839,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "亿滋 Mondelēz",
@@ -2549,8 +2878,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "达能 Danone",
@@ -2589,8 +2917,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "雅培 Abbott",
@@ -2629,8 +2956,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "亚马逊 Amazon",
@@ -2669,8 +2995,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "微软 Microsoft",
@@ -2709,8 +3034,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "特斯拉 Tesla",
@@ -2749,8 +3073,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "小红书",
@@ -2791,8 +3114,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "网易",
@@ -2831,8 +3153,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "携程 Trip.com",
@@ -2871,8 +3192,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "爱奇艺",
@@ -2911,8 +3231,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Shopee（东南亚电商）",
@@ -2951,8 +3270,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "平安银行（信用卡中心 / 汽车消费金融中心）",
@@ -2990,8 +3308,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "XTransfer",
@@ -3032,8 +3349,7 @@
       },
       "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
       "previousDeadline": "2026-09-30",
-      "deadlineNote": "历史记录为2026-09-30，但无可追溯发布依据，本次未核实；清空未经证实日期，保留previousDeadline供复查，不代表延期或关闭。",
-      "isDaily": false
+      "deadlineNote": "历史记录为2026-09-30，但无可追溯发布依据，本次未核实；清空未经证实日期，保留previousDeadline供复查，不代表延期或关闭。"
     },
     {
       "company": "OPPO",
@@ -3071,8 +3387,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "淘宝闪购（阿里巴巴）",
@@ -3114,8 +3429,7 @@
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
       "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "verificationNote": "2026-09-27入口复查：页面标题为Index of Template Application，无法核实招聘信息。未确认关闭，保留历史状态，待寻找官方有效入口。",
-      "isDaily": false
+      "verificationNote": "2026-09-27入口复查：页面标题为Index of Template Application，无法核实招聘信息。未确认关闭，保留历史状态，待寻找官方有效入口。"
     },
     {
       "company": "联想 Lenovo",
@@ -3153,8 +3467,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "vivo",
@@ -3193,8 +3506,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "网易游戏（互娱）",
@@ -3233,8 +3545,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国银行数字资产运营中心",
@@ -3272,8 +3583,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Caterpillar 卡特彼勒",
@@ -3313,398 +3623,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "OPPO",
-      "post": "产品营销经理（海外-小语种）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "岗位明确偏好西葡等小语种，包含产品营销策划、广告投放和用户互动；与你的西语、广告投放及产品运营经历强匹配。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1816?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "OPPO",
-      "post": "社媒运营经理（海外-小语种）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "官方明确西葡小语种优先，工作涵盖海外社媒内容、UGC/KOL和趋势分析，是你的语言优势与运营经历最自然的结合点。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1814?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "OPPO",
-      "post": "媒介经理（海外-小语种）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "岗位包含海外媒介投放、数据归因和跨区域协作，并明确西葡小语种优先；广告投放实习可直接形成面试案例。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1818?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "OPPO",
-      "post": "市场管理培训生-海外（跨境电商运营）",
-      "sector": "跨境电商",
-      "company_size": "大厂",
-      "base": "东莞/海外",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "岗位覆盖海外本地化、跨境电商和零售体验，明确西语优先并接受全球派遣；建议作为高匹配主投岗位。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1869?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "OPPO",
-      "post": "互联网产品运营",
-      "sector": "互联网",
-      "company_size": "大厂",
-      "base": "深圳/成都",
-      "status": "open",
-      "channel": "OPPO 2027届校园招聘",
-      "link": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
-      "apply_limit": "每人最多申请2个岗位（以官网为准）",
-      "reason": "面向软件商店、游戏中心和广告业务，要求用户洞察、数据分析及互联网实习；与你的产品运营经历直接对口。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.oppo.com/university/oppo/campus/post/1859?recruitType=Graduate",
-        "title": "OPPO招聘 - 加入我们 join us",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "海尔智家",
-      "post": "海外市场营销（西语市场）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "青岛/海外",
-      "status": "open",
-      "channel": "海尔2027校园招聘",
-      "link": "https://maker.haier.net/client/campus/activityindex.html",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "全球家电业务覆盖欧洲和拉美，西语与跨文化沟通是明显优势；产品运营经历可转化为用户研究、渠道及市场项目能力。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://maker.haier.net/client/campus/activityindex.html",
-        "title": "海尔招聘-海尔官方招聘网站",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "海尔智家",
-      "post": "AI数据产品经理",
-      "sector": "人工智能",
-      "company_size": "大厂",
-      "base": "青岛",
-      "status": "open",
-      "channel": "海尔2027校园招聘",
-      "link": "https://maker.haier.net/client/campus/activityindex.html",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "数字经济硕士与产品运营经历可支撑数据需求、指标分析和跨团队推动；简历需强化数据工具与AI产品实践。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://maker.haier.net/client/campus/activityindex.html",
-        "title": "海尔招聘-海尔官方招聘网站",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "安克创新 Anker",
-      "post": "2027全球校招·海外市场营销类",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳/长沙/海外",
-      "status": "open",
-      "channel": "安克创新2027全球校园招聘",
-      "link": "https://career.anker.com.cn/universities/recruitment/",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "2027全球校招已开放市场营销类，消费电子出海属性强；西语和产品运营背景适合拉美市场、用户增长与本地化岗位。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://career.anker.com.cn/universities/recruitment/",
-        "title": "安克创新校园招聘 | 安克招聘网",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "安克创新 Anker",
-      "post": "2027全球校招·产品与体验类",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "深圳/长沙",
-      "status": "open",
-      "channel": "安克创新2027全球校园招聘",
-      "link": "https://career.anker.com.cn/universities/recruitment/new/",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "适合从产品运营转产品体验、用户研究或产品策划方向；突出金融产品运营中的需求拆解、数据复盘和跨部门协作。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://career.anker.com.cn/universities/recruitment/new/",
-        "title": "安克创新校园招聘 | Anker Careers",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
-    },
-    {
-      "company": "KEYENCE 基恩士",
-      "post": "销售工程师（2027秋季校园招聘）",
-      "sector": "人工智能",
-      "company_size": "外企",
-      "base": "上海/全国",
-      "status": "open",
-      "channel": "KEYENCE中国校园招聘",
-      "link": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
-      "apply_limit": "以官网为准",
-      "reason": "专业限制相对宽，重视需求洞察、沟通和数据化销售；适合把产品运营能力迁移到高客单价B2B科技解决方案岗位。",
-      "addedDate": "2026-09-04",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.keyence.com.cn/ss/careers/recruitment.jsp",
-        "title": "招聘岗位 | KEYENCE CHINA RECRUITING 基恩士（中国）有限公司 全新招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "厦门中达集团",
@@ -3742,8 +3661,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "慧策（掌上先机）",
@@ -3785,8 +3703,7 @@
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
       "lastVerifiedAt": "2026-09-23T15:46:57Z",
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国电信北京公司",
@@ -3824,8 +3741,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国电信北京公司",
@@ -3863,8 +3779,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国民生银行",
@@ -3902,8 +3817,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "锐捷网络",
@@ -3942,8 +3856,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Dell Technologies 戴尔科技",
@@ -3981,8 +3894,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国工商银行",
@@ -4020,8 +3932,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国农业银行",
@@ -4059,8 +3970,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "申万宏源证券",
@@ -4101,8 +4011,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国移动在线营销服务中心",
@@ -4140,8 +4049,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "小红书",
@@ -4182,8 +4090,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "青岛乾程科技股份有限公司",
@@ -4225,8 +4132,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "石犀科技&众云网",
@@ -4269,8 +4175,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "石犀科技&众云网",
@@ -4313,8 +4218,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "四达时代集团 StarTimes",
@@ -4352,8 +4256,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国移动广西公司",
@@ -4390,8 +4293,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "一汽资本控股有限公司",
@@ -4428,8 +4330,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "泡泡玛特 POP MART",
@@ -4469,8 +4370,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "金蝶软件",
@@ -4507,94 +4407,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": false
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     }
-  ],
-  "verification": {
-    "attemptedAt": "2026-10-27T08:51:38.601Z",
-    "status": "partial",
-    "previousContentUpdateAt": "2026-09-30T06:42:18Z",
-    "recentWindowStart": "2026-10-25T08:51:38.601Z",
-    "windowStart": "2026-09-30T06:42:18Z",
-    "newCount": 1,
-    "recentNewCount": 1,
-    "backfillCount": 0,
-    "confirmedStatusChanges": 0,
-    "confirmedDeadlineChanges": 0,
-    "scope": "检索近48小时公开职位；对海信官方校招页面完成细分JD阅读。未完成全池逐条JD与实时名额核验。",
-    "contentVerifiedThisRun": [
-      {
-        "company": "海信集团",
-        "post": "2027校招·电商运营（渠道运营方向）"
-      }
-    ],
-    "dailyRecommendationsVerifiedThisRun": 1,
-    "pendingLeads": [
-      {
-        "company": "中国移动四川公司",
-        "source": "https://career.hebut.edu.cn/home/correcruit/content/id/80488.html",
-        "publishedAt": "2026-09-11",
-        "reason": "2027媒体运营等岗位已见公告，但具体专业要求和二维码投递入口未完整核实；要求2027-06-30前获毕业及学位证明，暂不作为已验证可投岗位新增。"
-      },
-      {
-        "company": "信也科技",
-        "post": "产品运营管培生",
-        "source": "https://job.hust.edu.cn/extxjh/81788179515503.do",
-        "publishedAt": "2026-09-02",
-        "officialApplyUrl": "https://app.mokahr.com/su/slqfrb",
-        "reason": "已核验2027公告、毕业窗口及最多3岗；9月14日为宣讲日。官方短链GET重定向循环，暂不新增可投岗位。"
-      },
-      {
-        "company": "高途",
-        "post": "2027内容运营/策略运营",
-        "source": "https://career.scnu.edu.cn/detail/online?id=3082753",
-        "publishedAt": "2026-09-16",
-        "officialApplyUrl": "https://app.mokahr.com/campus-recruitment/bjhl/102145",
-        "reason": "官网提供的校招链接GET未成功，不新增；细分岗位要求需核验。"
-      },
-      {
-        "company": "携程",
-        "post": "AI机器人运营（客服智能化方向）（2027届秋招）(MJ036681)",
-        "reason": "第三方线索，尚未获得官方细分JD和可核验发布日期，不新增。"
-      },
-      {
-        "company": "北芯生命",
-        "post": "商业分析师",
-        "source": "https://job.hust.edu.cn/zpinfo1/2435034.htm",
-        "publishedAt": "2026-09-15",
-        "reason": "公告专业含经济学，尚未核对细分JD、地点与适配，不凑数。"
-      },
-      {
-        "company": "启源芯动力",
-        "post": "产品运营/海外营销支持",
-        "source": "https://job.tju.edu.cn/recruitment/content/type/2/id/6402.html",
-        "reason": "9月17日15:25为宣讲会时间，不冒充岗位发布日期；需进一步核对发布日及具体资格。"
-      },
-      {
-        "company": "北银金融科技",
-        "post": "2027应届生-产品运营岗",
-        "source": "https://offerseek.ai/jobs/campus",
-        "reason": "第三方线索，未确认官方JD、发布日期和投递入口，未新增。"
-      },
-      {
-        "company": "思谋科技",
-        "source": "https://job.hust.edu.cn/zpinfo1/2447453.htm",
-        "reason": "已读9月24日2027公告，AI产品具体资格及入口未验证，公告强调工程和AI实证，不降低匹配门槛新增。"
-      },
-      {
-        "company": "Garena",
-        "post": "2027 Product Operations（Free Fire）",
-        "source": "https://www.shixiseng.com/intern/inn_d6ept2lmbgts?pcm=pc_SearchList",
-        "reason": "第三方显示刷新时间，未对应到官方2027细分JD；不计新发，不入库。"
-      },
-      {
-        "company": "字节跳动 Pangle",
-        "post": "国际商业化产品运营",
-        "source": "https://bytedance.jobs.feishu.cn/campus/position/7667845384858618117/detail",
-        "reason": "官方职位页可见2027届和职责，但公开检索仅显示5天前抓取，未取得可核验的首次发布日期，不将其误计为近48小时新增；职位池已有字节运营方向，待下轮核验是否需要细分更新。"
-      }
-    ],
-    "note": "本次实际执行日期为2026-10-27。岗位新增仅1条海信官方新发布岗位；其余线索未同时满足届别、开放状态、可投入口与发布时间证据。未确认关闭或截止变化。"
-  }
+  ]
 }
