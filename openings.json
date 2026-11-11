@@ -1,10 +1,51 @@
 {
-  "version": "2026-11-10",
-  "updatedAt": "2026-11-10T08:10:01.260Z",
+  "version": "2026-11-11",
+  "updatedAt": "2026-11-11T07:38:25.424Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "Caterpillar 卡特彼勒",
+      "post": "数据分析工程师（Caterpillar Digital）",
+      "sector": "人工智能",
+      "company_size": "外企",
+      "base": "上海",
+      "status": "open",
+      "channel": "Caterpillar Careers 2027校园招聘",
+      "link": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+      "apply_limit": "以官网为准，招满即止",
+      "reason": "参与业务数据分析、仪表盘与数字化产品协作；数字经济背景可投，但需在简历中明确SQL、Python或BI工具能力。",
+      "addedDate": "2026-09-04",
+      "deadline": "2026-10-30",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 403,
+        "finalUrl": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+        "error": "http_error",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "publishedDate": "",
+      "verificationStatus": "pending_application_link",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "publishedDate"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
+      "linkAttempt": {
+        "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
+        "title": "Just a moment...",
+        "status": 403,
+        "error": "error_or_challenge",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "爱奇艺",
       "post": "内容运营 / 会员运营",
@@ -403,8 +444,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "雀巢 Nestlé",
@@ -4364,46 +4404,6 @@
         "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
         "status": 200,
         "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "Caterpillar 卡特彼勒",
-      "post": "数据分析工程师（Caterpillar Digital）",
-      "sector": "人工智能",
-      "company_size": "外企",
-      "base": "上海",
-      "status": "open",
-      "channel": "Caterpillar Careers 2027校园招聘",
-      "link": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-      "apply_limit": "以官网为准，招满即止",
-      "reason": "参与业务数据分析、仪表盘与数字化产品协作；数字经济背景可投，但需在简历中明确SQL、Python或BI工具能力。",
-      "addedDate": "2026-09-04",
-      "deadline": "2026-10-30",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 403,
-        "finalUrl": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-        "error": "http_error",
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "publishedDate": "",
-      "verificationStatus": "pending_application_link",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "publishedDate"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "verificationNote": "本次入口复查失败（http_error），保留历史岗位状态，不据此判定关闭；未计入当日推荐。",
-      "linkAttempt": {
-        "url": "https://careers.caterpillar.com/en/jobs/r0000387381/2027%E6%A0%A1%E5%9B%AD%E6%8B%9B%E8%81%98-%E6%8A%80%E6%9C%AF%E7%B1%BB-%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E6%96%B9%E5%90%91/",
-        "title": "Just a moment...",
-        "status": 403,
-        "error": "error_or_challenge",
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
