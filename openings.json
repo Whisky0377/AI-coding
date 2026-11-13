@@ -1,10 +1,419 @@
 {
-  "version": "2026-11-12",
-  "updatedAt": "2026-11-12T08:07:42.539Z",
+  "version": "2026-11-13",
+  "updatedAt": "2026-11-13T07:43:44.087Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "网易",
+      "post": "用户运营 / 产品运营",
+      "sector": "互联网",
+      "base": "杭州/广州/北京",
+      "status": "open",
+      "channel": "网易校园招聘官网",
+      "link": "https://campus.163.com",
+      "apply_limit": "以官网为准",
+      "reason": "福利待遇口碑好的大厂，游戏/电商/传媒运营岗多，双非有机会。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://campus.163.com",
+        "title": "网易校园招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "携程 Trip.com",
+      "post": "用户运营 / 海外市场运营",
+      "sector": "互联网",
+      "base": "上海",
+      "status": "open",
+      "channel": "携程校园招聘官网",
+      "link": "https://careers.trip.com/campus",
+      "apply_limit": "以官网为准",
+      "reason": "在线旅游龙头，海外运营需要语言能力，西语可切拉美市场，福利与晋升好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://careers.trip.com/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.trip.com/campus",
+        "error": "request_failed",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "涂鸦智能 Tuya",
+      "post": "海外生态运营 / 客户运营",
+      "sector": "人工智能",
+      "base": "杭州",
+      "status": "soon",
+      "channel": "校招官网",
+      "link": "https://tuya.zhiye.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "WAIC活跃IoT平台，全球客户运营，数字经济背景契合，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://tuya.zhiye.com/404?errorpath=%2f",
+        "error": "content_not_found",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "verificationNote": "2026-09-27入口复查：Not Found。未确认关闭，保留历史状态，待寻找官方有效入口。",
+      "linkAttempt": {
+        "url": "https://tuya.zhiye.com",
+        "title": "Not Found",
+        "status": 200,
+        "error": "error_or_challenge",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "帆软软件",
+      "post": "客户交付与运营 / 市场运营",
+      "sector": "互联网",
+      "base": "南京/无锡/成都/杭州",
+      "status": "open",
+      "channel": "帆软校园招聘",
+      "link": "https://www.fanruan.com/campus",
+      "apply_limit": "以官网为准",
+      "reason": "27届8月提前批已开，客户交付与运营岗，运营方法论通用，双非友好、需求量大。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://www.fanruan.com/solutions/campus",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.fanruan.com/campus",
+        "title": "智慧校园_数字校园_校园门户 - 帆软智慧校园建设解决方案",
+        "status": 200,
+        "error": "not_recruitment",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "verificationNote": "2026-09-27入口复查：正文标题为智慧校园解决方案，非招聘页面。未确认关闭，保留历史状态，待寻找官方有效入口。",
+      "isDaily": true
+    },
+    {
+      "company": "Shopee（东南亚电商）",
+      "post": "跨境运营 / 招商运营（LDP管培）",
+      "sector": "跨境电商",
+      "base": "深圳/上海",
+      "status": "open",
+      "channel": "Shopee 校园招聘",
+      "link": "https://careers.shopee.com",
+      "apply_limit": "以官网为准",
+      "reason": "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.shopee.com",
+        "title": "Create Impact That Lasts | Shopee Careers",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "科大讯飞 iFLYTEK",
+      "post": "海外产品运营 / 生态运营",
+      "sector": "人工智能",
+      "base": "合肥/北京",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://campus.iflytek.com",
+      "apply_limit": "以官网为准",
+      "reason": "WAIC/AI展常客，翻译与国际化业务，语言背景天然贴合，双非量大。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://campus.iflytek.com",
+        "title": "官网 | 科大讯飞招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "石头科技 Roborock",
+      "post": "海外市场运营 / 电商运营",
+      "sector": "消费电子/出海",
+      "base": "北京",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://roborock.zhiye.com",
+      "apply_limit": "以官网为准",
+      "reason": "AWE/CES明星企业，欧洲+拉美扩张，西语区运营需求上升。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://roborock.zhiye.com",
+        "title": "石头科技招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "科沃斯 Ecovacs",
+      "post": "海外区域运营（欧洲/拉美）",
+      "sector": "消费电子/出海",
+      "base": "苏州",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://ecovacs.zhiye.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "扫地机出海头部，多语种区域运营，产品运营实习可迁移，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://ecovacs.zhiye.com/404?errorpath=%2f",
+        "error": "content_not_found",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "verificationNote": "2026-09-27入口复查：Not Found。未确认关闭，保留历史状态，待寻找官方有效入口。",
+      "linkAttempt": {
+        "url": "https://ecovacs.zhiye.com",
+        "title": "Not Found",
+        "status": 200,
+        "error": "error_or_challenge",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "宝洁 P&G",
+      "post": "品牌管理 / 市场运营管培生",
+      "sector": "快消/零售",
+      "base": "广州/上海",
+      "status": "open",
+      "channel": "宝洁校园招聘官网",
+      "link": "https://www.pgcareers.com",
+      "apply_limit": "以官网为准",
+      "reason": "顶级快消管培，不卡专业、看重英语与逻辑，品牌/市场运营与你广告投放经历对口，福利与晋升行业标杆。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.pgcareers.com",
+        "title": "Global Careers at Procter &amp; Gamble | P&amp;G Careers",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "联合利华 Unilever",
+      "post": "UFLP 管培生（市场/客户发展）",
+      "sector": "快消/零售",
+      "base": "上海",
+      "status": "open",
+      "channel": "联合利华校园招聘官网",
+      "link": "https://careers.unilever.com",
+      "apply_limit": "以官网为准",
+      "reason": "UFLP 全球轮岗管培，年薪高、成长快；市场/渠道运营方向，双非有机会，英语好加分。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 200,
+        "finalUrl": "https://careers.unilever.com/en",
+        "error": null,
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://careers.unilever.com",
+        "error": "request_failed",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "网易游戏（互娱）",
       "post": "游戏运营 / 市场 / 用户运营",
@@ -42,8 +451,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "中国银行数字资产运营中心",
@@ -81,8 +489,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "雀巢 Nestlé",
@@ -124,8 +531,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "亿滋 Mondelēz",
@@ -164,8 +570,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "达能 Danone",
@@ -204,8 +609,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "雅培 Abbott",
@@ -244,8 +648,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "亚马逊 Amazon",
@@ -284,8 +687,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "微软 Microsoft",
@@ -324,8 +726,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "特斯拉 Tesla",
@@ -364,8 +765,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "小红书",
@@ -406,8 +806,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Caterpillar 卡特彼勒",
@@ -758,405 +1157,6 @@
         "title": "vivo员工招聘",
         "status": 200,
         "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "网易",
-      "post": "用户运营 / 产品运营",
-      "sector": "互联网",
-      "base": "杭州/广州/北京",
-      "status": "open",
-      "channel": "网易校园招聘官网",
-      "link": "https://campus.163.com",
-      "apply_limit": "以官网为准",
-      "reason": "福利待遇口碑好的大厂，游戏/电商/传媒运营岗多，双非有机会。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://campus.163.com",
-        "title": "网易校园招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "携程 Trip.com",
-      "post": "用户运营 / 海外市场运营",
-      "sector": "互联网",
-      "base": "上海",
-      "status": "open",
-      "channel": "携程校园招聘官网",
-      "link": "https://careers.trip.com/campus",
-      "apply_limit": "以官网为准",
-      "reason": "在线旅游龙头，海外运营需要语言能力，西语可切拉美市场，福利与晋升好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://careers.trip.com/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.trip.com/campus",
-        "error": "request_failed",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "涂鸦智能 Tuya",
-      "post": "海外生态运营 / 客户运营",
-      "sector": "人工智能",
-      "base": "杭州",
-      "status": "soon",
-      "channel": "校招官网",
-      "link": "https://tuya.zhiye.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "WAIC活跃IoT平台，全球客户运营，数字经济背景契合，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://tuya.zhiye.com/404?errorpath=%2f",
-        "error": "content_not_found",
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "verificationNote": "2026-09-27入口复查：Not Found。未确认关闭，保留历史状态，待寻找官方有效入口。",
-      "linkAttempt": {
-        "url": "https://tuya.zhiye.com",
-        "title": "Not Found",
-        "status": 200,
-        "error": "error_or_challenge",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "帆软软件",
-      "post": "客户交付与运营 / 市场运营",
-      "sector": "互联网",
-      "base": "南京/无锡/成都/杭州",
-      "status": "open",
-      "channel": "帆软校园招聘",
-      "link": "https://www.fanruan.com/campus",
-      "apply_limit": "以官网为准",
-      "reason": "27届8月提前批已开，客户交付与运营岗，运营方法论通用，双非友好、需求量大。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://www.fanruan.com/solutions/campus",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.fanruan.com/campus",
-        "title": "智慧校园_数字校园_校园门户 - 帆软智慧校园建设解决方案",
-        "status": 200,
-        "error": "not_recruitment",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "verificationNote": "2026-09-27入口复查：正文标题为智慧校园解决方案，非招聘页面。未确认关闭，保留历史状态，待寻找官方有效入口。"
-    },
-    {
-      "company": "Shopee（东南亚电商）",
-      "post": "跨境运营 / 招商运营（LDP管培）",
-      "sector": "跨境电商",
-      "base": "深圳/上海",
-      "status": "open",
-      "channel": "Shopee 校园招聘",
-      "link": "https://careers.shopee.com",
-      "apply_limit": "以官网为准",
-      "reason": "27届外企秋招已开，出海电商运营，管培生对双非本硕友好，运营经历对口。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.shopee.com",
-        "title": "Create Impact That Lasts | Shopee Careers",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "科大讯飞 iFLYTEK",
-      "post": "海外产品运营 / 生态运营",
-      "sector": "人工智能",
-      "base": "合肥/北京",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://campus.iflytek.com",
-      "apply_limit": "以官网为准",
-      "reason": "WAIC/AI展常客，翻译与国际化业务，语言背景天然贴合，双非量大。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://campus.iflytek.com",
-        "title": "官网 | 科大讯飞招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "石头科技 Roborock",
-      "post": "海外市场运营 / 电商运营",
-      "sector": "消费电子/出海",
-      "base": "北京",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://roborock.zhiye.com",
-      "apply_limit": "以官网为准",
-      "reason": "AWE/CES明星企业，欧洲+拉美扩张，西语区运营需求上升。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://roborock.zhiye.com",
-        "title": "石头科技招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "科沃斯 Ecovacs",
-      "post": "海外区域运营（欧洲/拉美）",
-      "sector": "消费电子/出海",
-      "base": "苏州",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://ecovacs.zhiye.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "扫地机出海头部，多语种区域运营，产品运营实习可迁移，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://ecovacs.zhiye.com/404?errorpath=%2f",
-        "error": "content_not_found",
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "verificationNote": "2026-09-27入口复查：Not Found。未确认关闭，保留历史状态，待寻找官方有效入口。",
-      "linkAttempt": {
-        "url": "https://ecovacs.zhiye.com",
-        "title": "Not Found",
-        "status": 200,
-        "error": "error_or_challenge",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "宝洁 P&G",
-      "post": "品牌管理 / 市场运营管培生",
-      "sector": "快消/零售",
-      "base": "广州/上海",
-      "status": "open",
-      "channel": "宝洁校园招聘官网",
-      "link": "https://www.pgcareers.com",
-      "apply_limit": "以官网为准",
-      "reason": "顶级快消管培，不卡专业、看重英语与逻辑，品牌/市场运营与你广告投放经历对口，福利与晋升行业标杆。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.pgcareers.com",
-        "title": "Global Careers at Procter &amp; Gamble | P&amp;G Careers",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "联合利华 Unilever",
-      "post": "UFLP 管培生（市场/客户发展）",
-      "sector": "快消/零售",
-      "base": "上海",
-      "status": "open",
-      "channel": "联合利华校园招聘官网",
-      "link": "https://careers.unilever.com",
-      "apply_limit": "以官网为准",
-      "reason": "UFLP 全球轮岗管培，年薪高、成长快；市场/渠道运营方向，双非有机会，英语好加分。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 200,
-        "finalUrl": "https://careers.unilever.com/en",
-        "error": null,
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://careers.unilever.com",
-        "error": "request_failed",
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
