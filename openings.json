@@ -1,10 +1,415 @@
 {
-  "version": "2026-11-14",
-  "updatedAt": "2026-11-14T07:29:39.529Z",
+  "version": "2026-11-15",
+  "updatedAt": "2026-11-15T07:42:45.338Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "传音控股 Transsion",
+      "post": "新兴市场用户运营 / 运营管培",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "校招官网",
+      "link": "https://transsion.zhiye.com",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "非洲+拉美布局，小语种运营人才紧缺，数字经济背景加分，双非友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://transsion.zhiye.com",
+        "title": "深圳传音控股股份有限公司",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "大疆 DJI",
+      "post": "海外市场运营 / 品牌运营",
+      "sector": "消费电子/出海",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://we.dji.com",
+      "apply_limit": "以官网为准",
+      "reason": "全球品牌，区域市场运营岗，语言+运营组合有竞争力。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://we.dji.com",
+        "title": "首页 - DJI 大疆招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "PingPong",
+      "post": "海外市场运营 / 跨境金融运营",
+      "sector": "金融科技/支付",
+      "base": "杭州",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://www.pingpongx.com",
+      "apply_limit": "以官网为准",
+      "reason": "跨境收款龙头，拉美是增长市场，西语+金融运营组合稀缺。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.pingpongx.com",
+        "title": "跨境收款_外贸收款-PingPong全球跨境收付解决方案",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "Airwallex 空中云汇",
+      "post": "全球支付运营 / 客户成功",
+      "sector": "金融科技/支付",
+      "base": "上海/香港",
+      "status": "open",
+      "channel": "官网校招 / 内推",
+      "link": "https://www.airwallex.com/cn/careers",
+      "apply_limit": "外企一般不限次数（以招聘页为准）",
+      "reason": "出海金融科技独角兽，重视语言与运营，金融类实习非常对口。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.airwallex.com/cn/careers",
+        "title": "Airwallex(空中云汇)-职业生涯",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "PayPal 中国",
+      "post": "跨境支付运营 / 商户运营",
+      "sector": "金融科技/支付",
+      "base": "上海",
+      "status": "soon",
+      "channel": "官网校招 / 内推",
+      "link": "https://careers.pypl.com",
+      "apply_limit": "外企一般不限次数（以招聘页为准）",
+      "reason": "金融+数字经济双背景强匹配，西语可服务拉美商户，金融实习加分。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-17T09:42:29Z",
+        "httpStatus": 403,
+        "finalUrl": "https://careers.pypl.com/",
+        "error": "http_error",
+        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "verificationNote": "2026-09-27入口复查：请求失败。未确认关闭，保留历史状态，待寻找官方有效入口。",
+      "linkAttempt": {
+        "url": "https://careers.pypl.com",
+        "title": "Attention Required! | Cloudflare",
+        "status": 403,
+        "error": "http_error",
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "度小满金融",
+      "post": "用户运营 / 商业化运营",
+      "sector": "金融科技/支付",
+      "base": "北京",
+      "status": "soon",
+      "channel": "官网校招 / 内推",
+      "link": "https://campus.duxiaoman.com/051736",
+      "apply_limit": "参照百度系，一般≤2个岗位（以公告为准）",
+      "reason": "信贷+理财运营，广告投放/效果营销经验对口，数字经济背景加分，双非可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "application_entry_verified_pending_job",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "verificationNote": "修复历史失效智联入口，已GET核验新2027校招页面。历史合并岗位名称未逐岗匹配，不据总公告宣称该合并岗位已验证。",
+      "linkAttempt": {
+        "url": "https://campus.duxiaoman.com/051736",
+        "title": "度小满2027校园招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "applicationEntrySource": "https://career.nankai.edu.cn/correcruit/content/id/116782.html",
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "奇富科技（360数科）",
+      "post": "用户运营 / 增长运营",
+      "sector": "金融科技/支付",
+      "base": "上海",
+      "status": "soon",
+      "channel": "官网校招",
+      "link": "https://www.360shuke.com",
+      "apply_limit": "以官网为准",
+      "reason": "信贷科技，用户增长+效果投放运营，广告投放与金融实习双对口，学历要求相对友好。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://www.360shuke.com",
+        "title": "360数科",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "招商银行信用卡中心（招银网络科技）",
+      "post": "用户运营 / 权益运营 / 数字化营销",
+      "sector": "消费金融",
+      "base": "深圳/上海",
+      "status": "open",
+      "channel": "招银网络科技校园招聘",
+      "link": "https://career.cmbchina.com",
+      "apply_limit": "银行系一般每人限报1-2个岗位（以公告为准）",
+      "reason": "27届8月已启动；信用卡产品运营经历最对口，掌上生活App用户/权益运营，广告投放加分。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://career.cmbchina.com",
+        "title": "招商银行招聘",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "中信银行信用卡中心",
+      "post": "渠道运营 / 效果投放 / 用户增长",
+      "sector": "消费金融",
+      "base": "深圳",
+      "status": "open",
+      "channel": "信用卡中心招聘官网",
+      "link": "https://creditcard.ecitic.com/zhaopin/",
+      "apply_limit": "一般限报1-2个岗位（以公告为准）",
+      "reason": "岗位直接要求信息流投放(抖音/朋友圈)+数据分析+活动策划，几乎踩中你全部经历。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://creditcard.ecitic.com/zhaopin/",
+        "title": "",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "招联消费金融",
+      "post": "用户运营 / 活动运营 / 投放运营",
+      "sector": "消费金融",
+      "base": "深圳",
+      "status": "soon",
+      "channel": "招联金融校园招聘官网",
+      "link": "https://mucfc.hotjob.cn",
+      "apply_limit": "通常限报1-2个岗位（以公告为准）",
+      "reason": "持牌消金龙头，用户运营+效果投放，金融类实习与广告投放双匹配，本科可投。",
+      "addedDate": "2026-08-13",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "company_size": "",
+      "publishedDate": "",
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "company_size",
+          "publishedDate",
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://mucfc.hotjob.cn",
+        "title": "招聘官网",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "欧莱雅 L'Oréal",
       "post": "管培生 / 电商运营 / 市场营销",
@@ -42,8 +447,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "玛氏 Mars",
@@ -82,8 +486,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "乐信 分期乐",
@@ -122,8 +525,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "哈银消费金融",
@@ -155,8 +557,7 @@
           "link"
         ],
         "note": "字段完整性审计；未知信息留空。"
-      },
-      "isDaily": true
+      }
     },
     {
       "company": "京东科技 / 京东金融",
@@ -198,8 +599,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "拓竹科技 Bambu Lab",
@@ -241,8 +641,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "安克创新 Anker",
@@ -283,8 +682,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "SHEIN",
@@ -323,8 +721,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Temu（拼多多海外）",
@@ -363,8 +760,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "Insta360 影石",
@@ -406,8 +802,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "网易",
@@ -1549,401 +1944,6 @@
       "linkAttempt": {
         "url": "https://vivo.zhiye.com",
         "title": "vivo员工招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "传音控股 Transsion",
-      "post": "新兴市场用户运营 / 运营管培",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "校招官网",
-      "link": "https://transsion.zhiye.com",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "非洲+拉美布局，小语种运营人才紧缺，数字经济背景加分，双非友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://transsion.zhiye.com",
-        "title": "深圳传音控股股份有限公司",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "大疆 DJI",
-      "post": "海外市场运营 / 品牌运营",
-      "sector": "消费电子/出海",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://we.dji.com",
-      "apply_limit": "以官网为准",
-      "reason": "全球品牌，区域市场运营岗，语言+运营组合有竞争力。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://we.dji.com",
-        "title": "首页 - DJI 大疆招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "PingPong",
-      "post": "海外市场运营 / 跨境金融运营",
-      "sector": "金融科技/支付",
-      "base": "杭州",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://www.pingpongx.com",
-      "apply_limit": "以官网为准",
-      "reason": "跨境收款龙头，拉美是增长市场，西语+金融运营组合稀缺。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.pingpongx.com",
-        "title": "跨境收款_外贸收款-PingPong全球跨境收付解决方案",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "Airwallex 空中云汇",
-      "post": "全球支付运营 / 客户成功",
-      "sector": "金融科技/支付",
-      "base": "上海/香港",
-      "status": "open",
-      "channel": "官网校招 / 内推",
-      "link": "https://www.airwallex.com/cn/careers",
-      "apply_limit": "外企一般不限次数（以招聘页为准）",
-      "reason": "出海金融科技独角兽，重视语言与运营，金融类实习非常对口。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.airwallex.com/cn/careers",
-        "title": "Airwallex(空中云汇)-职业生涯",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "PayPal 中国",
-      "post": "跨境支付运营 / 商户运营",
-      "sector": "金融科技/支付",
-      "base": "上海",
-      "status": "soon",
-      "channel": "官网校招 / 内推",
-      "link": "https://careers.pypl.com",
-      "apply_limit": "外企一般不限次数（以招聘页为准）",
-      "reason": "金融+数字经济双背景强匹配，西语可服务拉美商户，金融实习加分。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-17T09:42:29Z",
-        "httpStatus": 403,
-        "finalUrl": "https://careers.pypl.com/",
-        "error": "http_error",
-        "note": "仅检查入口响应和错误页面；不等于逐岗JD、届别、专业及剩余名额均核验。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "verificationNote": "2026-09-27入口复查：请求失败。未确认关闭，保留历史状态，待寻找官方有效入口。",
-      "linkAttempt": {
-        "url": "https://careers.pypl.com",
-        "title": "Attention Required! | Cloudflare",
-        "status": 403,
-        "error": "http_error",
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "度小满金融",
-      "post": "用户运营 / 商业化运营",
-      "sector": "金融科技/支付",
-      "base": "北京",
-      "status": "soon",
-      "channel": "官网校招 / 内推",
-      "link": "https://campus.duxiaoman.com/051736",
-      "apply_limit": "参照百度系，一般≤2个岗位（以公告为准）",
-      "reason": "信贷+理财运营，广告投放/效果营销经验对口，数字经济背景加分，双非可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "application_entry_verified_pending_job",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "verificationNote": "修复历史失效智联入口，已GET核验新2027校招页面。历史合并岗位名称未逐岗匹配，不据总公告宣称该合并岗位已验证。",
-      "linkAttempt": {
-        "url": "https://campus.duxiaoman.com/051736",
-        "title": "度小满2027校园招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "applicationEntrySource": "https://career.nankai.edu.cn/correcruit/content/id/116782.html",
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "奇富科技（360数科）",
-      "post": "用户运营 / 增长运营",
-      "sector": "金融科技/支付",
-      "base": "上海",
-      "status": "soon",
-      "channel": "官网校招",
-      "link": "https://www.360shuke.com",
-      "apply_limit": "以官网为准",
-      "reason": "信贷科技，用户增长+效果投放运营，广告投放与金融实习双对口，学历要求相对友好。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://www.360shuke.com",
-        "title": "360数科",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "招商银行信用卡中心（招银网络科技）",
-      "post": "用户运营 / 权益运营 / 数字化营销",
-      "sector": "消费金融",
-      "base": "深圳/上海",
-      "status": "open",
-      "channel": "招银网络科技校园招聘",
-      "link": "https://career.cmbchina.com",
-      "apply_limit": "银行系一般每人限报1-2个岗位（以公告为准）",
-      "reason": "27届8月已启动；信用卡产品运营经历最对口，掌上生活App用户/权益运营，广告投放加分。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://career.cmbchina.com",
-        "title": "招商银行招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "中信银行信用卡中心",
-      "post": "渠道运营 / 效果投放 / 用户增长",
-      "sector": "消费金融",
-      "base": "深圳",
-      "status": "open",
-      "channel": "信用卡中心招聘官网",
-      "link": "https://creditcard.ecitic.com/zhaopin/",
-      "apply_limit": "一般限报1-2个岗位（以公告为准）",
-      "reason": "岗位直接要求信息流投放(抖音/朋友圈)+数据分析+活动策划，几乎踩中你全部经历。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://creditcard.ecitic.com/zhaopin/",
-        "title": "",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "招联消费金融",
-      "post": "用户运营 / 活动运营 / 投放运营",
-      "sector": "消费金融",
-      "base": "深圳",
-      "status": "soon",
-      "channel": "招联金融校园招聘官网",
-      "link": "https://mucfc.hotjob.cn",
-      "apply_limit": "通常限报1-2个岗位（以公告为准）",
-      "reason": "持牌消金龙头，用户运营+效果投放，金融类实习与广告投放双匹配，本科可投。",
-      "addedDate": "2026-08-13",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "company_size": "",
-      "publishedDate": "",
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "company_size",
-          "publishedDate",
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://mucfc.hotjob.cn",
-        "title": "招聘官网",
         "status": 200,
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
