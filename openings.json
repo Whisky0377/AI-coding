@@ -1,10 +1,89 @@
 {
-  "version": "2026-11-21",
-  "updatedAt": "2026-11-21T08:09:12.826Z",
+  "version": "2026-11-22",
+  "updatedAt": "2026-11-22T07:53:49.984Z",
   "grad_year": "2027",
   "dailyCount": 10,
   "source": "rotate",
   "openings": [
+    {
+      "company": "泡泡玛特 POP MART",
+      "post": "2027校招·零售运营与支持 / 客户体验（含海外）",
+      "sector": "消费电子/出海",
+      "company_size": "大厂",
+      "base": "北京/上海/杭州/东莞/海外",
+      "status": "open",
+      "channel": "泡泡玛特2027秋季校园招聘",
+      "link": "https://popmart.zhiye.com/campus",
+      "apply_limit": "面向2026年9月至2027年8月毕业生，以具体岗位要求为准",
+      "reason": "9月10日发布，覆盖零售运营、客户体验和海外岗位；产品运营经历适配用户体验与门店/渠道运营，西语可用于海外市场沟通。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
+      "lastVerifiedAt": "2026-09-16T06:14:40Z",
+      "verificationStatus": "announcement_verified",
+      "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://popmart.zhiye.com/campus",
+        "title": "泡泡玛特招聘官网",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
+    {
+      "company": "金蝶软件",
+      "post": "2027校招·客户经营 / 市场推广 / 产品经理管培生",
+      "sector": "人工智能",
+      "company_size": "中厂",
+      "base": "深圳/上海/南京/北京/长沙/厦门/其他城市及海外",
+      "status": "open",
+      "channel": "金蝶2027届校园招聘",
+      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+      "apply_limit": "面向2026年10月1日至2027年9月30日毕业生，以网申具体岗位为准",
+      "reason": "9月10日发布，企业AI与管理软件场景同时开放客户经营、市场推广及产品经理管培生；数字经济和产品运营经历适合B端产品与客户运营。",
+      "addedDate": "2026-09-11",
+      "publishedDate": "2026-09-10",
+      "deadline": "",
+      "linkCheck": {
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "httpStatus": 200,
+        "note": "仅入口响应及标题检查，未登录或提交。"
+      },
+      "verificationStatus": "pending_content_review",
+      "fieldAudit": {
+        "checkedAt": "2026-10-27T08:51:38.601Z",
+        "missingFields": [
+          "deadline"
+        ],
+        "note": "字段完整性审计；未知信息留空。"
+      },
+      "linkAttempt": {
+        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
+        "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
+        "status": 200,
+        "error": null,
+        "checkedAt": "2026-09-30T06:42:18Z",
+        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
+      },
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
+      "isDaily": true
+    },
     {
       "company": "中国农业银行",
       "post": "管理培训生 / 营销服务与数字运营",
@@ -372,8 +451,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "一汽资本控股有限公司",
@@ -410,8 +488,7 @@
         "checkedAt": "2026-09-30T06:42:18Z",
         "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
       },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z",
-      "isDaily": true
+      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
     },
     {
       "company": "安克创新 Anker",
@@ -4325,83 +4402,6 @@
       "linkAttempt": {
         "url": "https://vivo.zhiye.com",
         "title": "vivo员工招聘",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "泡泡玛特 POP MART",
-      "post": "2027校招·零售运营与支持 / 客户体验（含海外）",
-      "sector": "消费电子/出海",
-      "company_size": "大厂",
-      "base": "北京/上海/杭州/东莞/海外",
-      "status": "open",
-      "channel": "泡泡玛特2027秋季校园招聘",
-      "link": "https://popmart.zhiye.com/campus",
-      "apply_limit": "面向2026年9月至2027年8月毕业生，以具体岗位要求为准",
-      "reason": "9月10日发布，覆盖零售运营、客户体验和海外岗位；产品运营经历适配用户体验与门店/渠道运营，西语可用于海外市场沟通。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "source_url": "https://job.hust.edu.cn/zpinfo1/2432092.htm",
-      "lastVerifiedAt": "2026-09-16T06:14:40Z",
-      "verificationStatus": "announcement_verified",
-      "verificationNote": "已复核2027校招总公告、毕业窗口、零售运营与客户体验方向及官网入口；细分岗位资格和剩余名额仍以官网为准。",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://popmart.zhiye.com/campus",
-        "title": "泡泡玛特招聘官网",
-        "status": 200,
-        "error": null,
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "note": "仅入口GET检查，响应或标题不能证明具体岗位开放。"
-      },
-      "lastLinkAttemptAt": "2026-09-30T06:42:18Z"
-    },
-    {
-      "company": "金蝶软件",
-      "post": "2027校招·客户经营 / 市场推广 / 产品经理管培生",
-      "sector": "人工智能",
-      "company_size": "中厂",
-      "base": "深圳/上海/南京/北京/长沙/厦门/其他城市及海外",
-      "status": "open",
-      "channel": "金蝶2027届校园招聘",
-      "link": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-      "apply_limit": "面向2026年10月1日至2027年9月30日毕业生，以网申具体岗位为准",
-      "reason": "9月10日发布，企业AI与管理软件场景同时开放客户经营、市场推广及产品经理管培生；数字经济和产品运营经历适合B端产品与客户运营。",
-      "addedDate": "2026-09-11",
-      "publishedDate": "2026-09-10",
-      "deadline": "",
-      "linkCheck": {
-        "checkedAt": "2026-09-30T06:42:18Z",
-        "httpStatus": 200,
-        "note": "仅入口响应及标题检查，未登录或提交。"
-      },
-      "verificationStatus": "pending_content_review",
-      "fieldAudit": {
-        "checkedAt": "2026-10-27T08:51:38.601Z",
-        "missingFields": [
-          "deadline"
-        ],
-        "note": "字段完整性审计；未知信息留空。"
-      },
-      "linkAttempt": {
-        "url": "https://career.hebut.edu.cn/home/correcruit/content/id/80371.html",
-        "title": "金蝶2027届校园招聘简章-金蝶软件（中国）有限公司",
         "status": 200,
         "error": null,
         "checkedAt": "2026-09-30T06:42:18Z",
